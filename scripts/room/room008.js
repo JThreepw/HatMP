@@ -310,7 +310,7 @@ room8.drawClothingIcons = function (list) {
                 clothingList.splice(1, 0, { img: "icon_girl_dress", title: "Dress", name: "main_dress" });
             }
             if (cl.hasClothingType("bra")) {
-                clothingList.splice(1, 0, { img: "icon_girl_bra", title: "Butt plug", name: "main_bra" });
+                clothingList.splice(1, 0, { img: "icon_girl_bra", title: "Bras", name: "main_bra" });
             }
         }
     }
@@ -319,11 +319,11 @@ room8.drawClothingIcons = function (list) {
             { img: "icon_girl_nude", title: "Nude", name: "main_nude" },
             { img: "icon_girl_acc", title: "Accessories", name: "main_accessories" },
             { img: "icon_girl_necklace", title: "Necklace", name: "main_necklace" },
-            { img: "icon_girl_ear", title: "Ear rings", name: "main_ear" },
-            { img: "icon_girl_nose", title: "Nose Rings", name: "main_nose" },
-            { img: "icon_girl_belly", title: "Belly Rings", name: "main_belly" },
-            { img: "icon_girl_nipple", title: "Nipple Rings", name: "main_nipple" },
-            { img: "icon_girl_plug", title: "Butt Plugs", name: "main_buttplug" },
+            { img: "icon_girl_ear", title: "Earrings", name: "main_ear" },
+            { img: "icon_girl_nose", title: "Nose rings", name: "main_nose" },
+            { img: "icon_girl_belly", title: "Belly rings", name: "main_belly" },
+            { img: "icon_girl_nipple", title: "Nipple rings", name: "main_nipple" },
+            { img: "icon_girl_plug", title: "Butt plugs", name: "main_buttplug" },
             { img: "icon_girl_back", title: "Prev", name: "prev" },
         ];
     }
@@ -468,7 +468,7 @@ room8.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "me",
-            text: "This is your wardrobe, it's where you get dressed for the day. ",
+            text: "This is your wardrobe; it's where you get dressed for the day.",
             button: [
                 { chatID: 2, text: "...", callback: "" },
                 { chatID: -1, text: "Skip", callback: "" }
@@ -477,8 +477,7 @@ room8.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "me",
-            text: "To remove all your clothes click the beige icon on the far left of the icons. Your profile will update to " +
-                "the naked man.",
+            text: "To remove all your clothes click the beige icon on the far left of the icons. Your profile will update to the naked avatar.",
             button: [
                 { chatID: 3, text: "...", callback: "" }
             ]
@@ -486,8 +485,8 @@ room8.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "me",
-            text: "<span class='hl'>To put on your underwear click the underwear icon</span> next to the nude icon. Click the boxers to wear the boxers. " +
-                " <span class='hl'> to remove your boxers click the red 'X'.</span>",
+            text: "<span class='hl'>To put on your underwear click the underwear icon</span> next to the nude icon. Click the boxers to wear them. " +
+                "<span class='hl'>To remove your boxers click the red 'X'.</span>",
             button: [
                 { chatID: 4, text: "...", callback: "" }
             ]
@@ -503,7 +502,7 @@ room8.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "me",
-            text: "Before you can go anywhere you must first be decent with the typical clothes for a young man: <span class='hl'>underwear, pants, shirt, and shoes.</span>",
+            text: "Before you can go anywhere you must first be properly dressed in the typical clothes for a young man: <span class='hl'>underwear, pants, shirt, and shoes.</span>",
             button: [
                 { chatID: 6, text: "...", callback: "" }
             ]
@@ -521,7 +520,7 @@ room8.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "me",
-            text: "<span class='hl'>The first 4 outfits are for daily wear.</span> The <span class='hl'>last outfit is only for pajamas</span>. " +
+            text: "<span class='hl'>The first four outfits are for daily wear.</span> The <span class='hl'>last outfit is only for pajamas</span>. " +
                 "When you go to sleep you will automatically wear the sleep outfit, so only pajamas can be " +
                 "placed in that outfit. The first four can be selected to wear when you wake up.",
             button: [
@@ -539,7 +538,7 @@ room8.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "me",
-            text: "You have to wear pajamas to bed. Only Pajamas can be saved.",
+            text: "You have to wear pajamas to bed. Only pajamas can be saved.",
             button: [
                 { chatID: -1, text: "Close", callback: "" }
             ]
@@ -555,7 +554,7 @@ room8.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "me",
-            text: "OMG It's so tight. My dick is way too big for this chastity device.",
+            text: "OMG, it's so tight. My dick is way too big for this chastity device.",
             button: [
                 { chatID: -1, text: "Close", callback: "" }
             ]
@@ -563,7 +562,7 @@ room8.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "me",
-            text: "My butt-hole is way too tight for that! I'm going to have to work on it so I can fit this in!",
+            text: "My butthole is way too tight for that! I'm going to have to work on it so I can fit this in!",
             button: [
                 { chatID: -1, text: "Close", callback: "" }
             ]

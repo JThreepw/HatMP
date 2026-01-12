@@ -35,6 +35,7 @@ room328.main = function () {
             nomore: false,
             staylonger: 0,
             spade: false,
+            philbertBarn: true,
             jars: [
                 { i: 0, n: "emptyjar", t: 0 },
                 { i: 1, n: "pissjarboy", t: 0 },
@@ -100,6 +101,21 @@ room328.main = function () {
             zcl.pucker(600, 800, .25, "back", false);
             g.map.barn = true;
             chat(124, 328);
+        }
+        else if (g.map.trust > 97 && !daily.get("rachelReward328") && g.rand(0, 6)) {
+            room328.btnclick("meadow");
+            zcl.kill();
+            daily.set("rachelReward328");
+            nav.button({
+                "type": "img",
+                "name": "rachel",
+                "left": 736,
+                "top": 0,
+                "width": 801,
+                "height": 1080,
+                "image": "328_farm/rachel0.webp"
+            }, 328);
+            chat(179, 328);
         }
         else {
             room328.btnclick("meadow");
@@ -168,7 +184,7 @@ room328.main = function () {
             }
             g.map.badevent += 1;
         }
-        else {
+        else if (sc.getMission("security", "ranch").complete) {
             nav.bg("328_farm/sleep_visit0.webp");
             switch (sc.taskGetStep("security", "ranch")) {
                 case -1:
@@ -198,6 +214,10 @@ room328.main = function () {
                     break;
             }
         }
+        else {
+            g.map.temp = 1;
+            room328.btnclick("icon_bedturn");
+        }
     }
     if (g.map.event === "sleep") {
         let sleepenergy = 0;
@@ -214,6 +234,7 @@ room328.main = function () {
         g.map.staylonger = 0;
         room328.chatcatch("addtrust");
         g.map.nightvisit = false;
+        g.map.philbertBarn = true;
         nav.bg("328_farm/sleep_wake.webp");
         if (cl.stinky()) {
             chat(90, 328);
@@ -579,8 +600,7 @@ room328.btnclick = function (name) {
             nav.killbuttonStartsWith("icon_");
             break;
         case "icon_eat":
-            nav.killbutton("icon_eat");
-            nav.killbutton("icon_eatno");
+            nav.killbuttonStartsWith("icon_");
             g.map.eat += 1;
             gv.mod("hormone", 20);
             gv.mod("energy", 40);
@@ -595,8 +615,7 @@ room328.btnclick = function (name) {
                 chat(5, 328);
             break;
         case "icon_eatno":
-            nav.killbutton("icon_eat");
-            nav.killbutton("icon_eatno");
+            nav.killbuttonStartsWith("icon_");
             g.popUpNotice("Trust has gone down");
             g.map.trust -= 5;
             g.map.anger += 40;
@@ -744,41 +763,51 @@ room328.btnclick = function (name) {
             break;
         case "icon_bang":
             nav.kill();
-            nav.bg("328_farm/sleep_visit0.webp");
             if (!g.map.nightvisit) {
                 g.map.nightvisit = true;
                 g.map.temp = 0;
-                switch (sc.taskGetStep("security", "ranch")) {
-                    case -1:
-                    case 0:
-                    case 1:
-                    case 2:
-                        chat(76, 328);
-                        break;
-                    case 3:
-                        chat(99, 328);
-                        break;
-                    case 4:
-                        sc.completeMissionTask("security", "ranch", 4);
-                        chat(105, 328);
-                        break;
-                    case 5:
-                        sc.completeMissionTask("security", "ranch", 5);
-                        chat(108, 328);
-                        break;
-                    case 6:
-                        chat(111, 328);
-                        break;
-
+                if (sc.getMission("security", "ranch").complete) {
+                    chat(178, 328);
                 }
-                
+                else {
+                    nav.bg("328_farm/sleep_visit0.webp");
+                    switch (sc.taskGetStep("security", "ranch")) {
+                        case -1:
+                        case 0:
+                        case 1:
+                        case 2:
+                            chat(76, 328);
+                            break;
+                        case 3:
+                            chat(99, 328);
+                            break;
+                        case 4:
+                            sc.completeMissionTask("security", "ranch", 4);
+                            chat(105, 328);
+                            break;
+                        case 5:
+                            sc.completeMissionTask("security", "ranch", 5);
+                            chat(108, 328);
+                            break;
+                        case 6:
+                            chat(111, 328);
+                            break;
+
+                    }
+                }
             }
             else {
                 g.map.temp = 0;
-                if (sc.getMissionTask("security", "ranch", 1).notStarted)
-                    chat(89, 328);
-                else
-                    chat(96, 328);
+                if (sc.getMission("security", "ranch").complete) {
+                    chat(178, 328);
+                }
+                else {
+                    nav.bg("328_farm/sleep_visit0.webp");
+                    if (sc.getMissionTask("security", "ranch", 1).notStarted)
+                        chat(89, 328);
+                    else
+                        chat(96, 328);
+                }
             }
             break;
         case "kinsey":
@@ -1521,8 +1550,59 @@ room328.btnclick = function (name) {
             daily.set("328fight_lose");
             char.room(329);
             break;
+        case "sleep_visit21":
+            if (g.internal < 12) {
+                fame.moan("double");
+                if (g.internal % 2 === 0)
+                    nav.bg("328_farm/sleep_visit22.webp");
+                else
+                    nav.bg("328_farm/sleep_visit21.webp");
+            }
+            else if (g.internal === 12) {
+                fame.moan("double");
+                nav.bg("328_farm/sleep_visit24.webp");
+            }
+            else if (g.internal === 13) {
+                fame.moan("double");
+                nav.bg("328_farm/sleep_visit25.webp");
+            }
+            else if (g.internal === 14) {
+                fame.moankill();
+                nav.bg("328_farm/sleep_visit26.webp");
+            }
+            else if (g.internal === 15) {
+                levels.anal(3, true, "m", false, "security");
+                nav.bg("328_farm/sleep_visit27.webp");
+            }
+            else if (g.internal === 16) {
+                nav.bg("328_farm/sleep_visit28.webp");
+            }
+            else {
+                nav.kill();
+                chat(175, 328);
+            }
+            g.internal++;
+            break;
         case "icon_barn":
             char.room(329);
+            break;
+        case "lead":
+            nav.killbuttonStartsWith("icon_");
+            nav.killbutton("lead");
+            nav.button({
+                "type": "img",
+                "name": "lead",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "328_farm/lead0.webp"
+            }, 328);
+            if (sc.getMission("lead", "ranch").notStarted) {
+                sc.startMission("lead", "ranch");
+                sc.show("lead");
+            }
+            chat(975, 328);
             break;
         default:
             break;
@@ -1549,6 +1629,7 @@ room328.chatcatch = function (callback) {
         case "sleep_visit17":
         case "sleep_visit18":
         case "sleep_visit19":
+        case "sleep_visit20":
         case "kinsey2":
         case "kinsey3":
         case "kinsey4":
@@ -2076,6 +2157,18 @@ room328.chatcatch = function (callback) {
             daily.set("328fight_lose");
             char.room(329);
             break;
+        case "sleep_visit21":
+            g.internal = 0;
+            nav.bg("328_farm/sleep_visit23.webp");
+            nav.next("sleep_visit21");
+            break;
+        case "sleep_visit29":
+            nav.bg("328_farm/sleep_visit29.webp");
+            sc.setcharname("security", "Cherry");
+            sc.completeMission("security", "ranch");
+            sc.completeMissionTask("security", "ranch", 6);
+            chat(177, 328);
+            break;
         case "reset":
             char.room(328);
             break;
@@ -2114,7 +2207,53 @@ room328.chat = function (chatID) {
             ]
         }
     }
-    if (chatID === 950) {
+    else if (chatID === 975) {
+        let leadtxt = "";
+        char.addtime(30);
+        switch (taskGetStep("lead", "ranch")) {
+            case -1:
+            case 0:
+                sc.completeMissionTask("lead", "ranch", 0);
+                leadtxt = "mooo!";
+                break;
+            case 1:
+                sc.completeMissionTask("lead", "ranch", 1);
+                leadtxt = "Listen, you don't get it. You're here forever now as a hucow. Just eat your " +
+                    "food, grow your tits, and make milk. No reason to think anymore. It's wonderful. ";
+                break;
+            case 2:
+                sc.completeMissionTask("lead", "ranch", 2);
+                leadtxt = "I'm the Head Heifer around here. You best know that. Don't you try and get between " +
+                    "me and the ranchers. They're mine! ";
+                break;
+            case 3:
+                sc.completeMissionTask("lead", "ranch", 3);
+                leadtxt = "I see you talking around. You need to learn to just moo and make milk. You'll never " +
+                    "be a real heifer like me. ";
+                break;
+            case 4:
+                sc.completeMissionTask("lead", "ranch", 4);
+                leadtxt = "What do you think of " + sc.n("!rancher") + "? He's just the most handsom man ever. " +
+                    "Don't let me catch you making eyes at him! ";
+                break;
+            case 5:
+                sc.completeMissionTask("lead", "ranch", 5);
+                leadtxt = "The other hucows have no idea how lucky there are to be here! This is the best life " +
+                    "anyone could ever have. ";
+                break;
+
+        }
+
+        return {
+            chatID: 975,
+            speaker: "lead",
+            text: leadtxt,
+            button: [
+                { chatID: -1, text: "...", callback: "reset" }
+            ]
+        }
+    }
+    else if (chatID === 950) {
         let pigdickc = [
             "His dick is going stright for my face! ",
             "Oooff! It's so dirty and twisty! ",
@@ -2266,6 +2405,7 @@ room328.chat = function (chatID) {
             text: kinseychat[g.rand(0, kinseychat.length)],
             button: [
                 { chatID: -1, text: "... ", callback: "reset" },
+                { chatID: 173, text: "Do you have any plans for breaking out of here?", callback: "" },
             ]
         }
     }
@@ -3291,7 +3431,7 @@ room328.chat = function (chatID) {
                 speaker: "security",
                 text: "I have another secret for you! I'm totally wearing a butt plug! Wanna see? ",
                 button: [
-                    { chatID: 109, text: "I really do!", callback: "sleep_visit18" },
+                    { chatID: 109, text: "I really do!", callback: "sleep_visit19" },
                     { chatID: -1, text: "Another time", callback: "icon_bedturn" },
                 ]
             },
@@ -3318,10 +3458,11 @@ room328.chat = function (chatID) {
             },
             {
                 chatID: 111,
-                speaker: "me",
-                text: "In progress...",
+                speaker: "security",
+                text: "I was able to smuggle in a toy! Wanna see?",
                 button: [
-                    { chatID: -1, text: "...", callback: "icon_bedturn" },
+                    { chatID: 174, text: "I do!!", callback: "sleep_visit20" },
+                    { chatID: -1, text: "Maybe later", callback: "icon_bedturn" },
                 ]
             },
             {
@@ -3731,7 +3872,7 @@ room328.chat = function (chatID) {
                 speaker: "kinsey",
                 text: "Wait till I push it out a bit...",
                 button: [
-                    { chatID: -1, text: "...", callback: "kinsey2" },
+                    { chatID: 156, text: "...", callback: "kinsey2" },
                 ]
             },
             {
@@ -3882,6 +4023,72 @@ room328.chat = function (chatID) {
                     "the barn!!",
                 button: [
                     { chatID: -1, text: "eep!!", callback: "fight_lose" },
+                ]
+            },
+            {
+                chatID: 173,
+                speaker: "!rancher",
+                text: "Maybe. But I'm not just going to tell anyone! ",
+                button: [
+                    { chatID: -1, text: "[Need to raise your level]", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 174,
+                speaker: "security",
+                text: "I brought us a double sided dildo! It's always been a fantasy of mine to bump asses " +
+                    "with a fellow sissy. But you know, with a femdom ordering us to. I don't know any " +
+                    "femdoms, so this will be the next best thing! So what do you say. Do you want to bump " +
+                    "butts with me? ",
+                button: [
+                    { chatID: -1, text: "I do! I really do!", callback: "sleep_visit21" },
+                ]
+            },
+            {
+                chatID: 175,
+                speaker: "lead",
+                text: "See! I told you he was a sissy! ",
+                button: [
+                    { chatID: 176, text: "*gulp!*", callback: "" },
+                ]
+            },
+            {
+                chatID: 176,
+                speaker: "cult",
+                text: "Don't bother getting dressed, you know where you're going. We're going to really " +
+                    "enjoy breaking in one of our own! My favorite part is hearing the crys of pain while " +
+                    "we wreck your tight virgin ass. Since I found you, I get to give you your new name. " +
+                    "I think Cherry will do nicely. I love breaking cherries, hahaha! Now come with us unless " +
+                    "you want the first thing up your ass is my foot!",
+                button: [
+                    { chatID: -1, text: "oh no", callback: "sleep_visit29" },
+                ]
+            },
+            {
+                chatID: 177,
+                speaker: "security",
+                text: "Oh c'mon guys. You can just let me go. Please! I promise I'll do whatever you want. " +
+                    "Clyde, remember that time I covered for you and you said you owe me one? Please we " +
+                    "don't have to do this. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "icon_bedturn" },
+                ]
+            },
+            {
+                chatID: 178,
+                speaker: "thinking",
+                text: "Oh wow. I guess he's really gone. I kinda feel bad for him. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "icon_bedturn" },
+                ]
+            },
+            {
+                chatID: 179,
+                speaker: "rachel",
+                text: "You've been a good li'l heifer lately. You're earned yourself a little treat. Come " +
+                    "suck on my teet and get some extra nourishment. ",
+                button: [
+                    { chatID: -1, text: "oh, thank you!", callback: "rachel1" },
                 ]
             },
         ];

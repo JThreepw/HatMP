@@ -307,7 +307,7 @@ room22.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "thinking",
-            text: "I don't have to pee at all. Maybe if I drank something I would pee.",
+            text: "I don't have to pee at all. Maybe if I drank something, I would pee.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]
@@ -323,8 +323,7 @@ room22.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "thinking",
-            text: "I can't pee like a man. I'm wearing a sissy chastity cage. I'll have to pee " +
-                "like a little sissy girl. ",
+            text: "I can't pee like a man. I'm wearing a sissy chastity cage. I'll have to pee like a little sissy girl.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]
@@ -332,7 +331,7 @@ room22.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "thinking",
-            text: "I'm so naughty! I'm peeing like the man I used to be. ",
+            text: "I'm so naughty! I'm peeing like the man I used to be.",
             button: [
                 { chatID: -1, text: "...", callback: "finishPeeMan" }
             ]
@@ -340,7 +339,7 @@ room22.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "thinking",
-            text: "That piss felt great! ",
+            text: "That piss felt great!",
             button: [
                 { chatID: -1, text: "...", callback: "finishPeeMan" }
             ]
@@ -348,7 +347,7 @@ room22.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "thinking",
-            text: "With this cage on I'll never piss like a man!",
+            text: "With this cage on, I'll never piss like a man!",
             button: [
                 { chatID: -1, text: "...", callback: "finishPeeBitch" }
             ]
@@ -356,7 +355,7 @@ room22.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "thinking",
-            text: "With this cage on I get to pee like a girl all the time!",
+            text: "With this cage on, I get to pee like a girl all the time!",
             button: [
                 { chatID: -1, text: "...", callback: "finishPeeBitch" }
             ]
@@ -364,7 +363,7 @@ room22.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "thinking",
-            text: "I know I'm a true sissy bitch when I sit to pee even though I could stand.",
+            text: "I know I'm a true sissy bitch when I sit to pee, even though I could stand.",
             button: [
                 { chatID: -1, text: "...", callback: "finishPeeBitch" }
             ]
@@ -372,8 +371,7 @@ room22.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "thinking",
-            text: "If I had an empty jar I could totally fill it with my anal cream pie and " +
-                "save it for later. ",
+            text: "If I had an empty jar, I could totally fill it with my anal cream pie and save it for later.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]
@@ -381,7 +379,7 @@ room22.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "thinking",
-            text: "Gross! I'm not saving my anal cream pie for later! ",
+            text: "Gross! I'm not saving my anal cream pie for later!",
             button: [
                 { chatID: -1, text: "[Need Cum Level 3]", callback: "reset" }
             ]
@@ -389,8 +387,7 @@ room22.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "thinking",
-            text: "Hahaha! It's so slimy and warm. I wonder what I should do with a big jar " +
-                "of anal cum?",
+            text: "Hahaha! It's so slimy and warm. I wonder what I should do with a big jar of anal cum?",
             button: [
                 { chatID: -1, text: "...", callback: "analcum" }
             ]
@@ -398,7 +395,7 @@ room22.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "thinking",
-            text: "Oh wow! I feel like such a dirty bitch pushing cum out of my own ass. ",
+            text: "Oh wow! I feel like such a dirty bitch pushing cum out of my own ass.",
             button: [
                 { chatID: -1, text: "...", callback: "analcumtoilet" }
             ]

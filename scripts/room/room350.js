@@ -53,6 +53,9 @@ room350.btnclick = function (name) {
                 chat(56, 350);
                 return;
             }
+            else if (cl.stinky()) {
+                chat(81, 350);
+            }
             else if (sc.getMission("landlord", "sissy").inProgress) {
                
                 if (cl.getBodyHair() !== null)
@@ -1005,6 +1008,15 @@ room350.chat = function (chatID) {
                 "won't let you in. Got it! ",
             button: [
                 { chatID: -1, text: "Got it. ", callback: "inspectEnd" },
+            ]
+        },
+        {
+            chatID: 81,
+            speaker: "landlord",
+            text: "Oh my god, what is that smell?? Is that you? You need to go home and clean up. You " +
+                "really stink.",
+            button: [
+                { chatID: -1, text: "Oh. Yeah, I do need a shower. ", callback: "" },
             ]
         },
     ];

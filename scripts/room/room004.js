@@ -428,7 +428,7 @@ room4.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "me",
-            text: "Do you want to take your shirt off. Just to give you the best massage. ",
+            text: "Do you want to take your shirt off? Just to give you the best massage. ",
             button: [
                 { chatID: 11, text: "...", callback: "" }
             ]
@@ -452,7 +452,7 @@ room4.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "lola",
-            text: "Well... I guess that's ok if you see me in my panties. I'm your " + sc.n("el") + " afterall. ",
+            text: "Well... I guess that's ok if you see me in my panties. I'm your " + sc.n("el") + " after all. ",
             button: [
                 { chatID: -1, text: "Ok.", callback: "massage2" }
             ]
@@ -460,7 +460,7 @@ room4.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "me",
-            text: "You know... I noticed how tight your glutes are. With as much stress as you put on them they could use " +
+            text: "You know... I noticed how tight your glutes are. With as much stress as you put on them, they could use " +
                 "a good massage. Tight glutes give you bad posture. ",
             button: [
                 { chatID: 15, text: "...", callback: "" }
@@ -477,7 +477,7 @@ room4.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "thinking",
-            text: "She is so horny I can smell her arousal. I wonder if she'll let me slide her panties to the side and rub her pussy.... ",
+            text: "She is so horny, I can smell her arousal. I wonder if she'll let me slide her panties to the side and rub her pussy... ",
             button: [
                 { chatID: -1, text: "...", callback: "massage4" }
             ]
@@ -517,7 +517,7 @@ room4.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "lola",
-            text: "Oh oh. Yes. Sorry it was very relaxed. You need to get off me so I can get dressed. I'm so sorry. This " +
+            text: "Oh oh. Yes. Sorry, I was very relaxed. You need to get off me so I can get dressed. I'm so sorry. This " +
                 "is just inappropriate. ",
             button: [
                 { chatID: -1, text: "oh yeah.", callback: "massageFinish" },
@@ -526,7 +526,7 @@ room4.chat = function (chatID) {
         {
             chatID: 22,
             speaker: "lola",
-            text: "Not so fast mister slick hands. These are staying on!",
+            text: "Not so fast, mister Slick-Hands. These are staying on!",
             button: [
                 { chatID: -1, text: "oh yeah.", callback: "massageFinish" },
             ]
@@ -542,7 +542,7 @@ room4.chat = function (chatID) {
         {
             chatID: 24,
             speaker: "lola",
-            text: "I'm still good from the one you gave me earlier today Mr. Handsy. ",
+            text: "I'm still good from the one you gave me earlier today, Mr. Handsy. ",
             button: [
                 { chatID: -1, text: "...", callback: "leave" },
             ]

@@ -32,7 +32,7 @@ room20.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "me",
-            text: "Yea.. cleaning dishes again for my $5. ",
+            text: "Yeah... cleaning dishes again for my $5.",
             button: [
                 { chatID: -1, text: "Finished cleaning", callback: "finish" }
             ]

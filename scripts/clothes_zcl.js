@@ -872,10 +872,17 @@ zcl.face = function (top, left, ratio, mod, color, reverse) {
 
     zcl.subDisplay("hair_" + hairLength + "_" + cl.c.hairColor + ".png", top, left, ratio, reverse, w, h, f);
 
-    zcl.subDisplay(mod + "_" + makeup + ".png", top, left, ratio, reverse, w, h, f);
 
-    if(mod === "insert" || mod === "suck")
-        zcl.subDisplay("suck_" + makeup + "_" + color + ".png", top, left, ratio, reverse, w, h, f);
+    if (mod === "suckmouth") {
+        zcl.subDisplay("suck_" + makeup + ".png", top, left, ratio, reverse, w, h, f);
+    }
+    else {
+        zcl.subDisplay(mod + "_" + makeup + ".png", top, left, ratio, reverse, w, h, f);
+    }
+
+    if (mod === "insert" || mod === "suck") {
+            zcl.subDisplay("suck_" + makeup + "_" + color + ".png", top, left, ratio, reverse, w, h, f);
+    }
 };
 
 zcl.backOfHead = function (top, left, ratio, mod, reverse) {

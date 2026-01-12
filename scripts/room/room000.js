@@ -63,7 +63,7 @@ room0.btnclick = function (name) {
     }
     else if (name === "redrawIcons") {
         nav.killall();
-        
+
         var btnList = new Array();
         var tempMap = gv.get("map");
         g.internal = tempMap;
@@ -168,24 +168,26 @@ room0.btnclick = function (name) {
         nav.killall();
         nav.bg("map/" + roomnum + "_close" + (g.isNight() ? "night" : "") + ".jpg");
         g.nextRoomId = roomnum;
-        if (g.rand(0, 20) === 0 && !daily.get("foundmoney")) {
-            nav.button({
-                "type": "btn",
-                "name": "money",
-                "left": 1532,
-                "top": 707,
-                "width": 327,
-                "height": 327,
-                "image": "map/money.png"
-            }, 0);
-            setTimeout(function () {
-                char.room(roomnum);
-            }, 4000);
-        }
-        else {
-            setTimeout(function () {
-                char.room(roomnum);
-            }, 800);
+        if (!fame.event(0, "moveChar")) {
+            if (g.rand(0, 20) === 0 && !daily.get("foundmoney")) {
+                nav.button({
+                    "type": "btn",
+                    "name": "money",
+                    "left": 1532,
+                    "top": 707,
+                    "width": 327,
+                    "height": 327,
+                    "image": "map/money.png"
+                }, 0);
+                setTimeout(function () {
+                    char.room(roomnum);
+                }, 4000);
+            }
+            else {
+                setTimeout(function () {
+                    char.room(roomnum);
+                }, 800);
+            }
         }
     }
     if (cl.isLewd()) {
@@ -232,6 +234,9 @@ room0.chatcatch = function (callback) {
             }
             g.internal = null;
             break;
+        case "moveChar":
+            room0.btnclick("moveChar");
+            break;
         default:
             break;
     }
@@ -248,7 +253,7 @@ room0.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "me",
-            text: "Can't mess around, I need to go to the University and take my final. ",
+            text: "Can't mess around, I need to go to the university and take my final. ",
             button: []
         },
         {
@@ -280,6 +285,22 @@ room0.chat = function (chatID) {
             speaker: "thinking",
             text: "I'm naked! I have to be careful of where I go.",
             button: []
+        },
+        {
+            chatID: 7,
+            speaker: "thinking",
+            text: "I need to suck cock... I'm addicted to sucking cocks...",
+            button: [
+                { chatID: -1, text: "[Snap out of it]", callback: "moveChar" }
+            ]
+        },
+        {
+            chatID: 8,
+            speaker: "thinking",
+            text: "I need to get fucked up my bussy... I'm addicted to getting fucked up my bussy.",
+            button: [
+                { chatID: -1, text: "[Snap out of it]", callback: "moveChar" }
+            ]
         }
     ];
     return cArray[chatID];

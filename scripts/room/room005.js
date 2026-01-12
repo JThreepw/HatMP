@@ -254,7 +254,7 @@ room5.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "eva",
-            text: "So. Uh... I have to admit I am totally into feet. Can I take you up on that foot massage?  ",
+            text: "So. Uh... I have to admit I am totally into feet. Can I take you up on that foot massage?",
             button: [
                 { chatID: 3, text: "?", callback: "laugh" }
             ]
@@ -262,8 +262,7 @@ room5.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "eva",
-            text: "I knew it! I told " + sc.n("lola") + " that you were a foot guy! She said you were obviously a breast guy! " +
-                "So which is it? Do you prefer feet or boobs? ",
+            text: "I knew it! I told " + sc.n("lola") + " that you were a foot guy! She said you were obviously a breast guy! So which is it? Do you prefer feet or boobs?",
             button: [
                 { chatID: 4, text: "...foot?", callback: "feet" },
                 { chatID: 5, text: "...breast?", callback: "boobs" },
@@ -272,7 +271,7 @@ room5.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "eva",
-            text: "Yes! I knew it! Rub my feet loser pervert! ",
+            text: "Yes! I knew it! Rub my feet, you loser pervert!",
             button: [
                 { chatID: -1, text: "Yes!", callback: "massage0" },
             ]
@@ -280,7 +279,7 @@ room5.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "eva",
-            text: "I don't believe you. Rub my feet and tell me you're not a foot guy. ",
+            text: "I don't believe you. Rub my feet and tell me you're not a foot guy.",
             button: [
                 { chatID: -1, text: "ok!", callback: "massage0" },
             ]
@@ -288,8 +287,7 @@ room5.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "eva",
-            text: "You know. That does feel really really good. Like really good. I don't think I've had a guy massage my " +
-                "feet before. I mean.. wow. It's better than sex!",
+            text: "You know. That does feel really, really good. Like, really good. I don't think I've had a guy massage my feet before. I mean... wow. It's better than sex!",
             button: [
                 { chatID: 7, text: "...", callback: "" },
             ]
@@ -297,25 +295,25 @@ room5.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "eva",
-            text: "Wait... do you have a boner? ",
+            text: "Wait... do you have a boner?",
             button: [
-                { chatID: 16, text: "Whaaa? Pssst,no!", callback: "" },
+                { chatID: 16, text: "Whaaa? Pssst, no!", callback: "" },
             ]
         },
         {
             chatID: 8,
             speaker: "eva",
-            text: "Back for more my foot fetish guy? ",
+            text: "Back for more, my foot-fetish guy?",
             button: [
-                { chatID: -1, text: "yeah, I am. ", callback: "massage0" },
+                { chatID: -1, text: "yeah, I am.", callback: "massage0" },
             ]
         },
         {
             chatID: 9,
             speaker: "eva",
-            text: "Oh yeah, that's good! ",
+            text: "Oh yeah, that's good!",
             button: [
-                { chatID: 10, text: "Do you want a better massage? ", callback: "" },
+                { chatID: 10, text: "Do you want a better massage?", callback: "" },
                 { chatID: -1, text: "All done. Thanks", callback: "massageFinish0" },
             ]
         },
@@ -324,21 +322,21 @@ room5.chat = function (chatID) {
             speaker: "eva",
             text: "Better?",
             button: [
-                { chatID: 11, text: "Let me massage your feet with my mouth. ", callback: "" },
+                { chatID: 11, text: "Let me massage your feet with my mouth.", callback: "" },
             ]
         },
         {
             chatID: 11,
             speaker: "eva",
-            text: "huh?",
+            text: "Huh?",
             button: [
-                { chatID: -1, text: "I want to suck your toes. ", callback: "massage1check" },
+                { chatID: -1, text: "I want to suck your toes.", callback: "massage1check" },
             ]
         },
         {
             chatID: 12,
             speaker: "eva",
-            text: "Ewww no! Get away from weird-o!",
+            text: "Eww, no! Get away, weirdo!",
             button: [
                 { chatID: -1, text: "Just asking...", callback: "massageFinish" },
             ]
@@ -346,15 +344,15 @@ room5.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "eva",
-            text: "Maybe.. If you're going to get weird, take your shirt off. ",
+            text: "Maybe... If you're going to get weird, take your shirt off.",
             button: [
-                { chatID: 14, text: "sure", callback: "shirtoff" },
+                { chatID: 14, text: "Sure", callback: "shirtoff" },
             ]
         },
         {
             chatID: 14,
             speaker: "eva",
-            text: "Hmmm. ok. Let's see what you can do. ",
+            text: "Hmmm. Ok. Let's see what you can do.",
             button: [
                 { chatID: -1, text: "...", callback: "massage1" },
             ]
@@ -362,8 +360,7 @@ room5.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "eva",
-            text: "Hahaha. That feels so funny. You're like the doggy I've always wanted but could never have. Ok doggy, stop licking " +
-                "my feet. They're getting slobbery and gross. ",
+            text: "Hahaha. That feels so funny. You're like the doggy I've always wanted but could never have. Okay, doggy, stop licking my feet. They're getting slobbery and gross.",
             button: [
                 { chatID: -1, text: "ok", callback: "massageFinish" },
             ]
@@ -371,32 +368,32 @@ room5.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "eva",
-            text: "Yes you do! I can feel it! Were you peeking up my skirt? Pervert!   ",
+            text: "Yes you do! I can feel it! Were you peeking up my skirt? Pervert!",
             button: [
-                { chatID: 17, text: "I wasn't peeking! I didn't make you wear a short skirt. ", callback: "" },
+                { chatID: 17, text: "I wasn't peeking! I didn't make you wear a short skirt.", callback: "" },
             ]
         },
         {
             chatID: 17,
             speaker: "eva",
-            text: "What ever you pervert! You're like a dog, always trying to hump something! ",
+            text: "Whatever, you pervert! You're like a dog, always trying to hump something!",
             button: [
-                { chatID: -1, text: "Stop showing and I'll stop looking. ", callback: "massageFinish" },
+                { chatID: -1, text: "Stop showing and I'll stop looking.", callback: "massageFinish" },
             ]
         },
         {
             chatID: 18,
             speaker: "eva",
-            text: "I'm bored with the feet thing. Show us your penis. ",
+            text: "I'm bored with the feet thing. Show us your penis.",
             button: [
-                { chatID: 19, text: "huh? ", callback: "" },
-                { chatID: -1, text: "I'm not going to do that. ", callback: "leave" },
+                { chatID: 19, text: "Huh?", callback: "" },
+                { chatID: -1, text: "I'm not going to do that.", callback: "leave" },
             ]
         },
         {
             chatID: 19,
             speaker: "eva",
-            text: "I want to see it. " + sc.n("lola") + " wants to see it too. She just won't admit it. C'mon show it to us. ",
+            text: "I want to see it. " + sc.n("lola") + " wants to see it too. She just won't admit it. C'mon, show it to us.",
             button: [
                 { chatID: 20, text: "Show me your vagina", callback: "" },
             ]
@@ -404,16 +401,16 @@ room5.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "eva",
-            text: "No. I'm not going to touch it, just show it to us. ",
+            text: "No. I'm not going to touch it, just show it to us.",
             button: [
-                { chatID: -1, text: "Ok. ", callback: "massage2" },
-                { chatID: -1, text: "I'm not going to do that. ", callback: "leave" },
+                { chatID: -1, text: "Ok.", callback: "massage2" },
+                { chatID: -1, text: "I'm not going to do that.", callback: "leave" },
             ]
         },
         {
             chatID: 21,
             speaker: "eva",
-            text: "Oh wow. Good for you! ",
+            text: "Oh wow. Good for you!",
             button: [
                 { chatID: 22, text: "...", callback: "" },
             ]
@@ -421,9 +418,9 @@ room5.chat = function (chatID) {
         {
             chatID: 22,
             speaker: "lola",
-            text: "Ooooo. yeah... mmmmm.. ok... wow....",
+            text: "Ooooo, yeah... mmm... okay... wow...",
             button: [
-                { chatID: 23, text: "So is it everything you hoped it would be? ", callback: "" },
+                { chatID: 23, text: "So is it everything you hoped it would be?", callback: "" },
             ]
         },
         {
@@ -437,7 +434,7 @@ room5.chat = function (chatID) {
         {
             chatID: 24,
             speaker: "lola",
-            text: "Yeah. nice. ",
+            text: "Yeah. Nice.",
             button: [
                 { chatID: 25, text: "...", callback: "" },
             ]
@@ -445,7 +442,7 @@ room5.chat = function (chatID) {
         {
             chatID: 25,
             speaker: "eva",
-            text: "Ok. Put that away. The way it's looking at me is making me nervous. ",
+            text: "Okay. Put that away. The way it's looking at me is making me nervous.",
             button: [
                 { chatID: -1, text: "Sure", callback: "massageFinish" },
             ]
@@ -453,7 +450,7 @@ room5.chat = function (chatID) {
         {
             chatID: 26,
             speaker: "eva",
-            text: "What's that on your dick? ",
+            text: "What's that on your dick?",
             button: [
                 { chatID: 27, text: "Oh.. yeah", callback: "" },
             ]
@@ -461,31 +458,31 @@ room5.chat = function (chatID) {
         {
             chatID: 27,
             speaker: "lola",
-            text: "Is that a cast? Did you break your penis? ",
+            text: "Is that a cast? Did you break your penis?",
             button: [
-                { chatID: 28, text: "Yeah! I broke my penis. Nearly healed. I don't like to talk about it. ", callback: "" },
+                { chatID: 28, text: "Yeah! I broke my penis. Nearly healed. I don't like to talk about it.", callback: "" },
             ]
         },
         {
             chatID: 28,
             speaker: "lola",
-            text: "Awwww that's too bad. I'm sorry to hear. I hope it heals well. ",
+            text: "Awwww, that's too bad. I'm sorry to hear that. I hope it heals well.",
             button: [
-                { chatID: -1, text: "Thanks. ", callback: "massageFinishFail" },
+                { chatID: -1, text: "Thanks.", callback: "massageFinishFail" },
             ]
         },
         {
             chatID: 29,
             speaker: "eva",
-            text: "Hahaha! It's so small! I bet you're a virgin with a dick that small! ",
+            text: "Hahaha! It's so small! I bet you're a virgin with a dick that small!",
             button: [
-                { chatID: 30, text: " ", callback: "" },
+                { chatID: 30, text: "...", callback: "" },
             ]
         },
         {
             chatID: 30,
             speaker: "lola",
-            text: "It is small, but there's more to a man than just his penis. You just need to find a girl that likes you for you. ",
+            text: "It is small, but there's more to a man than just his penis. You just need to find a girl that likes you for you.",
             button: [
                 { chatID: 31, text: "Yeah?", callback: "" },
             ]
@@ -493,7 +490,7 @@ room5.chat = function (chatID) {
         {
             chatID: 31,
             speaker: "eva",
-            text: "No girls going to want that! I guess you have to find someone that's into tiny peepees! ",
+            text: "No girls are going to want that! I guess you have to find someone who's into tiny peepees!",
             button: [
                 { chatID: -1, text: "...yeah", callback: "massageFinishFail" },
             ]
@@ -509,48 +506,48 @@ room5.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "eva",
-            text: "Soooo. There's something I've been thinking about trying and I need a test subject. ",
+            text: "So... There's something I've been thinking about trying and I need a test subject.",
             button: [
-                { chatID: 34, text: "Trying? ", callback: "" },
+                { chatID: 34, text: "Trying?", callback: "" },
             ]
         },
         {
             chatID: 34,
             speaker: "eva",
-            text: "Yes. Take your clothes. off ",
+            text: "Yes. Take your clothes off.",
             button: [
-                { chatID: -1, text: "Sure! ", callback: "nude" },
-                { chatID: -1, text: "Nope. I'm going to keep them on ", callback: "leave" },
+                { chatID: -1, text: "Sure!", callback: "nude" },
+                { chatID: -1, text: "Nope. I'm going to keep them on", callback: "leave" },
             ]
         },
         {
             chatID: 35,
             speaker: "eva",
-            text: "Nice! Now lay down on your back.",
+            text: "Nice! Now lie down on your back.",
             button: [
-                { chatID: 36, text: "What are you going to do? ", callback: "" },
+                { chatID: 36, text: "What are you going to do?", callback: "" },
             ]
         },
         {
             chatID: 36,
             speaker: "eva",
-            text: "Don't worry about it. Just lay down. ",
+            text: "Don't worry about it. Just lie down.",
             button: [
-                { chatID: 37, text: "ok ", callback: "massge3" },
+                { chatID: 37, text: "ok", callback: "massge3" },
             ]
         },
         {
             chatID: 37,
             speaker: "eva",
-            text: "Do you like how my foot feels on your dick? ",
+            text: "Do you like how my foot feels on your dick?",
             button: [
-                { chatID: 38, text: "Oh yeah! ", callback: "massge3_1" },
+                { chatID: 38, text: "Oh yeah!", callback: "massge3_1" },
             ]
         },
         {
             chatID: 38,
             speaker: "eva",
-            text: "Now don't do anything while I try this... ",
+            text: "Now don't do anything while I try this...",
             button: [
                 { chatID: -1, text: "ok..", callback: "massge3_2" },
             ]
@@ -558,7 +555,7 @@ room5.chat = function (chatID) {
         {
             chatID: 39,
             speaker: "me",
-            text: "Oh fuck... I think I'm gunna.....",
+            text: "Oh fuck... I think I'm gonna...",
             button: [
                 { chatID: 40, text: "...", callback: "massge3_3" },
             ]
@@ -574,7 +571,7 @@ room5.chat = function (chatID) {
         {
             chatID: 41,
             speaker: "eva",
-            text: "Oh gross! It got all over my feet! Gross gross gross you nasty pervert! Couldn't you shoot that somewhere else?  ",
+            text: "Oh gross! It got all over my feet! Gross, gross, gross, you nasty pervert! Couldn't you shoot that somewhere else?",
             button: [
                 { chatID: 42, text: "...no", callback: "" },
             ]
@@ -582,7 +579,7 @@ room5.chat = function (chatID) {
         {
             chatID: 42,
             speaker: "eva",
-            text: sc.n("lola") + " can you get us some tissues so we can clean up this mess. ",
+            text: sc.n("lola") + ", can you get us some tissues so we can clean up this mess?",
             button: [
                 { chatID: -1, text: "Yeah", callback: "massageFinish" },
             ]
@@ -590,7 +587,7 @@ room5.chat = function (chatID) {
         {
             chatID: 43,
             speaker: "me",
-            text: "So... uh... Can you jack me off with your feet again? ",
+            text: "So... uh... can you jack me off with your feet again?",
             button: [
                 { chatID: 44, text: "...", callback: "" },
             ]
@@ -598,7 +595,7 @@ room5.chat = function (chatID) {
         {
             chatID: 44,
             speaker: "eva",
-            text: "Ewww. gross no! I told you I just wanted to try it. ",
+            text: "Eww, gross, no! I told you I just wanted to try it.",
             button: [
                 { chatID: 45, text: "Please", callback: "" },
             ]
@@ -615,7 +612,7 @@ room5.chat = function (chatID) {
         {
             chatID: 46,
             speaker: "me",
-            text: "Oh. I don't have $50. Maybe next time. ",
+            text: "Oh. I don't have $50. Maybe next time.",
             button: [
                 { chatID: -1, text: "...", callback: "leave" },
             ]

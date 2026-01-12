@@ -608,39 +608,37 @@ room9.chat = function(chatID){
         {
             chatID: 0,
             speaker: "thinking",
-            text: "I applied for the Construction Position. I need to go to the construction site and speak " +
-                "to the foreman in the trailer. ",
+            text: "I applied for the Construction position. I need to go to the construction site and speak to the foreman in the trailer.",
             button: [
-                { chatID: -1, text: "Construction in a manly job! ", callback: "internet" }
+                { chatID: -1, text: "Construction is a manly job!", callback: "internet" }
             ]
         },
         {
             chatID: 1,
             speaker: "thinking",
-            text: "I applied to be a nurse. I need to go to the hospital downtown. ",
+            text: "I applied to be a nurse. I need to go to the hospital downtown.",
             button: [
-                { chatID: -1, text: "Nursing is kind of a feminine job. ", callback: "internet" }
+                { chatID: -1, text: "Nursing is kind of a feminine job.", callback: "internet" }
             ]
         },
         {
             chatID: 2,
             speaker: "thinking",
-            text: "I applied for to be a waitress at the Naked Beaver Diner. I need to  visit " +
-                sc.n("jeffery") + " at the diner. ",
+            text: "I applied to be a waitress at the Naked Beaver Diner. I need to visit " + sc.n("jeffery") + " at the diner.",
             button: [
-                { chatID: -1, text: "Waitressing is kind of a feminine job. ", callback: "internet" }
+                { chatID: -1, text: "Waitressing is kind of a feminine job.", callback: "internet" }
             ]
         },
         {
             chatID: 3,
             speaker: "me",
-            text: "You have applied for the Maid Position. To complete your application visit The Maid Service Building to complete your application. ",
+            text: "You have applied for the Maid position. To complete your application visit the Maid Service Building.",
             button: []
         },
         {
             chatID: 4,
             speaker: "thinking",
-            text: "Damn I'm so horny!!! This stupid chastity cage is the worst!!!!",
+            text: "Damn, I'm so horny! This chastity cage is the worst!",
             button: [
                 { chatID: -1, text: "groan", callback: "reset" }
             ]
@@ -648,7 +646,7 @@ room9.chat = function(chatID){
         {
             chatID: 5,
             speaker: "thinking",
-            text: "AAAaaaaaa YYYYEEESSSS!",
+            text: "Aaaaaah YEEESSS!",
             button: [
                 { chatID: -1, text: "Turn off the porn and wipe your cum off the monitor", callback: "reset" }
             ]
@@ -656,9 +654,9 @@ room9.chat = function(chatID){
         {
             chatID: 6,
             speaker: "landlord",
-            text: "Why are you pants down? Are you masturbating to computer porn again? ",
+            text: "Why are your pants down? Are you masturbating to computer porn again?",
             button: [
-                { chatID: 7, text: "Wha... No....", callback: "" }
+                { chatID: 7, text: "Wha... No...", callback: "" }
             ]
         },
         {
@@ -666,8 +664,8 @@ room9.chat = function(chatID){
             speaker: "landlord",
             text: "It's ok sweetie. You know your dad used to jack off 10 times a day. He was always playing " +
                 "with his penis. That man would have had enough sperm to keep my store stocked up for a year. " +
-                sc.n("bigguy") + " on the other hand never masturbates. He says his hands don't feel as good " +
-                "as my.. well, you know. Masturbation is fine. Like practicing for real sex. ",
+                sc.n("bigguy") + " on the other hand, never masturbates. He says his hands don't feel as good " +
+                "as my... well, you know. Masturbation is fine. Like practicing for real sex. ",
             button: [
                 { chatID: 8, text: "*blush*", callback: "" }
             ]
@@ -675,9 +673,7 @@ room9.chat = function(chatID){
         {
             chatID: 8,
             speaker: "landlord",
-            text: "Someday you'll meet a nice young woman and have sex, but it's good to explore your body. You " +
-                "know I know a few tricks from the store. Show " + sc.n("landlord") + " you penis. I'll help you " +
-                "practice for the real thing. ",
+            text: "Someday you'll meet a nice young woman and have sex, but it's good to explore your body. I know a few tricks from the store. Show " + sc.n("landlord") + " your penis and I'll help you practice for the real thing.",
             button: [
                 { chatID: 11, text: "[Show her your penis]", callback: "jackoff3" },
                 { chatID: 15, text: sc.n("landlord") + "! AAAakkkk please leave!", callback: "" },
@@ -686,17 +682,15 @@ room9.chat = function(chatID){
         {
             chatID: 9,
             speaker: "landlord",
-            text: "Is that porn? Are you masturbating?!? ",
+            text: "Is that porn? Are you masturbating?!",
             button: [
-                { chatID: 10, text: "aaak " + sc.n("landlord") + "! You didn't knock! ", callback: "" }
+                { chatID: 10, text: "Aaak " + sc.n("landlord") + "! You didn't knock!", callback: "" }
             ]
         },
         {
             chatID: 10,
             speaker: "landlord",
-            text: "It's my house. I don't need to knock. Now put your penis away and do something " +
-                "with your life. And stop wasting sperm. Ugh! I swear! I'm going to take your dirty " +
-                "laundry and clean it. I swear boys are so nasty.! ",
+            text: "It's my house. I don't need to knock. Now put your penis away and do something with your life. And stop wasting sperm. Ugh! Boys are so nasty!",
             button: [
                 { chatID: 16, text: "Yes " + sc.n("landlord") + ".", callback: "porn" }
             ]
@@ -704,8 +698,7 @@ room9.chat = function(chatID){
         {
             chatID: 11,
             speaker: "landlord",
-            text: "Such a waste of a good boner waste on mastrubation. Wouldn't you like to rub it " +
-                "betwen my big fat titties instead?",
+            text: "Such a waste of a good boner on masturbation. Wouldn't you like to rub it between my big big soft breasts instead?",
             button: [
                 { chatID: -1, text: "oh yeah!", callback: "jackoff4" }
             ]
@@ -713,9 +706,7 @@ room9.chat = function(chatID){
         {
             chatID: 12,
             speaker: "landlord",
-            text: "Doesn't that feel good rubbing your penis between my juicy titties? So much " +
-                "better than your hand. Now cum for me. Show me how much you love rubbing your " +
-                "penis between my breasts. ",
+            text: "Doesn't that feel good, rubbing your penis between my breasts? So much better than your hand. Now cum for me. Show me how much you love it.",
             button: [
                 { chatID: 13, text: "FFFfffff", callback: "jackoff5" }
             ]
@@ -723,7 +714,7 @@ room9.chat = function(chatID){
         {
             chatID: 13,
             speaker: "landlord",
-            text: "My little boy is such a big cummer! Wow!",
+            text: "My little boy is such a big cummer!",
             button: [
                 { chatID: 14, text: "*panting*", callback: "jackoff6" }
             ]
@@ -731,8 +722,7 @@ room9.chat = function(chatID){
         {
             chatID: 14,
             speaker: "landlord",
-            text: "It's a good thing your " + sc.n("el") + " never leave their room. I don't think " +
-                "I'ld be able to explain how your cum got all over me. ",
+            text: "It's a good thing your " + sc.n("el") + " never leave their room. I don't think I'd be able to explain how your cum got all over me.",
             button: [
                 { chatID: -1, text: "haha yeah", callback: "jackoffEnd" }
             ]
@@ -740,8 +730,7 @@ room9.chat = function(chatID){
         {
             chatID: 15,
             speaker: "landlord",
-            text: "ok. If you play with it too much it will fall off. Try meeting some real girls " +
-                "honey. ",
+            text: "If you play with it too much it will fall off. Try meeting some real girls, honey.",
             button: [
                 { chatID: -1, text: "*sigh*", callback: "reset" }
             ]
@@ -749,13 +738,12 @@ room9.chat = function(chatID){
         {
             chatID: 16,
             speaker: "thinking",
-            text: "What terrible timing. She almost caught me jacking off. I'm so glad she didn't " +
-                "walk in when I was about to shoot my load. Fuck that would be embarrasing. ",
+            text: "What terrible timing. She almost caught me jacking off. I'm so glad she didn't walk in when I was about to shoot my load. Fuck, that would be embarrassing.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]
         },
     ];
-    return cArray[chatID];
+        return cArray[chatID];
 
 }

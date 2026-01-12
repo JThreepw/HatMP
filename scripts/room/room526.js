@@ -1,7 +1,7 @@
 ﻿//Room name
 var room526 = {};
 room526.main = function () {
-    if (sc.getMissionTask("ralph", "room", 7).inProgress) {
+    if (sc.getMissionTask("ralph", "room", 7).inProgress && !sc.getMission("ralph", "cult").inProgress) {
         sc.completeMissionTask("ralph", "room", 7);
         nav.bg("526_bar/ralph0.webp");
         chat(77, 526);
@@ -58,27 +58,29 @@ room526.main = function () {
     }
 
     if (sc.getMissionTask("ralph", "room", 7).complete && g.rand(0, 2) === 0) {
-        if (g.rand(0, 3) === 0 && !daily.get("526spankychat")) {
-            btnList.push({
-                "type": "btn",
-                "name": "ralph_1",
-                "left": 559,
-                "top": 381,
-                "width": 201,
-                "height": 515,
-                "image": "526_bar/ralph_1.webp"
-            });
-        }
-        else {
-            btnList.push({
-                "type": "btn",
-                "name": "ralph_0",
-                "left": 559,
-                "top": 381,
-                "width": 201,
-                "height": 515,
-                "image": "526_bar/ralph_0.webp"
-            });
+        if (!sc.getMission("ralph", "cult").inProgress) {
+            if (g.rand(0, 3) === 0 && !daily.get("526spankychat")) {
+                btnList.push({
+                    "type": "btn",
+                    "name": "ralph_1",
+                    "left": 559,
+                    "top": 381,
+                    "width": 201,
+                    "height": 515,
+                    "image": "526_bar/ralph_1.webp"
+                });
+            }
+            else {
+                btnList.push({
+                    "type": "btn",
+                    "name": "ralph_0",
+                    "left": 559,
+                    "top": 381,
+                    "width": 201,
+                    "height": 515,
+                    "image": "526_bar/ralph_0.webp"
+                });
+            }
         }
     }
 

@@ -91,9 +91,9 @@ room21.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "landlord",
-            text: "What do you think you doing! My closet is private, not a free for all for you! Remember " +
-                "when I told you that if you act like a child I'll treat your like a child. I meant it. You're getting a bare bottom spanking " + 
-                "as punishment for going where you're not supposed to go. Now pull your pants down.",
+            text: "What do you think you're doing? My closet is private, not a free for all for you! Remember " +
+                "when I told you that if you act like a child I'll treat you like a child. I meant it. You're getting a bare bottom spanking " +
+                "as punishment for going where you're not supposed to. Now pull your pants down.",
             button: [
                 { chatID: 1, text: "[Pull down your pants]", callback: "spank2" }
             ]
@@ -109,7 +109,7 @@ room21.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "landlord",
-            text: "I'm doing this for your own good",
+            text: "I'm doing this for your own good.",
             button: [
                 { chatID: g.pass, text: "OUCH!!!", callback: "" }
             ]
@@ -133,9 +133,9 @@ room21.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "landlord",
-            text: "OK. get out of my room you bad boy. ",
+            text: "OK. Get out of my room, you bad boy.",
             button: [
-                { chatID: -1, text: "Pull up pants and leave " + sc.n("landlord") + "'s bedroom. ", callback: "leave" }
+                { chatID: -1, text: "Pull up your pants and leave " + sc.n("landlord") + "'s bedroom.", callback: "leave" }
             ]
         },
         {
@@ -153,23 +153,23 @@ room21.chat = function (chatID) {
             text: "Say I'm not going to stick my dirty penis into my " + sc.n("landlord") + " again " +
                 "or I'll get more bare bottom spankings.",
             button: [
-                { chatID: 4, text: "I'm not going to stick my dirty penis into my " + sc.n("landlord") + " again or I'll get more bare bottom spankings", callback: "arouse" }
+                { chatID: 4, text: "I'm not going to stick my dirty penis into my " + sc.n("landlord") + " again or I'll get more bare bottom spankings!", callback: "arouse" }
             ]
         },
         {
             chatID: 8,
             speaker: "landlord",
-            text: "I'm going to show you how to properly spank an ass! Pants down mister!",
+            text: "I'm going to show you how to properly spank an ass! Pants down, mister!",
             button: [
-                { chatID: 1, text: "oh, What?", callback: "spank2" }
+                { chatID: 1, text: "Oh, what?", callback: "spank2" }
             ]
         },
         {
             chatID: 9,
             speaker: "landlord",
-            text: "That is how you spank and ass! ",
+            text: "That is how you spank an ass!",
             button: [
-                { chatID: -1, text: "OOooooohch", callback: "leave" }
+                { chatID: -1, text: "Oooouch", callback: "leave" }
             ]
         },
         {
@@ -178,23 +178,21 @@ room21.chat = function (chatID) {
             text: "You need to learn to keep your hands out of others! " +
                 "Now pull down your pants!",
             button: [
-                { chatID: 1, text: "oh no", callback: "spank2" }
+                { chatID: 1, text: "Oh no", callback: "spank2" }
             ]
         },
         {
             chatID: 11,
             speaker: "landlord",
-            text: "You are not allowed into this house if you're not wearing your chastity " +
-                "cage. I can't have you raping my other little girls! ",
+            text: "You are not allowed in this house if you're not wearing your chastity cage. I can't have you raping my other little girls!",
             button: [
-                { chatID: 1, text: "oh no", callback: "spank2" }
+                { chatID: 1, text: "Oh no", callback: "spank2" }
             ]
         },
         {
             chatID: 12,
             speaker: "landlord",
-            text: "Now get out out of my house and don't come back till that little pecker " +
-                "is locked away! ",
+            text: "Now get out of my house and don't come back until that little pecker is locked away!",
             button: [
                 { chatID: -1, text: "Ok", callback: "leave0" }
             ]

@@ -524,20 +524,19 @@ room10.chat = function (chatID) {
             {
                 chatID: 8,
                 speaker: "me",
-                text: "AAAAhhh man, I've never seen her that angry before, I'm totally done. Crap Crap Crap",
+                text: "Aaaahh man. I've never seen her that angry before. I'm totally done. Crap, crap, crap.",
                 button: [{ chatID: -1, text: "[Get Dressed]", callback: "kickOut1" }]
             },
             {
                 chatID: 9,
                 speaker: "me",
-                text: "I better get all my things, I don't know if she'll let me back in after this.",
+                text: "I better get all my things. I don't know if she'll let me back in after this.",
                 button: [{ chatID: 10, text: "[Pack things]", callback: "" }]
             },
             {
                 chatID: 10,
                 speaker: "me",
-                text: "Where can I stay... I may be able to stay with " + sc.n("zoey") + ", or I'll have to crash at the park tonight. " +
-                    "It'll be rough, but it's just for tonight. ",
+                text: "Where can I stay? I may be able to stay with " + sc.n("zoey") + ", or I'll have to crash at the park tonight. It'll be rough, but just for one night.",
                 button: [{ chatID: -1, text: "[Leave]", callback: "kickOut2" }]
             },
             {
@@ -565,7 +564,7 @@ room10.chat = function (chatID) {
             {
                 chatID: 13,
                 speaker: "me",
-                text: "Oh wow, all that working out has really paid off! I feel so much sexier with this new bod!",
+                text: "Oh wow, all that working out has really paid off! I feel so much sexier with this new body!",
                 button: [
                     { chatID: -1, text: "....", callback: "newday" }
                 ]
@@ -581,7 +580,7 @@ room10.chat = function (chatID) {
             {
                 chatID: 15,
                 speaker: "me",
-                text: "Oh no... is my penis shrinking!?!?",
+                text: "Oh no... is my penis shrinking?!",
                 button: [
                     { chatID: -1, text: "....", callback: "newday" }
                 ]
@@ -597,7 +596,7 @@ room10.chat = function (chatID) {
             {
                 chatID: 17,
                 speaker: "me",
-                text: "Check that ass out! So much to grab",
+                text: "Check that ass out! So much to grab.",
                 button: [
                     { chatID: -1, text: "....", callback: "newday" }
                 ]
@@ -656,16 +655,16 @@ room10.chat = function (chatID) {
             {
                 chatID: 24,
                 speaker: "eva",
-                text: "Welllll since you like to steal " + sc.n("lola") + "'s panties, we're going to <span style='color:#55ffff'> take your panties, all your boy " +
-                    "panties </span>to teach you a lesson!",
+                text: "Well, since you like to steal " + sc.n("lola") + "'s panties, we're going to <span style='color:#55ffff'>take your panties, all your boy " +
+                    "panties</span> to teach you a lesson!",
                 button: [
-                    { chatID: 25, text: "Wha....", callback: "" }
+                    { chatID: 25, text: "Wha...", callback: "" }
                 ]
             },
             {
                 chatID: 25,
                 speaker: "lola",
-                text: "YES!!! and we'll write panty their on your belly!!! Ooooo and take a picture!! ",
+                text: "YES!!! And we'll write 'panty thief' on your belly! Ooooo and take a picture!!",
                 button: [
                     { chatID: 26, text: "No, you're not doing any of that.", callback: "" }
                 ]
@@ -699,8 +698,7 @@ room10.chat = function (chatID) {
             {
                 chatID: 29,
                 speaker: "eva",
-                text: "Hahahah, are you wearing the panties right now? I bet you are, you  weird-o. Well panties, for panties " +
-                    "I guess we're even now.",
+                text: "Hahahah, are you wearing the panties right now? I bet you are, you weirdo. Well, panties for panties, I guess we're even now.",
                 button: [
                     { chatID: 30, text: "Yep, totally even", callback: "lolaYell" }
                 ]
@@ -708,7 +706,7 @@ room10.chat = function (chatID) {
             {
                 chatID: 30,
                 speaker: "lola",
-                text: "No, you stole my panties! You need to be punished mister! Now take off your shirt! ",
+                text: "No, you stole my panties! You need to be punished, mister! Now take off your shirt!",
                 button: [
                     { chatID: 31, text: "Oh ok.", callback: "shirtTakeOff" }
                 ]
@@ -724,23 +722,23 @@ room10.chat = function (chatID) {
             {
                 chatID: 32,
                 speaker: "eva",
-                text: "Now for the picture! Smile pretty so you can see what kind of panty thief you are.",
+                text: "Now for the picture! Smile pretty so we can see what kind of panty thief you are.",
                 button: [
-                    { chatID: 33, text: "Awww man ", callback: "shirtTakeOff" }
+                    { chatID: 33, text: "Awww man", callback: "shirtTakeOff" }
                 ]
             },
             {
                 chatID: 33,
                 speaker: "lola",
-                text: "Ok, we've go to run. You can go wash up now. Don't take any more of my panties! ",
+                text: "Ok, we've got to run. You can go wash up now. Don't take any more of my panties!",
                 button: [
-                    { chatID: -1, text: "ok ", callback: "showerOff" }
+                    { chatID: -1, text: "ok", callback: "showerOff" }
                 ]
             },
             {
                 chatID: 34,
                 speaker: "eva",
-                text: "UGH You pervert! We asked for your underwear, not your penis! ",
+                text: "UGH! You pervert! We asked for your underwear, not your penis!",
                 button: [
                     { chatID: 35, text: "[Smile]", callback: "" }
                 ]
@@ -765,10 +763,10 @@ room10.chat = function (chatID) {
                 chatID: 37,
                 speaker: "thinking",
                 text: "Somehow I knew what I was getting, but I'm still scared to wear it in public. " +
-                    "Luckily I can change in the bathroom at Missys. I'm going to have to hide this " +
-                    "in my closet so no one knows what dirty secrets I have. ",
+                    "Luckily I can change in the bathroom at Missy's. I'm going to have to hide this " +
+                    "in my closet so no one knows what dirty secrets I have.",
                 button: [
-                    { chatID: -1, text: "Hide the girly clothes in you closet", callback: "endbag" }
+                    { chatID: -1, text: "Hide the girly clothes in your closet", callback: "endbag" }
                 ]
             },
             {
@@ -806,7 +804,7 @@ room10.chat = function (chatID) {
             {
                 chatID: 42,
                 speaker: "me",
-                text: "We're the Stars, we like to fight. Let's go team and win tonight. [clap clap]<br/> " +
+                text: "We're the Stars; we like to fight. Let's go team and win tonight. [clap clap]<br/> " +
                     "Our boys are big and strong. Think you'll win, then you are wrong. [clap clap]<br/>" +
                     "Your boys are small and sick. We'll slap you with our giant dick",
                 button: [
@@ -826,9 +824,9 @@ room10.chat = function (chatID) {
             {
                 chatID: 44,
                 speaker: "me",
-                text: "Fetvill Stars, Fetville Stars. Don't be shy, stand up and give your battle cry. V-I-C-T-O-R-Y<br/> " +
+                text: "Fetville Stars, Fetville Stars. Don't be shy, stand up and give your battle cry. V-I-C-T-O-R-Y<br/> " +
                     "We'll smash you like a fucking flea. We're the best around I guarantee. D-E-F-E-N-S-E<br/>" +
-                    "Your quarterback is running dry. We'll fuck you in your P-U-S-S-Y. ",
+                    "Your quarterback is running dry. We'll fuck you in your P-U-S-S-Y.",
                 button: [
                     { chatID: -1, text: "...", callback: "cheerReset" }
                 ]

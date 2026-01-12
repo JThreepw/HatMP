@@ -1448,8 +1448,8 @@ room316.chat = function (chatID) {
                 break;
             case "ralph":
                 dtxt = "Hahahaha! He's going to die a virgin! What a loser. No chance " +
-                    "a guy like him ever gets a date! He would problably just talk about " +
-                    "what ever boring ass game he's playing. ";
+                    "a guy like him ever gets a date! He would probably just talk about " +
+                    "whatever boring ass game he's playing. ";
                 break;
             case "brad":
                 dtxt = "Ooooo sexy. I do love a man that plays sports! I don't remember " +
@@ -1503,7 +1503,7 @@ room316.chat = function (chatID) {
                 speaker: "janice",
                 text: "So how's your day baby? ",
                 button: [
-                    { chatID: 2, text: "Better now that I'm with you. Youself? ", callback: "" }
+                    { chatID: 2, text: "Better now that I'm with you. Yourself? ", callback: "" }
                 ]
             },
             {
@@ -1540,7 +1540,7 @@ room316.chat = function (chatID) {
                 chatID: 5,
                 speaker: "janice",
                 text: "Speaking of which. Next time you come over can you bring a jar of peanut butter! Pretty " +
-                    "please. You'll make me the happiest girlfiend ever! ",
+                    "please. You'll make me the happiest girlfriend ever! ",
                 button: [
                     { chatID: 6, text: "Oh yeah. Of course. Anything for you babe. ", callback: "" }
                 ]
@@ -1674,7 +1674,7 @@ room316.chat = function (chatID) {
                 chatID: 21,
                 speaker: "janice",
                 text: "I'm so excited! This place is soooo fancy! I've never been to a fancy " +
-                    "restaruant before! I wonder What they have here. Do you think they have " +
+                    "restaurant before! I wonder What they have here. Do you think they have " +
                     "hamburgers? But like fancy hamburgers? ",
                 button: [
                     { chatID: 22, text: "I don't know. I don't think they do.", callback: "date2_3" },
@@ -1820,7 +1820,7 @@ room316.chat = function (chatID) {
             {
                 chatID: 38,
                 speaker: "janice",
-                text: "This again. You know I'm saving myself for marraige. I'll tell you what, if " +
+                text: "This again. You know I'm saving myself for marriage. I'll tell you what, if " +
                     "you're a good boy maybe I'll give you...",
                 button: [
                     { chatID: 39, text: "...", callback: "date2_12" }
@@ -2026,7 +2026,7 @@ room316.chat = function (chatID) {
                 chatID: 62,
                 speaker: "janice",
                 text: "Now listen here you big meany. He was just coming by to give me my membership " +
-                    "card for Dorcia! They are an exculsive place. I would never cheat. You know I'm " +
+                    "card for Dorcia! They are an exclusive place. I would never cheat. You know I'm " +
                     "saving myself for marriage. You just come into my house with wild accusations! ",
                 button: [
                     { chatID: 63, text: "Why would they come to your house to give you a card? ", callback: "task4_4" },
@@ -2287,7 +2287,7 @@ room316.chat = function (chatID) {
             {
                 chatID: 91,
                 speaker: "thinking",
-                text: "He's angry. I better improve my relastionship with him before I can pet him. ",
+                text: "He's angry. I better improve my relationship with him before I can pet him. ",
                 button: [
                     { chatID: -1, text: "...", callback: "reset" },
                 ]
@@ -2463,7 +2463,7 @@ room316.chat = function (chatID) {
             {
                 chatID: 110,
                 speaker: "me",
-                text: "*whipsering* aak. give me my clothes back",
+                text: "*whispering* aak. give me my clothes back",
                 button: [
                     { chatID: -1, text: "...", callback: "picklock1" },
                 ]
@@ -2472,7 +2472,7 @@ room316.chat = function (chatID) {
                 chatID: 111,
                 speaker: "thinking",
                 text: "Akkk! I can't believe I'm face down ass up with a dog's penis " +
-                    "burried deep in my ass again! He's not even gentle. Just rams it " +
+                    "buried deep in my ass again! He's not even gentle. Just rams it " +
                     "it in. Knot and all! ",
                 button: [
                     { chatID: 112, text: "...", callback: "lockpick2" },
@@ -2500,7 +2500,7 @@ room316.chat = function (chatID) {
             {
                 chatID: 114,
                 speaker: "me",
-                text: "*whipsering* Really " + sc.n("dog") + "? You're going " +
+                text: "*whispering* Really " + sc.n("dog") + "? You're going " +
                     "to bark at me after you've raped my ass? I guess I'm just " +
                     "a hole to fuck, and once you're done you don't want me around? ",
                 button: [
@@ -2547,7 +2547,7 @@ room316.chat = function (chatID) {
             {
                 chatID: 119,
                 speaker: "janice",
-                text: "I've been thinking about my web cam live stream a lot lately " +
+                text: "I've been thinking about my webcam live stream a lot lately " +
                     "and looked into some of the other whore chat girls that make some " +  
                     "bank and they gave me an idea... but I'm going to need your help! ",
                 button: [
@@ -2617,7 +2617,7 @@ room316.chat = function (chatID) {
             {
                 chatID: 126,
                 speaker: "janice",
-                text: "Oh hush! You look so pretty. You only feel ridiculous becuase " +
+                text: "Oh hush! You look so pretty. You only feel ridiculous because " +
                     "you've been an ugly boy your entire life. Now quit whining. I hate " +
                     "it. ",
                 button: [
@@ -2721,7 +2721,7 @@ room316.chat = function (chatID) {
                     "anymore. I yearn to be with other men. To feel their manly arms hold " +
                     "me down and make me feel like a little girl. I never get that feeling " +
                     "from you. But I do love how you come over and our little dates, and " +
-                    "haning out with you. I need more than you can provide. ",
+                    "hanging out with you. I need more than you can provide. ",
                 button: [
                     { chatID: 137, text: "...", callback: "" },
                 ]
@@ -2907,7 +2907,7 @@ room316.chat = function (chatID) {
                 chatID: 155,
                 speaker: "thinking",
                 text: "Crap! There's no way I'm breaking out of this. I'm totally trapped! I really " +
-                    "screwed up again. I can't I got caught like that. How embarrasing! ",
+                    "screwed up again. I can't I got caught like that. How embarrassing! ",
                 button: [
                     { chatID: 156, text: "...", callback: "dog3" },
                 ]
@@ -2966,7 +2966,7 @@ room316.chat = function (chatID) {
                 text: "There we go. It's called a bitch suit, since, well, you're such my bitch. Oh whoops, " +
                     "almost forgot your tail.",
                 button: [
-                    { chatID: 162, text: "*mumble into you ball gag*", callback: "dog7" },
+                    { chatID: 162, text: "*mumble into your ball gag*", callback: "dog7" },
                 ]
             },
             {

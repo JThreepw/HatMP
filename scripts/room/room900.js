@@ -15,6 +15,10 @@ room900.main = function () {
         }, 452);
         chat(23, 900);
     }
+    else if (cl.appearance() > 3 && g.rand(0, 3) === 0 && !daily.get("900rapeNight") && g.isNight()) {
+        daily.set("900rapeNight");
+        rape.init(null, "street", 900, "reset");
+    }
     else {
         if (!g.isNight()) {
             nav.button({
@@ -59,6 +63,9 @@ room900.btnclick = function (name) {
             else {
                 chat(1, 900);
             }
+            break;
+        case "reset":
+            char.room(900);
             break;
         default:
             break;

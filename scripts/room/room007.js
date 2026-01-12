@@ -912,7 +912,7 @@ room7.chat = function (chatID) {
                 speaker: "landlord",
                 text: "Don't 'but...' me. It's time you start growing up. There's no more free rides for your lazy ass. " +
                     "If you think I've been hard on you " +
-                    "up till now, you're going to see hard it can be. " + sc.n("lola") + " and " + sc.n("eva") + ", your " + sc.n('el') +
+                    "up till now, you're going to see how it can be. " + sc.n("lola") + " and " + sc.n("eva") + ", your " + sc.n('el') +
                     ", just started college and you've been a terrible role model for them.",
                 button: [{ chatID: 2, text: "....", callback: "" }]
             },
@@ -1021,7 +1021,7 @@ room7.chat = function (chatID) {
             {
                 chatID: 14,
                 speaker: "landlord",
-                text: "Doon't you worry, let " + sc.n("landlord") + " take care of it for you. ",
+                text: "Don't you worry, let " + sc.n("landlord") + " take care of it for you. ",
                 button: [
                     { chatID: 15, text: "oooooOOooooo", callback: "jack1" },
                 ]
@@ -1107,7 +1107,7 @@ room7.chat = function (chatID) {
             {
                 chatID: 24,
                 speaker: "landlord",
-                text: "Those are MY panties! What kind fucked up shit are you doing in my panties! Give those back right now! I don't " +
+                text: "Those are MY panties! What kind of fucked up shit are you doing in my panties! Give those back right now! I don't " +
                     "want your butt sweat and cum in them! I've never! ",
                 button: [
                     { chatID: 25, text: "Oh crap [Give her back her panties]", callback: "removeLlPanties" },
@@ -1239,7 +1239,7 @@ room7.chat = function (chatID) {
             {
                 chatID: 39,
                 speaker: "thinking",
-                text: "What was that! I might have thown myself at him, but he " +
+                text: "What was that! I might have thrown myself at him, but he " +
                     "didn't need to be so rough! Didn't care about me at all! Worst " +
                     "of all I made him cheat on my " + sc.n("landlord") + "! I don't know if I " +
                     "should tell her. Maybe I should just keep it a secret. I don't want her to " +

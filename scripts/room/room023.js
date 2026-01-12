@@ -1573,7 +1573,7 @@ room23.chat = function (chatID) {
             {
                 chatID: 6,
                 speaker: "eva",
-                text: "Dare me pussy! ",
+                text: "Dare me, pussy!",
                 button: [
                     { chatID: -1, text: "...", callback: "evasit evaDare" }
                 ]

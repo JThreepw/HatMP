@@ -1313,6 +1313,10 @@ levels.anal = function (size, sissygasm = false, gender = null, creampie = false
         gv.mod("arousal", 30);
     }
 
+    if (gender !== null) {
+        daily.set("fameEventHypno");
+    }
+
     if (creampie) {
         levels.mod("cum", 25, 999);
         sex.mod("mudpie", gender, who);
@@ -1548,6 +1552,7 @@ levels.oral = function (size, gender = null, who = null, swallow = false, beast 
         sex.mod("cunny", gender, who);
     }
     else if (gender !== null) {
+        daily.set("fameEventHypno");
         sex.mod("gavebj", gender, who);
     }
 

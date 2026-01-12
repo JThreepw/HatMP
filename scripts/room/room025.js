@@ -240,8 +240,7 @@ room25.chat = function (chatID) {
             chatID: 3,
             speaker: "landlord",
             text: "Hey Sweetie. It's so busy at the Sperm Bank! I don't know if it's something in the air, or just that time of year, but " +
-            "we're going through about a gallon of sperm each day. I swear you could paint a house with all the sperm where " +
-            "putting out!",
+            "we're going through about a gallon of sperm each day. I swear you could paint a house with all the sperm we're putting out!",
             button: [
                 { chatID: -1, text: "Cool", callback: "passtime2" }
             ]
@@ -396,7 +395,7 @@ room25.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "eva",
-            text: "You kow who needs a good massage, Lola. She's been whining ever since Jamie dumped her.",
+            text: "You know who needs a good massage, Lola. She's been whining ever since Jamie dumped her.",
             button: [
                 { chatID: 22, text: "Yeah, Jamie is such an ass.", callback: "" }
             ]
@@ -438,7 +437,7 @@ room25.chat = function (chatID) {
         {
             chatID: 26,
             speaker: "eva",
-            text: "Lets head out",
+            text: "Let's head out.",
             button: [
                 { chatID: -1, text: "...", callback: "passTimeLE" }
             ]
@@ -446,8 +445,8 @@ room25.chat = function (chatID) {
         {
             chatID: 27,
             speaker: "eva",
-            text: "HAHAHHAHAHAHAHAHHAHAHHAA!!!! Real smooth there pervert! What a weird-o. C'mon " + sc.n("lola") +
-                "we're heading out.",
+            text: "HAHAHAHA! Real smooth there, pervert! What a weirdo. C'mon " + sc.n("lola") +
+                ", we're heading out.",
             button: [
                 { chatID: -1, text: "Er.. I mean...", callback: "passTimeLE" }
             ]
@@ -488,7 +487,7 @@ room25.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "eva",
-            text: "You know " + sc.n("me") + " you may be a dirty pervert, but you're also a great guy.",
+            text: "You know " + sc.n("me") + ", you may be a dirty pervert, but you're also a great guy.",
             button: [
                 { chatID: 33, text: sc.n('eva') + " with a compliment?", callback: "" }
             ]
@@ -496,7 +495,7 @@ room25.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "eva",
-            text: "Hay! I'm not mean to you all the time. Just when your being all weird and stuff.",
+            text: "Hey! I'm not mean to you all the time. Just when you're being all weird and stuff.",
             button: [
                 { chatID: 34, text: "...", callback: "" }
             ]
@@ -520,9 +519,9 @@ room25.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "lola",
-            text: "I think we've teased her enough. Lets get going " + sc.n("eva") + ".",
+            text: "I think we've teased her enough. Let's get going " + sc.n("eva") + ".",
             button: [
-                { chatID: -1, text: "Ok, See ya", callback: "passTimeLE" }
+                { chatID: -1, text: "Ok, see ya", callback: "passTimeLE" }
             ]
         },
         {
@@ -553,8 +552,7 @@ room25.chat = function (chatID) {
             chatID: 40,
             speaker: "landlord",
             text: "Morning Sweetie. It's so busy at the Sperm Bank! I don't know if it's something in the air, or just that time of year, but " +
-                "we're going through about a gallon of sperm each day. I swear you could paint a house with all the sperm where " +
-                "putting out! Seeing all those hot men jack off really turns me on... oh well I'm going to go rub one out.",
+                "we're going through about a gallon of sperm each day. I swear you could paint a house with all the sperm we're putting out! Seeing all those hot men jack off really turns me on... oh well, I'm going to go rub one out.",
             button: [
                 { chatID: -1, text: "What?", callback: "passtime2" }
             ]
@@ -571,7 +569,7 @@ room25.chat = function (chatID) {
             chatID: 42,
             speaker: "landlord",
             text: "Good morning sweetie. You should be proud of how hard you've worked so far. Maybe I'll have you help me out sometime at the " +
-            "sperm store. You seem like the kind of boy that would like that.. hahahah. ",
+            "sperm store. You seem like the kind of boy that would like that... hahahah.",
             button: [
                 { chatID: 43, text: "Oh gross", callback: "" }
             ]
@@ -579,7 +577,7 @@ room25.chat = function (chatID) {
         {
             chatID: 43,
             speaker: "landlord",
-            text: "You don't have to pretend with me honey. I know you're an odd little boy. ",
+            text: "You don't have to pretend with me honey. I know you're an odd little boy.",
             button: [
                 { chatID: -1, text: sc.n("landlord") + "!!!", callback: "passtime5" }
             ]
@@ -588,7 +586,7 @@ room25.chat = function (chatID) {
             chatID: 44,
             speaker: "landlord",
             text: "You know my boyfriend " + sc.n("bigguy") + " is such a great lover. Maybe he could show you some tricks to attract a pretty girl " +
-                "or whatever you're into. I bet you could make a girl very happy. ",
+                "or whatever you're into. I bet you could make a girl very happy.",
             button: [
                 { chatID: 45, text: sc.n("landlord"), callback: "" }
             ]
@@ -596,9 +594,9 @@ room25.chat = function (chatID) {
         {
             chatID: 45,
             speaker: "landlord",
-            text: "Oh hahaha I'm only kidding... run along now, " + sc.n("landlord") + " has some fantasies to get back to. ",
+            text: "Oh hahaha I'm only kidding... run along now, " + sc.n("landlord") + " has some fantasies to get back to.",
             button: [
-                { chatID: -1, text: "ok " + sc.n("landlord"), callback: "passtime6" }
+                { chatID: -1, text: "OK " + sc.n("landlord"), callback: "passtime6" }
             ]
         },
         {
@@ -606,7 +604,7 @@ room25.chat = function (chatID) {
             speaker: "landlord",
             text: "I'm going to have so much fun making you into a pretty girl, but right now I need my coffee so run along.",
             button: [
-                { chatID: -1, text: "ok " + sc.n("landlord"), callback: "" }
+                { chatID: -1, text: "OK " + sc.n("landlord"), callback: "" }
             ]
         },
         

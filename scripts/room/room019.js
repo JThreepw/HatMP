@@ -472,7 +472,7 @@ room19.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "me",
-            text: "I've run out of lube, I need to get some more if I want to play with my butthole.",
+            text: "I've run out of lube. I need to get some more if I want to play with my butthole.",
             button: [
                 { chatID: -1, text: "...", callback: "" },
             ]
@@ -480,10 +480,10 @@ room19.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "me",
-            text: "I'm such a weird-o... what shall I shove in my asshole?",
+            text: "I'm such a weirdo... what should I shove in my asshole?",
             button: [
                 { chatID: -1, text: "Shove my fingers in my butt.", callback: "" },
-                { chatID: -1, text: "Impale my poor anus on a toy. ", callback: "analtoy" },
+                { chatID: -1, text: "Impale my poor anus on a toy.", callback: "analtoy" },
                 { chatID: -1, text: "Practice giving blowjobs", callback: "bj" },
                 { chatID: -1, text: "Nothing, return to my room.", callback: "quit" },
             ]
@@ -499,16 +499,16 @@ room19.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "me",
-            text: "Ooooo, my butt-hole is so hungry, it's begging for more fingers...",
+            text: "Ooo, my butthole is so hungry; it's begging for more fingers...",
             button: [
-                { chatID: -1, text: "Give into your lust and slip in another finger", callback: "addFinger" },
+                { chatID: -1, text: "Give in to your lust and slip in another finger", callback: "addFinger" },
                 { chatID: -1, text: "Stop playing with my asshole", callback: "Stop" }
             ]
         },
         {
             chatID: 4,
             speaker: "me",
-            text: "Oooooh, my butt-hole feels pretty full. I better stop here.",
+            text: "Ooooh, my butthole feels pretty full. I'd better stop here.",
             button: [
                 { chatID: -1, text: "Stop playing with my asshole", callback: "Stop" }
             ]
@@ -516,7 +516,7 @@ room19.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "me",
-            text: "It seems I've run out of fingers to shove into my hungry hole! ",
+            text: "It seems I've run out of fingers to shove into my hungry hole!",
             button: [
                 { chatID: -1, text: "Stop playing with my asshole", callback: "Stop" }
             ]
@@ -524,7 +524,7 @@ room19.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "me",
-            text: "Two fingers is as much as I feel comfortable with. I should get a toy if I want to go bigger. ",
+            text: "Two fingers is as much as I'm comfortable with. I should get a toy if I want to go bigger.",
             button: [
                 { chatID: -1, text: "Stop playing with my asshole", callback: "Stop" }
             ]
@@ -532,7 +532,7 @@ room19.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "me",
-            text: "I've played enough with my butthole for a day. Gotta let it rest. ",
+            text: "I've played enough with my butthole for the day. Gotta let it rest.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -540,7 +540,7 @@ room19.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "thinking",
-            text: "I'm such a dirty dirty slut...",
+            text: "I'm such a dirty, dirty slut...",
             button: [
                 { chatID: -1, text: "Fuck my own ass", callback: "" }
             ]
@@ -548,7 +548,7 @@ room19.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "me",
-            text: "Oh yeah... that was good",
+            text: "Oh yeah... that was good.",
             button: [
                 { chatID: -1, text: "Finish fucking my own ass (You dirty dirty slut)", callback: "Stop" }
             ]
@@ -564,7 +564,7 @@ room19.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "me",
-            text: "There's no way I'm fitting that in my mouth! ",
+            text: "There's no way I'm fitting that in my mouth!",
             button: [
                 { chatID: -1, text: "Pick a different toy", callback: "" }
             ]
@@ -572,15 +572,15 @@ room19.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "me",
-            text: "How do I know when to stop without cum down my throat? ",
+            text: "How do I know when to stop without getting cum down my throat?",
             button: [
-                { chatID: -1, text: "Finish sucking ", callback: "stopSuck" }
+                { chatID: -1, text: "Finish sucking", callback: "stopSuck" }
             ]
         },
         {
             chatID: 13,
             speaker: "me",
-            text: "My jaw is tired from sucking cock. Maybe tomorrow. ",
+            text: "My jaw is tired from sucking cock. Maybe tomorrow.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -588,7 +588,7 @@ room19.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "thinking",
-            text: "Totally empty. I'll have to wait for my milk ducts to fill back up. ",
+            text: "Totally empty. I'll have to wait for my milk ducts to fill back up.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]
@@ -596,16 +596,16 @@ room19.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "thinking",
-            text: "Oh my! It feels so good to empty these breasts, they were getting full!",
+            text: "Oh my! It feels so good to empty these breasts; they were getting full!",
             button: [
-                { chatID: 16, text: "Drink your own breast milk. ", callback: "pumpDrink" },
+                { chatID: 16, text: "Drink your own breast milk.", callback: "pumpDrink" },
                 { chatID: -1, text: "Put it away", callback: "emptyMilk" },
             ]
         },
         {
             chatID: 16,
             speaker: "thinking",
-            text: "*gulp* MMmmmMMmmmm yummy!",
+            text: "*gulp* Mmmm... yummy!",
             button: [
                 { chatID: -1, text: "...", callback: "reset" },
             ]
@@ -613,8 +613,7 @@ room19.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "thinking",
-            text: "This is where I keep any secret things I need hidden. No one ever " +
-                "looks in here. To bad I don't have anything to keep hidden. ",
+            text: "This is where I keep any secret things I need hidden. No one ever looks in here. Too bad I don't have anything to keep hidden.",
             button: [
                 { chatID: -1, text: "...", callback: "" },
             ]

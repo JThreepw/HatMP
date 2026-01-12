@@ -5,6 +5,8 @@
 //add false transformations - like got an inch shorter / feet shrunk / skin smoother / hair more radiant, hair is finer
 var room28 = {};
 room28.main = function () {
+    fame.niceCounter = fame.rapeCounter = 0;
+
     let transformationOrder = [0, 1, 2, 3, 4, 24, 7, 11, 16, 5, 8, 12, 17, 25, 13, 18, 21, 6, 9, 23, 14, 19, 10, 15, 20, 22];
     let sissySchoolDream = false;
     var pjRoom = [7, 10]

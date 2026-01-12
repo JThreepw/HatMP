@@ -661,8 +661,7 @@ room24.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "eva",
-            text: "Hahaha He's staring so hard at your tits! You should take a picture so it lasts " +
-                "longer! ",
+            text: "Hahaha! He's staring so hard at your tits! You should take a picture so it lasts longer!",
             button: [
                 { chatID: 8, text: "Wha!!! I can't help it! They're so there!", callback: "lolaTalk EvaSit" },
             ]
@@ -670,7 +669,7 @@ room24.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "lola",
-            text: "Oh my. I guess that's ok, if it's JUST for you and you don't share it. ",
+            text: "Oh my. I guess that's ok, if it's JUST for you and you don't share it.",
             button: [
                 { chatID: -1, text: "oh. Really? Oh yeah. I won't share it with anyone!", callback: "lolaHeart" },
             ]
@@ -678,8 +677,7 @@ room24.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "eva",
-            text: "Hahaha! He's totally going to jackin' it to that later! Spin the bottle so he " +
-                "can see your jiggle! ",
+            text: "Hahaha! He's totally going to jack off to that later! Spin the bottle so he can see your jiggle!",
             button: [
                 { chatID: -1, text: "...", callback: "lolaSpin" },
             ]
@@ -719,7 +717,7 @@ room24.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "eva",
-            text: "I know you want to see these you pervert! ",
+            text: "I know you want to see these, you pervert!",
             button: [
                 { chatID: -1, text: "I do! you have great titties! ", callback: "evaLevel evaSpin" },
                 { chatID: -1, text: "...", callback: "evaSpin" },
@@ -753,7 +751,7 @@ room24.chat = function (chatID) {
         {
             chatID: 18,
             speaker: "eva",
-            text: "You go so luck! Pucker up for the best kiss of your life! ",
+            text: "You're so lucky! Pucker up for the best kiss of your life!",
             button: [
                 { chatID: -1, text: "*mwah*", callback: "evaSpin" },
             ]
@@ -795,7 +793,7 @@ room24.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "eva",
-            text: "Spin that bottle perv! ",
+            text: "Spin that bottle, perv!",
             button: [
                 { chatID: -1, text: "Here goes!", callback: "lolaSit evaSit meSpin" },
             ]
@@ -803,7 +801,7 @@ room24.chat = function (chatID) {
         {
             chatID: 24,
             speaker: "me",
-            text: "Well, I've had fun, but I'm going to call it a night. Good night girls!  ",
+            text: "Well, I've had fun, but I'm going to call it a night. Good night, girls!",
             button: [
                 { chatID: -1, text: "...", callback: "gameOver" },
             ]
@@ -868,7 +866,7 @@ room24.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "me",
-            text: "Damn Landed on myself! ",
+            text: "Damn. Landed on myself!",
             button: [
                 { chatID: -1, text: "...", callback: "spinStop" },
             ]

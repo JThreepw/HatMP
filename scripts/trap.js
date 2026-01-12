@@ -705,7 +705,7 @@ trap.encounter = function () {
     let charList = new Array();
     if (trap.location === "cave")
         nav.bg("475_fight/clearingCave.jpg");
-    else
+    else if(trap.location !== "street")
         nav.bg("475_fight/clearing.jpg", "475_fight/clearingNight.jpg");
 
     if (gv.get("cat") === -1 && g.rand(0, 4) === 0 && !g.isNight() && trap.location === "forest") {

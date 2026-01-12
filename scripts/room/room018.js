@@ -103,7 +103,7 @@ room18.chat = function (chatID) {
             text: "hmmm slut lube for my butt",
             button: [
                 { chatID: -1, text: "I want to work on stretching my butthole.", callback: "loadRoom19" },
-                { chatID: -1, text: "Not in the mood to play back door tag. ", callback: "" }
+                { chatID: -1, text: "Not in the mood to play backdoor tag.", callback: "" }
             ]
         }
     ];

@@ -10,17 +10,17 @@ room222.main = function () {
         switch (errand) {
             case 0:
             case 1:
-                chat(0, 222);
+                chat(0, 222); //police
                 break;
             case 2:
-                chat(14, 222);
+                chat(14, 222); //laundry
                 break;
             case 3:
             case 4:
-                chat(11, 222);
+                chat(11, 222); //court house
                 break;
             default:
-                chat(33, 222);
+                chat(33, 222); //chemist
                 break;
         }
     }

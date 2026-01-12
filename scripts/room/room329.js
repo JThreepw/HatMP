@@ -13,9 +13,24 @@ room329.main = function () {
     else if (g.gethourdecimal() > 17 && !g.map.barnTooLong) {
         chat(11, 329);
     }
-    else if (sc.getMission("security", "ranch").complete && sc.getMission("philbert", "barn").notStarted) {
+    else if (sc.getMission("security", "ranch").complete && sc.getMissionTask("philbert", "barn", 0).notStarted) {
         nav.bg("329_barn/ph1.webp");
-        chat(0, 329);
+        if (sc.getMission("philbert", "barn").notStarted) {
+            sc.startMission("philbert", "barn");
+            chat(0, 329);
+        }
+        else {
+            chat(93, 329)
+        }
+    }
+    else if (!g.map.philbertBarn) {
+        nav.bg("329_barn/ph1.webp");
+        chat(96, 329);
+    }
+    else if (sc.getMission("philbert", "barn").startedOrComplete && g.rand(0, 3) === 0 && !daily.get("philbert329")) {
+        daily.set("philbert329");
+        nav.bg("329_barn/philbert0.webp");
+        chat(94, 329);
     }
     else {
         room329.chatcatch("menu");
@@ -113,6 +128,7 @@ room329.btnclick = function (name) {
             else {
                 levels.oralass("m", "philbert");
                 nav.kill();
+                sc.completeMissionTask("philbert", "barn", 0);
                 chat(8, 329);
             }
             g.internal++;
@@ -229,6 +245,10 @@ room329.btnclick = function (name) {
             }
             break;
         case "icon_expel0":
+            if (g.map.ppgirleat) {
+                g.map.ppgirleat = false;
+                chat(92, 329);
+            }
             nav.modbutton("cumexpel", "22_toilet/blurp1.png", null, null);
             nav.killbutton("icon_expel0");
             nav.next("icon_expel1", 329);
@@ -528,6 +548,7 @@ room329.chatcatch = function (callback) {
             break;
         case "av4":
         case "hole3":
+        case "philbert0":
             nav.kill();
             nav.bg("329_barn/" + callback + ".webp");
             break;
@@ -646,8 +667,14 @@ room329.chatcatch = function (callback) {
                 g.map.ppgirleat = false;
                 sc.modLevel("ppgirl", 75, 10);
                 if (sc.getMissionTask("ppgirl", "ranch", 2).complete) {
-                    nav.bg("329_barn/ppgirlfeed.webp");
-                    chat(50, 329);
+                    if (gv.getButtCum().total > 0) {
+                        nav.bg("329_barn/ppgirlfeed_c.webp");
+                        chat(91, 329);
+                    }
+                    else {
+                        nav.bg("329_barn/ppgirlfeed.webp");
+                        chat(50, 329);
+                    }
                 }
                 else {
                     nav.bg("329_barn/ppgirl3.webp");
@@ -822,6 +849,26 @@ room329.chatcatch = function (callback) {
             g.map = null;
             char.room(0);
             break;
+        case "philbertBarnNo":
+            g.map.philbertBarn = false;
+            g.map.event = "meadow";
+            char.room(328);
+            break;
+        case "philbert1":
+            nav.kill();
+            g.internal = 0;
+            nav.bg("326_stable/bg.jpg");
+            zcl.double(300, 150, .8, "open", false);
+            nav.button({
+                "type": "img",
+                "name": "philbert1",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "329_barn/philbert1.webp"
+            }, 329);
+            break;
         case "reset":
             char.room(329);
             break;
@@ -880,6 +927,85 @@ room329.chat = function (chatID) {
                 text: "Trying to suck that horse's dick? Get out of there. NOW!  ",
                 button: [
                     { chatID: -1, text: "[I'm going to have to distract that guard somehow if I'm going to slip out]", callback: "reset" }
+                ]
+            };
+        }
+    }
+    else if (chatID === 800) {
+        if (g.internal < 5) {
+            if (g.internal % 2 === 0) {
+                nav.modbutton("philbert1", "329_barn/philbert3.webp", null, null);
+            }
+            else {
+                nav.modbutton("philbert1", "329_barn/philbert2.webp", null, null);
+            }
+            fame.moan("left");
+            let philbertchat800 = [
+                "Don't get loose on me now! ",
+                "You fuckin' cum hole. ",
+                "Oh shit this feel so good.",
+                "All you sissies know is how to suck dick and get fucked. ",
+                "I bet you'd get fucked by this horse if I let you. ",
+                "You sissies are so easy. ",
+                "You're just a hole for my cock. ",
+                "The only thing you’re good at is spreading your legs and begging for more.",
+                "Your mouth was made for one thing: taking cock and staying quiet.",
+                "You’re basically a walking glory hole with lipstick.",
+                "issies don’t get to cum – they just leak while getting pounded.",
+                "The only balls you have are the ones slapping against your ass.",
+                "You exist to serve dick – that’s your entire personality.",
+                "Every time you open your mouth, I know exactly what’s going in it.",
+                "You’re proof that some boys were born to be bred, not to breed.",
+                "You’re not even second place – you’re the hole we use when we’re bored.",
+                "Keep practicing that gag reflex; it’s the only skill you’ve got.",
+                "Face it, princess – you’re just a warm, wet sleeve for real men.",
+                "Your clitty is so tiny, even your panties bully it.",
+                "That micro clitty isn’t for fucking; it’s just there to remind you you’re a sissy.",
+                "You don’t jerk off, you just fidget with that pathetic little nub until it drips.",
+                "Your clitty is so small, it gets lost in the cage without even trying.",
+                "The only thing smaller than your clitty is your chance of ever using it like a man.",
+                "Look at that tiny pink clitty – no wonder you’re always on your knees instead.",
+                "Your clitty leaks pre-cum faster than it ever gets hard. Pathetic.",
+                "That little thing between your legs? It’s not a cock, it’s a sissy doorbell. It rings when real men are ready.",
+                "You don’t cum like a man; your tiny clitty just spasms and ruins your panties.",
+                "I’ve stepped on bugs with more size than that worthless clitty.",
+                "Your clitty is so small, it hides when you’re excited – like it’s embarrassed for you.",
+                "Keep rubbing that tiny dick; maybe one day it’ll grow into a real disappointment.",
+                "Real men measure in inches; you measure your clitty in 'barely.'",
+                "Your little clitty throbs hardest when it’s reminded how irrelevant it is.",
+                "Your ass pussy clenches tighter than your tiny clitty ever gets hard.",
+                "Your ass pussy is the only hole that matters; the rest of you is just decoration.",
+                "That sloppy bussy leaks more than your worthless clitty ever will.",
+                "I don’t fuck boys – I breed eager little cunts like yours.",
+                "That dripping fuck hole explains why you walk like you’re already full.",
+                "Your hole gapes wider than your mouth when you lie about not being a slut.",
+                "Your cunt quivers every time a real man walks in the room.",
+                "That well trained ass pussy milks cock better than any real cunt.",
+                "Your asshole is so loose now, it echoes when I pull out.",
+                "No lube needed – your desperate ass pussy is always soaked and ready.",
+                "Those swollen bussy lips are prettier than anything up front.",
+                "Every thrust proves it: your cunt is the only interesting part of you.",
+            ];
+            g.internal++;
+            return {
+                chatID: 800,
+                speaker: "philbert",
+                text: philbertchat800[g.rand(0, philbertchat800.length)],
+                button: [
+                    { chatID: 800, text: "...", callback: "" }
+                ]
+            };
+        }
+        else {
+            fame.moan("left");
+            nav.modbutton("philbert1", "329_barn/philbert4.webp", null, null);
+            levels.anal(3, false, "m", true, "philbert");
+            return {
+                chatID: 800,
+                speaker: "philbert",
+                text: "Cream filled cunt. That's all you ever will be. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "reset" }
                 ]
             };
         }
@@ -1681,6 +1807,84 @@ room329.chat = function (chatID) {
                 text: "You know what we do to hucows that try to get away? ",
                 button: [
                     { chatID: 80, text: "what?", callback: "hole4" },
+                ]
+            },
+            {
+                chatID: 91,
+                speaker: "ppgirl",
+                text: "I am so very hungry, and I know they do terrible things to you out there. But I do wish " +
+                    "you would empty the cum from your butt before you feed me. ",
+                button: [
+                    { chatID: 40, text: "Just happy to help. ", callback: "ppreset" },
+                ]
+            },
+            {
+                chatID: 92,
+                speaker: "thinking",
+                text: "Oh no. The food pellets I was saving for " + sc.n("ppgirl") + " came out too! ",
+                button: [
+                    { chatID: -1, text: "drat!", callback: "" },
+                ]
+            },
+            {
+                chatID: 93,
+                speaker: "thinking",
+                text: "So you decided that you want to eat my ass? Pucker up butter cup! ",
+                button: [
+                    { chatID: -1, text: "...", callback: "ph2" },
+                ]
+            },
+            {
+                chatID: 94,
+                speaker: "philbert",
+                text: "Watchin' that ass bounce around this barn makes my cum drip out of my cock. Bend " +
+                    "over. I need to fuck that ass! ",
+                button: [
+                    { chatID: 95, text: "Fine get it over with [Bend your ass over]", callback: "philbert1" },
+                    { chatID: -1, text: "No way! [Run back to the meadow]", callback: "philbertBarnNo" },
+                ]
+            },
+            {
+                chatID: 95,
+                speaker: "philbert",
+                text: "I love how you just bend you ass over whenever I ask! Now here comes my cock bitch!",
+                button: [
+                    { chatID: 800, text: "...", callback: "" },
+                ]
+            },
+            {
+                chatID: 96,
+                speaker: "philbert",
+                text: "Sissies don't get to say no to my dick! I'm telling the ranchers you are trying to " +
+                    "escape! ",
+                button: [
+                    { chatID: 97, text: "What? No! I just...", callback: "philbert0" },
+                ]
+            },
+            {
+                chatID: 97,
+                speaker: "philbert",
+                text: "You just want to take my dick, or run with the pigs? Tell me you love my dick. Say how " +
+                    "much you need my cum deep up your cunt and bend your ass over. ",
+                button: [
+                    { chatID: 95, text: "I love your dick, I need your cum deep up my cunt. [Bend your ass over]", callback: "philbert1" },
+                    { chatID: 98, text: "I'm not doing that!", callback: "" },
+                ]
+            },
+            {
+                chatID: 98,
+                speaker: "philbert",
+                text: "RANCHERS!!!! GOT A HUCOW TRYING TO ESCAPE!!!!! RANCHERS HELP!!!!",
+                button: [
+                    { chatID: 99, text: "...you asshole", callback: "hole3" },
+                ]
+            },
+            {
+                chatID: 99,
+                speaker: "!rancher1",
+                text: "So you're tryin' to escape? You know what we do with li'l hucows that try to escape?  ",
+                button: [
+                    { chatID: 80, text: "wha?", callback: "hole4" },
                 ]
             },
         ];

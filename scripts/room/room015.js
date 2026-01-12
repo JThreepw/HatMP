@@ -278,19 +278,19 @@ room15.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "landlord",
-            text: "Hey honey, why don't you run along.. " + sc.n("landlord") + " is enjoying her special drinks.",
+            text: "Hey honey, why don't you run along. " + sc.n("landlord") + " is enjoying her special drinks.",
             button: []
         },
         {
             chatID: 1,
             speaker: "me",
-            text: sc.n("landlord") + "'s probably asleep, shouldn't wake her.",
+            text: sc.n("landlord") + " is probably asleep; you shouldn't wake her.",
             button: []
         },
         {
             chatID: 2,
             speaker: "me",
-            text: sc.n("landlord") + " locked the door.. Must figure out a way to get the key!",
+            text: sc.n("landlord") + " locked the door. I must figure out a way to get the key!",
             button: []
         },
         {
@@ -302,7 +302,7 @@ room15.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "thinking",
-            text: "Oh no! I better go pee before wet my pants!",
+            text: "Oh no! I better go pee before I wet my pants!",
             button: [
                 { chatID: -1, text: ".... ", callback: "drinkDown" }
             ]
@@ -318,32 +318,32 @@ room15.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "landlord",
-            text: "So are you just going to stare at it, or are you going to eat it? ",
+            text: "So are you just going to stare at it, or are you going to eat it?",
             button: [
                 { chatID: 7, text: "Oh please! ", callback: "ll2" },
-                { chatID: -1, text: "Just staring. ", callback: "" },
+                { chatID: -1, text: "Just staring.", callback: "" },
             ]
         },
         {
             chatID: 7,
             speaker: "landlord",
-            text: "*hickup* Get in there and make " + sc.n("landlord") + " a happy girl! ",
+            text: "*hiccup* Get in there and make " + sc.n("landlord") + " a happy girl!",
             button: [
-                { chatID: -1, text: "MMMmmmMMMMmm ", callback: "ll3" },
+                { chatID: -1, text: "MMMmmmMMMMmm", callback: "ll3" },
             ]
         },
         {
             chatID: 8,
             speaker: "landlord",
-            text: "Hey! *hickup* I poop from there! Get your tongue out of my asshole! ",
+            text: "Hey! *hiccup* I poop from there! Get your tongue out of my asshole!",
             button: [
-                { chatID: -1, text: "oh whoops ", callback: "" },
+                { chatID: -1, text: "oh whoops", callback: "" },
             ]
         },
         {
             chatID: 9,
             speaker: "landlord",
-            text: "Oh yeah! Get in there deep. Stretch that tongue. ",
+            text: "Oh yeah! Get in there deep. Stretch that tongue.",
             button: [
                 { chatID: -1, text: "...", callback: "" },
             ]
@@ -351,9 +351,9 @@ room15.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "landlord",
-            text: "Wow! You sure know how to eat a pussy. Thanks honey. Now run along. ",
+            text: "Wow! You sure know how to eat a pussy. Thanks honey. Now run along.",
             button: [
-                { chatID: -1, text: "You're welcome " + sc.n("landlord") + "! ", callback: "ll8" },
+                { chatID: -1, text: "You're welcome " + sc.n("landlord") + "!", callback: "ll8" },
             ]
         },
         {
@@ -362,13 +362,13 @@ room15.chat = function (chatID) {
             text: "So you like to slap your " + sc.n("landlord") + " on her ass? Well I like to smack asses too! " +
                 "Come with me to my room. Now! ",
             button: [
-                { chatID: -1, text: "Yes! ", callback: "slap1" },
+                { chatID: -1, text: "Yes!", callback: "slap1" },
             ]
         },
         {
             chatID: 12,
             speaker: "landlord",
-            text: "Ooooo. I am a naughty girl! ",
+            text: "Ooooo. I am a naughty girl!",
             button: [
                 { chatID: 13, text: "...", callback: "slap2" },
             ]
@@ -376,15 +376,15 @@ room15.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "lola",
-            text: "Gross " + sc.n("landlord") + "! ",
+            text: "Gross " + sc.n("landlord") + "!",
             button: [
-                { chatID: 14, text: "Oh hi " + sc.n("lola") + ". " , callback: "" },
+                { chatID: 14, text: "Oh hi " + sc.n("lola") + ".", callback: "" },
             ]
         },
         {
             chatID: 14,
             speaker: "landlord",
-            text: "Sit down and eat. I'm almost done here. ",
+            text: "Sit down and eat. I'm almost done here.",
             button: [
                 { chatID: -1, text: "ok", callback: "slap2End" },
             ]

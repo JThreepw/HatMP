@@ -137,8 +137,8 @@ room6.btnclick = function (name) {
             case "landlord":
                 txt.o = "Sperm Bank Owner";
                 txt.p = "Cum Bath Supplier";
-                txt.s = "Principle sperm supplier for all Cum Bath rituals. We first made contact with her store after her " +
-                    "husband died during the pregnancy of Azrael. Ubel wanted to reward the widow for her husband's sacrafice to " +
+                txt.s = "Principal sperm supplier for all Cum Bath rituals. We first made contact with her store after her " +
+                    "husband died during the pregnancy of Azrael. Ubel wanted to reward the widow for her husband's sacrifice to " +
                     "C.U.M. and offered her the Sperm Bank so long as she continued to supply all Cum Bath rituals. " +
                     "Production has been adequate. A deal has been made that we leave her children alone. ";
                 txt.h = "I need to gain her trust by showing that I'm a girl and ask what happened. "
@@ -148,7 +148,7 @@ room6.btnclick = function (name) {
                 txt.p = "Milk Maid";
                 txt.s = sc.n("eva") + " was an active Milk Maid after she turned 18, but has stopped coming in lately. " +
                     "While doing the ritual to convert from a Milk Maid to full member she was stubborn and refused to " +
-                    "to serve the bishop, slapping him and calling him a pussy. She was told she wasn't submissive enough " +
+                    "serve the bishop, slapping him and calling him a pussy. She was told she wasn't submissive enough " +
                     "to serve C.U.M. and never return. ";
                 txt.h = "I need to prove to her that I belong there. I should show her I can be a submissive girl. ";
                 break;
@@ -178,19 +178,18 @@ room6.btnclick = function (name) {
                 txt.o = "Toys 'n Us Employee";
                 txt.p = "Recruiter";
                 txt.s = sc.n("charlie") + " was Brother " + sc.n("charlie") + " at one time. He was given the store Toy 'n " +
-                    "Us to recruite future Milk Maids that needed extra money. He ended up losing all his money by buying up " +
-                    "a tanker full of fuel during the gas crisis and then forgetting to close the value spilling it all. " +
+                    "Us to recruit future Milk Maids that needed extra money. He ended up losing all his money by buying up " +
+                    "a tanker full of fuel during the gas crisis and then forgetting to close the valve, spilling it all. " +
                     "He had to sell the store to " + sc.n("tiffany") + " and " + sc.n("candy") + " without our approval to " +
-                    "cover the cost of clean up. He continues to recruit Milk Maids at Toys 'n Us. "
+                    "cover the cost of clean up. He continues to recruit Milk Maids at Toys 'n Us. ";
                 txt.h = "I guess sex is the only way to get information from him. Maybe I should walk in naked so he knows what I'm after and ask him " +
                     "about working as a Milk Maid. ";
                 break;
             case "cop":
                 txt.o = "Cop";
                 txt.p = "On the payroll";
-                txt.s = "He is paid a small bribe each week as well has given use of some of our members. Additionally we have blackmail " +
-                    "pictures of him snorting coke off of a number of our Milk Miad's breasts, " +
-                    "the Bishop Stan, " + sc.n("charlie") + " and " + sc.n("molly") + "'s cock, " +
+                txt.s = "He is paid a small bribe each week as well as given use of some of our members. Additionally we have blackmail " +
+                    "pictures of him snorting coke off of a number of our Milk Maid's breasts, the Bishop Stan, " + sc.n("charlie") + " and " + sc.n("molly") + "'s cock, " +
                     sc.n("chloe") + "'s butthole, " + sc.n("keaton") + "'s taint, and " + sc.n("stormy") + "'s pussy. ";
                 txt.h = "I could probably just tease him until he wants to fuck me then blackmail him into telling me the code. ";
                 break;
@@ -198,8 +197,8 @@ room6.btnclick = function (name) {
                 txt.o = "Cop";
                 txt.p = "Brother of C.U.M.";
                 txt.s = "He was working a missing persons case for Nell, our first Transformation Maiden who did not " +
-                    "survive the deprevation trials. After a talk with Ubel it was decided to put him on the payroll since " +
-                    "having a dead cop would draw too much suspicion. He's too squeeky clean. " +
+                    "survive the deprivation trials. After a talk with Ubel it was decided to put him on the payroll since " +
+                    "having a dead cop would draw too much suspicion. He's too squeaky clean. " +
                     "We haven't been able to find any blackmail on him to ensure he stays loyal. ";
                 txt.h = "Maybe I could find some blackmail on him. ";
                 break;
@@ -207,24 +206,24 @@ room6.btnclick = function (name) {
                 txt.o = "City Government";
                 txt.p = "No Affiliation";
                 txt.s = "Through her all things in Carnalville happen. " + sc.n("govlady") + " pays the police bribes, " +
-                    "keeps the mayor inline, and approves all permits. When asked if she wanted to join our congretgation " +
-                    "she stated 'Religions are fake and silly. Money is the only real I know.' She may be expensive, but " +
+                    "keeps the mayor in line, and approves all permits. When asked if she wanted to join our congregation " +
+                    "she stated 'Religions are fake and silly. Money is the only real thing I know.' She may be expensive, but " +
                     "she has become essential to keeping the town in line. ";
                 txt.h = "I wonder if I could just bribe her for information. ";
                 break;
             case "g":
                 txt.o = "Personal Trainer";
                 txt.p = "Sister of C.U.M.";
-                txt.s = sc.n("g") + " was demoted from Bishop to Sister after she tried to assult Ubel for control of " +
-                    "C.U.M. Unfortunatly for her Ubel was too tough and almost beat her till she died. Ubel chose to let " +
-                    "he live because she had too much spunk to die, but was demoted from Bishop to Sister until she learned " +
+                txt.s = sc.n("g") + " was demoted from Bishop to Sister after she tried to assault Ubel for control of " +
+                    "C.U.M. Unfortunately for her Ubel was too tough and almost beat her till she died. Ubel chose to let " +
+                    "her live because she had too much spunk to die, but was demoted from Bishop to Sister until she learned " +
                     "how to obey. ";
                 txt.h = "Maybe if I beat her in a fight. ";
                 break;
             case "jones":
                 txt.o = "CEO";
                 txt.p = "Bishop";
-                txt.s = "It is through " + sc.n("jones") + "'s financial contrubutions that C.U.M. is able to have a compound. " +
+                txt.s = "It is through " + sc.n("jones") + "'s financial contributions that C.U.M. is able to have a compound. " +
                     "He was the first person Ubel recruited for the coming of Azrael. Not much is known about him, except " +
                     "that once a year he takes a new Milk Maid as a slave to his home and they are never seen again. ";
                 txt.h = "I could try to see if he'll let me be his slave and work from the inside. ";
@@ -234,14 +233,14 @@ room6.btnclick = function (name) {
                 txt.p = "Sister of C.U.M.";
                 txt.s = sc.n("juniper") + " likes to switch between the duties of a Milk Maid and donating her seed for the " +
                     "cum bath. ";
-                txt.h = "I could befrind her. See if she'll just tell me. ";
+                txt.h = "I could befriend her. See if she'll just tell me. ";
                 break;
             case "keaton":
                 txt.o = "Student";
                 txt.p = "Slave";
                 txt.s = "No one is sure of how " + sc.n("keaton") + " came into the service of C.U.M. He was just found one " +
-                    "day in the hallway of the compound tied up with a note that said 'Use me how ever you want'. After many " +
-                    "Sister and Brothers of the cult used him and set him free, he just started showing up a few times a month. " +
+                    "day in the hallway of the compound tied up with a note that said 'Use me however you want'. After many " +
+                    "Sisters and Brothers of the cult used him and set him free, he just started showing up a few times a month. " +
                     "Each time tied up with the same note. ";
                 txt.h = "I could ask him who is putting him in the compound. I should tell her I'm a sissy slut too. ";
                 break;
@@ -257,92 +256,92 @@ room6.btnclick = function (name) {
                 txt.p = "Brother of C.U.M.";
                 txt.s = "A loyal follower, but is really dumb. Other than his great body and cock, there isn't much else " +
                     "to him. ";
-                txt.h = "I know he likes to hang out at the strip club. Maybe I can catch him there. "
+                txt.h = "I know he likes to hang out at the strip club. Maybe I can catch him there. ";
                 break;
             case "spanky":
                 txt.o = "Convenience Store Owner";
                 txt.p = "Brother of C.U.M.";
                 txt.s = "Really just shows up for the cum extractions. Most of the Milk Maids get weird vibes from him and " +
-                    "try to avoid him. But every male must be milked so someone has to jack him off.";
+                    "try to avoid him. But every male must be milked so someone has to jack him off. ";
                 txt.h = "He does love talking and sex. I guess I could start with the sex to get him to talk. ";
                 break;
             case "treyvon":
                 txt.o = "Security";
                 txt.p = "Brother of C.U.M.";
-                txt.s = "C.U.M. uses " + sc.n("treyvon") + " to enfore their policies. I don't really know exactly what " +
+                txt.s = "C.U.M. uses " + sc.n("treyvon") + " to enforce their policies. I don't really know exactly what " +
                     "he does, but I do know it's violent. Best not to cross paths with him. ";
-                txt.h = "He does seem to like me. Maybe I could work on him to get information. "
+                txt.h = "He does seem to like me. Maybe I could work on him to get information. ";
                 break;
             case "rachel":
                 txt.o = "Farm Owner";
                 txt.p = "Milk Supplier";
-                txt.s = "C.U.M. uses only the finest breast milk to feed their followers... More to come "
+                txt.s = "C.U.M. uses only the finest breast milk to feed their followers... More to come ";
                 break;
             case "jeffery":
                 txt.o = "Naked Beaver owner";
                 txt.p = "Brother of C.U.M.";
                 txt.s = "Creepy guy. General member";
-                txt.h = "I need to go there before 11AM and work a shift. I'll ask him after I'm done. --Have to steal panties from the 3. "
+                txt.h = "I need to go there before 11AM and work a shift. I'll ask him after I'm done. --Have to steal panties from the 3. ";
                 break;
             case "dad": //"Jacqueline":
                 g.internal.level = 3;
                 txt.o = "Secretary";
                 txt.p = "Second Transformation Maiden";
-                txt.s = "The second person chosen one to bring about the coming of Azrael. His effiminate body was easily " +
+                txt.s = "The second person chosen one to bring about the coming of Azrael. His effeminate body was easily " +
                     "transformed in cum bath into the perfect feminine host. She was able to survive the " +
-                    "deprevation trials were the spirit of Azrael was able to impregnate her. The embryo grew too rapidly " +
+                    "deprivation trials where the spirit of Azrael was able to impregnate her. The embryo grew too rapidly " +
                     "for her body to handle and the fetus ripped her womb open where it died on the floor. " +
-                    "The heavy blood loss caused Jacqueline to die soon after. Because of the sacrafice of Jacqueline, her wife " +
-                    "was given the Sperm Bank to run and continue to supply the cult."
+                    "The heavy blood loss caused Jacqueline to die soon after. Because of the sacrifice of Jacqueline, her wife " +
+                    "was given the Sperm Bank to run and continue to supply the cult.";
                 txt.h = "Deceased";
                 break;
             case "nell":
                 g.internal.level = 3;
                 txt.o = "Clerk";
                 txt.p = "First Transformation Maiden";
-                txt.s = "Many years ago Nell was the first Transformation Maiden of C.U.M. He was recuirted by Ubel himself " 
-                    "before the church was started. Ubel long studied the Book of Azrael and thought Nell would " +
+                txt.s = "Many years ago Nell was the first Transformation Maiden of C.U.M. He was recruited by Ubel himself " 
+                    + "before the church was started. Ubel long studied the Book of Azrael and thought Nell would " +
                     "make a great host. Nell was eager at the time, with no prospects in life, so he was more than willing " +
                     "to do whatever he asked. Ubel used Nell as a recruiting tool to increase their numbers. He was put on " +
                     "estrogen and testosterone blockers to make him a cute sissy bimbo. At rallies he would be paraded naked " +
                     "to the group telling them anyone that joined C.U.M. would get a free hour with Nell and do whatever " +
                     "they wanted to his tender little body. So brutal were the worshipers that often Nell would fart blood for several " +
-                    "days after each event. Nell was able to transfor their body during the cum bath ritual, proving that Ubel " +
-                    "was correct about Azrael. However during the deprevation trials her heart exploded in her chest killing her. " +
-                    "She's burried in an unmarked grave on the compound with only Ubel knowing the location. "
+                    "days after each event. Nell was able to transform their body during the cum bath ritual, proving that Ubel " +
+                    "was correct about Azrael. However during the deprivation trials her heart exploded in her chest killing her. " +
+                    "She's buried in an unmarked grave on the compound with only Ubel knowing the location. ";
                 break;
             case "jeremy":
                 g.internal.level = 3;
                 txt.o = "Prostitute";
                 txt.p = "Eighth Transformation Maiden";
                 txt.s = "Jeremy was the eighth and most recent Transformation Maiden. " +
-                    "After the failure of the seventh Transforamtion Maiden who died during the Cum Bath Ritual in front of the " +
-                    "entire congrecation five years passed before Jeremy was chosen. To prepare Jeremy, he was held in a cell for a " +
-                    "full year, whipped by Ubel himself once a week, and made to serve the congregation in a varity of demeaning tasks. " +
-                    "Anytime Jeremy stepped out of line he was placed on the dildo in the hallway all night or placed in the fuck box. "
+                    "After the failure of the seventh Transformation Maiden who died during the Cum Bath Ritual in front of the " +
+                    "entire congregation five years passed before Jeremy was chosen. To prepare Jeremy, he was held in a cell for a " +
+                    "full year, whipped by Ubel himself once a week, and made to serve the congregation in a variety of demeaning tasks. " +
+                    "Anytime Jeremy stepped out of line he was placed on the dildo in the hallway all night or placed in the fuck box. " +
                     "After that year he was transformed in the cum bath ritual. " +
                     "The church doctor examined her to find that a womb did not form. It was decided a second ritual was to " +
                     "be held to see the attempt would complete the transformation and produce a womb. The second bath was a failure and " +
-                    "Jeremy was sent to live out her new life as a Milk Maiden. "
+                    "Jeremy was sent to live out her new life as a Milk Maiden. ";
                 break;
             case "missy":
                 g.internal.level = 3;
                 txt.o = "Detective";
                 txt.p = "N/A";
                 txt.s = sc.n("missy") + " has been a thorn in C.U.M.'s side for a while. " +
-                    "She was hired by Nell's mother after Nell had dissappeared. She was starting to get too close " +
+                    "She was hired by Nell's mother after Nell had disappeared. She was starting to get too close " +
                     "so we had to pay off " + sc.n("cop2") + " to stop the case and give " + sc.n("missy") + " trouble. " +
-                    "He arrested her for tresspass on the compound and threatened her with jail time if she didn't " +
-                    "leave C.U.M. alone. She stopped visiting the compound, but is still activly pursuing the church. " +
+                    "He arrested her for trespass on the compound and threatened her with jail time if she didn't " +
+                    "leave C.U.M. alone. She stopped visiting the compound, but is still actively pursuing the church. " +
                     "Ubel tried a few different ways to get rid of her, all unsuccessful. Now that she's been captured " +
                     "Ubel is either going to torture her to death, or make an example for all to see. Either way it's going " +
-                    "to be brutal. "
+                    "to be brutal. ";
                 break;
             case "p":
                 g.internal.level = 3;
                 txt.o = "Pink Room Mistress";
                 txt.p = "N/A";
-                txt.s = "C.U.M doesn't have a lot of information on her other than being " + sc.n("missy") + "'s right hand. " +
+                txt.s = "C.U.M. doesn't have a lot of information on her other than being " + sc.n("missy") + "'s right hand. " +
                     "They'll keep an eye on her with " + sc.n("missy") + " out of the picture in case she becomes a problem. " +
                     "for them. ";
                 break;
@@ -359,18 +358,18 @@ room6.btnclick = function (name) {
                 txt.p = "Sadist";
                 txt.s = sc.n("black") + " was a rising star in the church as the principal disciplinarian.  " +
                     "Any time a member of church started to go astray " + sc.n("black") + " would administer her " +
-                    "own special flavor of corrective punishment leaving many permently scarred and traumatized. " +
+                    "own special flavor of corrective punishment leaving many permanently scarred and traumatized. " +
                     "She kept the order in line and loved what she did. Ubel offered her a position as a Bishop within " +
-                    "the church if should would take care of the " + sc.n("missy") + " problem once and for all. " +
+                    "the church if she would take care of the " + sc.n("missy") + " problem once and for all. " +
                     "Someone tipped " + sc.n("missy") + " off and she was able to capture " + sc.n("black") + ". During " +
                     "her capture she was able to convert " + sc.n("black") + " to " + sc.n("missy") + "'s service. " +
                     "Due to her disloyalty in the face of adversity " + sc.n("black") + " has been Excommunicated from " +
-                    "the church. "
+                    "the church. ";
                 break;
             case "construction":
                 txt.o = "Burly Construction Owner";
                 txt.p = "Milk Supplier";
-                txt.s = "Construction Company worked on compound.  "
+                txt.s = "Construction Company worked on compound.  ";
                 break;
         }
         
