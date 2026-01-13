@@ -245,7 +245,7 @@ room57.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "candy",
-            text: "Slurp, lick, suck",
+            text: "Slurp, lick, suck.",
             button: [
                 { chatID: 4, text: "...", callback: "" },
             ]
@@ -253,7 +253,7 @@ room57.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "tiffany",
-            text: "mmmMMMmmm Let's play rusty trombone!",
+            text: "Mmm. Let's play rusty trombone!",
             button: [
                 { chatID: 5, text: "...", callback: "" },
             ]
@@ -261,7 +261,7 @@ room57.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "candy",
-            text: "ooOOoo I get the mouth piece!",
+            text: "Oo, I get the mouth piece!",
             button: [
                 { chatID: 6, text: "...", callback: "f4" },
             ]
@@ -269,7 +269,7 @@ room57.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "tiffany",
-            text: "MMmmmmm such a yummy cock!",
+            text: "Mmm, such a yummy cock!",
             button: [
                 { chatID: 7, text: "...", callback: "" },
             ]
@@ -301,7 +301,7 @@ room57.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "candy",
-            text: "Awwww fuck I'm going to cum all over your cock!",
+            text: "Awwww, fuck! I'm going to cum all over your cock!",
             button: [
                 { chatID: 11, text: "...", callback: "" },
             ]
@@ -341,7 +341,7 @@ room57.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "tiffany",
-            text: "ooo",
+            text: "Ooh.",
             button: [
                 { chatID: 16, text: "...", callback: "f10" },
             ]
@@ -473,7 +473,7 @@ room57.chat = function (chatID) {
             speaker: "tiffany",
             text: "That's such a sexy pussy, I have to get a taste!",
             button: [
-                { chatID: 32, text: "mmmm", callback: "c8" },
+                { chatID: 32, text: "Mmmm", callback: "c8" },
             ]
         },
         {
@@ -487,7 +487,7 @@ room57.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "candy",
-            text: "AAAaaaaaaaaaaa fuck",
+            text: "AAAaaaaaaaaaaa fuck!",
             button: [
                 { chatID: 34, text: "GAH!!!", callback: "c10" },
             ]
@@ -495,7 +495,7 @@ room57.chat = function (chatID) {
         {
             chatID: 34,
             speaker: "candy",
-            text: "Hehehe sorry I didn't warn you that sometime I pee when I cum! ",
+            text: "Hehehe, sorry. I didn't warn you that sometimes I pee when I cum!",
             button: [
                 { chatID: 35, text: "GAH!!!", callback: "" },
             ]
@@ -503,7 +503,7 @@ room57.chat = function (chatID) {
         {
             chatID: 35,
             speaker: "tiffany",
-            text: "It's my turn, I want to sit on your face " + sc.n("me") + ".",
+            text: "It's my turn. I want to sit on your face, " + sc.n("me") + ".",
             button: [
                 { chatID: 36, text: "...", callback: "c11" },
             ]
@@ -511,7 +511,7 @@ room57.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "tiffany",
-            text: "OOhh yea eat my pussy. Ooooo deeper ",
+            text: "Ooh yeah, eat my pussy. Ooo, deeper.",
             button: [
                 { chatID: 37, text: "...", callback: "c12" },
             ]
@@ -527,9 +527,9 @@ room57.chat = function (chatID) {
         {
             chatID: 38,
             speaker: "candy",
-            text: "It's too bad you're all locked up or we would make you cum all over us! Oh well, see you around sexy! ",
+            text: "It's too bad you're all locked up or we would make you cum all over us! Oh well, see you around, sexy!",
             button: [
-                { chatID: -1, text: "Oh yea, bye.", callback: "runaway" }
+                { chatID: -1, text: "Oh yeah, bye.", callback: "runaway" }
             ]
         },
     ];

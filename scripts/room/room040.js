@@ -177,27 +177,26 @@ room40.chat = function (chatID) {
                     "need someone to do the bitch work. Since you know shit about cars " +
                     "you'll do the bitch work. ",
                 button: [
-                    { chatID: 1, text: "oh", callback: "" }
+                    { chatID: 1, text: "Oh", callback: "" }
                 ]
             },
             {
                 chatID: 1,
                 speaker: "bigguy",
                 text: "A man's gotta start at the bottom and work their way up. " +
-                    "You should have seen Tom here clean the traps on his first day, " +
+                    "You should have seen Tom here clean the traps on his first day. " +
                     "He dropped the cage and that damn rat ran up his leg! Watching " +
-                    "him hop around almost made me piss my damn pants! ",
+                    "him hop around almost made me piss my damn pants!",
                 button: [
-                    { chatID: 2, text: "rat trap? ", callback: "" }
+                    { chatID: 2, text: "Rat trap?", callback: "" }
                 ]
             },
             {
                 chatID: 2,
                 speaker: "bigguy",
-                text: "Yeah. Little fuckers keep chewing on the wires, fucks the cars up. " +
-                    "After lunch you'll clean this place up. The oil makes it slippery " +
-                    "than hot shit on an hockey rink. I need you to clean it up for us " +
-                    "se we can focus on getting work done. Got it. ",
+                text: "Yeah. Little fuckers keep chewing on the wires; they fuck the cars up. " +
+                    "After lunch you'll clean this place up. The oil makes it as slippery " +
+                    "as hot shit on a hockey rink. I need you to clean it up for us so we can focus on getting work done. Got it?",
                 button: [
                     { chatID: 3, text: "I guess", callback: "rt1" }
                 ]
@@ -207,9 +206,9 @@ room40.chat = function (chatID) {
                 speaker: "bigguy",
                 text: "Around the edges are the rat traps. Normally I just empty the cage " +
                     "into a bucket and smash it with my boot, but you can kill them however " +
-                    "you want. I've got to finish a car up by noon. I'll let you get to it. ",
+                    "you want. I've got to finish a car up by noon. I'll let you get to it.",
                 button: [
-                    { chatID: 4, text: "ok", callback: "" }
+                    { chatID: 4, text: "Ok", callback: "" }
                 ]
             },
             {
@@ -240,7 +239,7 @@ room40.chat = function (chatID) {
             {
                 chatID: 7,
                 speaker: "bigguy",
-                text: "You did allright. I'm going to know ",
+                text: "You did all right. I'm going to go now.",
                 button: [
                     { chatID: -1, text: "...", callback: "chatOrClean" }
                 ]
@@ -303,8 +302,8 @@ room40.chat = function (chatID) {
                 chatID: 14,
                 speaker: "tom",
                 text: "Wow, small world. So your " + g.makeSingular(sc.n("el")) + " is " +
-                    sc.n("lola") + "? She's was in my biology class last year. Haven't " +
-                    "seen her since. It is a big campus. ",
+                    sc.n("lola") + "? She was in my biology class last year. Haven't " +
+                    "seen her since. It's a big campus.",
                 button: [
                     { chatID: 15, text: "Oh yeah. She's my " + g.makeSingular(sc.n("el")) + ". ", callback: "" }
                 ]
@@ -322,10 +321,10 @@ room40.chat = function (chatID) {
                 chatID: 16,
                 speaker: "thinking",
                 text: "Hmmmm. He's really nice, and I don't think he would even have sex with " + sc.n("eva") + " since " +
-                    "she's way to wild for him. He might make a good boyfriend for " + sc.n("lola") + ". " +
+                    "she's way too wild for him. He might make a good boyfriend for " + sc.n("lola") + ". " +
                     "Way better than " + sc.n("chad") + ". But maybe " + sc.n("lola") + " needs a bad boy to " +
                     "snap her into reality. Hmmm. I wonder if I should try to set he up or let " + sc.n("lola") +
-                    " date " + sc.n("chad") + ". ",
+                    " date " + sc.n("chad") + ".",
                 button: [
                     { chatID: 17, text: "Try to set up " + sc.n("tom") + " with " + sc.n("lola") + ". ", callback: "" },
                     { chatID: 23, text: "Let " + sc.n("lola") + " date " + sc.n("chad") + ". ", callback: "" }
@@ -379,7 +378,7 @@ room40.chat = function (chatID) {
                 chatID: 22,
                 speaker: "tom",
                 text: "Oh wow! You're the best ever! I'll be the best boyfriend she's ever had! " +
-                    "thank you thank you thank you!",
+                    "Thank you thank you thank you!",
                 button: [
                     { chatID: -1, text: "...", callback: "endlolaboyTom" }
                 ]
@@ -387,8 +386,8 @@ room40.chat = function (chatID) {
             {
                 chatID: 23,
                 speaker: "thinking",
-                text: "Hehehe! I'm going to see how far " + sc.n("lola") + "goes with " + sc.n("chad") +
-                    ". Way more entertaining than boring lame Tom. ",
+                text: "Hehehe! I'm going to see how far " + sc.n("lola") + " goes with " + sc.n("chad") + ". " +
+                    "Way more entertaining than boring, lame Tom.",
                 button: [
                     { chatID: -1, text: "...", callback: "endlolaboyChad" }
                 ]

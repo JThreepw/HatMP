@@ -115,32 +115,31 @@ room100.chat = function(chatID){
         {
             chatID: 1,
             speaker: "me",
-            text: "I'm to tired to work today.",
+            text: "I'm too tired to work today.",
             button: []
         },
         {
             chatID: 2,
             speaker: "me",
-            text: "I have to wear jeans and a t-shirt to work. ",
+            text: "I have to wear jeans and a T-shirt to work.",
             button: []
         },
         {
             chatID: 3,
             speaker: "!burlysecurity",
-            text: "Site's closed at night and on Sundays. Move along cutie pie. ",
+            text: "Site's closed at night and on Sundays. Move along, cutie pie.",
             button: []
         },
         {
             chatID: 4,
             speaker: "thinking",
-            text: "I'm still working on this. Here's two girls in a rainstorm of cum. ",
-            button: [{ chatID: -1, text: "[ok]", callback: "leave" }]
+            text: "I'm still working on this. Here are two girls in a rainstorm of cum.",
+            button: [{ chatID: -1, text: "OK", callback: "leave" }]
         },
         {
             chatID: 5,
             speaker: "thinking",
-            text: "I shouldn't go back here until I see what that Missy lady has. " +
-                "I should get a PI license and go her purple building in the city. ",
+            text: "I shouldn't go back here until I see what that Missy lady has to offer. I should get a PI license and go to her purple building in the city.",
             button: [{ chatID: -1, text: "...", callback: "leave" }]
         }
     ];

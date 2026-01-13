@@ -69,7 +69,7 @@ room75.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "thinking",
-            text: "The door's locked. ",
+            text: "The door's locked.",
             button: [
                 { chatID: -1, text: "...", callback: "leave" }
             ]
@@ -77,7 +77,7 @@ room75.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "thinking",
-            text: "The door's locked. ",
+            text: "The door's locked.",
             button: [
                 { chatID: -1, text: "Pick the Lock", callback: "pick" },
                 { chatID: -1, text: "...", callback: "leave" },
@@ -86,7 +86,7 @@ room75.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "thinking",
-            text: "Crap! That didn't work. ",
+            text: "Crap! That didn't work.",
             button: [
                 { chatID: -1, text: "Leave", callback: "leave" },
             ]

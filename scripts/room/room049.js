@@ -163,8 +163,7 @@ room49.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "thinking",
-            text: "Something else is poking my butt... Maybe there's a " +
-                "pencil in his pocket? ",
+            text: "Something else is poking my butt... Maybe there's a pencil in his pocket?",
             button: [
                 { chatID: 2, text: "...", callback: "stand_1c" },
                 { chatID: -1, text: "[Silently move away]", callback: "nextStop" }
@@ -173,8 +172,8 @@ room49.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "thinking",
-            text: "OOoooo That's totally not a pencil in his pocket. He just slipped a " +
-                "finger inside me and is molesting my butt! There's so many people. I shouldn't make a scene. I " +
+            text: "Ooo... That's totally not a pencil in his pocket. He just slipped a " +
+                "finger inside me and is molesting my butt! There are so many people. I shouldn't make a scene. I " +
                 "just hope he stops!",
             button: [
                 { chatID: 3, text: "...", callback: "stand_1d" },
@@ -194,8 +193,7 @@ room49.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "thinking",
-            text: "OOoo no! He just shoved his cock up my ass! He just raped by ass. I should be so, " +
-                "mad right now but it feels so good.",
+            text: "Oh no! He just shoved his cock up my ass! He just raped my ass. I should be so mad right now, but it feels so good.",
             button: [
                 { chatID: 5, text: "...", callback: "stand_1f" },
             ]
@@ -203,9 +201,8 @@ room49.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "thinking",
-            text: "I wonder if anyone knows. Is no one is saying anything while " +
-                "this man just fucks my ass in a crowded train? I wonder if they know. They have to " +
-                "have to know I'm getting fucked by some stranger. Maybe they all think I asked for it.",
+            text: "I wonder if anyone knows. Is no one saying anything while " +
+                "this man just fucks my ass in a crowded train? I wonder if they know. They have to know I'm getting fucked by some stranger. Maybe they all think I asked for it.",
             button: [
                 { chatID: 6, text: "...", callback: "stand_1g" },
             ]
@@ -215,7 +212,7 @@ room49.chat = function (chatID) {
             speaker: "thinking",
             text: "I know that feeling. I can feel his cock getting super hard and twitching. " +
                 "He totally just came in me and I don't even know his face. I hope it doesn't " +
-                "leak out on the floor. I must clench my hole so I don't leak everywhere! ",
+                "leak out on the floor. I must clench my hole so I don't leak everywhere!",
             button: [
                 { chatID: 7, text: "...", callback: "stand_1h" },
             ]
@@ -233,15 +230,15 @@ room49.chat = function (chatID) {
             speaker: "!man",
             text: "Looks like someone's lookin' to get raped!",
             button: [
-                { chatID: 9, text: "wha? huh? Who said that?", callback: "rape" },
+                { chatID: 9, text: "Wha? Huh? Who said that?", callback: "rape" },
             ]
         },
         {
             chatID: 9,
             speaker: "!man",
-            text: "I said that! And I meant it too! ",
+            text: "I said that! And I meant it too!",
             button: [
-                { chatID: 10, text: "Oh fuck! I can feel you dick hitting my bussy button! Fuck it feels so good I'm cumming in front of everyone!", callback: "" },
+                { chatID: 10, text: "Oh fuck! I can feel your dick hitting my bussy button! Fuck, it feels so good I'm cumming in front of everyone!", callback: "" },
             ]
         },
         {
@@ -249,14 +246,13 @@ room49.chat = function (chatID) {
             speaker: "stormy",
             text: "Haha! You're cumming more than he is!",
             button: [
-                { chatID: 11, text: "I just keep orgasmining! I can't help it!", callback: "endrape" },
+                { chatID: 11, text: "I just keep orgasming! I can't help it!", callback: "endrape" },
             ]
         },
         {
             chatID: 11,
             speaker: "!girl3",
-            text: "So gross! I think I got cum on " +
-                "on my shoes. This is why I hate coming to the city. ",
+            text: "So gross! I think I got cum on my shoes. This is why I hate coming to the city.",
             button: [
                 { chatID: -1, text: "*sigh*", callback: "nextStop" },
             ]

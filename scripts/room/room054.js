@@ -359,9 +359,8 @@ room54.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "candy",
-            text: "Now I've seen boys masturbate. They just squeeze and jack their cock " +
-                "like it's been bad. Girls need to have a little finesse. Let's show her how. " +
-                "strip down and get on the bed little girl.",
+            text: "Now I've seen boys masturbate. They just squeeze and beat their cock like it's bad. Girls need to have a little finesse. Let's show her how. " +
+                "Strip down and get on the bed, little girl.",
             button: [
                 { chatID: 4, text: "[Strip and get on the bed]", callback: "e4_0" },
             ]
@@ -369,10 +368,10 @@ room54.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "tiffany",
-            text: "You look so enchanting laying like that. You're going to be our " +
+            text: "You look so enchanting lying like that. You're going to be our " +
                 "new favorite toy. Now a girl's best friend is lube. Until you can " +
                 "make your own lube, we'll just have to apply some. Now just relax " +
-                "while I make your pussy nice a wet. ",
+                "while I make your pussy nice and wet.",
             button: [
                 { chatID: -1, text: "...", callback: "e4_1" },
             ]
@@ -380,7 +379,7 @@ room54.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "candy",
-            text: "You really did lube that pussy up. Sometime I wish I had a penis so " +
+            text: "You really did lube that pussy up. Sometimes I wish I had a penis so " +
                 "I could test her out.",
             button: [
                 { chatID: 6, text: "Mmmmm", callback: "" },
@@ -390,7 +389,7 @@ room54.chat = function (chatID) {
             chatID: 6,
             speaker: "tiffany",
             text: "She really has a hungry pussy. It kept sucking my finger in, hehehe. " +
-                "Move your pussy up. I want to really fuck you with my pink dildo. ",
+                "Move your pussy up. I want to really fuck you with my pink dildo.",
             button: [
                 { chatID: -1, text: "Yes! [Put your ass in the air]", callback: "e4_5" },
             ]
@@ -534,8 +533,8 @@ room54.chat = function (chatID) {
             speaker: "candy",
             text: "We're going to leave the Pussy Palace unlocked so you can use it " +
                 "anytime you want. We do leave the camera on, so everyone can " +
-                "see you. Right now there's almost a dozen horny men watching you " +
-                "put on your makeup. Say hi to everyone stroking to you right now! ",
+                "see you. Right now there are almost a dozen horny men watching you " +
+                "put on your makeup. Say hi to everyone stroking themselves to you right now! ",
             button: [
                 { chatID: 23, text: "What? Am I on camera?", callback: "" },
             ]
@@ -555,7 +554,7 @@ room54.chat = function (chatID) {
             speaker: "candy",
             text: "Oh hey! If you need some extra money you can make your own stream. " +
                 "Any money you earn you get to keep! If you ever want to join our " +
-                "stream when we do our show. Our fans would love to watch you fuck us!",
+                "stream when we do a show, our fans would love to watch you fuck us!",
             button: [
                 { chatID: 25, text: "Sweet!", callback: "" },
             ]
@@ -563,8 +562,7 @@ room54.chat = function (chatID) {
         {
             chatID: 25,
             speaker: "tiffany",
-            text: "Have fun. in here,and clean up after you're done. I'm going to go " +
-                "fuck " + sc.n("candy") + " now. ",
+            text: "Have fun in here, and clean up after you're done. I'm going to go fuck " + sc.n("candy") + " now.",
             button: [
                 { chatID: 26, text: "...", callback: "" },
             ]
@@ -611,7 +609,7 @@ room54.chat = function (chatID) {
             speaker: "candy",
             text: "Hahaha. I get so many dumb guys trying to hit on me in my uniform " +
                 "when I have the love of my life right here. You know you would look cute " +
-                "as a cheerleader! You ever cheer before? ",
+                "as a cheerleader! Have you ever cheered before?",
             button: [
                 { chatID: 31, text: "I haven't", callback: "" },
             ]
@@ -619,7 +617,7 @@ room54.chat = function (chatID) {
         {
             chatID: 31,
             speaker: "candy",
-            text: "You should give it a try. We meet at the football staduim Saturday morning. " +
+            text: "You should give it a try. We meet at the football stadium Saturday morning. " +
                 "Bring a gym outfit. It will be totally awesome if you make the team! We've been " +
                 "looking for a new girl! ",
             button: [
@@ -629,10 +627,10 @@ room54.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "candy",
-            text: "Haha, yeah. Plus you'll get so flexable as a cheerleader! It'll be fun " +
-                "having you there. ",
+            text: "Haha, yeah. Plus you'll get so flexible as a cheerleader! It'll be fun " +
+                "having you there.",
             button: [
-                { chatID: -1, text: "Sweet! I'll see you Saturday Morning! ", callback: "e6_end" },
+                { chatID: -1, text: "Sweet! I'll see you Saturday morning! ", callback: "e6_end" },
             ]
         },
 
@@ -873,7 +871,7 @@ room54.chat = function (chatID) {
             speaker: "tiffany",
             text: sc.n("candy") + " and I have our cam room and makeup room behind this door. We keep it locked because some " +
                 "pervert broke into our house and masturbated all over our bed. It would have been hot if he wasn't so homeless looking. " +
-            "The old gross pervert still grosses me out. Lets go in.",
+                "The old gross pervert still grosses me out. Let's go in.",
             button: [
                 { chatID: 29, text: "...", callback: "p2" }
             ]

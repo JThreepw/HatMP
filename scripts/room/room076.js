@@ -299,7 +299,7 @@ room76.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "bimbo",
-            text: "Oh, it's all locked up. Well I guess there's not much I can do with that. Too bad, I bet your cum would have been yummy! ",
+            text: "Oh, it's all locked up. Well, I guess there's not much I can do with that. Too bad, I bet your cum would have been yummy!",
             button: [
                 { chatID: -1, text: "oh yea.. oh well [leave]", callback: "leave1" }
             ]
@@ -307,7 +307,7 @@ room76.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "bimbo",
-            text: "Oh,I didn't realize you had a pussy! I though you were one of those guys with tits. Oh well, I guess I'll get my cum from someone else. ",
+            text: "Oh, I didn't realize you had a pussy! I thought you were one of those guys with tits. Oh well, I guess I'll get my cum from someone else.",
             button: [
                 { chatID: -1, text: "oh yea.. oh well [leave]", callback: "leave1" }
             ]
@@ -339,7 +339,7 @@ room76.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "bimbo",
-            text: "I love your cum! I think I'll wear it for a while! Feel free to come back and use me anytime sexy! ",
+            text: "I love your cum! I think I'll wear it for a while! Feel free to come back and use me anytime, sexy!",
             button: [
                 { chatID: -1, text: "Sure [Leave]", callback: "leave" }
             ]
@@ -381,7 +381,7 @@ room76.chat = function (chatID) {
             speaker: "thinking",
             text: "I wonder if she'll notice the globs of cum on her ass in the morning.",
             button: [
-                { chatID: -1, text: "[finish]", callback: "pussy3" }
+                { chatID: -1, text: "[Finish]", callback: "pussy3" }
             ]
         },
         {
@@ -397,14 +397,13 @@ room76.chat = function (chatID) {
             speaker: "bimbo",
             text: "zzZZZz zzZZZzzz",
             button: [
-                { chatID: -1, text: "[My little tiny cock won't please her, there's no point in even trying]", callback: "" }
+                { chatID: -1, text: "[My little tiny cock won't please her; there's no point in even trying]", callback: "" }
             ]
         },
         {
             chatID: 16,
             speaker: "thinking",
-            text: "MMmmm. I do love the cream of some young guy. Creamy and smooth, with just " +
-                "a hint of sweetness. Perfect when it's straight from the source. ",
+            text: "Mmm. I do love the cream of some young guy. Creamy and smooth, with just a hint of sweetness. Perfect when it's straight from the source.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -412,9 +411,7 @@ room76.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "thinking",
-            text: "Oh wow! That is a delicious mix of boy and girl cum! You get the thick " +
-                "nutty flavor from him, and the delicate musky froth from her. These two " +
-                "should really bottle this up so everyone can partake in their yumminess. ",
+            text: "Oh wow! That is a delicious mix of boy and girl cum! You get the thick nutty flavor from him and the delicate musky froth from her. These two should really bottle this up so everyone can partake in their yumminess.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]

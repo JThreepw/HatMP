@@ -40,7 +40,7 @@ room41.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "bigguy",
-            text: "Get lost kid. Got man's work to do here, unless you want to clean up rat traps. ",
+            text: "Get lost, kid. Got man's work to do here, unless you want to clean rat traps.",
             button: [
                 { chatID: -1, text: "I'll leave", callback: "" },
                 { chatID: -1, text: "I'll clean up rat traps! Joy!", callback: "room40" },
@@ -49,7 +49,7 @@ room41.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "bigguy",
-            text: "Get lost kid. Got man's work to do here. ",
+            text: "Get lost kid. Got man's work to do here.",
             button: [
                 { chatID: -1, text: "I'll leave", callback: "" },
             ]

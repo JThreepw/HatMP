@@ -90,7 +90,7 @@ room30.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "lola",
-            text: ".... always forget",
+            text: "I always forget.",
             button: [
                 { chatID: 3, text: "...", callback: "" }
             ]
@@ -106,7 +106,7 @@ room30.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "lola",
-            text: "The password is unicorn. You know it's my favorite animal.",
+            text: "The password is 'unicorn'. You know it's my favorite animal.",
             button: [
                 { chatID: 5, text: "...", callback: "" }
             ]
@@ -114,7 +114,7 @@ room30.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "eva",
-            text: "Thanks butthead! Was that sooooo hard?",
+            text: "Thanks, butthead! Was that sooooo hard?",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -124,21 +124,21 @@ room30.chat = function (chatID) {
             speaker: "eva",
             text: "What the FUCK. Get out your pervert!",
             button: [
-                { chatID: -1, text: "oh.. hahaha ... ok", callback: "angryout" }
+                { chatID: -1, text: "Oh.. hahaha ... ok", callback: "angryout" }
             ]
         },
         {
             chatID: 7,
             speaker: "lola",
-            text: sc.n("me") + "! ",
+            text: sc.n("me") + "!",
             button: [
-                { chatID: 8, text: ".....hi", callback: "" }
+                { chatID: 8, text: "...hi", callback: "" }
             ]
         },
         {
             chatID: 8,
             speaker: "lola",
-            text: "OMG Come in!",
+            text: "OMG, come in!",
             button: [
                 { chatID: -1, text: "Sweet!", callback: "enter" }
             ]

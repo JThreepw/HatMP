@@ -82,13 +82,13 @@ room56.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "me",
-            text: "I already took a shower today... I'm not OCD",
+            text: "I've already taken a shower today... I'm not OCD.",
             button: []
         },
         {
             chatID: 1,
             speaker: "me",
-            text: "Rubber ducky, you're the one.. You make bath time lots of fun",
+            text: "Rubber ducky, you're the one. You make bath time lots of fun.",
             button: [
                 { chatID: 3, text: "Shave your body", callback: "shaveBody" },
                 { chatID: -1, text: "Finish showering", callback: "finishShowering" }
@@ -97,7 +97,7 @@ room56.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "me",
-            text: "Rubber ducky, you're the one.. You make bath time lots of fun",
+            text: "Rubber ducky, you're the one. You make bath time lots of fun.",
             button: [
                 { chatID: -1, text: "Finish showering", callback: "finishShowering" }
             ]
@@ -105,7 +105,7 @@ room56.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "me",
-            text: "You shaved your body",
+            text: "You shaved your body.",
             button: [
                 { chatID: -1, text: "Finish showering", callback: "finishShowering" }
             ]
@@ -115,9 +115,9 @@ room56.chat = function (chatID) {
             speaker: "me",
             text: "Gotta get clean.",
             button: [
-                { chatID: 5, text: "Apply Makeup", callback: "" },
-                { chatID: 5, text: "Apply Lipstick", callback: "" },
-                { chatID: 6, text: "Wash Face", callback: "wash" },
+                { chatID: 5, text: "Apply makeup", callback: "" },
+                { chatID: 5, text: "Apply lipstick", callback: "" },
+                { chatID: 6, text: "Wash face", callback: "wash" },
                 { chatID: -1, text: "Finish", callback: "reloadRoom" }
             ]
         },
@@ -132,7 +132,7 @@ room56.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "me",
-            text: "All Clean",
+            text: "All clean.",
             button: [
                 { chatID: -1, text: "Finish", callback: "reloadRoom" }
             ]

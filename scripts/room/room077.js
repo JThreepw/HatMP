@@ -448,14 +448,14 @@ room77.chat = function (chatID) {
             speaker: "bimbo",
             text: "Hello...",
             button: [
-                { chatID: 1, text: "Hi. I'm the pizza delivery man. ", callback: "" },
+                { chatID: 1, text: "Hi. I'm the pizza delivery man.", callback: "" },
                 { chatID: -1, text: "Yelp! *Run away*", callback: "leave" }
             ]
         },
         {
             chatID: 1,
             speaker: "bimbo",
-            text: "I don't remember ordering a pizza. I don't have any money. ",
+            text: "I don't remember ordering a pizza. I don't have any money.",
             button: [
                 { chatID: 2, text: "Well then, how are you going to pay?", callback: "" }
             ]
@@ -463,16 +463,16 @@ room77.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "bimbo",
-            text: "I'm so sorry. I don't know. ",
+            text: "I'm so sorry. I don't know.",
             button: [
                 { chatID: -1, text: "[Take your dick out]", callback: "fuck0" },
-                { chatID: -1, text: "Well you're not getting a pizza! ", callback: "leave" },
+                { chatID: -1, text: "Well you're not getting a pizza!", callback: "leave" },
             ]
         },
         {
             chatID: 3,
             speaker: "bimbo",
-            text: "I don't know what you want me to do with that. There's a thing blocking your cock. ",
+            text: "I don't know what you want me to do with that. There's something blocking your cock.",
             button: [
                 { chatID: -1, text: "Oh yeah. Crap. Well I guess I'll just go home and cry. No pizza for you.", callback: "leave" }
             ]
@@ -480,16 +480,15 @@ room77.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "bimbo",
-            text: "It's so tiny. Your mom must be disappointed. Why is it so tiny?  ",
+            text: "It's so tiny. Your mom must be disappointed. Why is it so tiny?",
             button: [
-                { chatID: 5, text: "I don't know. I just have a small dick. ", callback: "" }
+                { chatID: 5, text: "I don't know. I just have a small dick.", callback: "" }
             ]
         },
         {
             chatID: 5,
             speaker: "bimbo",
-            text: "Well I don't play with tiny cocks. You find a tiny woman to have sex with. Maybe a " +
-                "girl with a tiny pussy. You could totally date an oompa loompa. They're tiny! ",
+            text: "Well, I don't play with tiny cocks. You find a tiny woman to have sex with. Maybe a girl with a tiny pussy. You could totally date an Oompa-Loompa. They're tiny!",
             button: [
                 { chatID: -1, text: "Oh ok.", callback: "leave" }
             ]
@@ -497,15 +496,15 @@ room77.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "bimbo",
-            text: "Oh no. It seems I've gotten myself into a mess again. ",
+            text: "Oh no. It seems I've gotten myself into a mess again.",
             button: [
-                { chatID: -1, text: "Yes you have. ", callback: "icons" },
+                { chatID: -1, text: "Yes, you have.", callback: "icons" },
             ]
         },
         {
             chatID: 7,
             speaker: "me",
-            text: "I'm gunna fuck your face.",
+            text: "I'm gonna fuck your face.",
             button: [
                 { chatID: -1, text: "...", callback: "" },
             ]
@@ -513,7 +512,7 @@ room77.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "bimbo",
-            text: "Oh look. Free lotion! Yeah! ",
+            text: "Oh, look. Free lotion! Yeah!",
             button: [
                 { chatID: 9, text: "That's my good girl.", callback: "" },
             ]
@@ -521,7 +520,7 @@ room77.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "bimbo",
-            text: "...Wait! Where's pizza? ",
+            text: "...Wait! Where's the pizza?",
             button: [
                 { chatID: -1, text: "Yelp!", callback: "leave" },
             ]
@@ -537,9 +536,9 @@ room77.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "bimbo",
-            text: "Oh. That's ok. I have tacos coming. ",
+            text: "Oh. That's ok. I have tacos coming.",
             button: [
-                { chatID: -1, text: "oh.. ok.", callback: "" },
+                { chatID: -1, text: "Oh... ok.", callback: "" },
             ]
         },
         {
@@ -553,8 +552,7 @@ room77.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "bimbo",
-            text: "Ok. My doctor told me to tell people not to cum inside me, 'cuase, uhhhh. " +
-                "I don't remember why. Something about bills, or I have chills. I don't know. ",
+            text: "Ok. My doctor told me to tell people not to cum inside me, because, uhhhh, I don't remember why. Something about bills, or I have chills. I don't know.",
             button: [
                 { chatID: -1, text: "...", callback: "" },
             ]
@@ -562,8 +560,7 @@ room77.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "bimbo",
-            text: "Oh no. My doctors's going to be so mad at me. I promised I wouldn't let anyone " +
-                "cum in me. Maybe I just won't tell him! He can't be mad if he doesn't know. ",
+            text: "Oh no. My doctor's going to be so mad at me. I promised I wouldn't let anyone cum in me. Maybe I just won't tell him! He can't be mad if he doesn't know.",
             button: [
                 { chatID: 15, text: "That sounds like a smart choice", callback: "" },
             ]
@@ -571,25 +568,23 @@ room77.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "bimbo",
-            text: "Awww. I've never been called smart. Most guys just say I'm hot, or I'm a " +
-                "good girl... wait... Where's my pizza? ",
+            text: "Aww, I've never been called smart. Most guys just say I'm hot, or I'm a good girl... Wait... Where's my pizza?",
             button: [
-                { chatID: -1, text: "yelp!", callback: "leave" },
+                { chatID: -1, text: "Yelp!", callback: "leave" },
             ]
         },
         {
             chatID: 16,
             speaker: "bimbo",
-            text: "I'm leaking again. That's why my rug is white, so I can just rub it in. Saves " +
-                "clean up time! A good fuck makes me so hungry... where's my pizza? ",
+            text: "I'm leaking again. That's why my rug is white, so I can just rub it in. Saves clean up time! A good fuck makes me so hungry... Where's my pizza?",
             button: [
-                { chatID: -1, text: "yelp!", callback: "leave" },
+                { chatID: -1, text: "Yelp!", callback: "leave" },
             ]
         },
         {
             chatID: 17,
             speaker: "me",
-            text: "I'm going to fuck you up your tight little asshole. ",
+            text: "I'm going to fuck you up your tight little asshole.",
             button: [
                 { chatID: 18, text: "...", callback: "anal0" },
             ]
@@ -597,7 +592,7 @@ room77.chat = function (chatID) {
         {
             chatID: 18,
             speaker: "bimbo",
-            text: "Oh. I love anal play! ",
+            text: "Oh. I love anal play!",
             button: [
                 { chatID: 19, text: "...", callback: "anal1" },
             ]
@@ -613,8 +608,7 @@ room77.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "bimbo",
-            text: "I haven't been fucked like this since my bondage gang bang! Anal always " +
-                "makes me hungry. Hey where's my pizza? ",
+            text: "I haven't been fucked like this since my bondage gangbang! Anal always makes me hungry. Hey, where's my pizza?",
             button: [
                 { chatID: -1, text: "Yelp!", callback: "leave" },
             ]
@@ -624,4 +618,4 @@ room77.chat = function (chatID) {
         return cArray[chatID];
     else
         return [];
-}; 
+};

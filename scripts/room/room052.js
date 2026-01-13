@@ -270,7 +270,7 @@ room52.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "me",
-            text: "How Long do you want to sleep?",
+            text: "How long do you want to sleep?",
             button: [
                 { chatID: -1, text: "Sleep till morning", callback: "nap_sleep" },
                 { chatID: -1, text: "Cancel", callback: "" }

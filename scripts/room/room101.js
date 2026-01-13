@@ -310,7 +310,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 0,
                 speaker: "me",
-                text: "hmmmm",
+                text: "Hmmm.",
                 button: [
                     { chatID: 1, text: "", callback: "" }
                 ]
@@ -318,7 +318,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 1,
                 speaker: "tina",
-                text: "Hello sir, what can i do for you?",
+                text: "Hello, sir. What can I do for you?",
                 button: [
                     { chatID: -1, text: "Nothing, it appears I'm lost.", callback: "leave" },
                     { chatID: 2, text: "You can help me out of your clothes.", callback: "angry" }
@@ -327,7 +327,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 2,
                 speaker: "tina",
-                text: "Who says that!? You need to leave before I call the police!",
+                text: "Who says that?! You need to leave before I call the police!",
                 button: [
                     { chatID: -1, text: ":/", callback: "leave" }
                 ]
@@ -335,7 +335,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 3,
                 speaker: "tina",
-                text: "Hello sir, what can i do for you?",
+                text: "Hello sir. What can I do for you?",
                 button: [
                     { chatID: 4, text: "I'm here for the job", callback: "" }
                 ]
@@ -343,9 +343,9 @@ room101.chat = function (chatID) {
             {
                 chatID: 4,
                 speaker: "tina",
-                text: "Perfect, please enter the door to the boss' office",
+                text: "Perfect. Please enter the door to the boss's office.",
                 button: [
-                    { chatID: -1, text: "yes ma'am", callback: "createDoor" }
+                    { chatID: -1, text: "Yes ma'am", callback: "createDoor" }
                 ]
             },
             {
@@ -359,7 +359,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 6,
                 speaker: "tina",
-                text: "Here you go",
+                text: "Here you go.",
                 button: [
                     { chatID: 900, text: "Flirt with " + sc.n("tina"), callback: "" },
                     { chatID: -1, text: "Thanks babe", callback: "endday" },
@@ -368,42 +368,40 @@ room101.chat = function (chatID) {
             {
                 chatID: 7,
                 speaker: "tina",
-                text: "hehehe, you're soo cute!",
+                text: "Hehe, you're so cute!",
                 button: [
-                    { chatID: -1, text: "Thanks babe", callback: "" }
-                ]
+                 { chatID: -1, text: "Thanks babe", callback: "" }
+                   ]
             },
             {
                 chatID: 8,
                 speaker: "tina",
-                text: "Hey " + sc.n("me") + " What do you want to talk about?",
+                text: "Hey " + sc.n("me") + ", what do you want to talk about?",
                 button: [
                     { chatID: 12, text: "How much do I get paid each day?", callback: "payQuestion" },
-                    //{ chatID: sc.getstep("tina") < 10 ? 19 : sc.getstep("tina") < 16 ? 20 : 21, text: "How beautiful you are.", callback: "" },
                     { chatID: -1, text: "Nothing", callback: "" }
                 ]
             },
             {
                 chatID: 9,
                 speaker: "tina",
-                text: "Hey " + sc.n("me") + "! The workday has started, you need to get out there and start working. ",
+                text: "Hey " + sc.n("me") + "! The workday has started, you need to get out there and start working.",
                 button: [
-                    { chatID: -1, text: "OK see you later babe", callback: "" }
+                    { chatID: -1, text: "OK, see you later, babe", callback: "" }
                 ]
             },
             {
                 chatID: 10,
                 speaker: "tina",
-                text: "Sorry " + sc.n("me") + " The workday starts before 10 AM. Please come back first thing in the morning. ",
+                text: "Sorry " + sc.n("me") + ". The workday starts before 10 AM. Please come back first thing in the morning.",
                 button: [
-                    { chatID: -1, text: "OK see you later babe", callback: "" }
+                    { chatID: -1, text: "OK, see you later, babe", callback: "" }
                 ]
             },
             {
                 chatID: 11,
                 speaker: "tina",
-                text: "Oh My God! I can't believe you caught me getting busy with myself. I just can't help it being around " +
-                    "so many sexy guys all day. ",
+                text: "Oh my God! I can't believe you caught me getting busy with myself. I just can't help it being around so many sexy guys all day.",
                 button: [
                     { chatID: 12, text: "Don't worry " + sc.n("tina") + ", I was enjoying the show.", callback: "postShow" }
                 ]
@@ -441,7 +439,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 16,
                 speaker: "tina",
-                text: "Awwwww " + sc.n("me") + " you're sweetest, but I don't like sweets; I like rough dominating cock.",
+                text: "Awwww " + sc.n("me") + ", you're the sweetest, but I don't like sweets; I like rough, dominating cock.",
                 button: [
                     { chatID: -1, text: "...", callback: "endday" }
                 ]
@@ -465,7 +463,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 19,
                 speaker: "tina",
-                text: "Awwww you're cute.",
+                text: "Aww, you're cute.",
                 button: [
                     { chatID: -1, text: "...", callback: "endday" }
                 ]
@@ -481,7 +479,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 21,
                 speaker: "tina",
-                text: "Stop being nice, meet me a the club and get ready to pull my hair. [Club not built yet]",
+                text: "Stop being nice, meet me at the club and get ready to pull my hair. [Club not built yet]",
                 button: [
                     { chatID: -1, text: "...", callback: "endday" }
                 ]
@@ -489,7 +487,7 @@ room101.chat = function (chatID) {
             {
                 chatID: 22,
                 speaker: "tina",
-                text: "Oh My God. Get out now!",
+                text: "Oh my God. Get out now!",
                 button: [{ chatID: -1, text: "Of course", callback: "leave" }]
             }
         ];

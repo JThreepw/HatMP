@@ -654,7 +654,7 @@ room27.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "me",
-            text: "Hey good looking",
+            text: "Hey, good looking.",
             button: [
                 { chatID: -1, text: "Makeup", callback: "checkmakeup" },
                 { chatID: 0, text: "Wash face", callback: "wash" },
@@ -683,7 +683,7 @@ room27.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "me",
-            text: "My Face is all clean.",
+            text: "My face is all clean.",
             button: [
                 { chatID: 0, text: "Do something else", callback: "" },
                 { chatID: -1, text: "Finish", callback: "return" }
@@ -692,8 +692,7 @@ room27.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "tiffany",
-            text: "So I'm going to teach you how to put on makeup! Since this is your first time I'm going to teach you how to put " +
-            "on light makeup. Ready?",
+            text: "So I'm going to teach you how to put on makeup! Since this is your first time, I'm going to teach you how to apply light makeup. Ready?",
             button: [
                 { chatID: 5, text: "Ready", callback: "light" }
             ]
@@ -701,7 +700,7 @@ room27.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "tiffany",
-            text: "OOoooo there, aren't you a pretty girl!",
+            text: "Ooo, aren't you a pretty girl!",
             button: [
                 { chatID: 6, text: "I really am.", callback: "" }
             ]
@@ -709,8 +708,7 @@ room27.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "tiffany",
-            text: "Next is your lipstick. I'm going to make your lips so so so pretty. All the girls will be jealous of your pretty mouth. " +
-            "What color do you want to make your lips?",
+            text: "Next is your lipstick. I'm going to make your lips so, so, so pretty. All the girls will be jealous of your pretty mouth. What color do you want to make your lips?",
             button: [
                 { chatID: 7, text: "Red", callback: "red" },
                 { chatID: 7, text: "Purple", callback: "purple" },
@@ -728,9 +726,7 @@ room27.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "tiffany",
-            text: "I'm going to give you the key to the Pussy Palace. Feel free to use it anytime you want. Careful the webcam is always " +
-                "on, so everything you do in here is broadcasted to thousands of horny perverts. Haha, they can even watch you put on " +
-            "you pretty makeup! Say hi to everyone out there!",
+            text: "I'm going to give you the key to the Pussy Palace. Feel free to use it anytime you want. Careful the webcam is always on, so everything you do in here is broadcast to thousands of horny perverts. Haha, they can even watch you put on your pretty makeup! Say hi to everyone out there!",
             button: [
                 { chatID: 9, text: "What... I'm on camera?", callback: "killkey" }
             ]
@@ -747,8 +743,7 @@ room27.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "tiffany",
-            text: "Oh hey! If you need some extra money you can play on our stream. Any money you earn you get to keep! If you ever " +
-            "want to join our stream we do a show at 5PM most days. Our fans would love to watch you fuck us!",
+            text: "Oh hey! If you need some extra money, you can play on our stream. We do a show at 5 PM most days. Our fans would love to watch you fuck us!",
             button: [
                 { chatID: 11, text: "oh sweet!", callback: "incTif" }
             ]
@@ -775,7 +770,7 @@ room27.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "me",
-            text: "I need to get with " + sc.n("tiffany") + " and learn how improve my makeup skills.",
+            text: "I need to meet with " + sc.n("tiffany") + " and learn how to improve my makeup skills.",
             button: [
                 { chatID: 16, text: "Apply Light Makeup", callback: "" }
             ]
@@ -783,7 +778,7 @@ room27.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "me",
-            text: "I need to get with " + sc.n("tiffany") + " some more and learn more tips!",
+            text: "I need to meet with " + sc.n("tiffany") + " some more and learn more tips!",
             button: [
                 { chatID: 16, text: "Apply Light Makeup", callback: "" },
                 { chatID: 17, text: "Apply Normal Makeup", callback: "" }
@@ -861,7 +856,7 @@ room27.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "tiffany",
-            text: "You're still not ready for a regular makeup, we're still going to go over light makeup. Ready? ",
+            text: "You're still not ready for regular makeup. We'll go over light makeup. Ready?",
             button: [
                 { chatID: -1, text: "Yes, please put makeup on my face.", callback: "lb" }
             ]
@@ -902,7 +897,7 @@ room27.chat = function (chatID) {
         {
             chatID: 28,
             speaker: "thinking",
-            text: "I need to buy a new eye shadow kit. ",
+            text: "I need to buy a new eyeshadow kit.",
             button: [
                 { chatID: 0, text: "Do something else", callback: "" },
                 { chatID: -1, text: "Finish", callback: "return" }
@@ -911,7 +906,7 @@ room27.chat = function (chatID) {
         {
             chatID: 29,
             speaker: "thinking",
-            text: "I'm not ready to put on eye shadow. [Need Makeup level 3]",
+            text: "I'm not ready to put on eyeshadow. [Need makeup level 3]",
             button: [
                 { chatID: 0, text: "Do something else", callback: "" },
                 { chatID: -1, text: "Finish", callback: "return" }
@@ -933,7 +928,7 @@ room27.chat = function (chatID) {
         {
             chatID: 30,
             speaker: "thinking",
-            text: "I don't feel comfortanble putting on makeup. [Need to unlock make]",
+            text: "I don't feel comfortable putting on makeup. [Need to unlock makeup]",
             button: [
                 { chatID: 0, text: "Do something else", callback: "" },
 

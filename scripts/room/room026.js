@@ -904,8 +904,8 @@ room26.chat = function (chatID) {
                 chatID: 1,
                 speaker: "landlord",
                 text: "I'm so glad you have such a manly job! You're really growing up. A few weeks working out there and you'll get " +
-                    "some big sexy man muscles! Some lucky girls going to just love running her hands all over your hard veiny construction " +
-                    "muscles... Anyway, I'm so happy you aren't a lazy fuck up anymore. ",
+                    "some big, sexy, manly muscles! Some lucky girl is going to love running her hands all over your hard, veiny construction " +
+                    "muscles... Anyway, I'm so happy you aren't a lazy fuck up anymore.",
                 button: [
                     { chatID: -1, text: "Thanks? ", callback: "passtime talk_0_complete" }
                 ]
@@ -1182,7 +1182,7 @@ room26.chat = function (chatID) {
             {
                 chatID: 32,
                 speaker: "thinking",
-                text: "So soft and comfortable. I'm just going to close my eyes for a minute. ",
+                text: "So soft and comfortable. I'm just going to close my eyes for a minute.",
                 button: [
                     { chatID: 33, text: "zzz", callback: "sit6" },
                 ]
@@ -1214,7 +1214,7 @@ room26.chat = function (chatID) {
             {
                 chatID: 36,
                 speaker: "landlord",
-                text: "Don't be sorry. Be quit. ",
+                text: "Don't be sorry. Be quiet. ",
                 button: [
                     { chatID: -1, text: "...", callback: "tvChatEnd" },
                 ]
@@ -1260,7 +1260,7 @@ room26.chat = function (chatID) {
                 chatID: 41,
                 speaker: "thinking",
                 text: "Wow. What a pleasant and wholesome time. I really enjoyed " +
-                    "just haning out with everyone. ",
+                    "just hanging out with everyone. ",
                 button: [
                     { chatID: 42, text: "...", callback: "" },
                 ]
@@ -1338,7 +1338,7 @@ room26.chat = function (chatID) {
                 chatID: 50,
                 speaker: "landlord",
                 text: "Nobody cares! Get out of the way so we can catch the end of our " +
-                    "show!!! Move!",
+                    "show! Move!",
                 button: [
                     { chatID: -1, text: "Oh. ok. 'night", callback: "leave" },
                 ]
@@ -1404,9 +1404,8 @@ room26.chat = function (chatID) {
                 chatID: 57,
                 speaker: "landlord",
                 text: "That looks pretty hard to me. Since we share in this house, " +
-                    sc.n("eva") + " you have ride it first, then " + sc.n("lola") + 
-                    ", and last me. You better keep that penis hard, becuse I could " +
-                    "use an orgasm. ",
+                    sc.n("eva") + " you have to ride it first, then " + sc.n("lola") + ", and last me. You better keep that penis hard, because I could " +
+                    "use an orgasm.",
                 button: [
                     { chatID: -1, text: "oh yeah!", callback: "f7" },
                 ]
@@ -1455,9 +1454,9 @@ room26.chat = function (chatID) {
             {
                 chatID: 62,
                 speaker: "landlord",
-                text: "Put your dick away! I'm watching my shows! ",
+                text: "Put your dick away! I'm watching my shows!",
                 button: [
-                    { chatID: -1, text: "OW! ow ow ow. *whipmer* ok", callback: "reset" },
+                    { chatID: -1, text: "OW! Ow, ow, ow. *whimper* OK", callback: "reset" },
                 ]
             },
             {
@@ -1493,8 +1492,7 @@ room26.chat = function (chatID) {
                 chatID: 66,
                 speaker: "landlord",
                 text: "Give me that tongue. I'm going to shove it right up my ass. " +
-                    "Maybe that will teach you a lesson on how to leave me alone to " +
-                    "watch my shows! Now lick my clean! ",
+                    "Maybe that will teach you a lesson on how to leave me alone to watch my shows! Now lick my asshole clean!",
                 button: [
                     { chatID: -1, text: "Yeethhh", callback: "q4" },
                 ]
@@ -1518,7 +1516,7 @@ room26.chat = function (chatID) {
             {
                 chatID: 69,
                 speaker: "thinking",
-                text: "She looks angry. I better stop here before she cuauses a scene. ",
+                text: "She looks angry. I better stop here before she causes a scene.",
                 button: [
                     { chatID: -1, text: "[Increase your level with her]", callback: "e_tv" },
                 ]
@@ -1547,10 +1545,8 @@ room26.chat = function (chatID) {
             {
                 chatID: 72,
                 speaker: "landlord",
-                text: "Get your fingers out of your " + g.makeSingular(sc.n("el")) + 
-                    "! Do you two really think I have lost my ability to smell of feel. " +
-                    sc.n("lola") + " go wash your vagina, it smells! " + sc.n("me") + " stop " +
-                    "fingering " + sc.n("lola") + ". Now follow me for your spanking!  ",
+                text: "Get your fingers out of your " + g.makeSingular(sc.n("el")) + "! Do you two really think I have lost my ability to smell or feel? " +
+                    sc.n("lola") + " go wash your vagina, it smells! " + sc.n("me") + " stop fingering " + sc.n("lola") + ". Now follow me for your spanking!",
                 button: [
                     { chatID: -1, text: "Awwwww", callback: "spanking" },
                 ]
@@ -1645,11 +1641,9 @@ room26.chat = function (chatID) {
                 chatID: 82,
                 speaker: "landlord",
                 text: "I also want to help you on your road to be a proper lady. " +
-                    "Meet me in the living room and we'll have a picnic. " +
-                    "Your first lesson on being a proper lady is proper clothing. " +
-                    "Wear a nice polka dot dress. Polka dots are the perfect dress " +
-                    "for a picnic outing. No rush. When you're ready to buy and wear " +
-                    "a dress I'll be here. ",
+                    "Meet me in the living room and we'll have a picnic. Your first lesson in being a proper lady is proper clothing. " +
+                    "Wear a nice polka dot dress. Polka dots are the perfect choice for a picnic dress. No rush. When you're ready to buy and wear " +
+                    "a dress I'll be here.",
                 button: [
                     { chatID: -1, text: "I will!", callback: "" },
                 ]
@@ -1674,7 +1668,7 @@ room26.chat = function (chatID) {
             {
                 chatID: 85,
                 speaker: "landlord",
-                text: "Such a beautiful day, down't you think?",
+                text: "Such a beautiful day, don't you think?",
                 button: [
                     { chatID: 86, text: "Oh yes, it is wonderful.", callback: "" }
                 ]
@@ -1682,7 +1676,7 @@ room26.chat = function (chatID) {
             {
                 chatID: 86,
                 speaker: "landlord",
-                text: "Such a beautiful day, down't you think?",
+                text: "Such a beautiful day, don't you think?",
                 button: [
                     { chatID: 87, text: "Oh yes, it is wonderful.", callback: "" }
                 ]
@@ -1691,8 +1685,8 @@ room26.chat = function (chatID) {
                 chatID: 87,
                 speaker: "landlord",
                 text: "So many changes. I'm so excited you've found your real self. I've always preferred " +
-                    "girls. I suppose when Harry left me for a 18 year old bimbo I've soured to men. I think that's why I've been so hard " +
-                    "on you. I've been afriad that you would turn out like him. ",
+                    "girls. I suppose when Harry left me for an 18 year old bimbo I've soured on men. I think that's why I've been so hard " +
+                    "on you. I've been afraid that you would turn out like him.",
                 button: [
                     { chatID: 88, text: "I'm nothing like Harry.", callback: "" }
                 ]
@@ -1700,9 +1694,8 @@ room26.chat = function (chatID) {
             {
                 chatID: 88,
                 speaker: "landlord",
-                text: "Oh honey I know! Harry was a man's man. The kind of of guy that that would go hunting, clean his deer, then " +
-                    "spend the rest of the night drinking with the boys. You're not much of a hunter and " +
-                    "in your cute little dress drinking with the boys is going to be... different.",
+                text: "Oh honey I know! Harry was a man's man. The kind of guy that would go hunting, clean his deer, then " +
+                    "spend the rest of the night drinking with the boys. You're not much of a hunter and in your cute little dress drinking with the boys is going to be... different.",
                 button: [
                     { chatID: 89, text: "Hehehe yeah", callback: "" }
                 ]
@@ -1710,7 +1703,7 @@ room26.chat = function (chatID) {
             {
                 chatID: 89,
                 speaker: "landlord",
-                text: "So I've been a woman for a while, and I know that you're new to it. Do you have any questions about your new found " +
+                text: "So I've been a woman for a while, and I know that you're new to it. Do you have any questions about your newfound " +
                     "femininity that I could help you with?",
                 button: [
                     { chatID: 91, text: "What's the best way to get rid of all this body hair!", callback: "" },
@@ -1743,7 +1736,7 @@ room26.chat = function (chatID) {
             {
                 chatID: 92,
                 speaker: "landlord",
-                text: "You look like a " + cl.cupsize() + ". I had that nice young girl at Popular Girl measure me. She's really good. ",
+                text: "You look like a " + cl.cupsize() + ". I had that nice young girl at Popular Girl measure me. She's really good.",
                 button: [
                     { chatID: 90, text: "I have more questions", callback: "" },
                     { chatID: 94, text: "Nothing", callback: "" }
@@ -2263,11 +2256,11 @@ room26.chat = function (chatID) {
             {
                 chatID: 147,
                 speaker: "landlord",
-                text: "Skin care is one of the best thing a girl can do for herself. Becuase we " +
-                    "wear makup we need to take care of our skin, becuase the makeup can block our " +
+                text: "Skin care is one of the best things a girl can do for herself. Because we " +
+                    "wear makeup we need to take care of our skin, because the makeup can block our " +
                     "pores. Also shaving and waxing can do a number on the skin. Be sure to use " +
                     "lotion after every shave and shower, clean and exfoliate your face and body, " +   
-                    "and don't get too much sun. It makes you wrinkle and look all old. ",
+                    "and don't get too much sun. It makes you wrinkle and look all old.",
                 button: [
                     { chatID: -1, text: "Thanks!", callback: "girl_boy0" },
                 ]
@@ -2276,10 +2269,10 @@ room26.chat = function (chatID) {
                 chatID: 148,
                 speaker: "landlord",
                 text: "Perky breasts are a gift to the young and small breasted. Now if you look at " +
-                    "my breats, they're no longer perky, but they are big and soft. Men may say " +
+                    "my breasts, they're no longer perky, but they are big and soft. Men may say " +
                     "they have a preference, but really they just want some boobs in their face. " +
-                    "Don't worry about how anyone else sees your brests, just as long as you're happy " +
-                    "with them. ",
+                    "Don't worry about how anyone else sees your breasts, as long as you're happy " +
+                    "with them.",
                 button: [
                     { chatID: -1, text: "Thanks!", callback: "girl_boobs0" },
                 ]

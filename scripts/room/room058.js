@@ -393,51 +393,51 @@ room58.sidechat = function (metalk) {
     let thisChat;
     let flirtChat;
     let sidechat = [
-        { user: "shakey998", txt: "Hey beautiful", hex: "#0a457d" },
-        { user: "XXKillstreakXX", txt: "Hi pretty girl", hex: "#05193b" },
-        { user: "XXKillstreakXX", txt: "You're all lossers! ", hex: "#05193b" },
-        { user: "tylie", txt: "Who's a naughty girl!", hex: "#6c2287" },
-        { user: "Jim", txt: "So hot damn I love stroking it <3", hex: "#0d915a" },
-        { user: "Daddy", txt: "Lol, that's what naughty DADDY'S do.", hex: "#13914a" },
-        { user: "Jesus", txt: "hola niña bonita ", hex: "#6476ed" },
-        { user: "Daddy6969", txt: "Show me your butt hole! ", hex: "#e33419" },
+        { user: "shakey998", txt: "Hey, beautiful", hex: "#0a457d" },
+        { user: "XXKillstreakXX", txt: "Hi, pretty girl", hex: "#05193b" },
+        { user: "XXKillstreakXX", txt: "You're all losers!", hex: "#05193b" },
+        { user: "tylie", txt: "Who's a naughty girl?", hex: "#6c2287" },
+        { user: "Jim", txt: "So hot, damn I love stroking it <3", hex: "#0d915a" },
+        { user: "Daddy", txt: "Lol, that's what naughty DADDIES do.", hex: "#13914a" },
+        { user: "Jesus", txt: "Hola, niña bonita", hex: "#6476ed" },
+        { user: "Daddy6969", txt: "Show me your butthole!", hex: "#e33419" },
         { user: "Hornydad69", txt: "Love those nipples", hex: "#d9d21a" },
         { user: "XXxGamerBxXX", txt: "Play with your pee pee", hex: "#5448a1" },
-        { user: "sharky-59564", txt: "Dance for us slut! ", hex: "#302e3b" },
-        { user: "LilFucker4206969", txt: "I want to be balls deep in you", hex: "#ff3300" },
-        { user: "Twekle98", txt: "Shake that ass! Shake for daddy ", hex: "#34e5eb" },
+        { user: "sharky-59564", txt: "Dance for us, slut!", hex: "#302e3b" },
+        { user: "LilFucker4206969", txt: "I want to be balls-deep in you", hex: "#ff3300" },
+        { user: "Twekle98", txt: "Shake that ass! Shake for Daddy", hex: "#34e5eb" },
         { user: "TitsMcGee", txt: "Spread your legs. Show Daddy that pussy", hex: "#e39e1e" },
         { user: "Roxy420", txt: "Daddy like", hex: "#8a8346" },
         { user: "DirtyDaddy69", txt: "I need a daughter like you", hex: "#22633e" },
         { user: "HighTower894", txt: "You look like this ho I know", hex: "#1a1701" },
-        { user: "BigDick420", txt: "Hot I'm rubbin my cock", hex: "#a12336" },
-        { user: "Grandpa", txt: "you like older men? I like you :)", hex: "#4a515e" },
-        { user: "Grandpa", txt: "I want to put you over my lap bby girl", hex: "#4a515e" },
+        { user: "BigDick420", txt: "Hot, I'm rubbin' my cock", hex: "#a12336" },
+        { user: "Grandpa", txt: "You like older men? I like you :)", hex: "#4a515e" },
+        { user: "Grandpa", txt: "I want to put you over my lap, bby girl", hex: "#4a515e" },
         { user: "Pisslover", txt: "Drink your piss! I wanna see you pee", hex: "#d3d622" },
         { user: "AssLicker", txt: "Spread your butthole! Show me that starfish", hex: "#a33329" },
         { user: "Sissy69", txt: "I love your look", hex: "#df70e0" },
-        { user: "Sissy69", txt: "Play with your cock bby", hex: "#df70e0" },
+        { user: "Sissy69", txt: "Play with your cock, bby", hex: "#df70e0" },
         { user: "CallMeDaddy", txt: "I'm going to suck that clitty", hex: "#910d12" },
-        { user: "CallMeDaddy", txt: "I want to fuck you so bad lil girl", hex: "#910d12" },
-        { user: "CallMeDaddy", txt: "Put on a show for daddy", hex: "#910d12" },
-        { user: "GreyHairs", txt: "Yuck! Not enough hair! ", hex: "#4a5e5d" },
+        { user: "CallMeDaddy", txt: "I want to fuck you so bad, lil girl", hex: "#910d12" },
+        { user: "CallMeDaddy", txt: "Put on a show for Daddy", hex: "#910d12" },
+        { user: "GreyHairs", txt: "Yuck! Not enough hair!", hex: "#4a5e5d" },
         { user: "XXyoungbloodXX", txt: "I think I'm in love", hex: "#475b73" },
         { user: "XXyoungbloodXX", txt: "You dirty fucking whore", hex: "#475b73" },
         { user: "XXyoungbloodXX", txt: "I want to spit on your asshole", hex: "#475b73" },
-        { user: "AssLicker", txt: "MMmmmm so lickable", hex: "#a33329" },
-        { user: "Grandpa", txt: "🍆🍑💦 I want you! ", hex: "#4a515e" },
-        { user: "Grandpa", txt: "🥵 ❤️❤️❤️ I'm in love! ", hex: "#4a515e" },
-        { user: "Grandpa", txt: "🍌 I'm gunna stuff your face ", hex: "#4a515e" },
+        { user: "AssLicker", txt: "Mmm, so lickable", hex: "#a33329" },
+        { user: "Grandpa", txt: "🍆🍑💦 I want you!", hex: "#4a515e" },
+        { user: "Grandpa", txt: "🥵 ❤️❤️❤️ I'm in love!", hex: "#4a515e" },
+        { user: "Grandpa", txt: "🍌 I'm gonna stuff your face", hex: "#4a515e" },
         { user: "BigDick420", txt: "💕 I'm going to wife you", hex: "#a12336" },
         { user: "sharky-59564", txt: "🥪 Get back to the kitchen! hehe", hex: "#302e3b" },
         { user: "Twekle98", txt: "I so want to fuck your ass!", hex: "#34e5eb" },
-        { user: "Jim", txt: "I'm cumming! Fuck you're hot!", hex: "#0d915a" },
-        { user: "Daddy", txt: "Show daddy your cum hole bby girl", hex: "#13914a" },
-        { user: "LilFucker4206969", txt: "I'm going to fist rape you", hex: "#ff3300" },
+        { user: "Jim", txt: "I'm cumming! Fuck, you're hot!", hex: "#0d915a" },
+        { user: "Daddy", txt: "Show daddy your cum hole, bby girl", hex: "#13914a" },
+        { user: "LilFucker4206969", txt: "I'm going to fist-rape you", hex: "#ff3300" },
         { user: "LilFucker4206969", txt: "I'm going to make you my rape slave", hex: "#ff3300" },
-        { user: "XXyoungbloodXX", txt: "Marry me baby", hex: "#475b73" },
+        { user: "XXyoungbloodXX", txt: "Marry me, baby", hex: "#475b73" },
         { user: "CallMeDaddy", txt: "Perfect ass for spanking.", hex: "#910d12" },
-        { user: "Romeo", txt: "My heart has found it's match", hex: "#1aba45" },
+        { user: "Romeo", txt: "My heart has found its match", hex: "#1aba45" },
         { user: "Romeo", txt: "Marry me, please!!!!", hex: "#1aba45" },
         { user: "Romeo", txt: "❤️🧡💛💚💙💜", hex: "#1aba45" },
         { user: "Romeo", txt: "🥰🔥🔥🥰 My passion is you", hex: "#1aba45" },
@@ -447,19 +447,19 @@ room58.sidechat = function (metalk) {
         g.internal.viewers -= Math.floor(Math.random() * 5);
         if (g.internal.excitement > 7 && g.internal.viewers > 10) {
             g.internal.excitement -= 2;
-            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone wanna give me some tips? ", hex: "#f587af" });
-            g.internal.chat.push({ user: "DirtyDaddy", txt: "Anything for you bby girl!", hex: "#1900ff" });
+            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone wanna give me some tips?", hex: "#f587af" });
+            g.internal.chat.push({ user: "DirtyDaddy", txt: "Anything for you, bby girl!", hex: "#1900ff" });
             g.internal.money += g.rand(4, 12);
         }
         else if (g.internal.viewers > 5) {
             g.internal.excitement -= 2;
-            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone wanna give me some tips? ", hex: "#f587af" });
-            g.internal.chat.push({ user: "XX_assFUCKER69_XX", txt: "No! Show us your butthole! ", hex: "#1900ff" });
+            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone wanna give me some tips?", hex: "#f587af" });
+            g.internal.chat.push({ user: "XX_assFUCKER69_XX", txt: "No! Show us your butthole!", hex: "#1900ff" });
         }
         else {
             g.internal.excitement -= 2;
-            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone wanna give me some tips? ", hex: "#f587af" });
-            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone? ", hex: "#f587af" });
+            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone wanna give me some tips?", hex: "#f587af" });
+            g.internal.chat.push({ user: sc.n("me"), txt: "Anyone?", hex: "#f587af" });
         }
     }
     else if (metalk === "flirt") {

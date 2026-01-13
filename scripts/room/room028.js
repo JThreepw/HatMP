@@ -627,12 +627,12 @@ room28.btnclick = function (name) {
             case "qpanties":
                 nav.killall();
                 nav.bg("28_transformation/d_panties.jpg");
-                chat(3, 28);
+                chat(4, 28);
                 break;
             case "qbra":
                 nav.killall();
                 nav.bg("28_transformation/d_bra.jpg");
-                chat(4, 28);
+                chat(3, 28);
                 break;
             case "qdildo":
                 nav.killall();
@@ -855,6 +855,17 @@ room28.chat = function (chatID) {
             },
             {
                 chatID: 3,
+                speaker: "me",
+                text: "I don't really feel like I belong in my own body. I really feel like I'm far too " +
+                    "feminine for who I am, but I'm afraid to change. Maybe I should start wearing a bra. Just to " +
+                    "see what it's like to be a secret girl. That's what I'll do. I'll make it a point to always wear " +
+                    "a bra.",
+                button: [
+                    { chatID: -1, text: "[If you have a bra you have to wear it]", callback: "endDream" }
+                ]
+            },
+            {
+                chatID: 4,
                 speaker: "thinking",
                 text: "I wonder what it feels like to wear panties. They're so soft and feminine. I wonder " +
                     "what I would look like if I was more girly. I bet I would make a hot chick. I would so love " +
@@ -866,23 +877,12 @@ room28.chat = function (chatID) {
                 ]
             },
             {
-                chatID: 4,
-                speaker: "thinking",
-                text: "I don't really feel like I belong in my own body. I really feel like I'm far too " +
-                    "feminine for who I am, but I'm afraid to change. Maybe I should start wearing a bra. Just to " +
-                    "see what it's like to be a secret girl. That's what I'll do. I'll make it a point to always wear " +
-                    "a bra. ",
-                button: [
-                    { chatID: -1, text: "[If you have a bra you have to wear it]", callback: "endDream" }
-                ]
-            },
-            {
                 chatID: 5,
                 speaker: "thinking",
                 text: "I wonder what having a pussy feels like? It's so not fair that girls can have so " +
                     "many orgasms, but I only get one. I wonder if my butt can orgasm like a girl. They're " +
                     "both holes. I'll have to try it. Maybe I'll get a dildo. Something small and fun. Nothing " +
-                    "crazy. I'm not a whore. ",
+                    "crazy. I'm not a whore.",
                 button: [
                     { chatID: -1, text: "[You can buy dildos and plugs]", callback: "endDream" }
                 ]
@@ -917,7 +917,7 @@ room28.chat = function (chatID) {
             {
                 chatID: 9,
                 speaker: "thinking",
-                text: "Tattoos are so hot. Words here ",
+                text: "Tattoos are so hot. It shows everyone what a slut I can be. ",
                 button: [
                     { chatID: -1, text: "[You can get tattoos]", callback: "endDream" }
                 ]
@@ -926,7 +926,7 @@ room28.chat = function (chatID) {
                 chatID: 10,
                 speaker: "thinking",
                 text: "I need to get some cash. Perhaps I could do a little whoring on the street " +
-                    "corner. 'cause I'm like a giant whore. and a slut. ",
+                    "corner. 'Cause I'm like a giant whore and a slut.",
                 button: [
                     { chatID: -1, text: "[You can be a whore on the street corner]", callback: "endDream" }
                 ]
@@ -950,7 +950,7 @@ room28.chat = function (chatID) {
             {
                 chatID: 13,
                 speaker: "thinking",
-                text: "Words here. bimbo whore slut bla bla  ",
+                text: "Fuck bras and panties! I need to give everyone easy access to my bussy! ",
                 button: [
                     { chatID: -1, text: "[Bra and panties are optional]", callback: "endDream" }
                 ]
@@ -969,8 +969,8 @@ room28.chat = function (chatID) {
                 text: "That was so exhilarating wearing panties outside! I wonder if anyone " +
                     "could tell I was wearing them. I hope I didn't have panty lines. I " +
                     "did see that one girl looking at me strangely. I bet she knew. I wonder " +
-                    "if she thinks I'm some sort of sick weird-o. Crap. She probably did think " +  
-                    "I'm a pervert. ",
+                    "if she thinks I'm some sort of sick weirdo. Crap. She probably did think " +  
+                    "I'm a pervert.",
                 button: [
                     { chatID: -1, text: "...", callback: "endDream" }
                 ]
@@ -979,9 +979,9 @@ room28.chat = function (chatID) {
                 chatID: 16,
                 speaker: "thinking",
                 text: "Holy fuck that was hot. Her wet slippery tongue twisting around my mouth " +
-                    "and tongue while she played with my dick. Fuck!! This is so wrong! I really " +
+                    "while she played with my dick. Fuck!! This is so wrong! I really " +
                     "shouldn't keep pushing it with my " + sc.n("landlord") + ". What would people " +
-                    "think. I should stop. I'm taking advantage of her just so I can nut, but I don't " +
+                    "think? I should stop. I'm taking advantage of her just so I can nut, but I don't " +
                     "know if I can stop. I need her. I need to be inside her.",
                 button: [
                     { chatID: -1, text: "...", callback: "endDream" }
@@ -1050,8 +1050,7 @@ room28.chat = function (chatID) {
                 chatID: 23,
                 speaker: "thinking",
                 text: "I'm so excited for this new school. I don't know what changes are coming, " +
-                    "but I can feel my mind and body wanting to change to something I'm currently " +
-                    "not. But I'm scared to change. ",
+                    "but I can feel my mind and body wanting to change to something I'm not yet. But I'm scared to change.",
                 button: [
                     { chatID: -1, text: "...", callback: "sleepunlock" }
                 ]
@@ -1092,9 +1091,9 @@ room28.chat = function (chatID) {
                 chatID: 27,
                 speaker: "thinking",
                 text: "In the phone settings you can change how the transformations work at any time. " +
-                    "To make your own choices set transformations to ON. To let the game decide swith it " +
-                    "to AUTO. If you have all the transformations you want switch it to off. You can see your " +
-                    "current status anytime by selecting your own avatar in your phone CHARACTERS page. ",
+                    "To make your own choices set transformations to ON. To let the game decide switch it " +
+                    "to AUTO. If you have all the transformations you want switch it to OFF. You can see your " +
+                    "current status anytime by selecting your own avatar in your phone CHARACTERS page.",
                 button: [
                     { chatID: -1, text: "[Sissy transformations unlocked]", callback: "endDream" }
                 ]
@@ -1105,7 +1104,7 @@ room28.chat = function (chatID) {
                 text: "I can't believe I have panties! I know they're dirty, but that makes them " +
                     "so much better! I should wear them! I need to wear them out in public. But " +
                     "under my clothes so no one knows. It will be my little secret that no one " +
-                    "will ever know about! I do so much love wearing girl panties!",
+                    "will ever know about! I do so love wearing girl panties!",
                 button: [
                     { chatID: -1, text: "[Wearing panties in public is now unlocked]", callback: "endDream" }
                 ]

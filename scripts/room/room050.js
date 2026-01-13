@@ -79,10 +79,10 @@ room50.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "treyvon",
-            text: "Hey boy, you're not allowed here.",
+            text: "Hey, boy, you're not allowed here.",
             button: [
                 { chatID: -1, text: "I know", callback: "" },
-                { chatID: 1, text: "Can I rent an apartment", callback: "" }
+                { chatID: 1, text: "Can I rent an apartment?", callback: "" }
             ]
         },
         {
@@ -96,7 +96,7 @@ room50.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "treyvon",
-            text: "Hey " + sc.n("tiffany") + " welcome home. Who's this cutie you have with you?",
+            text: "Hey " + sc.n("tiffany") + ", welcome home. Who's this cutie you have with you?",
             button: [
                 { chatID: 3, text: "...", callback: "" }
             ]
@@ -104,7 +104,7 @@ room50.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "tiffany",
-            text: "This is my new friend, She's lot of fun! She's just visiting. ",
+            text: "This is my new friend. She's a lot of fun! She's just visiting.",
             button: [
                 { chatID: 4, text: "...", callback: "" }
             ]
@@ -112,7 +112,7 @@ room50.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "treyvon",
-            text: "Ohhh you lookin' good baby girl. With a butt like that you gotta be able to shake them hips, sexy. ",
+            text: "Ohhh, you're lookin' good, baby girl. With a butt like that you gotta be able to shake them hips — sexy.",
             button: [
                 { chatID: 5, text: "...", callback: "" }
             ]
@@ -120,7 +120,7 @@ room50.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "tiffany",
-            text: "Oh she can totally shake it, can't you? You should feel those hips of hers!",
+            text: "Oh, she can totally shake it, can't you? You should feel those hips of hers!",
             button: [
                 { chatID: 6, text: "Wha?", callback: "grab" }
             ]
@@ -136,16 +136,16 @@ room50.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "treyvon",
-            text: "I know. You don't sqeeze the fruit until you buy it hehe. So what's your name girl?",
+            text: "I know. You don't squeeze the fruit until you buy it hehe. So what's your name, girl?",
             button: [
-                { chatID: 8, text: "It's... ahh........ummmmm........" + gv.get("girlname") + "...", callback: "" }
+                { chatID: 8, text: "It's... ahh... ummmm... " + gv.get("girlname") + "...", callback: "" }
             ]
         },
         {
             chatID: 8,
             speaker: "treyvon",
-            text: gv.get("girlname") + ". That's are really pretty name, for a really pretty girl. I'm " + sc.n("treyvon") + ". " +
-            "I'll get you anything you need just scream my name. **wink**",
+            text: gv.get("girlname") + ". That's a really pretty name for a really pretty girl. I'm " + sc.n("treyvon") + ". " +
+            "I'll get you anything you need — just scream my name. *wink*",
             button: [
                 { chatID: 9, text: "...", callback: "" }
             ]
@@ -153,8 +153,8 @@ room50.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "tiffany",
-            text: "You two are really hitting it off. I guess I could give you two some alone time.... Oh yeah, I forgot " + sc.n("candy") + " wanted " +
-                "to see you. Sorry " + sc.n("treyvon") + ", but I have to get " + gv.get("girlname") + " home. ",
+            text: "You two are really hitting it off. I guess I could give you two some alone time... Oh yeah, I forgot " + sc.n("candy") + " wanted " +
+                "to see you. Sorry " + sc.n("treyvon") + ", but I have to get " + gv.get("girlname") + " home.",
             button: [
                 { chatID: -1, text: "[Follow " + sc.n("tiffany") + " home]", callback: "followtif" }
             ]

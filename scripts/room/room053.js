@@ -408,7 +408,7 @@ room53.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "me",
-            text: "Hmmmmm nothing here.. ",
+            text: "Hmm... nothing here.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -416,7 +416,7 @@ room53.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "me",
-            text: "Nothing here... you would think this would be overflowing with dildos.",
+            text: "Nothing here... you'd think this would be overflowing with dildos.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -432,7 +432,7 @@ room53.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "me",
-            text: "Oh nice, another key.. Hopefully this is the last time we do this cliché.",
+            text: "Oh nice, another key. Hopefully this is the last time we do this cliché.",
             button: [
                 { chatID: -1, text: "...", callback: "killkey" }
             ]
@@ -440,7 +440,7 @@ room53.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "candy",
-            text: "Just getting ready. ",
+            text: "Just getting ready.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -459,29 +459,29 @@ room53.chat = function (chatID) {
             text: "If it isn't our good little girl. Come by to take a peek at my pussy?",
             button: [
                 { chatID: 7, text: "Just saying hi. ", callback: "" },
-                { chatID: 7, text: "I came by to rape the pussy! ", callback: "" }
+                { chatID: 7, text: "I came by to rape the pussy!", callback: "" }
             ]
         },
         {
             chatID: 7,
             speaker: "candy",
-            text: "You're so cute. Help me write a reply text to this boy. ",
+            text: "You're so cute. Help me write a reply text to this boy.",
             button: [
-                { chatID: 8, text: "oh ok. ", callback: "100_1" }
+                { chatID: 8, text: "Oh ok.", callback: "100_1" }
             ]
         },
         {
             chatID: 8,
             speaker: "candy",
-            text: "He stopped by the store and I gave him my number. I think he's really cute. ",
+            text: "He stopped by the store and I gave him my number. I think he's really cute.",
             button: [
-                { chatID: 9, text: "Brad! I can't believe you're texting Brad. He's an ass and a bully. ", callback: "" }
+                { chatID: 9, text: "Brad! I can't believe you're texting Brad. He's an ass and a bully.", callback: "" }
             ]
         },
         {
             chatID: 9,
             speaker: "candy",
-            text: "A cute ass and bully! But I'm to tired tonight. What should I say to get him to wait without scaring him. ",
+            text: "A cute ass and bully! But I'm too tired tonight. What should I say to get him to wait without scaring him?",
             button: [
                 { chatID: 10, text: "I have work tomorrow", callback: "100_2b" },
                 { chatID: 10, text: "You should respect me more", callback: "100_2a" },
@@ -490,7 +490,7 @@ room53.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "candy",
-            text: "Let's see what he has to say to that! ",
+            text: "Let's see what he has to say to that!",
             button: [
                 { chatID: 11, text: "...", callback: "100_3" }
             ]
@@ -507,40 +507,40 @@ room53.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "candy",
-            text: "Only if your dick is as hot as his! I can't help it, my pussy is already getting wet. ",
+            text: "Only if your dick is as hot as his! I can't help it, my pussy is already getting wet.",
             button: [
-                { chatID: 13, text: "No. Brad's an asshole. You shouldn't have to go over there. ", callback: "" },
-                { chatID: 15, text: "Oh. You should totally go over there then. ", callback: "100_4b" },
+                { chatID: 13, text: "No. Brad's an asshole. You shouldn't have to go over there.", callback: "" },
+                { chatID: 15, text: "Oh. You should totally go over there then.", callback: "100_4b" },
             ]
         },
         {
             chatID: 13,
             speaker: "candy",
-            text: "Fine what should I say? ",
+            text: "Fine, what should I say?",
             button: [
-                { chatID: 14, text: "You can go fuck yourself asshole", callback: "100_4a" },
+                { chatID: 14, text: "You can go fuck yourself, asshole", callback: "100_4a" },
             ]
         },
         {
             chatID: 14,
             speaker: "candy",
-            text: "Well. I guess he's not going to respond to that. Oh well. I've got to get ready.  ",
+            text: "Well. I guess he's not going to respond to that. Oh well. I've got to get ready.",
             button: [
-                { chatID: -1, text: "ok. later", callback: "100_badend" },
+                { chatID: -1, text: "Ok, later", callback: "100_badend" },
             ]
         },
         {
             chatID: 15,
             speaker: "candy",
-            text: "You're such a great friend! I'm going to get this pussy fucked! See you! ",
+            text: "You're such a great friend! I'm going to get this pussy fucked! See you!",
             button: [
-                { chatID: 16, text: "Glad I could help! ", callback: "100_5" },
+                { chatID: 16, text: "Glad I could help!", callback: "100_5" },
             ]
         },
         {
             chatID: 16,
             speaker: "thinking",
-            text: "Oh I got an image from " + sc.n("candy") + ". I wonder what she sent. ",
+            text: "Oh I got an image from " + sc.n("candy") + ". I wonder what she sent.",
             button: [
                 { chatID: -1, text: "Better check my photos.", callback: "100_goodend" },
             ]
