@@ -836,7 +836,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Are you wearing clown makeup? Go put on normal makeup you supid bimbo!",
+                text: "Are you wearing clown makeup? Go put on normal makeup you stupid bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on different makeup. ", callback: "gotoDressingRoom" }
                 ]
@@ -846,7 +846,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Put on lipstick you dumb bimbo!",
+                text: "Put on lipstick, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on lipstick. ", callback: "gotoDressingRoom" }
                 ]
@@ -856,7 +856,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Put on eyeshadow you dumb bimbo!",
+                text: "Put on eyeshadow, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on eyeshadow. ", callback: "gotoDressingRoom" }
                 ]
@@ -866,7 +866,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Why the fuck are you wearing socks! This isn't a gym. Go take those off " +
+                text: "Why the fuck are you wearing socks? This isn't a gym. Go take those off " +
                     "you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll take off my socks. ", callback: "gotoDressingRoom" }
@@ -877,7 +877,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Go put on some sexy shoes you knuckle dragger! ",
+                text: "Go put on some sexy shoes, you knuckle dragger! ",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on my sexiest shoes. ", callback: "gotoDressingRoom" }
                 ]
@@ -887,7 +887,7 @@ room170.chat = function (chatID) {
             chatID: 0,
             speaker: "!bitch",
             text: "*ugh* I guess that's good enough. Go out there and don't make an ass " +
-                "of us you brain dead bimbo! ",
+                "of us, you brain dead bimbo! ",
             button: [
                 { chatID: -1, text: "Yes ma'am!", callback: "hallwayCatwalk" }
             ]
@@ -909,7 +909,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Are you wearing clown makeup? Go put on normal makeup you supid bimbo!",
+                text: "Are you wearing clown makeup? Go put on normal makeup you stupid bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on different makeup. ", callback: "gotoDressingRoom" }
                 ]
@@ -919,7 +919,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Put on lipstick you dumb bimbo!",
+                text: "Put on lipstick, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on lipstick. ", callback: "gotoDressingRoom" }
                 ]
@@ -929,7 +929,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Put on eyeshadow you dumb bimbo!",
+                text: "Put on eyeshadow, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on eyeshadow. ", callback: "gotoDressingRoom" }
                 ]
@@ -939,7 +939,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Why the fuck are you wearing sock! This isn't a gym. Go take those off " +
+                text: "Why the fuck are you wearing socks? This isn't a gym. Go take those off " +
                     "you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll take off my socks. ", callback: "gotoDressingRoom" }
@@ -950,7 +950,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Go put on some sexy shoes you knuckle dragger! ",
+                text: "Go put on some sexy shoes, you knuckle dragger! ",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on my sexiest shoes. ", callback: "gotoDressingRoom" }
                 ]
@@ -960,7 +960,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Why are you wearing a bra? Go take that off. It's a stuipid bra! ",
+                text: "Why are you wearing a bra? Go take that off. It's a stupid bra! ",
                 button: [
                     { chatID: -1, text: "Oh. I'll remove my bra. ", callback: "gotoDressingRoom" }
                 ]
@@ -994,8 +994,8 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Why are you wearing clothes. Strip it all off! Should I get some " +
-                    "Q-tips so you can clean your ears and listen? ",
+                text: "Why are you wearing clothes? Strip it all off! Should I get some " +
+                    "Q-tips so you can clean your ears and listen?",
                 button: [
                     { chatID: -1, text: "Oh. Yeah. I'll remove all my clothes. ", callback: "gotoDressingRoom" }
                 ]
@@ -1005,7 +1005,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Are you wearing clown makeup? Go put on normal makeup you supid bimbo!",
+                text: "Are you wearing clown makeup? Go put on normal makeup you stupid bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on different makeup. ", callback: "gotoDressingRoom" }
                 ]
@@ -1015,7 +1015,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Put on lipstick you dumb bimbo!",
+                text: "Put on lipstick, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on lipstick. ", callback: "gotoDressingRoom" }
                 ]
@@ -1025,7 +1025,7 @@ room170.chat = function (chatID) {
             return {
                 chatID: 0,
                 speaker: "!bitch",
-                text: "Put on eyeshadow you dumb bimbo!",
+                text: "Put on eyeshadow, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on eyeshadow. ", callback: "gotoDressingRoom" }
                 ]
@@ -1073,13 +1073,13 @@ room170.chat = function (chatID) {
                 break;
         }
         if (tscore < 25)
-            txt = "We have a dissapointing score of " + tscore + ". ";
+            txt = "We have a disappointing score of " + tscore + ". ";
         else if (tscore < 37)
             txt = "We have a respectable score of " + tscore + ". ";
         else if (tscore < 45)
             txt = "We have an amazing score of " + tscore + ". ";
         else if (tscore < 50)
-            txt = "I am stunned! She has a truly spectaular score of " + tscore + ". ";
+            txt = "I am stunned! She has a truly spectacular score of " + tscore + ". ";
         else
             txt = "I have never seen this before for this competition! A perfect score from all the judges!!!";
         return {
@@ -1104,7 +1104,7 @@ room170.chat = function (chatID) {
             {
                 chatID: 1,
                 speaker: "black",
-                text: "I have such the treat for you. There's a fasion show today put on by Mr. Jones. " +
+                text: "I have such a treat for you. There's a fashion show today put on by Mr. Jones. " +
                     "Follow me to the dressing room and we'll meet his assistant. ",
                 button: [
                     { chatID: 2, text: "...", callback: "ex317_1" }
@@ -1133,8 +1133,7 @@ room170.chat = function (chatID) {
                 speaker: "thinking",
                 text: "Holy crap. This is all happening so fast. I've never modeled before " +
                     "and here I am going out on the catwalk in front of I don't know how many " +
-                    "people. I hope they don't boo me. Just remember walk through the " +
-                    "blud door and don't trip, don't trip, don't fall on my ass in front of everyone.",
+                    "people. I hope they don't boo me. Just remember walk through the blue door and don't trip, don't trip, don't fall on my ass in front of everyone.",
                 button: [
                     { chatID: 5, text: "...", callback: "" }
                 ]
@@ -1181,7 +1180,7 @@ room170.chat = function (chatID) {
                 chatID: 9,
                 speaker: "!bitch",
                 text: "*Ugh* I don't have time for this. Just put it on and get ready " +
-                    "to model it. I though you bimbo sissies wanted to show off your bodies. ",
+                    "to model it. I thought you bimbo sissies wanted to show off your bodies. ",
                 button: [
                     { chatID: -1, text: "*sigh* ok", callback: "gotoDressingRoom" }
                 ]
@@ -1235,10 +1234,10 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 15,
-                speaker: "thiking",
-                text: "What a mean cruel bitch! It wasn't my fault she didn't tell me " +
+                speaker: "thinking",
+                text: "What a mean, cruel bitch! It wasn't my fault she didn't tell me " +
                     "what to wear. I'm so done with this. I'm so not coming back " +
-                    "ever again! Walking out here in barely anthing for all these " +
+                    "ever again! Walking out here in barely anything for all these " +
                     "faceless people! ",
                 button: [
                     { chatID: 16, text: "...", callback: "ex317_11" }
@@ -1281,8 +1280,8 @@ room170.chat = function (chatID) {
                 chatID: 19,
                 speaker: "!bitch",
                 text: "Oh fuck. You did come. I was so hoping you knew where you " +
-                    "wern't wanted. You have two brain cells fighting over " +
-                    "second place and they both lost. Go in the change room and stip " +
+                    "weren't wanted. You have two brain cells fighting over " +
+                    "second place and they both lost. Go in the change room and strip " +
                     "down. Mr. Jones said he had a special dress for you. ",
                 button: [
                     { chatID: -1, text: "Yes ma'am", callback: "gotoDressingRoom" }
@@ -1295,7 +1294,7 @@ room170.chat = function (chatID) {
                     "really is a passion of mine. One that has made me an amazing " +
                     "amount of money over the years. When I design a piece, I don't " +
                     "think, does this accentuate her curves, or does this hide " +
-                    "her flaws. No those thoughts are for amatures. ",
+                    "her flaws. No those thoughts are for amateurs. ",
                 button: [
                     { chatID: 21, text: "...", callback: "" }
                 ]
@@ -1315,10 +1314,10 @@ room170.chat = function (chatID) {
             {
                 chatID: 22,
                 speaker: "jones",
-                text: "You will be wearing my piss. It for the woman that is too " +
+                text: "You will be wearing my piss. It's for the woman that is too " +
                     "trashy to say no, and too stupid to towel off. The most " +
                     "submissive thing a woman can wear. It shows her man that she " +
-                    "is just property to with as her man pleases. Now go out there and " +
+                    "is just property to be used as her man pleases. Now go out there and " +
                     "show off my pièce de résistance!",
                 button: [
                     { chatID: 27, text: "Yes sir", callback: "ex317_104" },
@@ -1329,10 +1328,10 @@ room170.chat = function (chatID) {
                 chatID: 23,
                 speaker: "jones",
                 text: "No? No one ever tells me no! Get out of here! I'm going to ruin " +
-                    "your carrier! You'll never model for another soul again! I should " +
+                    "your career! You'll never model for another soul again! I should " +
                     "have known you were just another air head, idiot bimbo! Get out " +
-                    "of my hallway and back to the trash you are! " + sc.n("black") + 
-                    "is going to get an ear full from me, loaning me her undesirables! " +
+                    "of my hallway and back to the trash you are! " + sc.n("black") +
+                    " is going to get an ear full from me, loaning me her undesirables! " +
                     "You ruined my fucking show! ",
                 button: [
                     { chatID: 24, text: "Run away crying", callback: "ex317_105_bad" },
@@ -1362,10 +1361,10 @@ room170.chat = function (chatID) {
                 text: sc.n("jones") + " is an idiot that surrounds himself with sycophants. " +
                     "No one really cares about his options they just hold on to his kite " +
                     "string for their own financial gain. Don't worry about anything he " +
-                    "says, it won't effect your life one little bit. And don't worry about " + 
+                    "says, it won't affect your life one little bit. And don't worry about " +
                     "seeing him again. No one calls my sissies trash! I'm going to go slap " +
                     "his stupid face with my strap-on and kick him out forever. Go get dressed " +
-                    "and enjoy the rest of the afternoon. Maybe get some ice cream on me. ",
+                    "and enjoy the rest of the afternoon. Maybe get some ice cream on me.",
                 button: [
                     { chatID: -1, text: "Thanks ma'am", callback: "ex317_badend" },
                 ]
@@ -1424,7 +1423,7 @@ room170.chat = function (chatID) {
                 chatID: 32,
                 speaker: "thinking",
                 text: "I'm a bit short of makeup. I'm sure they won't mind if I " +
-                    "barrow some from this open kit... ",
+                    "borrow some from this open kit... ",
                 button: [
                     { chatID: -1, text: "...", callback: "" },
                 ]
@@ -1433,7 +1432,7 @@ room170.chat = function (chatID) {
                 chatID: 33,
                 speaker: "thinking",
                 text: "It's so open and bright in here. I wonder how many people are " +
-                    "to be here to judge us. I feel the butterflies in my stomach I'm " +
+                    "to be here to judge us. I feel the butterflies in my stomach; I'm " +
                     "so very much more nervous now!",
                 button: [
                     { chatID: 34, text: "...", callback: "fashion0" },
@@ -1443,7 +1442,7 @@ room170.chat = function (chatID) {
                 chatID: 34,
                 speaker: "!man",
                 text: "Why hello there. A bit early aren't you? I don't believe this " +
-                    "show start for a number of hours still.",
+                    "show starts for a number of hours yet.",
                 button: [
                     { chatID: 35, text: "Oh! hehehe. Yeah. I was just looking around. Do you work here?", callback: "" },
                 ]
@@ -1451,7 +1450,7 @@ room170.chat = function (chatID) {
             {
                 chatID: 35,
                 speaker: "me",
-                text: "Aaaaah. The curious mind. I do love a lady that is always looking for that little " +
+                text: "Aaaaah. The curious mind. I do love a lady who is always looking for a little " +
                     "more. I'm " + sc.n("!judge") + ", one of the judges for the show. Tell me are you one of the " +
                     "contestants?",
                 button: [
@@ -1499,8 +1498,8 @@ room170.chat = function (chatID) {
             {
                 chatID: 40,
                 speaker: "!judge",
-                text: "Oohhhh feisty little minx, aren't you. This needs to end here. My integrity as " +
-                    "a judge is too important. ",
+                text: "Oohhhh feisty little minx, aren't you? This needs to end here. My integrity as " +
+                    "a judge is too important.",
                 button: [
                     { chatID: 41, text: "[Suck his neck and run your fingers along his inner thigh]", callback: "fashion4" },
 
@@ -1538,10 +1537,10 @@ room170.chat = function (chatID) {
             {
                 chatID: 44,
                 speaker: "!judge",
-                text: "That was quite the suprise. I've heard about you sissies, but " +
+                text: "That was quite the surprise. I've heard about you sissies, but " +
                     "hadn't met one in the wild 'til now. I must remain impartial in my " +
                     "voting, but I'm sure you'll be amazing tonight. I must run along so " +
-                    "no one questions me. Best of luck tonight. ",
+                    "no one questions me. Best of luck tonight.",
                 button: [
                     { chatID: -1, text: "Awww thanks mister!", callback: "final_dressingRoom_good" },
                 ]
@@ -1581,7 +1580,7 @@ room170.chat = function (chatID) {
                     "pathfinder. He doesn't just visit places, he immerses himself in " +
                     "them. With a well-worn passport and an open heart, he seeks out " +
                     "authentic experiences and untold stories, bringing the world's " +
-                    "diverse beauty to life through his explorations. ",
+                    "diverse beauty to life through his explorations.",
                 button: [
                     { chatID: 49, text: "...", callback: "fashion23" },
                 ]
@@ -1590,8 +1589,8 @@ room170.chat = function (chatID) {
                 chatID: 49,
                 speaker: "p",
                 text: "Our next judge is " + sc.n("!airwrecka") + ", " + (new Date().getFullYear() - 3) +
-                    "'s Miss Fetville. She went to win State and has been an a member of our community " +
-                    "helping future young ladies in their own pageant journey. ",
+                    "'s Miss Fetville. She went on to win State and has been a member of our community " +
+                    "helping future young ladies in their own pageant journey.",
                 button: [
                     { chatID: 50, text: "...", callback: "fashion24" },
                 ]
@@ -1618,10 +1617,10 @@ room170.chat = function (chatID) {
             {
                 chatID: 52,
                 speaker: "p",
-                text: "Finally, our own lovely " + sc.n("orchid") + ". Last years winner " +
-                    "of this compition and a rapidly growning flower of our town. She's going " +
+                text: "Finally, our own lovely " + sc.n("orchid") + ". Last year's winner " +
+                    "of this competition and a rapidly growing flower of our town. She's going " +
                     "to come up here and speak on the importance of finding yourself while our " +
-                    "ladies get ready for the swimsuit compition. ",
+                    "ladies get ready for the swimsuit competition.",
                 button: [
                     { chatID: 53, text: "...", callback: "fashion20" },
                 ]
@@ -1662,7 +1661,7 @@ room170.chat = function (chatID) {
             {
                 chatID: 57,
                 speaker: "thinking",
-                text: "What talent am I going to do? What ever I pick, I need to dress for the part! ",
+                text: "What talent am I going to do? Whatever I pick, I need to dress for the part! ",
                 button: [
                     { chatID: -1, text: "Cheerleader", callback: "cheerleader" },
                     { chatID: -1, text: "Stripper", callback: "stripper" },
@@ -1836,7 +1835,7 @@ room170.chat = function (chatID) {
                 chatID: 76,
                 speaker: "!judge",
                 text: "If you had to choose between being the center of a gangbang, a lovely date with " +
-                    "a nice boy, or sex with a girl, which would you choose? ",
+                    "a nice boy, or sex with a girl, which would you choose?",
                 button: [
                     { chatID: 77, text: "A Gangbang!", callback: "j1-1" },
                     { chatID: 78, text: "Date with a nice boy.", callback: "j1-2" },
@@ -1866,7 +1865,7 @@ room170.chat = function (chatID) {
                 speaker: "!judge",
                 text: "Don't lie. We all know you're a cock hungy sissy. Earlier today " +
                     "you came up to me to suck my penis without any prompting from me. " +
-                    "I'm dissapointed in your lie to us and yourself. ",
+                    "I'm disappointed in your lie to us and yourself.",
                 button: [
                     { chatID: 81, text: "oh damn", callback: "fashion31" },
                 ]
@@ -1875,7 +1874,7 @@ room170.chat = function (chatID) {
                 chatID: 80,
                 speaker: "!judge",
                 text: "You say that, but you have turned your body into a very desirable " +    
-                    "vessle for cock. I find your answer stinks, like moldy cum.  ",
+                    "vessel for cock. I find your answer stinks, like moldy cum.",
                 button: [
                     { chatID: 81, text: "?", callback: "fashion31" },
                 ]
@@ -2081,7 +2080,7 @@ room170.chat = function (chatID) {
                 text: "That's all for tonight folks! You'll be able to visit your favorite sissy " +
                     "in the Pink Room next week! Don't forget to tip them! Sexy clothes and makeup " +
                     "aren't cheap. G'night folks! Don't forget to visit the glory wall " +
-                    "on you way out! ",
+                    "on your way out! ",
                 button: [
                     { chatID: -1, text: "...", callback: "crownEnd" },
                 ]

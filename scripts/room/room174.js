@@ -762,13 +762,13 @@ room174.chat = function (chatID) {
     if (chatID === 901) {
         let chat901;
         if (g.internal.turn === "bg" && g.internal.hole[g.internal.activeHole].i === "pussy") {
-            chat901 = "I do love a wet drippy pussy!";
+            chat901 = "I do love a wet, drippy pussy!";
         }
         else if (g.internal.turn === "bg" && g.internal.hole[g.internal.activeHole].i === "anal") {
             chat901 = "You better relax your butt, 'cause I'm about to fuck it.";
         }
         else if (g.internal.turn === "chad" && g.internal.hole[g.internal.activeHole].i === "pussy") {
-            chat901 = "I can smell your desire to get fucked in the pussy! ";
+            chat901 = "I can smell your desire to get fucked in the pussy!";
         }
         else if (g.internal.turn === "chad" && g.internal.hole[g.internal.activeHole].i === "anal") {
             chat901 = "That brown eye is winking at my dick!";
@@ -789,15 +789,15 @@ room174.chat = function (chatID) {
             switch (g.internal.hole[g.internal.activeHole].n) {
                 case "lola": chat902 = "Oh god, you feel so good inside me!"; break;
                 case "eva": chat902 = "Fuck me harder! Make me cum too!"; break;
-                case "mom": chat902 = "I bet you love that Milfy-pussy!"; break;
+                case "mom": chat902 = "I bet you love that milfy pussy!"; break;
             }
         }
         else if (g.internal.hole[g.internal.activeHole].i === "anal") {
             switch (g.internal.hole[g.internal.activeHole].n) {
-                case "lola": chat902 = "Owie owie owie! Please hurry, it really hurts by poor little anus!"; break;
-                case "eva": chat902 = "You know I poop from there! "; break;
+                case "lola": chat902 = "Owie owie owie! Please hurry, it really hurts my poor little anus!"; break;
+                case "eva": chat902 = "You know I poop from there!"; break;
                 case "me": chat902 = "Oh yeah! Fuck me just like that!"; break;
-                case "mom": chat902 = "What is it with dirty men and their desire to fuck a girls asshole?"; break;
+                case "mom": chat902 = "What is it with dirty men and their desire to fuck a girl's asshole?"; break;
             }
         }
         return {
@@ -1052,7 +1052,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 25,
                 speaker: "thinking",
-                text: "My legs feel so silky smoothing in these stockings! I should get some. I'm going " +
+                text: "My legs feel so silky smooth in these stockings! I should get some. I'm going " +
                     "to look so sexy for Bill. Fuck that, I'm going to look so sexy for me! ",
                 button: [
                     { chatID: 26, text: "...", callback: "goth10" },
@@ -1144,8 +1144,8 @@ room174.chat = function (chatID) {
             {
                 chatID: 35,
                 speaker: "martha",
-                text: "Ah,ladies! A most delightful welcome to you all. You've diligently traversed the path " +
-                    "of a trainee, and now you stand proudly as full-fledged sissies.  To celebrate this momentous " +
+                text: "Ah, ladies! A most delightful welcome to you all. You've diligently traversed the path " +
+                    "of a trainee, and now you stand proudly as full-fledged sissies. To celebrate this momentous " +
                     "occasion, it's time to bid farewell to those, shall we say, less distinguished garments. " +
                     "Fear not, for I have prepared a selection of outfits far more befitting your newfound " +
                     "status. I shall call each of you forward in turn, and you'll receive your new attire for " +
@@ -1157,7 +1157,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 36,
                 speaker: "martha",
-                text: "Ah, Chris, isn't that simply delightful! Your youthful charm and slight frame are simply perfect for a darling baby doll dress. And what a simply smashing shade of pink!  I can just imagine how it will complement your complexion.  And don't forget the wig, my dear! A touch of whimsy never goes amiss.Why, I daresay you'll be the belle of the ball, turning heads and captivating hearts in such an ensemble. A true gentleman wouldn't be able to resist such a charming display!",
+                text: "Ah, Chris, isn't that simply delightful! Your youthful charm and slight frame are simply perfect for a darling baby doll dress. And what a simply smashing shade of pink! I can just imagine how it will complement your complexion. And don't forget the wig, my dear! A touch of whimsy never goes amiss. Why, I daresay you'll be the belle of the ball, turning heads and captivating hearts in such an ensemble. A true gentleman wouldn't be able to resist such a charming display!",
                 button: [
                     { chatID: 38, text: "...", callback: "xdress3" },//xdress2
                 ]
@@ -1165,7 +1165,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 37,
                 speaker: "martha",
-                text: "Jeremy, my dear! Look at you, a true diamond in the rough. Today, we shall transform that gentlemanly spirit into the radiant lady you were always meant to be.This exquisite lace top, with its delicate frills, will dance around your form, creating a most charming silhouette.And fret not a single bit about your chest, for femininity comes in all shapes and sizes.Now, this cunning little girdle here will work wonders, nipping in your waist and emphasizing those delightful hips of yours. ",
+                text: "Jeremy, my dear! Look at you, a true diamond in the rough. Today, we shall transform that gentlemanly spirit into the radiant lady you were always meant to be. This exquisite lace top, with its delicate frills, will dance around your form, creating a most charming silhouette. And fret not a single bit about your chest, for femininity comes in all shapes and sizes. Now, this cunning little girdle here will work wonders, nipping in your waist and emphasizing those delightful hips of yours.",
                 button: [
                     { chatID: 38, text: "...", callback: "xdress3" },
                 ]
@@ -1242,7 +1242,7 @@ room174.chat = function (chatID) {
                 chatID: 46,
                 speaker: "thinking",
                 text: "I'm just going to take a nap before I have to go to the club since it looks " +
-                    "like I'll be up all night. ",
+                    "like I'll be up all night.",
                 button: [
                     { chatID: 47, text: "[Wake up and go to the club]", callback: "club0" },
                 ]
@@ -1309,10 +1309,10 @@ room174.chat = function (chatID) {
                     "bury my face in that pussy. I wonder what she would do if I reached out and " +
                     "touched it. That's stupid. She'll totally get pissed. But she didn't seem to get " +
                     "mad when Mr. Rex called her tits. Maybe she's down. I shouldn't though. But she " +
-                    "does seem like a slut. ",
+                    "does seem like a slut.",
                 button: [
                     { chatID: 59, text: "Just do your job ", callback: "club6" },
-                    { chatID: 54, text: "Touch her pussy with your finger. ", callback: "club5_a1" }
+                    { chatID: 54, text: "Touch her pussy with your finger.", callback: "club5_a1" }
                 ]
             },
             {
@@ -1442,7 +1442,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 68,
                 speaker: "eva",
-                text: "Awww. I guess even perverts make pretty girls! ",
+                text: "Awww. I guess even perverts make pretty girls!",
                 button: [
                     { chatID: -1, text: "That's why you're so hot!", callback: "evalolateachme" },
                 ]
@@ -1461,7 +1461,7 @@ room174.chat = function (chatID) {
                 speaker: "eva",
                 text: "It's cool. But you're going to owe me some study time with Introduction " +
                     "to Communications. Also I'm going to take my shirt off. Can't have your sloppy makeup " +
-                    "skills getting my shirt all dirty. Makeup can be a bitch to get out. ",
+                    "skills getting my shirt all dirty. Makeup can be a bitch to get out.",
                 button: [
                     { chatID: 71, text: "Oh sweet! I get to practice! ", callback: "teachMakeup" },
                 ]
@@ -1573,7 +1573,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 83,
                 speaker: "lola",
-                text: "Oh. Becuase you're a girl. Girl's don't have penises. ",
+                text: "Oh. Because you're a girl. Girls don't have penises.",
                 button: [
                     { chatID: 84, text: "...", callback: "" },
                 ]
@@ -1696,7 +1696,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 97,
                 speaker: "eva",
-                text: "No. I get bottom becuase you try to thrust your hips into me and nearly broke " +
+                text: "No. I get bottom because you try to thrust your hips into me and nearly broke " +
                     "my nose! Also it like to grab and spread you butt. Hehe. ",
                 button: [
                     { chatID: 98, text: "...", callback: "" },
@@ -1741,7 +1741,7 @@ room174.chat = function (chatID) {
                 speaker: "lola",
                 text: "Ehhhh. Let me get a towel and wipe your face. That's another reason why I " +
                     "get to be on top when it's the two of us. Gives me a chance to move my head before " +
-                    "being covered in her piss. ",
+                    "being covered in her piss.",
                 button: [
                     { chatID: 103, text: "...", callback: "" },
                 ]
@@ -1841,7 +1841,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 114,
                 speaker: "lola",
-                text: "I don't do anything half-assed. I whole ass everthing I do! ",
+                text: "I don't do anything half-assed. I whole ass everything I do!",
                 button: [
                     { chatID: -1, text: "MMmMMmmmmm", callback: "evalolateachme" },
                 ]
@@ -2051,7 +2051,7 @@ room174.chat = function (chatID) {
                 chatID: 137,
                 speaker: "landlord",
                 text: "I had a feeling you girls were on your way down. I'll call " + sc.n("bigguy") +
-                    " " + sc.n("lola") + " you give " + sc.n("chad") + " a call. ",
+                    " " + sc.n("lola") + " you give " + sc.n("chad") + " a call.",
                 button: [
                     { chatID: 138, text: "YES!", callback: "6some_0" },
                 ]

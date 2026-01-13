@@ -279,9 +279,9 @@ room177.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "missy",
-            text: "Oh. I don't kow what I expected, but it wasn't this. What a surprisingly fine cock you have. Not huge, not " +
+            text: "Oh. I don't know what I expected, but it wasn't this. What a surprisingly fine cock you have. Not huge, not " +
                 "tiny, just a fine cock. I have a meeting I need to get ready for so I don't have enough time to properly " +
-                "train you. I guess your face is chastity enough. Don't masturbate, and if you do you have to report to me immediatly. Deal?",
+                "train you. I guess your face is chastity enough. Don't masturbate, and if you do you have to report to me immediately. Deal?",
             button: [
                 { chatID: 10, text: "...", callback: "" }
             ]
@@ -324,7 +324,7 @@ room177.chat = function (chatID) {
             chatID: 14,
             speaker: "missy",
             text: "Hahaha. Nice try. Unfortunately for you I actually care about you. I'll tell you what, I'll let you out " +
-                "of your cage. Bring that enormous clit over to the bed. ",
+                "of your cage. Bring that enormous clit over to the bed.",
             button: [
                 { chatID: 15, text: "Really ma'am!", callback: "chastity4" }
             ]
@@ -340,11 +340,11 @@ room177.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "missy",
-            text: "It really is a large cock for such a small sissy. A bit too large don't you think?  ",
+            text: "It really is a large cock for such a small sissy. A bit too large, don't you think?",
             button: [
-                { chatID: 18, text: "Yes ma'am. It really is too big. ", callback: "pinkx2" },
-                { chatID: 17, text: "Too large? No ma'am. It's a great size. ", callback: "pink" }
-                
+                { chatID: 18, text: "Yes ma'am. It really is too big.", callback: "pinkx2" },
+                { chatID: 17, text: "Too large? No ma'am. It's a great size.", callback: "pink" }
+
             ]
         },
         {
@@ -369,7 +369,7 @@ room177.chat = function (chatID) {
             chatID: 19,
             speaker: "missy",
             text: "There's no way I'll be able to put the chastity cage on with that raging hardon. Come here so I can bind your " +
-                "legs together then bend your bare ass over my knees. ",
+                "legs together then bend your bare ass over my knees.",
             button: [
                 { chatID: 20, text: "Yes ma'am!", callback: "chastity7" }
             ]
@@ -386,7 +386,7 @@ room177.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "me",
-            text: "Ow ow ow ow. My cock is soft! my cock is soft. my cock is soft. is soft ",
+            text: "Ow ow ow ow. My cock is soft! My cock is soft. My cock is soft.",
             button: [
                 { chatID: 22, text: "...", callback: "chastity9" }
             ]
@@ -402,12 +402,12 @@ room177.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "missy",
-            text: "There you go. This new cage will be a little tight at first. But in time your clitty will will adjust to " +
+            text: "There you go. This new cage will be a little tight at first. But in time your clitty will adjust to " +
                 "the new size. This new cage will only shrink it a little, but if you continue with your chastity training the " +
-                "smaller cages will finish shrinking it it till it's just a cute little clitty. Plus pink is such a cute color " +
-                "for you. Really brings out your cute pink pussy hole. ",
+                "smaller cages will finish shrinking it till it's just a cute little clitty. Plus pink is such a cute color " +
+                "for you. Really brings out your cute pink pussy hole.",
             button: [
-                { chatID: -1, text: "Wait? Do you mean that my cock will shrink? ", callback: "chastity11" }
+                { chatID: -1, text: "Wait? Do you mean that my cock will shrink?", callback: "chastity11" }
             ]
         },
         {
@@ -415,7 +415,7 @@ room177.chat = function (chatID) {
             speaker: "missy",
             text: "Yes. The longer you wear it, the more it will shrink. But don't worry, it will only shrink a little tiny bit. " +
                 "You'll still have a large cock, just not this horrible monster you swing around. Continue with your training " +
-                "and it will shrink to its proper size. ",
+                "and it will shrink to its proper size.",
             button: [
                 { chatID: 26, text: "yes ma'am", callback: "" }
             ]
@@ -425,7 +425,7 @@ room177.chat = function (chatID) {
             speaker: "missy",
             text: "Yes. The longer you wear it, the more it will shrink. It will shrink it to a normal penis, not quite a " +  
                 "clitty. But keep going with your chastity training and we'll shrink that stupid cock down till it's just " +
-                "a useless nub between your legs. ",
+                "a useless nub between your legs.",
             button: [
                 { chatID: 26, text: "Thank you ma'am!", callback: "" }
             ]
@@ -451,8 +451,8 @@ room177.chat = function (chatID) {
             chatID: 28,
             speaker: "missy",
             text: "Hello girls. Today's class is a choice. You will decide if you're " +
-                "a true cum hole sissy who only exists to take phalic object into your " +
-                "holes, or are a fem boy that may want to use your penis someday. ",
+                "a true cum hole sissy who only exists to take phallic objects into your " +
+                "holes, or are a femboy that may want to use your penis someday.",
             button: [
                 { chatID: 29, text: "...", callback: "" }
             ]
@@ -462,8 +462,8 @@ room177.chat = function (chatID) {
             speaker: "missy",
             text: "No doubt by now you have noticed that the smaller your cage is, the " +
                 "smaller your penis gets. So I will give you the choice. Do you still " +
-                "want your penis, or will you commit to a sissy clit. Choose, but choose " +
-                "wisely, because if you choose the clit, it will forever be a clit. ",
+                "want your penis, or will you commit to a sissy clit? Choose wisely, because " +
+                "if you choose the clit, it will be permanent.",
             button: [
                 { chatID: -1, text: "*Gulp*", callback: "c201_choice" }
             ]

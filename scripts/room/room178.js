@@ -103,10 +103,10 @@ room178.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "missy",
-            text: "Hello my cum piggies. You're all here because you're interested in swollowing cum, but you're too scared to do it on " +
+            text: "Hello my cum piggies. You're all here because you're interested in swallowing cum, but you're too scared to do it on " +
                 "your own. It's like the first time you try coffee. It can be a little bitter, have an unusual taste or texture, but " +
-                "you learn to enjoy it all. Even crave it. Like coffee cum isn't all the same. You'll learn where good smooth cum is, " +
-                "and where to avoid nasty cheap bitter cum. ",
+                "you learn to enjoy it all. Even crave it. Like coffee, cum isn't all the same. You'll learn where good smooth cum is, " +
+                "and where to avoid nasty cheap bitter cum.",
             button: [
                 { chatID: 1, text: "...", callback: "" }
             ]
@@ -114,11 +114,11 @@ room178.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "missy",
-            text: "Since this is your first class we're going to start out simple. Each of you will savor and swollow your own cum. It's " +
-                "in your body anyway, we're just putting it in a differt hole. Your mouth hole. Next class we'll have some more fun, but " +
-                "I'm a busy woman so this class will be quick. Luckily only " + sc.n("me") + " is in chastity, so you other two " +
+            text: "Since this is your first class we're going to start out simple. Each of you will savor and swallow your own cum. It's " +
+                "in your body anyway, we're just putting it in a different hole. Your mouth hole. Next class we'll have some more fun, but " +
+                "I'm a busy woman so this class will be quick. Luckily only " + sc.n("me") + " is in chastity, so the other two of you " +
                 "can just jack off in my hand. Martin and Jeremy go first. I'll do " + sc.n("me") + " last. I have a special gift " +
-                "for my chasity sissy. Now bring those cocks here. ",
+                "for my chastity sissy. Now bring those cocks here.",
             button: [
                 { chatID: 2, text: "Yes ma'am", callback: "cum1" }
             ]
@@ -212,8 +212,8 @@ room178.chat = function (chatID) {
             chatID: 11,
             speaker: "missy",
             text: "See how it oozes out now. Sissies don't shoot their cum across the room, it just oozes out like vaginal " +
-                "discharge. That's why you wear panties, to catch the vaginial discharge from dripping all over the floor. Now " +
-                "drop to your knees and open your mouth. You're going to eat this sissy discharge. ",
+                "discharge. That's why you wear panties, to catch the vaginal discharge from dripping all over the floor. Now " +
+                "drop to your knees and open your mouth. You're going to eat this sissy discharge.",
             button: [
                 { chatID: 12, text: "yes ma'am", callback: "cum9" }
             ]
@@ -317,8 +317,8 @@ room178.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "missy",
-            text: "That's my good little sluts. Lick up every drop. Dig your tonge into my asshole and pussy lips to make sure it's " +
-                "all clean. Wouldn't want your nasty cum dripping into my panties. ",
+            text: "That's my good little sluts. Lick up every drop. Dig your tongue into my asshole and pussy lips to make sure it's " +
+                "all clean. Wouldn't want your nasty cum dripping into my panties.",
             button: [
                 { chatID: 24, text: "...", callback: "cum107" },
             ]
@@ -394,8 +394,8 @@ room178.chat = function (chatID) {
             speaker: "missy",
             text: "It doesn't matter. Cum is cum, and you sissies need your cum if you're " +
                 "going to grow to be slutty fuck holes. Now I'm giving you each a jar. Next " +
-                "time you're in the powder room with a load of cum in your bussy, just sqeeze " +
-                "it out into this jar so you can enjoy it anytime. ",
+                "time you're in the powder room with a load of cum in your bussy, just squeeze " +
+                "it out into this jar so you can enjoy it anytime.",
             button: [
                 { chatID: -1, text: "Thank you ma'am!", callback: "cumend204Pass" },
             ]

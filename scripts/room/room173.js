@@ -141,31 +141,31 @@ room173.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "missy",
-            text: "So this is my backlog. All these trashbags are from cases I'm working on, " +
-                "and some are from closed cases. As you can see my filing, admittedly, a bit " +
+            text: "So this is my backlog. All these trash bags are from cases I'm working on, " +
+                "and some are from closed cases. As you can see, my filing is admittedly a bit " +
                 "lacking. This is what happens when you put " + sc.n("cecilia") + " in charge " +
-                "of something. ",
+                "of something.",
             button: [
-                { chatID: 1, text: "It stinks back here ma'am.", callback: "" }
+                { chatID: 1, text: "It stinks back here, ma'am.", callback: "" }
             ]
         },
         {
             chatID: 1,
             speaker: "missy",
             text: "Yes. The smell is a bit overpowering. That's why I'm not going to search " +
-                "the trash. You are. Since you're an idiot I'm going to make it simple for you. " +
+                "the trash. You are. Since you're an idiot, I'm going to make it simple for you. " +
                 "Pull out and set aside bills, notes, pictures, and anything that is obviously a " +
-                "weapon; knives and guns. Everthing else just put back in the trash bag, and put " +
-                "that bag in the dumpster. ",
+                "weapon: knives and guns. Everything else, just put back in the trash bag and put " +
+                "that bag in the dumpster.",
             button: [
-                { chatID: 2, text: "oh gross... ma'am", callback: "" }
+                { chatID: 2, text: "Oh gross... ma'am", callback: "" }
             ]
         },
         {
             chatID: 2,
             speaker: "missy",
             text: "Yes. It's gross. Welcome to starting a new career field. You do all the shit " +
-                "jobs I don't want to do. Now get to work garbage " + gender.pronoun("boy") + ". ",
+                "jobs I don't want to do. Now get to work, garbage " + gender.pronoun("boy") + ".",
             button: [
                 { chatID: -1, text: "*sigh* yes ma'am", callback: "start" }
             ]
@@ -173,8 +173,8 @@ room173.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "thinking",
-            text: "Gross! What am I thinking. I'm not going to eat cum out of a used condom in " +
-                "the trash! ",
+            text: "Gross! What am I thinking? I'm not going to eat cum out of a used condom in " +
+                "the trash!",
             button: [
                 { chatID: -1, text: "[Need cum level 4]", callback: "next" }
             ]
@@ -182,16 +182,15 @@ room173.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "thinking",
-            text: "Ooooo it's so slimy and cold. But I do love eating cum soooo much! Such " +
-                "a great little snack.",
+            text: "Ooh, it's so slimy and cold. But I do love eating cum so much! Such a great little snack.",
             button: [
-                { chatID: -1, text: "Swallow the cum slut", callback: "next" }
+                { chatID: -1, text: "Swallow the cum, slut", callback: "next" }
             ]
         },
         {
             chatID: 5,
             speaker: "thinking",
-            text: "So gross! This bag is done. I'm going to wash up and take lunch. ",
+            text: "So gross! This bag is done. I'm going to wash up and take lunch.",
             button: [
                 { chatID: -1, text: "[Lunch time]", callback: "lunch" }
             ]

@@ -206,7 +206,7 @@ room180.chat = function (chatID) {
             chatID: 0,
             speaker: "martha",
             text: "Welcome, everyone, to your first class. I am pleased to see so many of you here today. What you " +
-                " see before you is the public ballroom. For your first class, we are going to visit the showers. Please follow me.",
+                "see before you is the public ballroom. For your first class, we are going to visit the showers. Please follow me.",
             button: [
                 { chatID: 1, text: "...", callback: "shave0" }
             ]
@@ -381,7 +381,7 @@ room180.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "!sporty",
-            text: "That should do it. All squeeky smooth. ",
+            text: "That should do it. All squeaky smooth.",
             button: [
                 { chatID: 22, text: "...", callback: "shave4" },
             ]
@@ -696,8 +696,8 @@ room180.chat = function (chatID) {
             chatID: 55,
             speaker: "missy",
             text: "Everyone strip out of those disgusting clothes and put on your new pretty " +
-                "uniforms. Now! And keep yourp panties on! We don't need your nasty cum drool " +
-                "all over the chairs and floors. ",
+                "uniforms. Now! And keep your panties on! We don't need your nasty cum drool " +
+                "all over the chairs and floors.",
             button: [
                 { chatID: 63, text: "...", callback: "fem103_3" },
             ]
@@ -736,9 +736,8 @@ room180.chat = function (chatID) {
             chatID: 59,
             speaker: "ralph",
             text: "I saw the upcoming classes. I'm so looking forward to the high heel class! " +
-                "I trip so much when I try to wear them at home. Everytime I fall my two moms yells " +
-                "yell at me wondering what I'm doing in my room. They think I'm the clumsiest person " +
-                "in the world.",
+                "I trip so much when I try to wear them at home. Every time I fall my two moms yell " +
+                "at me wondering what I'm doing in my room.",
             button: [
                 { chatID: 60, text: "Hahah, You are though!", callback: "fem103_2" },
             ]
@@ -797,7 +796,7 @@ room180.chat = function (chatID) {
             speaker: "martha",
             text: "Ladies, I am going to give you a little lesson on how hormones can help you " +
                 "achieve your true sissy potential. At the moment, you have the mind of a sissy but the " +
-                "body of a boy. That pesky testosterones are blocking your true potential and preventing " +
+                "body of a boy. That pesky testosterone is blocking your true potential and preventing " +
                 "your body from matching your mind.",
             button: [
                 { chatID: 66, text: "... ", callback: "fem201_2" },
@@ -817,8 +816,8 @@ room180.chat = function (chatID) {
         {
             chatID: 67,
             speaker: "martha",
-            text: "Sexual desires is rooted in beauty. The large breasts, plump lips, wide hips, long hair, " +
-                "and smooth skin. Traits you lack. You have too look like an object of sex if you want to be desired. ",
+            text: "Sexual desire is often rooted in physical attractiveness. The large breasts, plump lips, wide hips, long hair, " +
+                "and smooth skin are traits you currently lack. You have to look like an object of desire if you want to be desired.",
             button: [
                 { chatID: 68, text: "... ", callback: "fem201_4" },
             ]
@@ -1002,8 +1001,8 @@ room180.chat = function (chatID) {
         {
             chatID: 88,
             speaker: "bimbo",
-            text: "Are you the the " + gender.pronoun("girl") + " that needs the laser " +
-                "hair removal? ",
+            text: "Are you the " + gender.pronoun("girl") + " that needs the laser " +
+                "hair removal?",
             button: [
                 { chatID: 89, text: "I am", callback: "" }
             ]
@@ -1013,7 +1012,7 @@ room180.chat = function (chatID) {
             speaker: "bimbo",
             text: "Hehehe cool! I've never done this before, but I had all the classes. " +
                 "They both were really hard, but the teacher said I passed. He even gave " +
-                "me a facy paper to say I can do this. So are you ready to be hairless " +
+                "me a fancy paper to say I can do this. So are you ready to be hairless " +
                 "from your head down?",
             button: [
                 { chatID: 90, text: "I am!", callback: "" }
@@ -1023,8 +1022,7 @@ room180.chat = function (chatID) {
             chatID: 90,
             speaker: "bimbo",
             text: "Awesome! Body hair is soooo gross! I'll put on your fancy glasses and when " +
-                "I'm done you'll never grow another hair again! Or was it you might grow some in " +
-                "10 years. I don't know. Oh well, let's start!",
+                "I'm done you'll never grow another hair again! Or you might regrow some in 10 years. I don't know. Oh well, let's start!",
             button: [
                 { chatID: 91, text: "[Put on the darkened glasses and lay down in the nude]", callback: "laser1" }
             ]
@@ -1032,9 +1030,9 @@ room180.chat = function (chatID) {
         {
             chatID: 91,
             speaker: "thinking",
-            text: "ouch. This kind of hurts. Damn it takes so long, but it will be " +
-                "so worth it to never have to shave again! No more razor bumbs, no " +
-                "more nasty body hair, hello smooth skin! ",
+            text: "Ouch. This kind of hurts. Damn it takes so long, but it will be " +
+                "so worth it to never have to shave again! No more razor bumps, no " +
+                "more nasty body hair, hello smooth skin!",
             button: [
                 { chatID: 92, text: "...", callback: "laser2" }
             ]

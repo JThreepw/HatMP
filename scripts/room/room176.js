@@ -536,10 +536,10 @@ room176.chat = function (chatID) {
             {
                 chatID: 5,
                 speaker: "p",
-                text: "Ok sluts, welcome to to oral 101, where you learn how to use your sissy mouths. I know most sluts think " +
+                text: "Ok sluts, welcome to oral 101, where you learn how to use your sissy mouths. I know most sluts think " +
                     "they're amazing at oral because their partner said they did good. Well you're WRONG! They said you did fine " +
                     "because they were bored and wanted to do anything other than let you continue rubbing your stupid mouth " +
-                    "over their naughty bits while they fantasize someone cuter. ",
+                    "over their naughty bits while they fantasize someone cuter.",
                 button: [
                     { chatID: 6, text: "...", callback: "" }
                 ]
@@ -547,8 +547,8 @@ room176.chat = function (chatID) {
             {
                 chatID: 6,
                 speaker: "p",
-                text: "When I get done with you, you'll be able to actuall please someone. We're going to focus on the tongue. " +
-                    "When we're done you'll know how to please the head of a cock. Now every grab their dildo.  ",
+                text: "When I get done with you, you'll be able to actually please someone. We're going to focus on the tongue. " +
+                    "When we're done you'll know how to please the head of a cock. Now everyone grab their dildo.",
                 button: [
                     { chatID: 7, text: "...", callback: "oral2" }
                 ]
@@ -557,9 +557,9 @@ room176.chat = function (chatID) {
                 chatID: 7,
                 speaker: "p",
                 text: "Let me show you how to make love to the cock. First you have to take the initiative. Most men appreciate " +
-                    "a slut that just goes in and takes control of their cock. It's such a boner killer when you when you're all timid " +
+                    "a slut that just goes in and takes control of their cock. It's such a boner killer when you're all timid " +
                     "and put in no work. Now I have to be naked if I'm going to make love to this cock. I hope you don't mind. And " +
-                    "if you do, you can go fuck yourself. At home. With a dildo. ",
+                    "if you do, you can go fuck yourself. At home. With a dildo.",
                 button: [
                     { chatID: 8, text: "...", callback: "oral3" }
                 ]
@@ -585,8 +585,8 @@ room176.chat = function (chatID) {
             {
                 chatID: 10,
                 speaker: "p",
-                text: "Nice and sloppy. You really know how to drool on the cock. Good job! Hey Philbert don't stare at it, " +
-                    "suck it. Just a second I have to fix some techniques. ",
+                text: "Nice and sloppy. You really know how to drool on the cock. Good job! Hey Philbert, don't stare at it, " +
+                    "suck it. Just a second, I have to fix some technique.",
                 button: [
                     { chatID: 11, text: "mmmmMMmm ok", callback: "oral6" }
                 ]
@@ -724,7 +724,7 @@ room176.chat = function (chatID) {
                 chatID: 26,
                 speaker: "p",
                 text: "Ouch! Ok. That's enough. Everyone naked now! On your hands and knees. That was the worst oral I've " +
-                    "ever recieved! Everyone fails. Make my human centipede and get your face in the ass in front of you. Now!",
+                    "ever received! Everyone fails. Make my human centipede and get your face in the ass in front of you. Now!",
                 button: [
                     { chatID: 27, text: "....", callback: "oral14" },
                 ]

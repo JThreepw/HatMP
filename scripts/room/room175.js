@@ -302,8 +302,8 @@ room175.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "thinking",
-            text: "What am I thinking. I'm standing naked in from of these guys. I don't know how I'll be able to face them " +
-                "again. Why do I keep getting myself into these situations? I guess It's better than getting pissed on though. ",
+            text: "What am I thinking. I'm standing naked in front of these guys. I don't know how I'll be able to face them " +
+                "again. Why do I keep getting myself into these situations? I guess it's better than getting pissed on though.",
             button: [
                 { chatID: 11, text: "...", callback: "anal11" }
             ]
@@ -322,7 +322,7 @@ room175.chat = function (chatID) {
             chatID: 12,
             speaker: "p",
             text: "Notice what a good sissy we have with his ugly clitty all locked up and hungry hole open and ready for " +
-                "what ever we want to do. ",
+                "whatever we want to do.",
             button: [
                 { chatID: 13, text: "I uhhh", callback: "anal13" }
             ]
@@ -408,7 +408,7 @@ room175.chat = function (chatID) {
             chatID: 22,
             speaker: "p",
             text: "Ok. You need to work on your homework. Fuck your ass at least once a day. And to help you each of you will " +
-                "get a new purple dildo to strech those slut holes of yours. Now go out and fuck yourselves.",
+                "get a new purple dildo to stretch those slut holes of yours. Now go out and fuck yourselves.",
             button: [
                 { chatID: -1, text: "Sweet free dildo", callback: "endclassEnd" }
             ]
@@ -452,8 +452,8 @@ room175.chat = function (chatID) {
         {
             chatID: 27,
             speaker: "p",
-            text: "What a bunch of timid sluts. So desperate for the cock, but too scared to back that ass up. You all vonunteer,  " +
-                "everyone strip off your clothes and present your sissy asses on the bench. ",
+            text: "What a bunch of timid sluts. So desperate for the cock, but too scared to back that ass up. You all volunteer,  " +
+                "everyone strip off your clothes and present your sissy asses on the bench.",
             button: [
                 { chatID: 17, text: "Ok. ", callback: "anal100" }
             ]
@@ -489,7 +489,7 @@ room175.chat = function (chatID) {
             chatID: 31,
             speaker: "p",
             text: "Correct. Lube that asshole hole. You see, my pussy naturally creates its own lube, so I can be ready for cock in " +
-                "my pink pussy hole just by thinking about getting fucked. You're delicate bussies need some extra help taking " +
+                "my pink pussy hole just by thinking about getting fucked. Your delicate bussies need some extra help taking " +
                 "cock. So we're going over the basics of lubing your fuck holes. Now I'll need a volunteer.... Anyone?  ",
             button: [
                 { chatID: 32, text: "...", callback: "lubenotme" },
@@ -515,8 +515,8 @@ room175.chat = function (chatID) {
         {
             chatID: 34,
             speaker: "p",
-            text: "Now i need you to strip off all those nasty boy clothes, so I can show everyone how to properly apply the " +
-                "lube and face the bench I'm going to fetch. ",
+            text: "Now I need you to strip off all those nasty boy clothes, so I can show everyone how to properly apply the " +
+                "lube and face the bench I'm going to fetch.",
             button: [
                 { chatID: 37, text: "...", callback: "lube2" }
             ]
@@ -524,8 +524,8 @@ room175.chat = function (chatID) {
         {
             chatID: 35,
             speaker: "p",
-            text: "Now i need you to strip off all those nasty boy clothes, so I can show everyone how to properly apply the " +
-                "lube and face the bench I'm going to fetch. ",
+            text: "Now I need you to strip off all those nasty boy clothes, so I can show everyone how to properly apply the " +
+                "lube and face the bench I'm going to fetch.",
             button: [
                 { chatID: 36, text: "...", callback: "" }
             ]
@@ -562,7 +562,7 @@ room175.chat = function (chatID) {
             chatID: 39,
             speaker: "p",
             text: "Now rub that lube on the bussy lips. Coat the entire exterior of your hole. I'm using a circular pattern " +
-                "rubbing my finger around the entire hole. ",
+                "rubbing my finger around the entire hole.",
             button: [
                 { chatID: 40, text: "...", callback: "lube5" }
             ]
@@ -590,7 +590,7 @@ room175.chat = function (chatID) {
         {
             chatID: 42,
             speaker: "p",
-            text: "Here's a tissue. Now wipe that didlo butter from your ass, and get back to your seat. ",
+            text: "Here's a tissue. Now wipe that dildo butter from your ass, and get back to your seat.",
             button: [
                 { chatID: 43, text: "...", callback: "lube0" }
             ]
@@ -799,10 +799,8 @@ room175.chat = function (chatID) {
             chatID: 64,
             speaker: "p",
             text: "On to today's class. I'm so excited for this final class! I can see only the true " +
-                "sluts are here today! Since this will be the last class before " +
-                "the final I want to go out with a bang! A gang bang! No more fake " +
-                "silicon dildos! No more more one hole at a time! All holes, all dick! " +
-                "I Love this class so much I'm going to join you! We're all GOING TO " +
+                "sluts are here today! Since this will be the last class before the final I want to go out with a bang! A gang bang! No more fake " +
+                "silicone dildos! No more one hole at a time! All holes, all dick! I love this class so much I'm going to join you! We're all GOING TO " +
                 "GET FUCKED!!!! Boys, come on in!",
             button: [
                 { chatID: 65, text: "...", callback: "anal421_1" },
@@ -853,7 +851,7 @@ room175.chat = function (chatID) {
         {
             chatID: 70,
             speaker: "!bbc",
-            text: "Got my nut in yo' butt! Fuck yeah! ",
+            text: "Got my nut in yo' butt! Fuck yeah!",
             button: [
                 { chatID: 71, text: "*gluck* *swallow* *gulp*", callback: "anal421_7" },
             ]

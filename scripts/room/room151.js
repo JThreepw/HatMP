@@ -313,15 +313,15 @@ room151.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "jones",
-            text: "Hi slut, are you ready to do the fashion show?",
+            text: "Hi, slut, are you ready to do the fashion show?",
             button: [
-                { chatID: 1, text: "oh, yeah", callback: "" }
+                { chatID: 1, text: "Oh, yeah", callback: "" }
             ]
         },
         {
             chatID: 1,
             speaker: "jones",
-            text: "Good. Head downstairs and wait. The girls will get you when it's time. ",
+            text: "Good. Head downstairs and wait. The girls will get you when it's time.",
             button: [
                 { chatID: 2, text: "Sure", callback: "clothes0_1" }
             ]
@@ -329,8 +329,7 @@ room151.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "govlady",
-            text: "So we have ourselves a catwalk virgin. Go sit at the mirror and get your makup done. I'm looking for sexy slutty. " +
-                "Chop chop. ",
+            text: "So we have ourselves a catwalk virgin. Go sit at the mirror and get your makeup done. I'm looking for sexy, slutty. Chop chop.",
             button: [
                 { chatID: 3, text: "Don't I know you from somewhere?", callback: "" }
             ]
@@ -338,31 +337,31 @@ room151.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "govlady",
-            text: "I don't have time for idle chatter. Hurry up dear. ",
+            text: "I don't have time for idle chatter. Hurry up, dear.",
             button: [
-                { chatID: -1, text: "ok", callback: "clothes0_2" }
+                { chatID: -1, text: "Ok", callback: "clothes0_2" }
             ]
         },
         {
             chatID: 4,
             speaker: "govlady",
-            text: "I don't have time to micromanage you. Put on some lipstick and makeup. ",
+            text: "I don't have time to micromanage you. Put on some lipstick and makeup.",
             button: [
-                { chatID: -1, text: "oh, ok.", callback: "clothes0_2" }
+                { chatID: -1, text: "Oh, ok.", callback: "clothes0_2" }
             ]
         },
         {
             chatID: 5,
             speaker: "govlady",
-            text: "I suppose that will work.  ",
+            text: "I suppose that will work.",
             button: [
-                { chatID: 6, text: "ok", callback: "changeRoomxd" }
+                { chatID: 6, text: "Ok", callback: "changeRoomxd" }
             ]
         },
         {
             chatID: 6,
             speaker: "govlady",
-            text: "Now put this on. ",
+            text: "Now put this on.",
             button: [
                 { chatID: 7, text: "[Put on dress]", callback: "changeRoomxd1" }
             ]
@@ -370,8 +369,7 @@ room151.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "govlady",
-            text: "Ok. Follow me to your place. " + sc.n("p") + " told me you already had training on how to walk like a lady. " +
-                "remember that training and make this dress sexy. ",
+            text: "Ok. Follow me to your place. " + sc.n("p") + " told me you already had training on how to walk like a lady. Remember that training and make this dress sexy.",
             button: [
                 { chatID: 8, text: "Oh.. but...", callback: "" }
             ]
@@ -379,7 +377,7 @@ room151.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "govlady",
-            text: "I told you I don't have time for your jibber-jabber. Follow me and stay sexy. ",
+            text: "I told you I don't have time for your jibber-jabber. Follow me and stay sexy.",
             button: [
                 { chatID: 9, text: "[Follow her]", callback: "changeRoomxd2" }
             ]
@@ -387,16 +385,15 @@ room151.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "govlady",
-            text: "Just go through that door in the middle of the hallway when you're ready. ",
+            text: "Just go through that door in the middle of the hallway when you're ready.",
             button: [
-                { chatID: -1, text: "ok", callback: "" }
+                { chatID: -1, text: "Ok", callback: "" }
             ]
         },
         {
             chatID: 10,
             speaker: "thinking",
-            text: "Holy shit. There's so many people out there. I'm so incredibly nervous to go out there in a dress! They're going to " +
-                "judge me. I hope they don't laugh at me. I hope I don't make an ass of myself. Holy Shit.",
+            text: "Holy shit. There's so many people out there. I'm so incredibly nervous to go out there in a dress! They're going to judge me. I hope they don't laugh at me. I hope I don't make an ass of myself. Holy shit.",
             button: [
                 { chatID: 11, text: "...", callback: "changeRoomxd3" }
             ]
@@ -404,7 +401,7 @@ room151.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "thinking",
-            text: "Holy shit. There's so many people out there. ",
+            text: "Holy shit. There's so many people out there.",
             button: [
                 { chatID: 12, text: "...", callback: "changeRoomxd4a" }
             ]
@@ -412,10 +409,9 @@ room151.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "thinking",
-            text: "I'm so incredibly nervous to go out there in a dress! They're going to judge me. Look at them all gauking at me. " +
-                "I hope they don't laugh at me. I hope I don't make an ass of myself. Holy Shit.",
+            text: "I'm so incredibly nervous to go out there in a dress! They're going to judge me. Look at them all gawking at me. I hope they don't laugh at me. I hope I don't make an ass of myself. Holy shit.",
             button: [
-                { chatID: 13, text: "Well here goes nothing.", callback: "changeRoomxd4" }
+                { chatID: 13, text: "Well, here goes nothing.", callback: "changeRoomxd4" }
             ]
         },
         {
@@ -429,7 +425,7 @@ room151.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "thinking",
-            text: "Well, here's the turn and show everyone my backside and walk out. ",
+            text: "Well, here's the turn and show everyone my backside and walk out.",
             button: [
                 { chatID: 15, text: "...", callback: "changeRoomxd6" }
             ]
@@ -437,7 +433,7 @@ room151.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "govlady",
-            text: "You were sexy out there, excactly what we're looking for. ",
+            text: "You were sexy out there, exactly what we're looking for.",
             button: [
                 { chatID: 16, text: "...", callback: "" }
             ]
@@ -445,7 +441,7 @@ room151.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "jones",
-            text: "Yes. You should come back for some more shows. I will be looking forward it. ",
+            text: "Yes. You should come back for some more shows. I will be looking forward to it.",
             button: [
                 { chatID: 17, text: "...", callback: "" }
             ]
@@ -453,15 +449,15 @@ room151.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "govlady",
-            text: "Here's your $300 modeling fee. I hope to see you at our next showing. ",
+            text: "Here's your $300 modeling fee. I hope to see you at our next showing.",
             button: [
-                { chatID: -1, text: "Oh thank you... Bye.", callback: "changeRoomxd7" }
+                { chatID: -1, text: "Oh, thank you... Bye.", callback: "changeRoomxd7" }
             ]
         },
         {
             chatID: 18,
             speaker: "thinking",
-            text: "Odd, no one's here to meet me. I guess I should put on my makeup and lipstick. ",
+            text: "Odd, no one's here to meet me. I guess I should put on my makeup and lipstick.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -469,7 +465,7 @@ room151.chat = function (chatID) {
         {
             chatID: 19,
             speaker: "govlady",
-            text: "That will do. Put this on. ",
+            text: "That will do. Put this on.",
             button: [
                 { chatID: 20, text: "[Put on maid's dress]", callback: "c1_1" }
             ]
@@ -477,34 +473,33 @@ room151.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "govlady",
-            text: "Sexy. Ready to go out? ",
+            text: "Sexy. Ready to go out?",
             button: [
-                { chatID: 21, text: "Yeah. ", callback: "c1_2" }
+                { chatID: 21, text: "Yeah.", callback: "c1_2" }
             ]
         },
         {
             chatID: 21,
             speaker: "jones",
-            text: "Why do you want to make my clothing look basic and frumpy? You look like a common girl. ",
+            text: "Why do you want to make my clothing look basic and frumpy? You look like a common girl.",
             button: [
-                { chatID: 22, text: "Huh? ", callback: "" }
+                { chatID: 22, text: "Huh?", callback: "" }
             ]
         },
         {
             chatID: 22,
             speaker: "jones",
-            text: "This was not made to be worn with panties! If I wanted you to wear panties I would have given you panties to wear! " +
-                "Bend over. ",
+            text: "This was not made to be worn with panties! If I wanted you to wear panties I would have given you panties to wear! Bend over.",
             button: [
-                { chatID: 23, text: "Huh? ", callback: "" }
+                { chatID: 23, text: "Huh?", callback: "" }
             ]
         },
         {
             chatID: 23,
             speaker: "jones",
-            text: "Sluts don't question me. Bend Over!",
+            text: "Sluts don't question me. Bend over!",
             button: [
-                { chatID: 24, text: "Huh? ", callback: "c1_3" }
+                { chatID: 24, text: "Huh?", callback: "c1_3" }
             ]
         },
         {
@@ -518,8 +513,7 @@ room151.chat = function (chatID) {
         {
             chatID: 25,
             speaker: "jones",
-            text: "I said not to question me. And don't wear panties around me ever again. You'll ruin my show, slut. Now get out on " +
-                "the runway. ",
+            text: "I said not to question me. And don't wear panties around me ever again. You'll ruin my show, slut. Now get out on the runway.",
             button: [
                 { chatID: -1, text: "...", callback: "c1_5" }
             ]
@@ -535,7 +529,7 @@ room151.chat = function (chatID) {
         {
             chatID: 27,
             speaker: "thinking",
-            text: "Now for the turn. Got to go slow so I don't flash everyone my butthole. ",
+            text: "Now for the turn. Gotta go slow so I don't flash everyone my butthole.",
             button: [
                 { chatID: 28, text: "...", callback: "changeRoomxd5" }
             ]
@@ -543,7 +537,7 @@ room151.chat = function (chatID) {
         {
             chatID: 28,
             speaker: "thinking",
-            text: "Now I need to get out of here before I accidently show more than I should!",
+            text: "Now I need to get out of here before I accidentally show more than I should!",
             button: [
                 { chatID: 29, text: "...", callback: "changeRoomxd6" }
             ]
@@ -551,8 +545,7 @@ room151.chat = function (chatID) {
         {
             chatID: 29,
             speaker: "jones",
-            text: "You are the dumbest fashion show coordinator ever! You almost let this slut walk on my runway with panties! Don't make that " +
-                "mistake again or I'll look for a new fashion show coordinator. ",
+            text: "You are the dumbest fashion show coordinator ever! You almost let this slut walk on my runway with panties! Don't make that mistake again or I'll look for a new fashion show coordinator.",
             button: [
                 { chatID: 30, text: "...", callback: "c1_6" }
             ]
@@ -560,8 +553,7 @@ room151.chat = function (chatID) {
         {
             chatID: 30,
             speaker: "govlady",
-            text: "Well then. I didn't even think about your panties. Normally our models don't wear panties. We'll have to correct " +
-                "that next time. Here's your $500 modeling fee. ",
+            text: "Well then. I didn't even think about your panties. Normally our models don't wear panties. We'll have to correct that next time. Here's your $500 modeling fee.",
             button: [
                 { chatID: -1, text: "Sorry, and thank you.", callback: "c1_7" }
             ]
@@ -569,15 +561,15 @@ room151.chat = function (chatID) {
         {
             chatID: 31,
             speaker: "govlady",
-            text: "I have a surprise for you. Strip down. ",
+            text: "I have a surprise for you. Strip down.",
             button: [
-                { chatID: 32, text: "oh. ok.", callback: "c2_1" }
+                { chatID: 32, text: "Oh, ok.", callback: "c2_1" }
             ]
         },
         {
             chatID: 32,
             speaker: "govlady",
-            text: "Now put on this outfit. ",
+            text: "Now put on this outfit.",
             button: [
                 { chatID: 33, text: "...", callback: "c2_2" }
             ]
@@ -585,7 +577,7 @@ room151.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "me",
-            text: "I'm hanging out all over. I don't think I can go out in front of people like this. ",
+            text: "I'm hanging out all over. I don't think I can go out in front of people like this.",
             button: [
                 { chatID: 34, text: "...", callback: "" }
             ]
@@ -593,7 +585,7 @@ room151.chat = function (chatID) {
         {
             chatID: 34,
             speaker: "govlady",
-            text: "Oh hush! You're not going to get me in trouble again you little shit. ",
+            text: "Oh hush! You're not going to get me in trouble again, you little shit.",
             button: [
                 { chatID: 35, text: "Not doing it!", callback: "" }
             ]
@@ -601,7 +593,7 @@ room151.chat = function (chatID) {
         {
             chatID: 35,
             speaker: "govlady",
-            text: "Come with me to the hallway. " + sc.n("jones") + " is there, you can tell him. ",
+            text: "Come with me to the hallway. " + sc.n("jones") + " is there, you can tell him.",
             button: [
                 { chatID: 36, text: "I will!", callback: "changeRoomxd6" }
             ]
@@ -609,9 +601,7 @@ room151.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "jones",
-            text: "So you say you don't want to wear this. I don't care. Models don't have thoughts or opinions, you are my " +
-                "frame for my painting. I wouldn't ask my frame it's opinion. It's just there to present my clothing line. " +
-                "Now open your mouth. ",
+            text: "So you say you don't want to wear this. I don't care. Models don't have thoughts or opinions, you are my frame for my painting. I wouldn't ask my frame its opinion. It's just there to present my clothing line. Now open your mouth.",
             button: [
                 { chatID: 37, text: "Aaaaaa", callback: "c2_3" }
             ]
@@ -619,15 +609,15 @@ room151.chat = function (chatID) {
         {
             chatID: 37,
             speaker: "jones",
-            text: "Now stop your whining and get on stage slut!",
+            text: "Now stop your whining and get on stage, slut!",
             button: [
-                { chatID: 38, text: "MMmmmmm", callback: "c2_4" }
+                { chatID: 38, text: "Mm-mmm", callback: "c2_4" }
             ]
         },
         {
             chatID: 38,
             speaker: "thinking",
-            text: "What am I doing here? Why do I seem to end up parading myself I'm told to. ",
+            text: "What am I doing here? Why do I seem to end up parading myself when I'm told to?",
             button: [
                 { chatID: 39, text: "...", callback: "c2_5" }
             ]
@@ -635,8 +625,7 @@ room151.chat = function (chatID) {
         {
             chatID: 39,
             speaker: "thinking",
-            text: "They're just staring up my skirt and my bare chest. I'm just a piece of sexy meat to them. I can feel their eyes " +
-                "all over me. ",
+            text: "They're just staring up my skirt and my bare chest. I'm just a piece of sexy meat to them. I can feel their eyes all over me.",
             button: [
                 { chatID: 40, text: "...", callback: "" }
             ]
@@ -644,8 +633,7 @@ room151.chat = function (chatID) {
         {
             chatID: 40,
             speaker: "thinking",
-            text: "They're just staring up my skirt and my bare chest. I'm just a piece of sexy meat to them. I can feel their eyes " +
-                "all over me. ",
+            text: "They're just staring up my skirt and my bare chest. I'm just a piece of sexy meat to them. I can feel their eyes all over me.",
             button: [
                 { chatID: 41, text: "...", callback: "c2_6" }
             ]
@@ -661,8 +649,7 @@ room151.chat = function (chatID) {
         {
             chatID: 42,
             speaker: "jones",
-            text: "I'm done with your antics. I know you'll be back, because you secretly love being humiliated in front of a crowd " +
-                "and I'm going to fully humiliate you slut. ",
+            text: "I'm done with your antics. I know you'll be back, because you secretly love being humiliated in front of a crowd and I'm going to fully humiliate you, slut.",
             button: [
                 { chatID: 43, text: "...", callback: "" }
             ]
@@ -670,7 +657,7 @@ room151.chat = function (chatID) {
         {
             chatID: 43,
             speaker: "govlady",
-            text: "I'm looking forward to your next show. Here's your $500. ",
+            text: "I'm looking forward to your next show. Here's your $500.",
             button: [
                 { chatID: -1, text: "...", callback: "c2_8" }
             ]
@@ -678,16 +665,15 @@ room151.chat = function (chatID) {
         {
             chatID: 44,
             speaker: "govlady",
-            text: "I see you have made your choice. Follow me. ",
+            text: "I see you have made your choice. Follow me.",
             button: [
-                { chatID: 45, text: "ok", callback: "c3_1" }
+                { chatID: 45, text: "Ok", callback: "c3_1" }
             ]
         },
         {
             chatID: 45,
             speaker: "jones",
-            text: "So the slut returns. Don't worry this will be my best line of clothing you will get to display. Don't talk, " +
-                "just strip and bend over. ",
+            text: "So the slut returns. Don't worry this will be my best line of clothing you will get to display. Don't talk, just strip and bend over.",
             button: [
                 { chatID: 46, text: "[Strip]", callback: "c3_2" }
             ]
@@ -703,8 +689,7 @@ room151.chat = function (chatID) {
         {
             chatID: 47,
             speaker: "jones",
-            text: "...my piss. A stupid slut like you looks best covered in piss. Now go out there and parade yourself like the " +
-                "common whore you aspire to be. ",
+            text: "...my piss. A stupid slut like you looks best covered in piss. Now go out there and parade yourself like the common whore you aspire to be.",
             button: [
                 { chatID: 48, text: "...", callback: "c3_4" }
             ]
@@ -712,8 +697,7 @@ room151.chat = function (chatID) {
         {
             chatID: 48,
             speaker: "thinking",
-            text: "I can't believe I'm out here like this, dripping in piss in front of everyone. I wonder what's going on in their minds " +
-                "right now? ",
+            text: "I can't believe I'm out here like this, dripping in piss in front of everyone. I wonder what's going on in their minds right now?",
             button: [
                 { chatID: 49, text: "...", callback: "c3_5" }
             ]
@@ -721,7 +705,7 @@ room151.chat = function (chatID) {
         {
             chatID: 49,
             speaker: "random",
-            text: "YOU'RE SO HOT! I WANT TO LICK YOU ASS!",
+            text: "YOU'RE SO HOT! I WANT TO LICK YOUR ASS!",
             button: [
                 { chatID: 50, text: "...", callback: "" }
             ]
@@ -729,7 +713,7 @@ room151.chat = function (chatID) {
         {
             chatID: 50,
             speaker: "random",
-            text: "YOU HAVE THE SEXIEST FEET!!!",
+            text: "YOU HAVE THE SEXIEST FEET!",
             button: [
                 { chatID: 51, text: "...", callback: "" }
             ]
@@ -737,7 +721,7 @@ room151.chat = function (chatID) {
         {
             chatID: 51,
             speaker: "random",
-            text: "YOU'RE MY FAVORITE MODEL!!! I WANT TO FUCK YOUR FACE!!!",
+            text: "YOU'RE MY FAVORITE MODEL! I WANT TO FUCK YOUR FACE!",
             button: [
                 { chatID: 52, text: "...", callback: "" }
             ]
@@ -745,7 +729,7 @@ room151.chat = function (chatID) {
         {
             chatID: 52,
             speaker: "thinking",
-            text: "They like me! They really like me! I should walk around naked all the time! This is the most fun I've ever had. ",
+            text: "They like me! They really like me! I should walk around naked all the time! This is the most fun I've ever had.",
             button: [
                 { chatID: 53, text: "...", callback: "c3_6" }
             ]
@@ -761,7 +745,7 @@ room151.chat = function (chatID) {
         {
             chatID: 54,
             speaker: "govlady",
-            text: "Here's your modeling fee, $500. I think I'll be seeing you again. ",
+            text: "Here's your modeling fee, $500. I think I'll be seeing you again.",
             button: [
                 { chatID: -1, text: "Thanks!", callback: "c3_8" }
             ]

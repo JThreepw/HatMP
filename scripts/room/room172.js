@@ -235,8 +235,7 @@ room172.chat = function (chatID) {
             speaker: "black",
             text: "Welcome to my private lessons in the Black room. Strip off those clothes. " +
                 "A slave is not permitted dignity in the Black room. I'm going to take off " +
-                "your chasity device, because you're " +
-                "whole body is mine and only mine during the time you are here. ",
+                "your chastity device, because your whole body is mine and only mine during the time you are here.",
             button: [
                 { chatID: 1, text: "Yes ma'am", callback: "b0" }
             ]
@@ -244,7 +243,7 @@ room172.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "black",
-            text: "So.... Just a sec...",
+            text: "So... Just a sec...",
             button: [
                 { chatID: 56, text: "...", callback: "b1" }
             ]
@@ -253,8 +252,7 @@ room172.chat = function (chatID) {
             chatID: 2,
             speaker: "black",
             text: "You're my good little maggot. I'll let you play in the dirt " +
-                "to use the potty and play once I'm done here. " + 
-                "Just relax and enjoy the show. ",
+                "to use the potty and play once I'm done here. Just relax and enjoy the show.",
             button: [
                 { chatID: 3, text: "...", callback: "b3" }
             ]
@@ -263,9 +261,9 @@ room172.chat = function (chatID) {
             chatID: 3,
             speaker: "black",
             text: "Now slave, the first step is to get in the ready position. That is on " +
-                "you knees with your hands behind your back facing me. This is to show " +
+                "your knees with your hands behind your back facing me. This is to show " +
                 "you know and accept you are beneath me and are here to serve. Now kneel " +
-                "my little slave. ",
+                "my little slave.",
             button: [
                 { chatID: 4, text: "[kneel]", callback: "b4" }
             ]
@@ -276,8 +274,8 @@ room172.chat = function (chatID) {
             text: "Now many mistresses just punish their prey. I don't like that. It makes " +
                 "the slave just a passive passenger on their journey of pain. I'm going to " +
                 "give you some choices on how to be punished, and let you choose among them, " +
-                "so when your feeling that pain, you know you're the one who chose it. Now " +
-                "what pain would you like to feel today? ",
+                "so when you're feeling that pain, you know you're the one who chose it. Now " +
+                "what pain would you like to feel today?",
             button: [
                 { chatID: -1, text: "...", callback: "selection" }
             ]
@@ -285,9 +283,9 @@ room172.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "black",
-            text: "Oh yummy. I do love playing with the sensative testicles of a sissy. " +
-                "stand up so I can tie your hands behind your back so you can't deny me " +
-                "the pleasure of your pain. ",
+            text: "Oh yummy. I do love playing with the sensitive testicles of a sissy. " +
+                "Stand up so I can tie your hands behind your back so you can't deny me " +
+                "the pleasure of your pain.",
             button: [
                 { chatID: 6, text: "...", callback: "ball0" }
             ]
@@ -295,7 +293,7 @@ room172.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "black",
-            text: "Do you like the way I hold your testicles slut? Playing with them in my hand. Feels good doesn't it. ",
+            text: "Do you like the way I hold your testicles, slut? Playing with them in my hand. Feels good, doesn't it?",
             button: [
                 { chatID: 7, text: "Oooo yeah", callback: "ball1" }
             ]
@@ -303,7 +301,7 @@ room172.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "black",
-            text: "Now as I start to squeeze them you can really feel the pressure build. The pain spreads over your balls and into your guts.",
+            text: "Now as I start to squeeze them you can really feel the pressure build. The pain spreads over your balls and into your gut.",
             button: [
                 { chatID: 8, text: "UUuuugghhhh", callback: "ball2" }
             ]
@@ -311,7 +309,7 @@ room172.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "black",
-            text: "Let it out! Scream out the pain of your balls breaking in my hand! ",
+            text: "Let it out! Scream out the pain of your balls breaking in my hand!",
             button: [
                 { chatID: 9, text: "AAAAAaaaaaaaa!!!!!", callback: "ballsEnd" }
             ]
@@ -319,7 +317,7 @@ room172.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "black",
-            text: "Get up bitch.",
+            text: "Get up, bitch.",
             button: [
                 { chatID: -1, text: "...", callback: "snuggle" }
             ]
@@ -327,7 +325,7 @@ room172.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "black",
-            text: "When I'm done you'll be able to swollow a watermelon. Open up bitch. ",
+            text: "When I'm done you'll be able to swallow a watermelon. Open up, bitch.",
             button: [
                 { chatID: 11, text: "Aaaaa", callback: "mouth0" }
             ]
@@ -343,7 +341,7 @@ room172.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "black",
-            text: "Hard to breathe with my hand so deep isn't it. Can you feel your body start to go limp. ",
+            text: "Hard to breathe with my hand so deep, isn't it? Can you feel your body start to go limp?",
             button: [
                 { chatID: 13, text: "HHmmmmmm....", callback: "mouth2" }
             ]
@@ -351,7 +349,7 @@ room172.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "black",
-            text: "You lungs start to hurt as you feel the life start to flow out of you. Your body is getting heavy as you let go. My voice is echoing in your head...",
+            text: "Your lungs start to hurt as you feel the life start to flow out of you. Your body is getting heavy as you let go. My voice is echoing in your head...",
             button: [
                 { chatID: 14, text: "...", callback: "mouthEnd" }
             ]
@@ -359,7 +357,7 @@ room172.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "black",
-            text: "That's good. Breathe your life back into your body and Now stop drooling on my floor.",
+            text: "That's good. Breathe your life back into your body and now stop drooling on my floor.",
             button: [
                 { chatID: -1, text: "...", callback: "snuggle" }
             ]
@@ -367,7 +365,7 @@ room172.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "black",
-            text: "So does my poor naive think they deserve a treat? ",
+            text: "So does my poor naive think they deserve a treat?",
             button: [
                 { chatID: 16, text: "uh huh!", callback: "sit0" }
             ]
@@ -375,7 +373,7 @@ room172.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "black",
-            text: "So a treat is what you want? Lay down on my bench so I can sit on your face. ",
+            text: "So a treat is what you want? Lie down on my bench so I can sit on your face.",
             button: [
                 { chatID: 17, text: "yes", callback: "sit2" }
             ]
@@ -383,7 +381,7 @@ room172.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "black",
-            text: "Just bury you nose in there. It smells lovely doesn't it? Don't forget to lick the balls. ",
+            text: "Just bury your nose in there. It smells lovely, doesn't it? Don't forget to lick the balls.",
             button: [
                 { chatID: 18, text: "HHhmm mmMMm hhhHmmMM", callback: "sit10" }
             ]
@@ -407,7 +405,7 @@ room172.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "black",
-            text: "Awwww did your boner go away. We'll have to get that back up. ",
+            text: "Awwww did your boner go away? We'll have to get that back up.",
             button: [
                 { chatID: 21, text: ".....", callback: "sit1" }
             ]
@@ -415,7 +413,7 @@ room172.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "black",
-            text: "Keep licking my asshole slave. Get deep in there with your slutty mouth. ",
+            text: "Keep licking my asshole, slave. Get deep in there with your slutty mouth.",
             button: [
                 { chatID: 22, text: "MMmmmmmm", callback: "sit11" }
             ]
@@ -439,7 +437,7 @@ room172.chat = function (chatID) {
         {
             chatID: 24,
             speaker: "black",
-            text: "Can you smell my excitement? Does my ass taste sweeter slut? ",
+            text: "Can you smell my excitement? Does my ass taste sweeter, slut?",
             button: [
                 { chatID: 25, text: "*whimper* YYYYyyymmmm", callback: "sit12" }
             ]
@@ -448,7 +446,7 @@ room172.chat = function (chatID) {
             chatID: 25,
             speaker: "black",
             text: "My my my, you do love that don't you? There's too many marks on that side of your penis. I'll " +
-                "hole the whip with my other hand...",
+                "hold the whip with my other hand...",
             button: [
                 { chatID: 26, text: "MMmmmmaaaaa", callback: "sit33" }
             ]
@@ -456,7 +454,7 @@ room172.chat = function (chatID) {
         {
             chatID: 26,
             speaker: "black",
-            text: "To balance the PAIN! ",
+            text: "To balance the PAIN!",
             button: [
                 { chatID: 27, text: "OOOOooooooo", callback: "sit23" }
             ]
@@ -465,7 +463,7 @@ room172.chat = function (chatID) {
             chatID: 27,
             speaker: "black",
             text: "Awww it's sad again. I won't whip it anymore. You have to push through the pain. Get back to my " +
-                "horny asshole slave.  ",
+                "horny asshole slave.",
             button: [
                 { chatID: 28, text: "MMmmmmmmm *sniffle* *cry* ", callback: "sit1" }
             ]
@@ -481,7 +479,7 @@ room172.chat = function (chatID) {
         {
             chatID: 29,
             speaker: "black",
-            text: "give you PAIN! ",
+            text: "give you PAIN!",
             button: [
                 { chatID: 30, text: "AAAKAKKKAKAKAKAKAKA *bawl* ", callback: "sit24" }
             ]
@@ -489,7 +487,7 @@ room172.chat = function (chatID) {
         {
             chatID: 30,
             speaker: "black",
-            text: "awww so sad. If you want to give me an orgasm you'll have to try harder. ",
+            text: "awww so sad. If you want to give me an orgasm you'll have to try harder.",
             button: [
                 { chatID: 31, text: "*cry* *whimper* *lick*", callback: "sit3" }
             ]
@@ -497,7 +495,7 @@ room172.chat = function (chatID) {
         {
             chatID: 31,
             speaker: "black",
-            text: "OOOOO ooooo I'm really getting close. Go faster! ",
+            text: "OOOOO ooooo I'm really getting close. Go faster!",
             button: [
                 { chatID: 32, text: "*lick* *whimper* *lick* *slurp* *sob*", callback: "sitEnd" }
             ]
@@ -506,7 +504,7 @@ room172.chat = function (chatID) {
             chatID: 32,
             speaker: "black",
             text: "Hahaha. I'm not going to orgasm. You're not worth the effort.  " +
-                "My my my, we really did punish that terrible clitty of yours. ",
+                "My my my, we really did punish that terrible clitty of yours.",
             button: [
                 { chatID: -1, text: "*softly crying*", callback: "snuggle" }
             ]
@@ -514,7 +512,7 @@ room172.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "black",
-            text: "I do like a bound up sissy. So much fun to play with. ",
+            text: "I do like a bound up sissy. So much fun to play with.",
             button: [
                 { chatID: 34, text: "...", callback: "tie0" }
             ]
@@ -533,7 +531,7 @@ room172.chat = function (chatID) {
             speaker: "black",
             text: "Oh yes! Some nice Ice 'n Heat so you can feel that burn. I mixed in a bit of ghost pepper " +
                 "so the burn is really real. The heat has been known to make my slave's buttholes smoke with all " +
-                "the heat it puts out. ",
+                "the heat it puts out.",
             button: [
                 { chatID: 36, text: "OOOooo ouch. fuck, it burns", callback: "tie2" }
             ]
@@ -541,7 +539,7 @@ room172.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "black",
-            text: "Meet Big Bertha. I've never had a slave take the entire thing, but many have borken themselves trying." +
+            text: "Meet Big Bertha. I've never had a slave take the entire thing, but many have broken themselves trying. " +
                 "The question is not if you're going to break, but how bad.",
             button: [
                 { chatID: 37, text: "huh?", callback: "tie3" }
@@ -550,7 +548,7 @@ room172.chat = function (chatID) {
         {
             chatID: 37,
             speaker: "black",
-            text: "Now lets push this anal fat stretcher in your ass!",
+            text: "Now let's push this Big Bertha up your tight little ass!",
             button: [
                 { chatID: -1, text: "Ugh", callback: "xtie4" }
             ]
@@ -563,13 +561,13 @@ room172.chat = function (chatID) {
                 "emotionally unstable nun. Go work on stretching it out, I'm not your maid. Don't come back to play until " +
                 "it's a bit more stretchy.",
             button: [
-                { chatID: -1, text: "Oh. ok. ", callback: "xtieEnd0" }
+                { chatID: -1, text: "Oh. ok.", callback: "xtieEnd0" }
             ]
         },
         {
             chatID: 39,
             speaker: "black",
-            text: "Very good. We have a good start going. Let's see if we can go further. ",
+            text: "Very good. We have a good start going. Let's see if we can go further.",
             button: [
                 { chatID: -1, text: "*groan*", callback: "xtie5" }
             ]
@@ -577,7 +575,7 @@ room172.chat = function (chatID) {
         {
             chatID: 40,
             speaker: "black",
-            text: "That's as far in as that's going to go! Can you feel the burn and stretch? ",
+            text: "That's as far in as that's going to go! Can you feel the burn and stretch?",
             button: [
                 { chatID: 41, text: "uuuuUUHHH yeah!", callback: "tie4smack" }
             ]
@@ -593,7 +591,7 @@ room172.chat = function (chatID) {
         {
             chatID: 42,
             speaker: "black",
-            text: "A little gift for you to take home with you. Now go! And stretch that slutty fuck hole. ",
+            text: "A little gift for you to take home with you. Now go! And stretch that slutty fuck hole.",
             button: [
                 { chatID: -1, text: "Ok.", callback: "xtieEnd1" }
             ]
@@ -609,7 +607,7 @@ room172.chat = function (chatID) {
         {
             chatID: 44,
             speaker: "black",
-            text: "I guess this is as deep as it goes.. for now. I gues you deserve 2 rewards. ",
+            text: "I guess this is as deep as it goes.. for now. I guess you deserve 2 rewards.",
             button: [
                 { chatID: 45, text: "Huh?", callback: "tie5smack" }
             ]
@@ -641,7 +639,7 @@ room172.chat = function (chatID) {
         {
             chatID: 48,
             speaker: "black",
-            text: "You're welcome. Now go, and keep stretching that slut hole. ",
+            text: "You're welcome. Now go, and keep stretching that slut hole.",
             button: [
                 { chatID: -1, text: "ouch!", callback: "xtieEnd2" }
             ]
@@ -649,7 +647,7 @@ room172.chat = function (chatID) {
         {
             chatID: 49,
             speaker: "black",
-            text: "My my my, you are a fucking hole aren't you. Your reward is 3 smacks you lucky hole. ",
+            text: "My my my, you are a fucking hole aren't you. Your reward is 3 smacks you lucky hole.",
             button: [
                 { chatID: 50, text: "ouch!", callback: "tie6smack" }
             ]
@@ -697,7 +695,7 @@ room172.chat = function (chatID) {
         {
             chatID: 55,
             speaker: "black",
-            text: "You're a good hole. Now get out there and defeat the cult. ",
+            text: "You're a good hole. Now get out there and defeat the cult.",
             button: [
                 { chatID: -1, text: "...", callback: "xtieEnd3" }
             ]
@@ -707,7 +705,7 @@ room172.chat = function (chatID) {
             speaker: "black",
             text: "Good maggots are quiet when guests are over. One more word from you and " +
                 "you'll be wearing the spike suit in your cage for a week. You wouldn't " +
-                "want that would you? Now whimper so I know you understand. ",
+                "want that would you? Now whimper so I know you understand.",
             button: [
                 { chatID: 2, text: "...", callback: "b2" }
             ]
@@ -715,7 +713,7 @@ room172.chat = function (chatID) {
         {
             chatID: 57,
             speaker: "black",
-            text: "Strip it all and assume the position of servitude. ",
+            text: "Strip it all and assume the position of servitude.",
             button: [
                 { chatID: -1, text: "...", callback: "goAgain" }
             ]
@@ -723,7 +721,7 @@ room172.chat = function (chatID) {
         {
             chatID: 58,
             speaker: "black",
-            text: "My favorite. Let me pull your ride out. ",
+            text: "My favorite. Let me pull your ride out.",
             button: [
                 { chatID: 59, text: "...", callback: "hor1" }
             ]
@@ -731,8 +729,8 @@ room172.chat = function (chatID) {
         {
             chatID: 59,
             speaker: "black",
-            text: "This is my horse cowgirl. I love it's simplicity. Just a box with a roof, but the pain is something " +
-                "else. It doesn't start at first, but grows with time. Hop on so I can tie you up properly. ",
+            text: "This is my horse cowgirl. I love its simplicity. Just a box with a roof, but the pain is something " +
+                "else. It doesn't start at first, but grows with time. Hop on so I can tie you up properly.",
             button: [
                 { chatID: 60, text: "...", callback: "hor2" }
             ]
@@ -765,7 +763,7 @@ room172.chat = function (chatID) {
             chatID: 63,
             speaker: "black",
             text: "It's been quite some time. You're doing so well. You seem to have slipped off. Speak if you're still " +
-                "with me. ",
+                "with me.",
             button: [
                 { chatID: 64, text: "....", callback: "" }
             ]
@@ -773,7 +771,7 @@ room172.chat = function (chatID) {
         {
             chatID: 64,
             speaker: "black",
-            text: "Perfect. I have a little surprise for you. Just hold that there. ",
+            text: "Perfect. I have a little surprise for you. Just hold that there.",
             button: [
                 { chatID: 65, text: "....", callback: "hor4" }
             ]
@@ -821,7 +819,7 @@ room172.chat = function (chatID) {
         {
             chatID: 70,
             speaker: "black",
-            text: "You're welcome. My gift to you is more pain to give you strength. Now run along. ",
+            text: "You're welcome. My gift to you is more pain to give you strength. Now run along.",
             button: [
                 { chatID: -1, text: "....mmmmm", callback: "xhorend" }
             ]
@@ -830,7 +828,7 @@ room172.chat = function (chatID) {
             chatID: 71,
             speaker: "black",
             text: "You've done well in your servitude. As a reward you can choose between " +
-                "cuddles or cock. ",
+                "cuddles or cock.",
             button: [
                 { chatID: 72, text: "Cuddles", callback: "cuddles1" },
                 { chatID: 73, text: "Cock", callback: "cock" },
@@ -839,7 +837,7 @@ room172.chat = function (chatID) {
         {
             chatID: 72,
             speaker: "black",
-            text: "You've done well my little one. ",
+            text: "You've done well my little one.",
             button: [
                 { chatID: -1, text: "awwww", callback: "complete" },
             ]
@@ -847,7 +845,7 @@ room172.chat = function (chatID) {
         {
             chatID: 73,
             speaker: "black",
-            text: "Take my cock you fuck hole and cum like the little girl you are! ",
+            text: "Take my cock you fuck hole and cum like the little girl you are!",
             button: [
                 { chatID: -1, text: "Ugh", callback: "complete" },
             ]

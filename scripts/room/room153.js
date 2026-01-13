@@ -39,10 +39,9 @@ room153.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "butler",
-            text: "So you're the whore that wore the master's piss at the fashion show. You must be quite desperate " +
-                "for attention to do such a dreadful act. A common trollop. ",
+            text: "So you're the whore who wore the master's piss at the fashion show. You must be quite desperate for attention to do such a dreadful act; a common trollop.",
             button: [
-                { chatID: 1, text: "Oh. That's me. ", callback: "" }
+                { chatID: 1, text: "Oh. That's me.", callback: "" }
             ]
         },
        

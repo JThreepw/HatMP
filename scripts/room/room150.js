@@ -263,47 +263,39 @@ room150.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "!boy",
-            text: sc.n("jones") + " doesn't accept guests after hours. You'll have to come " +
-                "back during the day. ",
+            text: sc.n("jones") + " doesn't accept guests after hours. You'll have to come back during the day.",
             button: [
-                { chatID: -1, text: "Yes sir", callback: "leave" },
+                { chatID: -1, text: "Yes, sir", callback: "leave" },
             ]
         },
         {
             chatID: 1,
             speaker: "!butler",
-            text: "Huh? I don't remember " + sc.n("jones") + " ordering a common trollop. " +
-                "hehe. So what can I do for you? ",
+            text: "Huh? I don't remember " + sc.n("jones") + " ordering a common trollop. Hehe. So what can I do for you?",
             button: [
-                { chatID: 2, text: sc.n("jones") + " asked me to come by for work. ", callback: "" }
+                { chatID: 2, text: sc.n("jones") + " asked me to come by for work.", callback: "" }
             ]
         },
         {
             chatID: 2,
             speaker: "jones",
-            text: "Oh! So it appears we did order a common trollop! And it's been delivered. " +
-                "How wonderful! I'll fetch " + sc.n("!bitch") + " straight away. A most lovely " +
-                "woman who can assist you. ",
+            text: "Oh! So it appears we did order a common trollop! And it's been delivered. How wonderful! I'll fetch " + sc.n("!bitch") + " straight away. A most lovely woman who can assist you.",
             button: [
-                { chatID: 3, text: "Oh thanks. ", callback: "bitch" }
+                { chatID: 3, text: "Oh, thanks.", callback: "bitch" }
             ]
         },
         {
             chatID: 3,
             speaker: "!bitch",
-            text: "Fuck! I thought I told you to stay the fuck away! Fuck fuck fuck! " +
-                "You really are an idiot aren't you! fuck. Wait right here while I " +
-                "talk to " + sc.n("jones") + " on what to do with you. ",
+            text: "Fuck! I thought I told you to stay the fuck away! Fuck, fuck, fuck! You really are an idiot, aren't you! Fuck. Wait right here while I talk to " + sc.n("jones") + " about what to do with you.",
             button: [
-                { chatID: 4, text: "ok [wait] ", callback: "bg" },
+                { chatID: 4, text: "Ok, I'll wait", callback: "bg" },
             ]
         },
         {
             chatID: 4,
             speaker: "thinking",
-            text: "She's such a bitch! Maybe that's why everyone calls her " + sc.n("!bitch") +
-                ". I hope I get to talk just with " + sc.n("jones") + " and she leaves us " +
-                "alone. I just don't get why she's always so mean to me. ",
+            text: "She's such a bitch! Maybe that's why everyone calls her " + sc.n("!bitch") + ". I hope I get to talk just with " + sc.n("jones") + " and she leaves us alone. I just don't get why she's always so mean to me.",
             button: [
                 { chatID: 5, text: "...", callback: "bitch_smile" }
             ]
@@ -311,59 +303,48 @@ room150.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "!bitch",
-            text: sc.n("jones") + " wants you to be the house bitch. He put me in charge of " +
-                "training you on being the house bitch. Basically you'll clean, serve meals, " +
-                "attend to guests, and do whatever you're told. No questions asked. I'm going to " +
-                "be in charge of you, so you'll do whatever I say. Think you can do that? ",
+            text: sc.n("jones") + " wants you to be the house bitch. He put me in charge of training you on being the house bitch. Basically you'll clean, serve meals, attend to guests, and do whatever you're told. No questions asked. I'm going to be in charge of you, so you'll do whatever I say. Think you can do that?",
             button: [
-                { chatID: 8, text: "I'm in. ", callback: "bitch" },
+                { chatID: 8, text: "I'm in.", callback: "bitch" },
                 { chatID: 6, text: "Life is too short. I'm not going to deal with your craziness.", callback: "" }
             ]
         },
         {
             chatID: 6,
             speaker: "!bitch",
-            text: "Perfect. I'll let " + sc.n("!butler") + " know you'll never be back. ",
+            text: "Perfect. I'll let " + sc.n("!butler") + " know you'll never be back.",
             button: [
-                { chatID: -1, text: "Do that. You're a terrible person and I hope I never see you again. ", callback: "endBad" }
+                { chatID: -1, text: "Do that. You're a terrible person and I hope I never see you again.", callback: "endBad" }
             ]
         },
         {
             chatID: 7,
             speaker: "!boy",
-            text: sc.n("jones") + " said you're aren't allowed on this property. ",
+            text: sc.n("jones") + " said you're not allowed on this property.",
             button: [
-                { chatID: -1, text: "Yeah. That sounds right. ", callback: "leave" }
+                { chatID: -1, text: "Yeah. That sounds right.", callback: "leave" }
             ]
         },
         {
             chatID: 8,
             speaker: "!bitch",
-            text: "pfffft. Fine! Strip off your clothes. You only wear what I tell you " +
-                "to wear. When you come here you will strip down get on your knees " +
-                "with your hands behind your head and wait for me. It's called the " +
-                "exposed position. You'll assume that position when told. " +
-                "Sometime you'll have to wait for " + 
-                "hours if I'm busy. But once you enter that is what you do until " +
-                sc.n("jones") + " or I tell you otherwise. Got it! ",
+            text: "Pfft. Fine! Strip off your clothes. You only wear what I tell you to wear. When you come here you will strip down, get on your knees with your hands behind your head and wait for me. It's called the exposed position. You'll assume that position when told. Sometimes you'll have to wait for hours if I'm busy. But once you enter that is what you do until " + sc.n("jones") + " or I tell you otherwise. Got it!",
             button: [
-                { chatID: 9, text: "Yeah ", callback: "" }
+                { chatID: 9, text: "Yeah", callback: "" }
             ]
         },
         {
             chatID: 9,
             speaker: "!bitch",
-            text: "Well.... I'm waiting! ",
+            text: "Well... I'm waiting!",
             button: [
-                { chatID: -1, text: "oh", callback: "expose" }
+                { chatID: -1, text: "Oh", callback: "expose" }
             ]
         },
         {
             chatID: 10,
             speaker: "!bitch",
-            text: "I guess that's fine. For now you'll just clean around the mansion " +
-                "since our last maid just quit. Let's get you into uniform and I'll show " +
-                "you to your duties. ",
+            text: "I guess that's fine. For now you'll just clean around the mansion since our last maid just quit. Let's get you into uniform and I'll show you to your duties.",
             button: [
                 { chatID: 11, text: "[Change into your uniform]", callback: "invite1" }
             ]
@@ -371,28 +352,25 @@ room150.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "!bitch",
-            text: "Gross. You really can't fill a uniform with such tiny tits. " +
-                "Follow me. ",
+            text: "Gross. You really can't fill a uniform with such tiny tits. Follow me.",
             button: [
-                { chatID: 15, text: "ok", callback: "invite2" }
+                { chatID: 15, text: "Ok", callback: "invite2" }
             ]
         },
         {
             chatID: 12,
             speaker: "!bitch",
-            text: "Gross. You tits are too big. You really over did it didn't you? " +
-                "Follow me. ",
+            text: "Gross. Your tits are too big. You really overdid it, didn't you? Follow me.",
             button: [
-                { chatID: 15, text: "ok", callback: "invite2" }
+                { chatID: 15, text: "Ok", callback: "invite2" }
             ]
         },
         {
             chatID: 13,
             speaker: "!bitch",
-            text: "Well aren't you just the perfect slut with your perky tits? " +
-                "Follow me. ",
+            text: "Well aren't you just the perfect slut with your perky tits? Follow me.",
             button: [
-                { chatID: 15, text: "ok", callback: "invite2" }
+                { chatID: 15, text: "Ok", callback: "invite2" }
             ]
         },
         {
@@ -400,23 +378,21 @@ room150.chat = function (chatID) {
             speaker: "me",
             text: "not used",
             button: [
-                { chatID: 15, text: "ok", callback: "invite2" }
+                { chatID: 15, text: "Ok", callback: "invite2" }
             ]
         },
         {
             chatID: 15,
             speaker: "!bitch",
-            text: "This is the sitting room. You're expected to use the feather duster " +
-                "and dust every corner of this room. ",
+            text: "This is the sitting room. You're expected to use the feather duster and dust every corner of this room.",
             button: [
-                { chatID: 16, text: "ok", callback: "invite3" }
+                { chatID: 16, text: "Ok", callback: "invite3" }
             ]
         },
         {
             chatID: 16,
             speaker: "!bitch",
-            text: "This is the bathroom. I'm sure you know what a clean toilet looks like. " +
-                "Or maybe not. ",
+            text: "This is the bathroom. I'm sure you know what a clean toilet looks like. Or maybe not.",
             button: [
                 { chatID: 17, text: "*sigh*", callback: "invite4" }
             ]
@@ -424,9 +400,7 @@ room150.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "!bitch",
-            text: "And finally, clear off the table and wipe it clean. You won't have to " +
-                "do dishes, we have a dishwaser that can do that. Now follow me back to the " +
-                "entrance. ",
+            text: "And finally, clear off the table and wipe it clean. You won't have to do dishes, we have a dishwasher that can do that. Now follow me back to the entrance.",
             button: [
                 { chatID: 18, text: "...", callback: "bitch" }
             ]
@@ -434,42 +408,33 @@ room150.chat = function (chatID) {
         {
             chatID: 18,
             speaker: "!bitch",
-            text: "All rooms will be thoroughly cleaned, but most important, if anyone " +
-                "tells you to do something you stop what you're doing right then and there " +
-                "and do it. I don't care what they ask. If the dishwasher asks you to kiss " +
-                "his dirty hairy ass, then you bend over and kiss it. You are the bottom " +
-                "rung here and the exrement in the toilet has more status than you. " +
-                "At times " + sc.n("jones") +
-                " may watch you to ensure you're doing a proper job. You will not look at him or " +
-                "address him. You will only do your job or anthing asked of you. Got it? ",
+            text: "All rooms will be thoroughly cleaned, but most important, if anyone tells you to do something you stop what you're doing right then and there and do it. I don't care what they ask. If the dishwasher asks you to kiss his dirty hairy ass, then you bend over and kiss it. You are the bottom rung here and the excrement in the toilet has more status than you. At times " + sc.n("jones") + " may watch you to ensure you're doing a proper job. You will not look at him or address him. You will only do your job or anything asked of you. Got it?",
             button: [
-                { chatID: 19, text: "Got it. ", callback: "" }
+                { chatID: 19, text: "Got it.", callback: "" }
             ]
         },
         {
             chatID: 19,
             speaker: "!bitch",
-            text: "Good. I'll let you get to it then. When you're complete you'll return " +
-                "to this room and assume the expose position. ",
+            text: "Good. I'll let you get to it then. When you're complete you'll return to this room and assume the expose position.",
             button: [
-                { chatID: -1, text: "ok. ", callback: "start" }
+                { chatID: -1, text: "Ok.", callback: "start" }
             ]
         },
         {
             chatID: 20,
             speaker: "!bitch",
-            text: "You haven't cleaned all the room yet! Idiot bimbo! Get back to work! ",
+            text: "You haven't cleaned all the rooms yet! Idiot bimbo! Get back to work!",
             button: [
-                { chatID: -1, text: "oh. ok ", callback: "start1" }
+                { chatID: -1, text: "Oh. ok", callback: "start1" }
             ]
         },
         {
             chatID: 21,
             speaker: "!bitch",
-            text: "You did fine. Here's you day's pay. Now take the walk of shame and leave! " +
-                "You don't deserve clothes. Bye bimbo! [End of loop - work in progress]",
+            text: "You did fine. Here's your day's pay. Now take the walk of shame and leave! You don't deserve clothes. Bye bimbo! [End of loop - work in progress]",
             button: [
-                { chatID: -1, text: "oh. ok ", callback: "end" }
+                { chatID: -1, text: "Oh. ok", callback: "end" }
             ]
         },
         {
