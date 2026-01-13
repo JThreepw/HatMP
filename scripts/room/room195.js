@@ -148,7 +148,7 @@ room195.chat = function (chatID) {
             chatID: 1,
             speaker: "missy",
             text: "Yes. Quite sweet. This is only to be used to help you investigate, and not to be used for your own personal pleasure. " +
-                "promise me you'll only use this when you're doing a case for me. ",
+                "Promise me you'll only use this when you're doing a case for me.",
             button: [
                 { chatID: 3, text: "I promise ma'am", callback: "" },
                 { chatID: 2, text: "I can't promise that ma'am", callback: "" },
@@ -200,7 +200,7 @@ room195.chat = function (chatID) {
             chatID: 7,
             speaker: "missy",
             text: "Very good. That's the key that matches the impression. See how there's a line on top and " +
-                "hole in the center. Let's do another. Try selecting the wrong key a few times. ",
+                "a hole in the center. Let's do another. Try selecting the wrong key a few times.",
             button: [
                 { chatID: -1, text: "Yes ma'am", callback: "iteration1" },
             ]
@@ -211,7 +211,7 @@ room195.chat = function (chatID) {
             text: "Excellent. Now trying the wrong key takes energy. You can't keep guessing incorrectly. " +
                 "Also you can't just sit there all day picking a lock. Someone is bound to get suspicious. " +
                 "You have to get in and get done quickly. Now you'll try one for real. Pay attention to " +
-                "the timer. Ready? ",
+                "the timer. Ready?",
             button: [
                 { chatID: -1, text: "Yes ma'am", callback: "iteration2" },
             ]
@@ -231,9 +231,9 @@ room195.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "missy",
-            text: "As you improve your investigation expertise " +
+            text: "As you improve your investigation expertise, " +
                 "you'll find it will be easier to pick the locks. Be careful when picking locks. If you're " +
-                "caught some places will install more difficult locks or locks that are impossible to pick. ",
+                "caught, some places will install more difficult locks or locks that are impossible to pick.",
             button: [
                 { chatID: 11, text: "...", callback: "" },
             ]

@@ -304,9 +304,9 @@ room181.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "ceclia",
-            text: "My dick? You're the one with the chasity cage! Everytime I try to put my head down it digs right into my nose! ",
+            text: "My dick? You're the one with the chastity cage! Every time I try to put my head down it digs right into my nose!",
             button: [
-                { chatID: 12, text: "Like I had a choice! ", callback: "bondage101_5" }
+                { chatID: 12, text: "Like I had a choice!", callback: "bondage101_5" }
             ]
         },
         {
@@ -372,10 +372,10 @@ room181.chat = function (chatID) {
             chatID: 19,
             speaker: "cecilia",
             text: "I like to go there on the weekends in the last stall and suck all kinds of dick. You should join me. It gets " +
-                "lonly there all by myself sometimes and it would be aweseome to have another cocksucker there with me to help " +
-                "pass the time. ",
+                "lonely there all by myself sometimes and it would be awesome to have another cocksucker there with me to help " +
+                "pass the time.",
             button: [
-                { chatID: 20, text: "Really? That sounds awesome! ", callback: "gloryhole" },
+                { chatID: 20, text: "Really? That sounds awesome!", callback: "gloryhole" },
                 { chatID: 21, text: "Fuck no. I'm not sucking some stranger's dick!", callback: "" },
             ]
         },
@@ -698,8 +698,8 @@ room181.chat = function (chatID) {
         {
             chatID: 53,
             speaker: "!girl",
-            text: "Of course. Better you unload into that sissy then try your gastly moves " +
-                "on me, hehehe. ",
+            text: "Of course. Better you unload into that sissy than try your ghastly moves " +
+                "on me, hehehe.",
             button: [
                 { chatID: 54, text: "...", callback: "b203_9" },
             ]
@@ -876,7 +876,7 @@ room181.chat = function (chatID) {
                 "when we get home she's going to have me doing a lot more running... as soon " +
                 "as my ass heals.",
             button: [
-                { chatID: 72, text: "What's the cave of lost girls? ", callback: "b203_22" },
+                { chatID: 72, text: "What's the cave of lost girls?", callback: "b203_22" },
             ]
         },
         {
@@ -909,9 +909,9 @@ room181.chat = function (chatID) {
             text: "But most important, it will allow you to focus on your feelings " +
                 "so you can be the you, you really are. Now each of you will need " +
                 "to strip down and we're going to put on a hood with noise cancelling " +
-                "headphones, a soft ball and gag mask so you will not see, hear, taste, or make " +
-                "noise. Malik and I will then take you to a new suprise location " +
-                "where you'll be able to connect yourself to your body. ",
+                "headphones, a soft ball gag mask so you will not see, hear, taste, or make " +
+                "noise. Malik and I will then take you to a new surprise location " +
+                "where you'll be able to connect yourself to your body.",
             button: [
                 { chatID: 75, text: "Yes ma'am [Strip down and put on the hood and headphones]", callback: "black" },
             ]
@@ -1191,7 +1191,7 @@ room181.chat = function (chatID) {
                 "to post on my favorite sissy exposure website. I'll add in some basic info " +
                 "about your sissy self so the dirty old men know more about your secret desires. " +
                 "Then I'll give you the link so you can see it at home and each of you will get " +
-                "an offical Sissy ID card! Isn't this so exciting!",
+                "an official Sissy ID card! Isn't this so exciting!",
             button: [
                 { chatID: 102, text: "...", callback: "" },
             ]
@@ -1234,10 +1234,10 @@ room181.chat = function (chatID) {
             text: "Hahaha, no. It's a sissy exposure site, not a naked boy site. You'll " +
                 "each wear your sissy uniforms, but you'll pick your pose for the website " +
                 "and your Sissy ID card. The pose is important, as it shows what kind of " +
-                "of sissy you are. Some like to flash their ass, some their clitty cage, their feet, " +
-                "or try to stuff their shirts so they appear to have breasts. You pose will say " +
+                "sissy you are. Some like to flash their ass, some their clitty cage, their feet, " +
+                "or try to stuff their shirts so they appear to have breasts. Your pose will say " +
                 "a lot about you, and what you're interested in. But don't overthink it too much. " +
-                "This will be your first picture of your sissy self online, but it won't be your last. ",
+                "This will be your first picture of your sissy self online, but it won't be your last.",
             button: [
                 { chatID: 106, text: "...", callback: "" },
             ]
@@ -1256,8 +1256,8 @@ room181.chat = function (chatID) {
             speaker: "black",
             text: "Now girls, look at " + sc.n("!timothy") + "'s pose. It shows her confidence " +
                 "in who she is, with just a subtle display of her little chastity cage to " +
-                "show the viewer her tiny clitty is off limits. Simply sex. Such a bratty sissy " +
-                "I'm looking forward to breaking. ",
+                "show the viewer her tiny clitty is off limits. Simply sexy. Such a bratty sissy " +
+                "I'm looking forward to breaking.",
             button: [
                 { chatID: 108, text: "...", callback: "ez215_2" },
             ]
@@ -1265,7 +1265,7 @@ room181.chat = function (chatID) {
         {
             chatID: 108,
             speaker: "black",
-            text: sc.n("!thomas") + " is on her knees. This is becuase she wants everyone " +
+            text: sc.n("!thomas") + " is on her knees. This is because she wants everyone " +
                 "to know that she's a submissive cock sucker. Isn't that right " + sc.n("!thomas") +
                 "?",
             button: [
@@ -1287,8 +1287,8 @@ room181.chat = function (chatID) {
             text: sc.n("!chris") + " here has turned her back to the camera. This shows " +
                 "she's still very afraid of showing her face, but does love to show off " +
                 "her tight little butt. " + sc.n("!chris") + " still needs a lot of work " +
-                "in finding her confidance, hopefully the comments in this post will help " +
-                "her. ",
+                "in finding her confidence, hopefully the comments in this post will help " +
+                "her.",
             button: [
                 { chatID: 111, text: "...", callback: "" },
             ]

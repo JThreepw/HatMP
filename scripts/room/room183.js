@@ -324,9 +324,9 @@ room183.chat = function (chatID) {
             chatID: 6,
             speaker: "landlord",
             text: "This may be a tough lesson to swallow, but he's right. You've made your choice of what kind of girl you " +
-                "are. Given your bad grades and inability to hold a job, this just may your best life, laying here on your " +
+                "are. Given your bad grades and inability to hold a job, this just may be your best life, laying here on your " +
                 "back taking cocks for money. We all have a different path in life, and this looks like your path. Let " +
-                "me help guide you on your path. ",
+                "me help guide you on your path.",
             button: [
                 { chatID: 7, text: "hmmm....", callback: "ll6" }
             ]
@@ -360,7 +360,7 @@ room183.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "landlord",
-            text: "Jam your cock in my little sissy girl. Make her squal like a whore. ",
+            text: "Jam your cock in my little sissy girl. Make her squeal like a whore.",
             button: [
                 { chatID: 11, text: "....Oh no...", callback: "ll10" }
             ]
@@ -394,7 +394,7 @@ room183.chat = function (chatID) {
             speaker: "landlord",
             text: "See. Doesn't that feel right. When " + sc.n("bigguy") + " makes love to me there is no better feeling than " +
                 "letting his cum drip out before I run to my toilet and squeeze it out. I see this is what you are now, " +
-                "A dum dump whore. Wear it with pride. Cum is what built our home and put food on our table...",
+                "a cum dump whore. Wear it with pride. Cum is what built our home and put food on our table...",
             button: [
                 { chatID: 15, text: "...", callback: "ll13" }
             ]
@@ -460,7 +460,7 @@ room183.chat = function (chatID) {
         {
             chatID: 22,
             speaker: "molly",
-            text: "Well that was more fun than a possum riding down a greased up slip 'n slide! We'll have to do this again! ",
+            text: "Well that was more fun than a possum riding down a greased up slip 'n slide! We'll have to do this again!",
             button: [
                 { chatID: 23, text: "oh yeah!", callback: "trio3" }
             ]
@@ -468,9 +468,9 @@ room183.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "thinking",
-            text: "That was awesome. I'm so full of cum.... ",
+            text: "That was awesome. I'm so full of cum....",
             button: [
-                { chatID: -1, text: "Fart cum on you way back to the door. ", callback: "leave" },
+                { chatID: -1, text: "Fart cum on your way back to the door.", callback: "leave" },
                 { chatID: -1, text: "Hang out in your room for a bit", callback: "relax" }
             ]
         },

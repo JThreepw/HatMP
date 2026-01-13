@@ -158,7 +158,7 @@ room210.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "thinking",
-            text: "So exicited. I just signed up for " + g.internal.name + "!",
+            text: "So excited. I just signed up for " + g.internal.name + "!",
             button: [
                 { chatID: -1, text: "Go directly to class ", callback: "gotoclass" },
                 { chatID: -1, text: "Keep looking around ", callback: "" }
@@ -170,7 +170,7 @@ room210.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "thinking",
-            text: "So exicited. I just signed up for " + g.internal.name + "!",
+            text: "So excited. I just signed up for " + g.internal.name + "!",
             button: [
                 { chatID: -1, text: "Go directly to class ", callback: "gotoclass" },
                 { chatID: -1, text: "Keep looking around ", callback: "" }

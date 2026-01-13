@@ -14,7 +14,7 @@ room214.main = function () {
                 "width": 858,
                 "height": 506,
                 "image": "214_pinkgame/crowd.png",
-                "title": "Migle with the crowd"
+                "title": "Mingle with the crowd"
             },
             {
                 "type": "btn",
@@ -202,7 +202,7 @@ room214.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "!gamergirl",
-            text: "Fine! Message my foot, or I'll shove it up your ass. ",
+            text: "Fine! Massage my foot, or I'll shove it up your ass.",
             button: [
                 { chatID: -1, text: "Yes ma'am", callback: "gw2" }
             ]
@@ -248,17 +248,17 @@ room214.chat = function (chatID) {
             speaker: "thinking",
             text: "So many people watching me take this dick! I hope no one recognizes me " +
                 "when I put my clothes back on. This really is totally embarrassing and " +
-                "wrong, but it feels so good! His dick it totally hitting that right spot! ",
+                "wrong, but it feels so good! His dick is totally hitting that right spot!",
             button: [
-                { chatID: 11, text: "... ", callback: "group4" },
+                { chatID: 11, text: "...", callback: "group4" },
             ]
         },
         {
             chatID: 11,
             speaker: "!gameman",
-            text: "Oh wow! Totally wow! That way feels good! I so needed that, thanks! ",
+            text: "Oh wow! Totally wow! That was so good! I so needed that, thanks!",
             button: [
-                { chatID: -1, text: "Fuck yeah! ", callback: "groupEnd" },
+                { chatID: -1, text: "Fuck yeah!", callback: "groupEnd" },
             ]
         },
         {

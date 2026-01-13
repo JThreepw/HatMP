@@ -196,7 +196,7 @@ room187.chat = function (chatID) {
             speaker: "martha",
             text: "While I do so enjoy our visits, I find myself with a great many other matters that require my immediate attention. And do remember, my dear, that you are permitted but one dose of your feminization pills per day.",
             button: [
-                { chatID: -1, text: "Oh yea. Duh! I'm such a bimbo head!", callback: "leave" },
+                { chatID: -1, text: "Oh yeah. Duh! I'm such a bimbo head!", callback: "leave" },
             ]
         },
         {
@@ -220,18 +220,18 @@ room187.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "me",
-            text: "owie owie owie!!! That's all I can take!!!! Damn that hurts my tight hole!",
+            text: "Owie owie owie!!! That's all I can take!!!! Damn that hurts my tight hole!",
             button: [
-                { chatID: -1, text: "relax", callback: "" },
+                { chatID: -1, text: "Relax", callback: "" },
             ]
         },
         {
             chatID: 11,
             speaker: "me",
             text: "My bussy is a black hole, able to suck up any planet size cock or dildo that " +
-                "get too close to it!!!",
+                "gets too close to it!!!",
             button: [
-                { chatID: -1, text: "relax", callback: "" },
+                { chatID: -1, text: "Relax", callback: "" },
             ]
         },
     ];

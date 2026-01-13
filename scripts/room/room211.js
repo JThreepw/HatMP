@@ -629,7 +629,7 @@ room211.chat = function (chatID) {
                 chatID: 4,
                 speaker: "ralph",
                 text: "I did not like being naked with everyone watching! I'm hoping we get to " +
-                    "keep our clothes on for the next class. ",
+                    "keep our clothes on for the next class.",
                 button: [
                     { chatID: -1, text: "Me too", callback: "" },
                 ]
@@ -663,9 +663,9 @@ room211.chat = function (chatID) {
             {
                 chatID: 8,
                 speaker: "!thomas",
-                text: "I'm so embarrased from that last class. But in a weird way it's arousing. " +
+                text: "I'm so embarrassed from that last class. But in a weird way it's arousing. " +
                     "Like really arousing. I don't know why I'm sharing this, but it's nice to talk " +
-                    "to someone that's going though this with me. ",
+                    "to someone that's going through this with me.",
                 button: [
                     { chatID: -1, text: "Hahaha yeah.", callback: "" },
                 ]
@@ -673,10 +673,10 @@ room211.chat = function (chatID) {
             {
                 chatID: 9,
                 speaker: "!chris",
-                text: "Oh hi. I'm surprise we're all still here. I almost didn't come, I'm so scared " +
-                    "of what's going to happen. ",
+                text: "Oh hi. I'm surprised we're all still here. I almost didn't come, I'm so scared " +
+                    "of what's going to happen.",
                 button: [
-                    { chatID: -1, text: "I'm a little scared too, but in a good way. Like when when a skydiver jumps out of a plane.", callback: "" },
+                    { chatID: -1, text: "I'm a little scared too, but in a good way. Like when a skydiver jumps out of a plane.", callback: "" },
                 ]
             },
             {
@@ -719,7 +719,7 @@ room211.chat = function (chatID) {
                 chatID: 14,
                 speaker: "!philbert",
                 text: "I'm so glad we got some free lube. I ran into this older chick, and when I tried fucking " +
-                    "her she said she needed some lube. totally able to get my nut! ",
+                    "her she said she needed some lube. Totally able to get my nut!",
                 button: [
                     { chatID: -1, text: "...", callback: "" },
                 ]

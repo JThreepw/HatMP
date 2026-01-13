@@ -266,8 +266,8 @@ room219.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "cecilia",
-            text: "I'm so happy I get a desk buddy! It get so boring out here all by myself all the time. It's also " +
-                "helps that you're so damn sexy! Love the suit, it brings out the manliness in you. ",
+            text: "I'm so happy I get a desk buddy! It gets so boring out here all by myself all the time. It also " +
+                "helps that you're so damn sexy! Love the suit, it brings out the manliness in you.",
             button: [
                 { chatID: 1, text: "Thanks. You're really hot too!", callback: "" },
                 { chatID: 2, text: "Thanks", callback: "" },
@@ -276,9 +276,9 @@ room219.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "cecilia",
-            text: "Do you really think so! I hope it says the right message to everyone that comes in.  ",
+            text: "Do you really think so! I hope it says the right message to everyone that comes in.",
             button: [
-                { chatID: 2, text: "I'm sure it does. ", callback: "" },
+                { chatID: 2, text: "I'm sure it does.", callback: "" },
             ]
         },
         {
@@ -296,9 +296,9 @@ room219.chat = function (chatID) {
             chatID: 3,
             speaker: "cecilia",
             text: "Yeppers! Oh. Also Missy told me never to go snooping around, and just do the work. But you know " +
-                "me! Anyways, if you do, you get in trouble. ",
+                "me! Anyways, if you do, you get in trouble.",
             button: [
-                { chatID: 4, text: "ok. I guess I'll start. ", callback: "widescreen" },
+                { chatID: 4, text: "ok. I guess I'll start.", callback: "widescreen" },
             ]
         },
         {
@@ -312,15 +312,15 @@ room219.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "missy",
-            text: "Don't bother turning around. Just close the game and get to work. ",
+            text: "Don't bother turning around. Just close the game and get to work.",
             button: [
-                { chatID: -1, text: "Yes ma'am ", callback: "missyHate" },
+                { chatID: -1, text: "Yes ma'am", callback: "missyHate" },
             ]
         },
         {
             chatID: 6,
             speaker: "thinking",
-            text: "...I must serve Missy. I am her slave. Service is what I live for... ",
+            text: "...I must serve Missy. I am her slave. Service is what I live for...",
             button: [
                 { chatID: 7, text: "[Snap out of it]", callback: "snapoutHypno" },
             ]
@@ -344,7 +344,7 @@ room219.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "cecilia",
-            text: "Hey, you're kinda zoned out. Take a break it's lunch time! ",
+            text: "Hey, you're kinda zoned out. Take a break it's lunch time!",
             button: [
                 { chatID: -1, text: "Oh, huh, yeah.", callback: "workLunch" },
             ]
@@ -352,7 +352,7 @@ room219.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "me",
-            text: "Hapiness is a new pretty dress. Must wear dresses. Be a pretty girl. ",
+            text: "Happiness is a new pretty dress. Must wear dresses. Be a pretty girl.",
             button: [
                 { chatID: 7, text: "[Snap out of it]", callback: "snapoutHypno" },
             ]

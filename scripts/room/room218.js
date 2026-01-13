@@ -129,10 +129,10 @@ room218.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "thinking",
-            text: "Maybe I could just jack it really quick. I'm sure no one will notice if I'm careful.  ",
+            text: "Maybe I could just jack it really quick. I'm sure no one will notice if I'm careful.",
             button: [
                 { chatID: -1, text: "Jack off", callback: "jack1" },
-                { chatID: -1, text: "Too dangerous. Don't jack off. ", callback: "backToWork" },
+                { chatID: -1, text: "Too dangerous. Don't jack off.", callback: "backToWork" },
             ]
         },
         {
@@ -146,7 +146,7 @@ room218.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "cecilia",
-            text: "What are you doing? ",
+            text: "What are you doing?",
             button: [
                 { chatID: 4, text: "GULP! oh no", callback: "jack3" },
             ]
@@ -154,7 +154,7 @@ room218.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "cecilia",
-            text: "Are you wasting cum!  ",
+            text: "Are you wasting cum!",
             button: [
                 { chatID: 5, text: "Wha...", callback: "jack3" },
             ]
@@ -162,7 +162,7 @@ room218.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "cecilia",
-            text: "Mmmmmmm Yummy cummies! ",
+            text: "Mmmmmmm Yummy cummies!",
             button: [
                 { chatID: 6, text: "How did you...", callback: "jack4" },
             ]
@@ -170,7 +170,7 @@ room218.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "cecilia",
-            text: "Never waste cum like that again! Next time you need to get off, let me know! ",
+            text: "Never waste cum like that again! Next time you need to get off, let me know!",
             button: [
                 { chatID: 7, text: "Oh. I will", callback: "" },
             ]
@@ -178,7 +178,7 @@ room218.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "cecilia",
-            text: "Now back to work mister! ",
+            text: "Now back to work mister!",
             button: [
                 { chatID: -1, text: "Yeah", callback: "backToWork" },
             ]
@@ -186,24 +186,24 @@ room218.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "thinking",
-            text: "I'm so fucking horny! I need to fuck something so bad! ",
+            text: "I'm so fucking horny! I need to fuck something so bad!",
             button: [
                 { chatID: 9, text: "Jack off", callback: "bathroom1" },
-                { chatID: -1, text: "Too dangerous. Don't jack off. ", callback: "backToWork" },
+                { chatID: -1, text: "Too dangerous. Don't jack off.", callback: "backToWork" },
             ]
         },
         {
             chatID: 9,
             speaker: "thinking",
-            text: "Ffffuuuuuu ",
+            text: "Ffffuuuuuu",
             button: [
-                { chatID: 10, text: "I'm gunna cum!", callback: "bathroom2" },
+                { chatID: 10, text: "I'm gonna cum!", callback: "bathroom2" },
             ]
         },
         {
             chatID: 10,
             speaker: "thinking",
-            text: "Gross. I guess I'll start my cleaning getting my cum off the floor. ",
+            text: "Gross. I guess I'll start my cleaning by getting my cum off the floor.",
             button: [
                 { chatID: -1, text: "...", callback: "backToWork" },
             ]
@@ -211,24 +211,24 @@ room218.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "thinking",
-            text: "Fuck I'm horny. Maybe I could rub one out here and get away with it... ",
+            text: "Fuck I'm horny. Maybe I could rub one out here and get away with it...",
             button: [
                 { chatID: 12, text: "Jack off", callback: "recep1" },
-                { chatID: -1, text: "Too dangerous. Don't jack off. ", callback: "backToWork" },
+                { chatID: -1, text: "Too dangerous. Don't jack off.", callback: "backToWork" },
             ]
         },
         {
             chatID: 12,
             speaker: "thinking",
-            text: "Ffffuuuuuu ",
+            text: "Ffffuuuuuu",
             button: [
-                { chatID: 13, text: "I'm gunna cum!", callback: "recep2" },
+                { chatID: 13, text: "I'm gonna cum!", callback: "recep2" },
             ]
         },
         {
             chatID: 13,
             speaker: "thinking",
-            text: "Gross. I better clean that cum off the monitor. ",
+            text: "Gross. I better clean that cum off the monitor.",
             button: [
                 { chatID: -1, text: "...", callback: "backToWork" },
             ]
@@ -236,7 +236,7 @@ room218.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "thinking",
-            text: "FUCK! I can feel my dick pressing against my cage! I need to get this thing off! ",
+            text: "FUCK! I can feel my dick pressing against my cage! I need to get this thing off!",
             button: [
                 { chatID: -1, text: "...", callback: "backToWork" },
             ]

@@ -271,7 +271,7 @@ room215.chat = function (chatID) {
             return {
                 chatID: 900,
                 speaker: "!skank",
-                text: "Bitch, you small like an unflushed toilet. You need to take your " +
+                text: "Bitch, you smell like an unflushed toilet. You need to take your " +
                     "ass out of here. You're scaring away MY customers.",
                 button: [
                     { chatID: -1, text: "...bitch", callback: "" }
@@ -323,10 +323,10 @@ room215.chat = function (chatID) {
                 "plus a percentage of their profits for one of my private rooms, but " +
                 "for you I'll make you a deal since you're Missy's favorite sissy. " +
                 "You can have the room for $200 with no monthly rent and I'll only " +
-                "take a percentage of your profits. Deal? ",
+                "take a percentage of your profits. Deal?",
             button: [
                 { chatID: -1, text: "Sweet! That's a deal!", callback: "pay200" },
-                { chatID: -1, text: "Oh, no. I'm just looking. ", callback: "" },
+                { chatID: -1, text: "Oh, no. I'm just looking.", callback: "" },
             ]
         },
         {
@@ -341,10 +341,10 @@ room215.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "p",
-            text: "That's my cock hungry bitch! Feel free to explore the room befor you " +
-                "bend that fine ass over for those thick gooey cum loads! ",
+            text: "That's my cock hungry bitch! Feel free to explore the room before you " +
+                "bend that fine ass over for those thick gooey cum loads!",
             button: [
-                { chatID: -1, text: "You're the best! ", callback: "reset" },
+                { chatID: -1, text: "You're the best!", callback: "reset" },
             ]
         },
         {
@@ -399,7 +399,7 @@ room215.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "!boy",
-            text: "Hey! We saw you in the other room and uhh. Yout're like really hot, " +
+            text: "Hey! We saw you in the other room and uhh. You're like really hot, " +
                 "and uhhh can we all fuck you?",
             button: [
                 { chatID: -1, text: "Yeah! I can totally take 3 cocks at once!", callback: "triostart0" },
@@ -417,9 +417,9 @@ room215.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "!girl",
-            text: "I've had the worst day and need to break a little thing youself in half! You in?",
+            text: "I've had the worst day and need to break a little thing like yourself in half! You in?",
             button: [
-                { chatID: -1, text: "I'm ready to be hurt again. ", callback: "femdom0" },
+                { chatID: -1, text: "I'm ready to be hurt again.", callback: "femdom0" },
                 { chatID: 13, text: "I'll pass", callback: "" }
             ]
         },

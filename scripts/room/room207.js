@@ -18,7 +18,7 @@ room207.main = function () {
         "top": 288,
         "width": 91,
         "height": 633,
-        "title": "Missy's Fishing School for Sissies",
+        "title": "Missy's Finishing School for Sissies",
         "image": "207_door/door_school.png"
     }, 207);
     

@@ -111,7 +111,7 @@ room206.main = function () {
             ]
         },
         {
-            t: "I demand servatude above all else. When I tell you to do something can I expect you to follow my orders? ",
+            t: "I demand servitude above all else. When I tell you to do something can I expect you to follow my orders? ",
             b: [
                 { t: "q12_0.png", a: false },
                 { t: "q12_1.png", a: false },
@@ -565,8 +565,8 @@ room206.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "missy",
-            text: "You said you should bring a notepad with you. That is suprisingly correct. You might not " +
-                "be as stupid as you look. ",
+            text: "You said you should bring a notepad with you. That is surprisingly correct. You might not " +
+                "be as stupid as you look.",
             button: [
                 { chatID: 6, text: "Yes..", callback: "" }
             ]
@@ -727,8 +727,8 @@ room206.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "missy",
-            text: "You're going to seduce someone with your intilligence! You have to be smart to try that! " +
-                "The only person you're secuding with your brain is a dog. ",
+            text: "You're going to seduce someone with your intelligence! You have to be smart to try that! " +
+                "The only person you're seducing with your brain is a dog.",
             button: [
                 { chatID: -1, text: "...", callback: "q8" },
             ]
@@ -754,7 +754,7 @@ room206.chat = function (chatID) {
         {
             chatID: 24,
             speaker: "missy",
-            text: "Next question.. It looks like you're into girls. It's too bad girls are into you. ",
+            text: "Next question... It looks like you're into girls. It's too bad girls aren't into you.",
             button: [
                 { chatID: -1, text: "...", callback: "q9" },
             ]
@@ -763,8 +763,8 @@ room206.chat = function (chatID) {
         {
             chatID: 25,
             speaker: "missy",
-            text: "Next question.. It looks like you're into boys. Maybe if you put a paper bag over your " +
-                "entire body so they wouldn't have to look at you, you could get laid. ",
+            text: "Next question... It looks like you're into boys. Maybe if you put a paper bag over your " +
+                "entire body so they wouldn't have to look at you, you could get laid.",
             button: [
                 { chatID: -1, text: "...", callback: "q9" },
             ]
@@ -834,9 +834,9 @@ room206.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "missy",
-            text: "Right now you're your not even fit to clean my toilet. You won't be chasing bad guys " +
-                "till you less of an embarrassment to me. You will also address me as ma'ma. That's a $50 " +
-                "deduction from your clothing allowance. ",
+            text: "Right now you're not even fit to clean my toilet. You won't be chasing bad guys " +
+                "till you're less of an embarrassment to me. You will also address me as ma'am. That's a $50 " +
+                "deduction from your clothing allowance.",
             button: [
                 { chatID: 33, text: "Yes ma'am", callback: "money" }
             ]
@@ -876,9 +876,9 @@ room206.chat = function (chatID) {
             chatID: 36,
             speaker: "missy",
             text: "I can be very generous. Since you have been able to follow my simple instructions I will give " +
-                "you $300 so that you may purchase the clothing required for your job. Now don't dissapoint me " +
+                "you $300 so that you may purchase the clothing required for your job. Now don't disappoint me " +
                 "by spending it on something frivolous. Go buy the clothing straight away. Now get out before I " +
-                "change my mind about hiring you. ",
+                "change my mind about hiring you.",
             button: [
                 { chatID: 41, text: "Yes ma'am", callback: "" }
             ]
@@ -886,9 +886,9 @@ room206.chat = function (chatID) {
         {
             chatID: 37,
             speaker: "missy",
-            text: "I was going to give you $300, but since you can't follow simple instruction you will only " +
-                "receive $" + g.pass.money + "  " +
-                "so that you may purchase the clothing required for your job. Now don't dissapoint me " +
+            text: "I was going to give you $300, but since you can't follow simple instructions you will only " +
+                "receive $" + g.pass.money + ". " +
+                "So that you may purchase the clothing required for your job. Now don't disappoint me " +
                 "by spending it on something frivolous. Go buy the clothing straight away. Now get out before I " +
                 "change my mind about hiring you.",
             button: [
@@ -917,8 +917,8 @@ room206.chat = function (chatID) {
         {
             chatID: 40,
             speaker: "missy",
-            text: "So you have trouble initiating converstion? That's fine, there are other ways to get what you " +
-                "want, even if you mouth isn't used for talking. ",
+            text: "So you have trouble initiating conversation? That's fine, there are other ways to get what you " +
+                "want, even if your mouth isn't used for talking.",
             button: [
                 { chatID: -1, text: "Gulp", callback: "q4" },
             ]
@@ -926,8 +926,8 @@ room206.chat = function (chatID) {
         {
             chatID: 41,
             speaker: "missy",
-            text: "You'll be compinsated for your efforts each Friday. If you miss work on Friday you " +
-                "also miss your paycheck.  ",
+            text: "You'll be compensated for your efforts each Friday. If you miss work on Friday you " +
+                "also miss your paycheck.",
             button: [
                 { chatID: 42, text: "Gulp", callback: "end" },
             ]
@@ -952,7 +952,7 @@ room206.chat = function (chatID) {
         {
             chatID: 44,
             speaker: "missy",
-            text: "So you like choices. Very well, just be careful on what choices you do have to make.  ",
+            text: "So you like choices. Very well, just be careful about what choices you do have to make.",
             button: [
                 { chatID: -1, text: "*GULP*", callback: "q12" },
             ]

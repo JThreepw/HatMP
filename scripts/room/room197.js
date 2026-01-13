@@ -468,7 +468,7 @@ room197.chat = function (chatID) {
             speaker: "missy",
             text: "That's right, worship my big powerful legs. Show me your secret desires that " +
                 "make your clitty twitch at night when you sleep. Now tell me sissy. If you wanted " +
-                "to make Big Red happy, whould you do it with your lips, or sissy pussy? ",
+                "to make Big Red happy, would you do it with your lips, or sissy pussy?",
             button: [
                 { chatID: 15, text: "My mouth, ma'am.", callback: "oralup" },
                 { chatID: 16, text: "My sissy pussy, ma'am.", callback: "analup" },
@@ -477,9 +477,9 @@ room197.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "missy",
-            text: "So you have an oral fixation. I know Big Red would love part your lips and " +
+            text: "So you have an oral fixation. I know Big Red would love to part your lips and " +
                 "stretch your slutty throat. I would get so deep you would be able to smell my  " +
-                "clit and pussy rubbing aginst your nose. You would like that wouldn't you sissy? ",
+                "clit and pussy rubbing against your nose. You would like that wouldn't you sissy?",
             button: [
                 { chatID: 17, text: "Oh yes ma'am!", callback: "" },
             ]
@@ -662,7 +662,7 @@ room197.chat = function (chatID) {
         {
             chatID: 35,
             speaker: "thinking",
-            text: "What the hell, am I just a toilet now? I'm not even a human to her, just a portable toilet. At leaste " +
+            text: "What the hell, am I just a toilet now? I'm not even a human to her, just a portable toilet. At least " +
                 "I get to put my mouth on her pussy. She does have a smooth pussy.",
             button: [
                 { chatID: 36, text: "Yes ma'am", callback: "pp1" },
@@ -744,9 +744,9 @@ room197.chat = function (chatID) {
         {
             chatID: 45,
             speaker: "missy",
-            text: "I stepped in something sticky on my floor. This is unaccptable! " +
+            text: "I stepped in something sticky on my floor. This is unacceptable! " +
                 sc.n("cecilia") + " become a chair, " + sc.n("me") + " clean this nasty " +
-                "sticky gunk off me feet. Now!",
+                "sticky gunk off my feet. Now!",
             button: [
                 { chatID: 46, text: "Yes ma'am!", callback: "cleanfoot" },
             ]

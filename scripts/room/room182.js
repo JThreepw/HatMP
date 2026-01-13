@@ -670,7 +670,7 @@ room182.chat = function (chatID) {
                 chatID: 2,
                 speaker: "missy",
                 text: "Just look at this monster cock! It's thicker than all of your skinny little " +
-                    "arms, and has more power than your puny little bodies. This is what a man should be. ",
+                    "arms, and has more power than your puny little bodies. This is what a man should be.",
                 button: [
                     { chatID: 3, text: "...", callback: "t1_2" }
                 ]
@@ -679,8 +679,8 @@ room182.chat = function (chatID) {
                 chatID: 3,
                 speaker: "missy",
                 text: "Over here we have " + sc.n("cecilia") + ". She's a graduate of the sissy school. " +
-                    "her clitty is small and tits continue to slowly grow now that she's on hormones. " + sc.n("cecilia") + " whens " +
-                    "the last time your clitty was hard? ",
+                    "Her clitty is small and tits continue to slowly grow now that she's on hormones. " + sc.n("cecilia") + " when's " +
+                    "the last time your clitty was hard?",
                 button: [
                     { chatID: 4, text: "...", callback: "" }
                 ]
@@ -696,8 +696,8 @@ room182.chat = function (chatID) {
             {
                 chatID: 5,
                 speaker: "missy",
-                text: "A year without an erection! She knows her true pupose. Bend over " + sc.n("cecilia") +
-                    " and show everyone that purpose. ",
+                text: "A year without an erection! She knows her true purpose. Bend over " + sc.n("cecilia") +
+                    " and show everyone that purpose.",
                 button: [
                     { chatID: 6, text: "...", callback: "t1_3" }
                 ]
@@ -806,7 +806,7 @@ room182.chat = function (chatID) {
                 speaker: "martha",
                 text: "Hello ladies. I'm going to give you all your femininity test. To properly test your femininity " +
                     "we must do away with those nasty boy clothes and check for cleanliness. Now I need everyone " +
-                    "to strip naked and form a line so I may inspect your bodies. Chop chop. ",
+                    "to strip naked and form a line so I may inspect your bodies. Chop chop.",
                 button: [
                     { chatID: 18, text: "...", callback: "t1_7" },
                 ]
@@ -824,8 +824,8 @@ room182.chat = function (chatID) {
             {
                 chatID: 19,
                 speaker: "martha",
-                text: "Jeremy. Unshaven, no chasity, messy hair, and you haven't showered today. " +
-                    "Simply disgraceful. You will get an F. ",
+                text: "Jeremy. Unshaven, no chastity, messy hair, and you haven't showered today. " +
+                    "Simply disgraceful. You will get an F.",
                 button: [
                     { chatID: 20, text: "...", callback: "" },
                 ]
@@ -867,8 +867,8 @@ room182.chat = function (chatID) {
             {
                 chatID: 24,
                 speaker: "!thomas",
-                text: "Missy put one on me, but it fell off. She said my tiny penis was chasity " +
-                    "enough. That if I tried to show it to a girl, they would just laugh at me. ",
+                text: "Missy put one on me, but it fell off. She said my tiny penis was chastity " +
+                    "enough. That if I tried to show it to a girl, they would just laugh at me.",
                 button: [
                     { chatID: 25, text: "...", callback: "" },
                 ]
@@ -877,8 +877,8 @@ room182.chat = function (chatID) {
                 chatID: 25,
                 speaker: "martha",
                 text: "I would not blame the ladies for laughing at your small penis. You deserve " +
-                    "it. A man of your size doens't deserve to ejaculate. Perhaps a vaginal chastity " +
-                    "device would be more suited to your lack of genitalia. I shall give you a 'B'. ",
+                    "it. A man of your size doesn't deserve to ejaculate. Perhaps a vaginal chastity " +
+                    "device would be more suited to your lack of genitalia. I shall give you a 'B'.",
                 button: [
                     { chatID: 26, text: "...", callback: "t1_12" },
                 ]
@@ -913,7 +913,7 @@ room182.chat = function (chatID) {
                 chatID: 29,
                 speaker: "martha",
                 text: "With your hair, you could be an attractive lady if you would just put forth " +
-                    "some effort. You need to adjust your attitude if you're to succeeed. You will receive a 'C'. ",
+                    "some effort. You need to adjust your attitude if you're to succeed. You will receive a 'C'.",
                 button: [
                     { chatID: 30, text: "...", callback: "t1_13" },
                 ]
@@ -948,7 +948,7 @@ room182.chat = function (chatID) {
                 chatID: 33,
                 speaker: "ralph",
                 text: "Regardless you must wear your cage. I shall give you a 'C'. This concludes my " +
-                    "evaluation. " + sc.n("p") + " they are all yours. ",
+                    "evaluation. " + sc.n("p") + " they are all yours.",
                 button: [
                     { chatID: 34, text: "...", callback: "" },
                 ]
@@ -957,7 +957,7 @@ room182.chat = function (chatID) {
                 chatID: 34,
                 speaker: "p",
                 text: "OK sluts! Lube up, 'cause we're going to see how far down the cock you " +
-                    "can go! ",
+                    "can go!",
                 button: [
                     { chatID: 35, text: "...", callback: "" },
                 ]
@@ -1137,9 +1137,9 @@ room182.chat = function (chatID) {
             {
                 chatID: 53,
                 speaker: "black",
-                text: "Well well. If it isn't Missy favorite student. You might ask why I do what " +
+                text: "Well well. If it isn't Missy's favorite student. You might ask why I do what " +
                     "I do. It's because you sissies are idiots. You think you can put on a slutty outfit " +
-                    "with your asshole hanging out and you'll be treated like a lady. ",
+                    "with your asshole hanging out and you'll be treated like a lady.",
                 button: [
                     { chatID: 54, text: "...", callback: "" },
                 ]
@@ -1353,7 +1353,7 @@ room182.chat = function (chatID) {
                 speaker: "missy",
                 text: "Jeremy, step forward. You have failed this class, you have failed your " +
                     "classmates, and you failed your teachers. Grab your clothes and go. " +
-                    "You are done here. You will never be a sissy. ",
+                    "You are done here. You will never be a sissy.",
                 button: [
                     { chatID: 77, text: "*oh damn*", callback: "t1_48" },
                 ]
@@ -1384,8 +1384,8 @@ room182.chat = function (chatID) {
                 chatID: 79,
                 speaker: "missy",
                 text: "She has proven she is the total package! The mind of a girl, grace of a " +
-                    "lady, determination  of a whore, and anal capacity of a depraved slut. " +
-                    "Congratulations. You may return to the group. ",
+                    "lady, determination of a whore, and anal capacity of a depraved slut. " +
+                    "Congratulations. You may return to the group.",
                 button: [
                     { chatID: 81, text: "...", callback: "crown1" },
                 ]

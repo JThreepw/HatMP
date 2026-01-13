@@ -134,8 +134,8 @@ room217.chat = function (chatID) {
             chatID: 0,
             speaker: "missy",
             text: "Lateness is something I don't tolerate. I can sit here and complain to you about it, " +
-                "or we will try and change your behavior with my behavement adjustment treatment. I'm not " +
-                "one to complain, so we well adjust your behavior. ",
+                "or we will try and change your behavior with my behavior adjustment treatment. I'm not " +
+                "one to complain, so we will adjust your behavior.",
             button: [
                 { chatID: -1, text: "Yes ma'am", callback: "getPunishment" }
             ]
@@ -311,7 +311,7 @@ room217.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "missy",
-            text: "learned your lesson ",
+            text: "You've learned your lesson.",
             button: [
                 { chatID: -1, text: "...", callback: "punishmentEnd" },
             ]
@@ -327,7 +327,7 @@ room217.chat = function (chatID) {
         {
             chatID: 22,
             speaker: "missy",
-            text: "Here's your clothing. Make sure to wear it ",
+            text: "Here's your clothing. Make sure to wear it.",
             button: [
                 { chatID: -1, text: "...", callback: "punishmentEnd" },
             ]

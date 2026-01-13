@@ -230,7 +230,7 @@ room199.chat = function (chatID) {
                 speaker: "missy",
                 text: "That's a good boy. You should go running in the park or work out at the gym to " +
                     "continue to improve your fitness. Tomorrow we will start it all again. " +
-                    "Now get out so I can focus on me. ",
+                    "Now get out so I can focus on me.",
                 button: [
                     { chatID: -1, text: "Yes ma'am", callback: "end" },
                 ]

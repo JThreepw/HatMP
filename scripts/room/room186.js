@@ -193,7 +193,7 @@ room186.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "black",
-            text: "Ladies, gentlemen, and gentlefolk. I have brought a little suprise for you " +
+            text: "Ladies, gentlemen, and gentlefolk. I have brought a little surprise for you " +
                 "all. Tony pull the rope! ",
             button: [
                 { chatID: 10, text: "...", callback: "show2" }
@@ -202,7 +202,7 @@ room186.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "black",
-            text: "Before you are two of the most cock crazied sissies in this entire town... ",
+            text: "Before you are two of the most cock crazed sissies in this entire town...",
             button: [
                 { chatID: 11, text: "...", callback: "show3" }
             ]
@@ -241,8 +241,8 @@ room186.chat = function (chatID) {
             chatID: 14,
             speaker: "black",
             text: "Thank you! Thank you all! These two cock hungry whores are both available " +
-                "in the Pink Room or your local gloy hole for your pleasure! I'm available by appointment in the " +
-                "Black Room! Thank you again and good night! ",
+                "in the Pink Room or your local glory hole for your pleasure! I'm available by appointment in the " +
+                "Black Room! Thank you again and good night!",
             button: [
                 { chatID: -1, text: "[End the show]", callback: "showEnd" }
             ]

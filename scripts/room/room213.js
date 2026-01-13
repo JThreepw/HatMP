@@ -498,8 +498,8 @@ room213.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "p",
-            text: "Yes. Just know that many of our cliets can get a little handsy. It can be surprising for a new girl. " +
-                "Now follow me to the game room. ",
+            text: "Yes. Just know that many of our clients can get a little handsy. It can be surprising for a new girl. " +
+                "Now follow me to the game room.",
             button: [
                 { chatID: 3, text: "[Follow her]", callback: "tour_game" }
             ]
@@ -687,11 +687,11 @@ room213.chat = function (chatID) {
         {
             chatID: 22,
             speaker: "!thomas",
-            text: "Speaking of resepct. I met the nicest dom. She had a private room that she took " +
-                "me too, tied me up, teased me for an hour, then made such beautiful love to me! " +
+            text: "Speaking of respect. I met the nicest dom. She had a private room that she took " +
+                "me to, tied me up, teased me for an hour, then made such beautiful love to me! " +
                 "I'm so totally in love right now. I'm so totally going to be her wife, cook her " +
                 "meals, clean the house, and dress in the prettiest dresses for her. Ohhhh wow. I'm " +
-                "so in love. ",
+                "so in love.",
             button: [
                 { chatID: 23, text: "MMMMmmmm hhmmmm!", callback: "" }
             ]
@@ -709,9 +709,9 @@ room213.chat = function (chatID) {
         {
             chatID: 24,
             speaker: "!girl",
-            text: "Oh darling. You're so hot. Love the bindings. Nothing hotter that a slut " +
+            text: "Oh darling. You're so hot. Love the bindings. Nothing hotter than a slut " +
                 "that knows their worth. Have you heard of the C.U.M. Cult? They would love " +
-                "a tasty treat like you. ",
+                "a tasty treat like you.",
             button: [
                 { chatID: 25, text: "Mmmmm MMmmmm", callback: "_2" }
             ]
@@ -771,7 +771,7 @@ room213.chat = function (chatID) {
             speaker: "missy",
             text: "Aren't you just the cutest wine holder. I'd love to chat, but I do have " +
                 "an appointment to run to. I so am looking forward to using that ass though! " +
-                "I'm going to fuck you so deep you'll fart cum for a week! ",
+                "I'm going to fuck you so deep you'll fart cum for a week!",
             button: [
                 { chatID: -1, text: "Hmmm mmmhhh", callback: "_3" }
             ]
@@ -804,7 +804,7 @@ room213.chat = function (chatID) {
             chatID: 35,
             speaker: "p",
             text: "That concludes the tour. I'll take you back to the main room where you " +
-                "can start working. ",
+                "can start working.",
             button: [
                 { chatID: -1, text: "ok", callback: "reset" }
             ]
@@ -812,11 +812,11 @@ room213.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "spanky",
-            text: "Oh hi! I didn't know you worked here! I just love this palce. Any time " +
+            text: "Oh hi! I didn't know you worked here! I just love this place. Any time " +
                 "my boner gets too hard I just come here for some nice wet pussy. Or ass. " +
                 "The funny thing is they're both just holes and I can cum in either of them " +
                 "but for some reason it's just different. Ya know. Like sometimes I want to " +
-                "fuck pussy, but other times nothing makes me harder than an asshole. ",
+                "fuck pussy, but other times nothing makes me harder than an asshole.",
             button: [
                 { chatID: 37, text: "Hmmm mmmhhh", callback: "" }
             ]
@@ -849,11 +849,11 @@ room213.chat = function (chatID) {
             speaker: "spanky",
             text: "Yeah. You know. I bet the first cock in your ass hurt. You know if " +
                 "you want a bigger ass, or some bigger tits you can come by my store. " +
-                "I got these pill that some dude, told me the are like whore moans. " +
+                "I got these pills that some dude, told me they are like whore moans. " +
                 "Like dudes take them when they don't want to be dudes anymore. My " +
                 "buddy says you can take more, but it doesn't do anything, so he " +
-                "says just take one a day. His chemist says it still not totally " +
-                "ready, and work in a weird way, but all my customers says they're " +
+                "says just take one a day. His chemist says it's still not totally " +
+                "ready, and works in a weird way, but all my customers say they're " +
                 "great and keep taking them. I know they work 'cause those dudes " +
                 "have some great titties, ya know. The kind you want to juggle around.",
             button: [

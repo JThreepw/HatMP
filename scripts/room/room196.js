@@ -65,7 +65,7 @@ room196.chatcatch = function (callback) {
             else {
                 newWp = Math.floor(wp * .5);
                 g.internal = "You don't deserve to be paid. I'm only giving you half until you have " +
-                    "proven yourslef. Your weekly pay has decreased from $" + wp + " to $" + newWp + ". ";
+                    "proven yourself. Your weekly pay has decreased from $" + wp + " to $" + newWp + ". ";
             }
 
             gv.mod("money", newWp);
@@ -196,10 +196,10 @@ room196.chat = function (chatID) {
             {
                 chatID: 5,
                 speaker: "missy",
-                text: "Have you ever thought that you're just floating alongin life without your true purpose? ",
+                text: "Have you ever thought that you're just floating along in life without your true purpose?",
                 button: [
                     { chatID: 6, text: "Oh wow. Yes!", callback: "xdress" },
-                    { chatID: 12, text: "No. I'm good. ", callback: "" },
+                    { chatID: 12, text: "No. I'm good.", callback: "" },
                 ]
             },
             {
@@ -207,20 +207,20 @@ room196.chat = function (chatID) {
                 speaker: "missy",
                 text: "On the day I saved you I could tell that you were living a life that wasn't yours. The C.U.M. cult " +
                     "could too. That's why they tried to kidnap you, and that's why I took you in. You are destined for " +
-                    "something much greater than what you are now. The problem is can't seem to unlock that youself. That's " +
-                    "why I'm going to help you. ",
+                    "something much greater than what you are now. The problem is you can't seem to unlock that yourself. That's " +
+                    "why I'm going to help you.",
                 button: [
-                    { chatID: 7, text: "Help me ma'am? ", callback: "" },
+                    { chatID: 7, text: "Help me ma'am?", callback: "" },
                 ]
             },
             {
                 chatID: 7,
                 speaker: "missy",
                 text: "I have a special school starting next week. There's none like it anywhere in the world. It will unlock " +
-                    "that which is burried deep within yourself to help you achieve your true potential. It really will be an " +
-                    "exiting time for you. ",
+                    "that which is buried deep within yourself to help you achieve your true potential. It really will be an " +
+                    "exciting time for you.",
                 button: [
-                    { chatID: 8, text: "What is this school ma'am? ", callback: "" },
+                    { chatID: 8, text: "What is this school ma'am?", callback: "" },
                 ]
             },
             {
@@ -234,7 +234,7 @@ room196.chat = function (chatID) {
             {
                 chatID: 9,
                 speaker: "missy",
-                text: "Hahaha. Of course you are. What kind of underwear are you wearing? ",
+                text: "Hahaha. Of course you are. What kind of underwear are you wearing?",
                 button: [
                     { chatID: 10, text: "...panties...", callback: "" },
                 ]
@@ -252,8 +252,8 @@ room196.chat = function (chatID) {
                 speaker: "missy",
                 text: "But I forced you? I didn't force you. You stood there willingly. You came here in panties, willingly. " +
                     "You are the one that deep down wants to be a sissy by your own actions. I'm just here to help and guide you " +
-                    "on your journey. Don't worry about it too much. You'll do fine. Class is on Tuesdays and Thursday afternoons. " +
-                    "(Dev note - for now. Still working on the flow) Now on to other things. ",
+                    "on your journey. Don't worry about it too much. You'll do fine. Class is on Tuesdays and Thursdays in the afternoons. " +
+                    "(Dev note - for now. Still working on the flow) Now on to other things.",
                 button: [
                     { chatID: -1, text: "...", callback: "checkBeforeComplete" },
                 ]
@@ -261,7 +261,7 @@ room196.chat = function (chatID) {
             {
                 chatID: 12,
                 speaker: "missy",
-                text: "I don't know if you're clueless, or are lying to both yourself, and me.  ",
+                text: "I don't know if you're clueless, or are lying to both yourself and me.",
                 button: [
                     { chatID: 6, text: "...", callback: "" },
                 ]

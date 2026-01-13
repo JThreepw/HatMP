@@ -324,7 +324,7 @@ room212.chat = function (chatID) {
                     "came in. My jaw was so sore by the fourth dick I didn't think I could do anymore. Luckily " +
                     sc.n("p") + " came in to check on me. When she saw how far behind I was she helped out. " +
                     "She was amazing. No guy lasted more than 30 seconds with her blowing them. I was totally " +
-                    "amazed. I want so much to be like her someday. ",
+                    "amazed. I want so much to be like her someday.",
                 button: [
                     { chatID: 3, text: "oh wow!", callback: "" }
                 ]
@@ -333,11 +333,11 @@ room212.chat = function (chatID) {
                 chatID: 3,
                 speaker: "!sporty",
                 text: "She was throating one guy deep, and a cock in each fist. She was spitting their " +
-                    "cum into her hands to use as lubrication for each hand job.I don't think they guys knew " +
+                    "cum into her hands to use as lubrication for each hand job. I don't think the guys knew " +
                     "they were getting jacked off with their teammates cum as lube. I had to pause a few times " +
-                    "just to watch her go. It was really a thing of beauty. ",
+                    "just to watch her go. It was really a thing of beauty.",
                 button: [
-                    { chatID: 4, text: "So has it been busy today? ", callback: "d2" }
+                    { chatID: 4, text: "So has it been busy today?", callback: "d2" }
                 ]
             },
             {

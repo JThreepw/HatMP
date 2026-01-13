@@ -83,7 +83,7 @@ room184.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "me",
-            text: "Rubber ducky, you're the one.. You make bath time lots of fun",
+            text: "Rubber ducky, you're the one... You make bath time lots of fun",
             button: [
                 { chatID: 2, text: "Shave your body", callback: "shaveBody" },
                 { chatID: -1, text: "Finish showering", callback: "finishShowering" }
@@ -92,7 +92,7 @@ room184.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "me",
-            text: "Rubber ducky, you're the one.. You make bath time lots of fun",
+            text: "Rubber ducky, you're the one... You make bath time lots of fun",
             button: [
                 { chatID: -1, text: "Finish showering", callback: "finishShowering" }
             ]

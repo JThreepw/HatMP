@@ -651,7 +651,7 @@ room208.chat = function (chatID) {
             speaker: "missy",
             text: "I will present to you three challenges.<br/>" +
                 "The first is the challenge of servitude. To properly serve your mistress you must know your mistress. I have " +
-                "painted my toes in order and you must know me to guess that order. Kiss my toes correctly and your shall pass.",
+                "painted my toes in order and you must know me to guess that order. Kiss my toes correctly and you shall pass.",
             button: [
                 { chatID: 4, text: "[Keep silent]", callback: "" },
                 { chatID: 3, text: "Ask for a hint", callback: "" }
@@ -680,7 +680,7 @@ room208.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "missy",
-            text: "Your initial energy is you actual energy. So if you start the game with high energy you'll have more chances to fail. " +
+            text: "Your initial energy is your actual energy. So if you start the game with high energy you'll have more chances to fail. " +
                 "On the right you'll see your feet and balls light up. When they light up click them to move forward. If you just can't do it " +
                 "you can raise your energy by working out and gaining more energy. Be sure to max it out!",
             button: [
@@ -722,8 +722,8 @@ room208.chat = function (chatID) {
             speaker: "missy",
             text: "Which challenge shall we do?",
             button: [
-                { chatID: g.pass.first ? 11 : 12, text: g.pass.first ? "COMPLETE" : "The challenge of servatude", callback: "" },
-                { chatID: g.pass.second ? 11 : 16, text: g.pass.second ? "COMPLETE" : "the challenge of hardship", callback: "" },
+                { chatID: g.pass.first ? 11 : 12, text: g.pass.first ? "COMPLETE" : "The challenge of servitude", callback: "" },
+                { chatID: g.pass.second ? 11 : 16, text: g.pass.second ? "COMPLETE" : "The challenge of hardship", callback: "" },
                 { chatID: g.pass.third ? 11 : 23, text: g.pass.third ? "COMPLETE" : "The challenge of control", callback: "" },
                 { chatID: 10, text: "I give up", callback: "" }
             ]
@@ -755,7 +755,7 @@ room208.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "missy",
-            text: "This challenge will test your ability to serve me in an orderly manner.Kiss each of my toes " +
+            text: "This challenge will test your ability to serve me in an orderly manner. Kiss each of my toes " +
                 "in an order that is pleasing to me. Don't displease me.",
             button: [
                 { chatID: -1, text: "I'm such an airhead, can you give me hints? [Easy]", callback: "feet2a" },
@@ -815,7 +815,7 @@ room208.chat = function (chatID) {
             chatID: 20,
             speaker: "missy",
             text: "Now to put you on the pole, careful with that metal chastity device, the current will shock you right up your little " +
-                "pee pee.. hehehehe",
+                "pee pee... hehehehe",
             button: [
                 { chatID: 32, text: "...", callback: "" }
             ]
@@ -881,7 +881,7 @@ room208.chat = function (chatID) {
         {
             chatID: 28,
             speaker: "missy",
-            text: "That's too early, you we're even close. This one doesn't count.",
+            text: "That's too early, you weren't even close. This one doesn't count.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -898,15 +898,15 @@ room208.chat = function (chatID) {
         {
             chatID: 30,
             speaker: "missy",
-            text: "You've passed all the test. You are a disciplined little servant. I'm proud of how far you've come. ",
+            text: "You've passed all the tests. You are a disciplined little servant. I'm proud of how far you've come.",
             button: [
-                { chatID: -1, text: "Thank you  mistress", callback: "leave" }
+                { chatID: -1, text: "Thank you mistress", callback: "leave" }
             ]
         },
         {
             chatID: 31,
             speaker: "missy",
-            text: "You've passed all the test. You are a disciplined little servant.",
+            text: "You've passed all the tests. You are a disciplined little servant.",
             button: [
                 { chatID: -1, text: "Yes mistress", callback: "leave" }
             ]
@@ -915,7 +915,7 @@ room208.chat = function (chatID) {
             chatID: 32,
             speaker: "missy",
             text: "I'm going to give you a choice slut. You can either ride the entire length of the pole like a true sissy or " +
-            "just the tip?",
+                "just the tip?",
             button: [
                 { chatID: -1, text: "Just the tip mistress [Easy]", callback: "t4" },
                 { chatID: -1, text: "I want the entire pole mistress. Make it hard!", callback: "t4a" }
@@ -925,7 +925,7 @@ room208.chat = function (chatID) {
             chatID: 33,
             speaker: "missy",
             text: "Since I'm a nice mistress I'm going to give you a choice, you can either show me how obedient you are by not cumming " +
-            "on your own, or you beg and I'll help you. ",
+                "on your own, or you beg and I'll help you.",
             button: [
                 { chatID: -1, text: "Help me not prematurely ejaculate [Easy]", callback: "jerk0" },
                 { chatID: -1, text: "I don't need your help. I can do this mistress", callback: "jerk1" }

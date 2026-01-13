@@ -329,8 +329,8 @@ room209.chat = function (chatID) {
                 text: "Now everyone look at Thomas' tiny little sissy dick. Like most of you this useless flesh isn't going " +
                     "to please anyone. That is why sissy life is your life. No woman wants this tiny flaccid thing anywhere " +
                     "near their pussy. That is why you're the pussy. My frilly sissy little pussies. Now we're going to have " +
-                    "lots of time to play, once you're ready. Now put some clothes and get back to your seat Thomas, no one  " +
-                    "wants to looks at your pathetic body. ",
+                    "lots of time to play, once you're ready. Now put some clothes on and get back to your seat Thomas, no one  " +
+                    "wants to look at your pathetic body.",
                 button: [
                     { chatID: 23, text: "...", callback: "sitting8" }
                 ]
@@ -374,8 +374,8 @@ room209.chat = function (chatID) {
                 chatID: 27,
                 speaker: "missy",
                 text: "You're now in the waiting room. Here is where you will congregate and wait till school starts. We don't need a bunch of sissies " +
-                    "milling about the classrooms while the teachers are preparing for your lessons. While your waiting, keep it to a dull roar. I still have " +
-                    "business to conduct here and your voices carry. ",
+                    "milling about the classrooms while the teachers are preparing for your lessons. While you're waiting, keep it to a dull roar. I still have " +
+                    "business to conduct here and your voices carry.",
                 button: [
                     { chatID: 28, text: "...", callback: "meeting1" }
                 ]

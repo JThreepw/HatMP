@@ -206,7 +206,7 @@ room216.chat = function (chatID) {
             chatID: 2,
             speaker: "!missyguardday",
             text: "Oh. Oh yeah. I guess you've graduated from being a nobody to a dirty whore. " +
-                "step right in. ",
+                "Step right in.",
             button: [
                 { chatID: 3, text: "...", callback: "pink0" }
             ]
@@ -214,9 +214,9 @@ room216.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "p",
-            text: "Welcome to the Pink Pleasure Club for Outstanding Ladies and Gentlement, " +
+            text: "Welcome to the Pink Pleasure Club for Outstanding Ladies and Gentlemen, " +
                 "or as most people simply call it, the Pink Room. I would give you the tour, but " +
-                "I'm far too busy. I just need you to come in and do a quick job for me. ",
+                "I'm far too busy. I just need you to come in and do a quick job for me.",
             button: [
                 { chatID: 4, text: "Awesome! What is it?", callback: "cumRoom" }
             ]
@@ -224,13 +224,13 @@ room216.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "p",
-            text: "This is the free use room. I need you to fill in as our cum dump maid. Our usual maid is on materinity leave. " +
+            text: "This is the free use room. I need you to fill in as our cum dump maid. Our usual maid is on maternity leave. " +
                 "I think she was scooping the cum into her pussy. The job's pretty easy, clean up " +
-                "cum up and don't mess with the fuck holes. Also whores don't get to wear clothes " +
+                "cum and don't mess with the fuck holes. Also whores don't get to wear clothes " +
                 "here, but I'll have you wear an apron so the VIPs know you're only a maid. Now clean " +
-                "those dirty pussies and assholes. ",
+                "those dirty pussies and assholes.",
             button: [
-                { chatID: -1, text: "Will do. ", callback: "" }
+                { chatID: -1, text: "Will do.", callback: "" }
             ]
         },
         {

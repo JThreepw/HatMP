@@ -315,8 +315,8 @@ room204.chat = function (chatID) {
                     "that pig for 3 days before I caught him. He took his secretary out to eat, then " +
                     "brought her to a cheap motel. The second picture was a " +
                     "corporate case where Allen claimed a slip made it so he was unable to walk. I " +
-                    "caught them hiking and boating on the first weekend " +
-                    "I was tailing him. It was almost too easy. ",
+                    "caught him hiking and boating on the first weekend " +
+                    "I was tailing him. It was almost too easy.",
                 button: [
                     { chatID: 2, text: "...", callback: "" }
                 ]
@@ -340,7 +340,7 @@ room204.chat = function (chatID) {
             {
                 chatID: 3,
                 speaker: "missy",
-                text: "Now I need you to file an organize all these images, but I need you to be " +
+                text: "Now I need you to file and organize all these images, but I need you to be " +
                     "orderly and efficient. Are you ready to learn how to do this?",
                 button: [
                     { chatID: 5, text: "Yes ma'am", callback: "" }
@@ -360,7 +360,7 @@ room204.chat = function (chatID) {
                 speaker: "missy",
                 text: "So I need these arranged alphabetically. Since 'A' is the first letter and 'Allen " +
                     "Waters' starts with an 'A', he'll be " +
-                    "the first one filed. To file it click the picture with 'Allen Waters'. ",
+                    "the first one filed. To file it click the picture with 'Allen Waters'.",
                 button: [
                     { chatID: -1, text: "Begin Lesson", callback: "step1" }
                 ]
@@ -369,7 +369,7 @@ room204.chat = function (chatID) {
                 chatID: 6,
                 speaker: "missy",
                 text: "Idiot, that's Ralph Zurich. Click 'Allen Waters' picture since his name " +
-                    "is alphabetically before Ralph. ",
+                    "is alphabetically before Ralph.",
                 button: [
                     { chatID: -1, text: "Try again.", callback: "mhate" }
                 ]
@@ -378,7 +378,7 @@ room204.chat = function (chatID) {
                 chatID: 7,
                 speaker: "missy",
                 text: "No dummy, that's Samuel Shepard the piss bag. You need to click on " +
-                    "Allen since his name is alphabetically before Samuel. ",
+                    "Allen since his name is alphabetically before Samuel.",
                 button: [
                     { chatID: -1, text: "Try again.", callback: "mhate" }
                 ]
@@ -386,7 +386,7 @@ room204.chat = function (chatID) {
             {
                 chatID: 8,
                 speaker: "missy",
-                text: "Good job. Now there's only 2 left. Pick which one comes next alphabetically. ",
+                text: "Good job. Now there's only 2 left. Pick which one comes next alphabetically.",
                 button: [
                     { chatID: -1, text: "Continue Lesson", callback: "step2" }
                 ]
@@ -407,18 +407,18 @@ room204.chat = function (chatID) {
                 chatID: 10,
                 speaker: "missy",
                 text: "OK good job. If you pick the wrong card it will appear with a red " +
-                    "border and be darker. ",
+                    "border and be darker.",
                 button: [
-                    { chatID: 11, text: "[see incorrect selection]", callback: "step3" }
+                    { chatID: 11, text: "[See incorrect selection]", callback: "step3" }
                 ]
             },
             {
                 chatID: 11,
                 speaker: "missy",
                 text: "OK good job. If you pick the wrong card it will appear with a red " +
-                    "border and be darker. ",
+                    "border and be darker.",
                 button: [
-                    { chatID: 12, text: "[see incorrect selection]", callback: "step3" }
+                    { chatID: 12, text: "[See incorrect selection]", callback: "step3" }
                 ]
             },
             {
@@ -426,13 +426,13 @@ room204.chat = function (chatID) {
                 speaker: "missy",
                 text: "Samuel now has a red border and is darker, that means you picked the wrong one. " +
                     "Finally since I can't have you filing " +
-                    "all day you'll be timed. in the top center there's a black box that states: " +
+                    "all day you'll be timed. In the top center there's a black box that states: " +
                     "'Seconds left: 30', that's how much " +
                     "time you have to complete this task. I don't believe in paying by time, " +
-                    "but I pay in your ability to do your job. " +
-                    "so the more you file the more you get paid. ",
+                    "but I pay based on your ability to do your job. " +
+                    "So the more you file the more you get paid.",
                 button: [
-                    { chatID: 4, text: "got it ma'am", callback: "clear" }
+                    { chatID: 4, text: "Got it ma'am", callback: "clear" }
                 ]
             },
             {
@@ -455,7 +455,7 @@ room204.chat = function (chatID) {
             {
                 chatID: 15,
                 speaker: "thinking",
-                text: "Fuck, I'm so horny! I should have just jacked off before starting! ",
+                text: "Fuck, I'm so horny! I should have just jacked off before starting!",
                 button: [
                     { chatID: -1, text: "...", callback: "killDirtyThought" }
                 ]

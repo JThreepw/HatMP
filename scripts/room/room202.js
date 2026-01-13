@@ -435,7 +435,7 @@ room202.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "missy",
-            text: "I do find desperation attractive. If you really want to keep this job you have to kiss the bottom of my foot. ",
+            text: "I do find desperation attractive. If you really want to keep this job you have to kiss the bottom of my foot.",
             button: [
                 { chatID: -1, text: "[To kiss her foot click on her foot]", callback: "kiss" }
             ]
@@ -501,7 +501,7 @@ room202.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "missy",
-            text: "Good Airhead. You're learning. Ready for you're reward?",
+            text: "Good Airhead. You're learning. Ready for your reward?",
             button: [
                 { chatID: -1, text: "Yes ma'am", callback: "reward" }
             ]
@@ -529,7 +529,7 @@ room202.chat = function (chatID) {
             chatID: 12,
             speaker: "missy",
             text: "Easy, get on your hands and knees under my desk. Even you should be able to accomplish such a task. " +
-                "Since I'm so nice I'm sure you'll get thirsty, have a glass of water to quench yourself. ",
+                "Since I'm so nice I'm sure you'll get thirsty, have a glass of water to quench yourself.",
             button: [
                 { chatID: 13, text: "Thank you.", callback: "drink" }
             ]
@@ -546,9 +546,9 @@ room202.chat = function (chatID) {
             chatID: 14,
             speaker: "missy",
             text: "Good. Now I'm going to shove this mouth gag into your mouth so none leaks out. I hate leaky furniture. " +
-                "Then take your place under my desk, footstool. ",
+                "Then take your place under my desk, footstool.",
             button: [
-                { chatID:15, text: "[Get on all 4s]", callback: "footstool" }
+                { chatID: 15, text: "[Get on all 4s]", callback: "footstool" }
             ]
         },
         {
@@ -580,7 +580,7 @@ room202.chat = function (chatID) {
             speaker: "missy",
             text: "[Continues to work]",
             button: [
-                { chatID: 19, text: "You bladder is feeling painful.", callback: "passtime4" }
+                { chatID: 19, text: "Your bladder is feeling painful.", callback: "passtime4" }
             ]
         },
         {
@@ -588,7 +588,7 @@ room202.chat = function (chatID) {
             speaker: "missy",
             text: "[Continues to work]",
             button: [
-                { chatID: 20, text: "You bladder is feeling is really hurting.", callback: "passtime1" }
+                { chatID: 20, text: "Your bladder is really hurting.", callback: "passtime1" }
             ]
         },
         {
@@ -596,7 +596,7 @@ room202.chat = function (chatID) {
             speaker: "missy",
             text: "[Continues to work]",
             button: [
-                { chatID: 21, text: "You are bladder is screaming in pain. You're going to have to pee!", callback: "passtime" }
+                { chatID: 21, text: "Your bladder is screaming in pain. You're going to have to pee!", callback: "passtime" }
             ]
         },
         {
@@ -692,8 +692,8 @@ room202.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "missy",
-            text: "I admit I love a good ass licking. There's just something so electric about it. I generally only  " +
-                "allow those serving me this honor as when they've done well, but I'll make an exception this one time. ",
+            text: "I admit I love a good ass licking. There's just something so electric about it. I generally only " +
+                "allow those serving me this honor when they've done well, but I'll make an exception this one time.",
             button: [
                 { chatID: -1, text: "Thank you so much ma'am!", callback: "bent" }
             ]
@@ -725,9 +725,9 @@ room202.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "missy",
-            text: "Yes, I suppose you do have a sissy mouth. It still has a long ways to go. You need to do something with " +
+            text: "Yes, I suppose you do have a sissy mouth. It still has a long way to go. You need to do something with " +
                 "that hair, some makeup, eyeshadow, and lipstick, but it's a start. Keep your mouth open I'm going to give you " +
-                "your first taste on being my sissy slave. ",
+                "your first taste of being my sissy slave.",
             button: [
                 { chatID: 37, text: "aaAAAaaa", callback: "openmouth2" }
             ]
@@ -735,7 +735,7 @@ room202.chat = function (chatID) {
         {
             chatID: 37,
             speaker: "missy",
-            text: "I've had this in all morning, getting it nice and wet for you. I want to to taste me for the rest of the morning. ",
+            text: "I've had this in all morning, getting it nice and wet for you. I want you to taste me for the rest of the morning.",
             button: [
                 { chatID: 38, text: "...", callback: "openmouth3" }
             ]
@@ -801,7 +801,7 @@ room202.chat = function (chatID) {
             chatID: 45,
             speaker: "missy",
             text: "What a sissy! I could tell you're not a normal cock hungry whore, you're going to be special. It's a good thing " +
-            "you found me, I'm going to turn you into the greatest sissy cock whore ever! I have to go home now, we'll continue this later. ",
+                "you found me, I'm going to turn you into the greatest sissy cock whore ever! I have to go home now, we'll continue this later.",
             button: [
                 { chatID: -1, text: "...", callback: "openmouthfinish" }
             ]
@@ -838,7 +838,7 @@ room202.chat = function (chatID) {
             speaker: "missy",
             text: "Now that you've had a chance to display yourself, you're going to learn how to do a proper bent over position. " +
                 "Get on all 4s then place your face on the floor, but keep that sissy ass up. This is how a sissy lets others know " +
-            "she is ready to be used. Now get to it.",
+                "she is ready to be used. Now get to it.",
             button: [
                 { chatID: 50, text: "Yes ma'am", callback: "pose3" }
             ]
@@ -847,7 +847,7 @@ room202.chat = function (chatID) {
             chatID: 50,
             speaker: "missy",
             text: "Yes, you're a natural at this. Usually it takes a few times for a sissy to get the proper arc, but you " +
-            "just get it.",
+                "just get it.",
             button: [
                 { chatID: 51, text: "Thank you ma'am", callback: "" }
             ]
@@ -994,7 +994,7 @@ room202.chat = function (chatID) {
             chatID: 68,
             speaker: "missy",
             text: "I'm going to give you a taste of cream on my giant cock my little sissy. You're going to suck up all the cream on my cock. " +
-            "Since this is your first time I won't make you clean it all the way to my pussy, aren't I nice? Now open your mouth clean my cock up.",
+                "Since this is your first time I won't make you clean it all the way to my pussy, aren't I nice? Now open your mouth and clean my cock up.",
             button: [
                 { chatID: 69, text: "[Open your mouth]", callback: "pose6" }
             ]

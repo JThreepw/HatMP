@@ -545,7 +545,7 @@ room193.chat = function (chatID) {
                 chatID: 1,
                 speaker: "cop2",
                 text: "Yeah, " + gender.pronoun("he") + "'ll do. Come here and suck my " +
-                    "dick! Make sure you play with my balls. ",
+                    "dick! Make sure you play with my balls.",
                 button: [
                     { chatID: 2, text: "ma'am?", callback: "" }
                 ]
@@ -553,12 +553,12 @@ room193.chat = function (chatID) {
             {
                 chatID: 2,
                 speaker: "missy",
-                text: "I do love the eloquence of our local law enforcment, but yes. You " +
+                text: "I do love the eloquence of our local law enforcement, but yes. You " +
                     "need to suck his dick. And do tickle his balls. " +
-                    "He really does seem to enjoy it. ",
+                    "He really does seem to enjoy it.",
                 button: [
                     { chatID: 4, text: "Yes ma'am! One sloppy BJ coming up!", callback: "cop1" },
-                    { chatID: 3, text: "No way! ", callback: "" }
+                    { chatID: 3, text: "No way!", callback: "" }
                 ]
             },
             {
@@ -723,14 +723,14 @@ room193.chat = function (chatID) {
                 chatID: 20,
                 speaker: "missy",
                 text: "Shut up " + sc.n("jeffery") + ". If you didn't have money no one " +
-                    "would listen to you. " + sc.n("me") + " we need to to break into a " +
-                    "young woman's house and steal her panties. You'll need to picke the " +
+                    "would listen to you. " + sc.n("me") + " we need you to break into a " +
+                    "young woman's house and steal her panties. You'll need to pick the " +
                     "lock on her front door, find a pair of dirty panties, and return " +
                     "them back here for " + sc.n("jeffery") + ". I'll send you to the house, " +
                     "but you'll have to break in and steal the panties. If you get caught you " +
-                    "will probably go to jail, so if it gets dangerous, feel free to leave. ",
+                    "will probably go to jail, so if it gets dangerous, feel free to leave.",
                 button: [
-                    { chatID: 21, text: "Yes ma'am I'll get those panties! ", callback: "panty0" }
+                    { chatID: 21, text: "Yes ma'am I'll get those panties!", callback: "panty0" }
                 ]
             },
             {
@@ -761,7 +761,7 @@ room193.chat = function (chatID) {
             {
                 chatID: 24,
                 speaker: "jeffery",
-                text: "W-w-w-wow! There're so pungent. My night is planned! Here's the " +
+                text: "W-w-w-wow! They're so pungent. My night is planned! Here's the " +
                     "$500 I owe you Missy!",
                 button: [
                     { chatID: 25, text: "...", callback: "" }
@@ -771,16 +771,16 @@ room193.chat = function (chatID) {
                 chatID: 25,
                 speaker: "missy",
                 text: "And for your hard work you can have $100 and take the rest of the " +
-                    "afternoon off. ",
+                    "afternoon off.",
                 button: [
-                    { chatID: -1, text: "Thank's ma'am", callback: "pantyGoodEnd" }
+                    { chatID: -1, text: "Thanks ma'am", callback: "pantyGoodEnd" }
                 ]
             },
             {
                 chatID: 26,
                 speaker: "cop2",
-                text: "We had reports of a burgler in the area. Looks like you're coming " +
-                    "downtown! ",
+                text: "We had reports of a burglar in the area. Looks like you're coming " +
+                    "downtown!",
                 button: [
                     { chatID: -1, text: "Drat!", callback: "jail" }
                 ]
@@ -824,8 +824,8 @@ room193.chat = function (chatID) {
             {
                 chatID: 31,
                 speaker: "!futa0",
-                text: "Well, well, well. It looks like I have a dirty dirty theif. You " +
-                    "know what I do to theives? ",
+                text: "Well, well, well. It looks like I have a dirty dirty thief. You " +
+                    "know what I do to thieves?",
                 button: [
                     { chatID: -1, text: "*gulp*", callback: "pantyRape" },
                 ]

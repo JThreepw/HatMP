@@ -7,7 +7,7 @@ room198.main = function () {
         wrong: 0,
         slide: [
             {
-                i: 0, img: "i1.jpg", q: "What color was the vollyball?", a: [
+                i: 0, img: "i1.jpg", q: "What color was the volleyball?", a: [
                     { t: "blue", c: "x" },
                     { t: "white", c: "x" },
                     { t: "red", c: "x" },
@@ -23,7 +23,7 @@ room198.main = function () {
                 ]
             },
             {
-                i: 2, img: "i3.jpg", q: "The girl on the far right, What color was her public hair? ", a: [
+                i: 2, img: "i3.jpg", q: "The girl on the far right, what color was her pubic hair?", a: [
                     { t: "purple", c: "correct" },
                     { t: "white", c: "x" },
                     { t: "red", c: "x" },
@@ -39,23 +39,23 @@ room198.main = function () {
                 ]
             },
             {
-                i: 4, img: "i5.jpg", q: "Which side of " + sc.n("cecilia") + " was the space ship? ", a: [
+                i: 4, img: "i5.jpg", q: "Which side of " + sc.n("cecilia") + " was the space ship?", a: [
                     { t: "left", c: "x" },
                     { t: "right", c: "correct" },
                     { t: "there were 2 space ships", c: "x" },
-                    { t: "there wern't any space ships", c: "x" },
+                    { t: "there weren't any space ships", c: "x" },
                 ]
             },
             {
-                i: 5, img: "i6.jpg", q: "What shape is on the building on the red banner on the right of the image? ", a: [
+                i: 5, img: "i6.jpg", q: "What shape is on the building on the red banner on the right of the image?", a: [
                     { t: "hexagon", c: "correct" },
-                    { t: "triange", c: "x" },
+                    { t: "triangle", c: "x" },
                     { t: "square", c: "x" },
                     { t: "circle", c: "x" },
                 ]
             },
             {
-                i: 6, img: "i7.jpg", q: "What are the girls on the right eating? ", a: [
+                i: 6, img: "i7.jpg", q: "What are the girls on the right eating?", a: [
                     { t: "hamburger", c: "x" },
                     { t: "hotdog", c: "x" },
                     { t: "sushi", c: "x" },
@@ -63,7 +63,7 @@ room198.main = function () {
                 ]
             },
             {
-                i: 7, img: "i8.jpg", q: "What kind of shoes is the girl on top wearing? ", a: [
+                i: 7, img: "i8.jpg", q: "What kind of shoes is the girl on top wearing?", a: [
                     { t: "running shoes", c: "x" },
                     { t: "high heels", c: "correct" },
                     { t: "bare feet", c: "x" },
@@ -79,7 +79,7 @@ room198.main = function () {
                 ]
             },
             {
-                i: 9, img: "i10.jpg", q: "Where did the rapist cum? ", a: [
+                i: 9, img: "i10.jpg", q: "Where did the rapist cum?", a: [
                     { t: "pussy", c: "x" },
                     { t: "asshole", c: "correct" },
                     { t: "mouth", c: "x" },
@@ -280,8 +280,8 @@ room198.chat = function (chatID) {
             {
                 chatID: 7,
                 speaker: "missy",
-                text: sc.n("cecilia") + " is going to be your distraction. While your on these cases you'll " +
-                    "have a lot of distractions that you have to ignore. Ready to begin? ",
+                text: sc.n("cecilia") + " is going to be your distraction. While you're on these cases you'll " +
+                    "have a lot of distractions that you have to ignore. Ready to begin?",
                 button: [
                     { chatID: -1, text: "Yes ma'am", callback: "s0" },
                 ]
@@ -298,25 +298,25 @@ room198.chat = function (chatID) {
             {
                 chatID: 9,
                 speaker: "missy",
-                text: "Very well. You are free to go.  ",
+                text: "Very well. You are free to go.",
                 button: [
-                    { chatID: -1, text: "Thank's ma'am. ", callback: "endTraining" },
+                    { chatID: -1, text: "Thanks ma'am.", callback: "endTraining" },
                 ]
             },
             {
                 chatID: 10,
                 speaker: "missy",
-                text: "I love your enthusiasm, but it's getting late. Time to run along.  ",
+                text: "I love your enthusiasm, but it's getting late. Time to run along.",
                 button: [
-                    { chatID: -1, text: "Thank's ma'am. ", callback: "endTraining" },
+                    { chatID: -1, text: "Thanks ma'am.", callback: "endTraining" },
                 ]
             },
             {
                 chatID: 11,
                 speaker: "missy",
-                text: "Yes you can! Ready? ",
+                text: "Yes you can! Ready?",
                 button: [
-                    { chatID: -1, text: "Yes ma'am. ", callback: "s0" },
+                    { chatID: -1, text: "Yes ma'am.", callback: "s0" },
                 ]
             },
         ];

@@ -242,7 +242,7 @@ room205.chat = function (chatID) {
             speaker: "missy",
             text: "See how limp and soft your little cock is. It makes a mess of everything then runs and hides. Your " +
                 "cock is the reason you're a failure in life. It controls you far too much. I have a fun little thing for " +
-                "you. relax and let me play with this cock a bit more.",
+                "you. Relax and let me play with this cock a bit more.",
             button: [
                 { chatID: 13, text: "ummm hmmmm", callback: "chast0_6" },
             ]
@@ -327,7 +327,7 @@ room205.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "missy",
-            text: "Work in progress.. prepare to be locked up for life sissy. ",
+            text: "Work in progress... prepare to be locked up for life sissy.",
             button: [
                 { chatID: -1, text: "...", callback: "chastity_1" },
             ]

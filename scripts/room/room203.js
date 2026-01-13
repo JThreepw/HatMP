@@ -37,7 +37,7 @@ room203.main = function () {
     }
     else {
         navList = [201];
-        g.popUpNotice("I'm missying my " + outfit + ". Better change in the bathroom.");
+        g.popUpNotice("I'm missing my " + outfit + ". Better change in the bathroom.");
     }
     $.each(btnList, function (i, v) {
         nav.button(v, 203);
@@ -405,9 +405,9 @@ room203.chat = function (chatID) {
                 chatID: 9,
                 speaker: "cecilia",
                 text: "I like your clothes, but I can't let you in unless you're wearing suit pants, dress shirt, tie, black shoes, black socks, and " +
-                    "some kind of underwear. Sorry " + sc.n("me") + ", but you can change in the bathroom if you have the clothes with you. ",
+                    "some kind of underwear. Sorry " + sc.n("me") + ", but you can change in the bathroom if you have the clothes with you.",
                 button: [
-                    { chatID: -1, text: "Oh yea. I'm such an airhead I forgot.", callback: "" }
+                    { chatID: -1, text: "Oh yeah. I'm such an airhead I forgot.", callback: "" }
                 ]
             },
             {
@@ -460,16 +460,16 @@ room203.chat = function (chatID) {
                 speaker: "missy",
                 text: "What the fuck do you mean you showed up to work on your first fucking day and can't even get " +
                     "dressed properly! " + sc.n("cecilia") + " take some petty cash and go buy him his suit! " +
-                    "It will be in your wardrobe. Make sure you wear it next time you come in. I can't trusted " +
+                    "It will be in your wardrobe. Make sure you wear it next time you come in. I can't trust " +
                     "you to use the money I gave you to purchase proper attire and you screwed that up! Well you're " +
-                    " going to pay for your idiocracy! Follow me! ",
+                    "going to pay for your idiocy! Follow me!",
                 button: [
                     { chatID: -1, text: "GULP", callback: "notDressed2" }
                 ]
             },
             {
                 chatID: 16,
-                speaker: "ceclia",
+                speaker: "cecilia",
                 text: "You must be " + sc.n("me") + ". Do you have a Private Investigator's License?",
                 button: [
                     { chatID: 17, text: "I don't have one.", callback: "mad" }
@@ -480,16 +480,16 @@ room203.chat = function (chatID) {
                 speaker: "missy",
                 text: "What do you mean you don't have one? Let me guess, you blew your money on stupid crap and " +
                     "not on a license? Is this how you want to start here, as a dumbass? " + sc.n("cecilia") + " go " +
-                    "buy him a license since he can't do it himself! You, idiot, come with me. Apperently you have to " +
-                    "receive some training before you even start. Come now! ",
+                    "buy him a license since he can't do it himself! You, idiot, come with me. Apparently you have to " +
+                    "receive some training before you even start. Come now!",
                 button: [
                     { chatID: -1, text: "ok", callback: "forgotLic" }
                 ]
             },
             {
                 chatID: 18,
-                speaker: "ceclia",
-                text: "Oh! I forgot something... Uhhh. One second I have to talk to Missy... to uhh, wait right here. ",
+                speaker: "cecilia",
+                text: "Oh! I forgot something... Uhhh. One second I have to talk to Missy... to uhh, wait right here.",
                 button: [
                     { chatID: 19, text: "ok", callback: "panties0" }
                 ]
@@ -506,8 +506,8 @@ room203.chat = function (chatID) {
             },
             {
                 chatID: 20,
-                speaker: "ceclia",
-                text: "Missy will see you now. ",
+                speaker: "cecilia",
+                text: "Missy will see you now.",
                 button: [
                     { chatID: -1, text: "..thanks...", callback: "enter" }
                 ]
@@ -523,15 +523,15 @@ room203.chat = function (chatID) {
             {
                 chatID: 22,
                 speaker: "cecilia",
-                text: "I have to see your pretty panties! Pull those pants down and show them to me. ",
+                text: "I have to see your pretty panties! Pull those pants down and show them to me.",
                 button: [
-                    { chatID: 23, text: "*Goran* Really?", callback: "uniform1_0" }
+                    { chatID: 23, text: "*Groan* Really?", callback: "uniform1_0" }
                 ]
             },
             {
                 chatID: 23,
                 speaker: "cecilia",
-                text: "Cute panties! You can go in now.  ",
+                text: "Cute panties! You can go in now.",
                 button: [
                     { chatID: -1, text: "ok", callback: "enter" }
                 ]
@@ -540,9 +540,9 @@ room203.chat = function (chatID) {
                 chatID: 24,
                 speaker: "cecilia",
                 text: "I like your clothes, but I can't let you in unless you're wearing suit pants, dress shirt, tie, black shoes, black socks, " +
-                    "and pretty panties. Sorry " + sc.n("me") + ", but you can change in the bathroom if you have the clothes with you. ",
+                    "and pretty panties. Sorry " + sc.n("me") + ", but you can change in the bathroom if you have the clothes with you.",
                 button: [
-                    { chatID: -1, text: "Oh yea. I'm such an airhead I forgot.", callback: "" }
+                    { chatID: -1, text: "Oh yeah. I'm such an airhead I forgot.", callback: "" }
                 ]
             },
             {
@@ -566,7 +566,7 @@ room203.chat = function (chatID) {
                 chatID: 27,
                 speaker: "cecilia",
                 text: "Oh my god! You are so cute! And so professional! " +
-                    "Welcome to the sisterhood I am sooo happy for you. it takes a lot to " +
+                    "Welcome to the sisterhood I am so happy for you. It takes a lot to " +
                     "find oneself's true calling",
                 button: [
                     { chatID: -1, text: "Thanks!", callback: "enter" }
@@ -575,9 +575,9 @@ room203.chat = function (chatID) {
             {
                 chatID: 28,
                 speaker: "cecilia",
-                text: "Missy's PI, can I help you. ",
+                text: "Missy's PI, can I help you.",
                 button: [
-                    { chatID: -1, text: "Oh, no. I should be going. ", callback: "leave" }
+                    { chatID: -1, text: "Oh, no. I should be going.", callback: "leave" }
                 ]
             },
             {
@@ -585,18 +585,18 @@ room203.chat = function (chatID) {
                 speaker: "ralphsmom",
                 text: "I was hoping to find you here! Little " + sc.n("ralph") + " was kidnapped last night! " +
                     "I don't know who took him, but my husband said he saw them wearing robes. We've already " +
-                    "told the police, but if you see or hear anything can you let us know? ",
+                    "told the police, but if you see or hear anything can you let us know?",
                 button: [
-                    { chatID: 30, text: "Oh, no. That's terrible! . ", callback: "" }
+                    { chatID: 30, text: "Oh, no. That's terrible!", callback: "" }
                 ]
             },
             {
                 chatID: 30,
                 speaker: "ralphsmom",
                 text: "I don't know what I'll do if we can't find him! He's my everything! Please, please " +
-                    "try to help us find him! ",
+                    "try to help us find him!",
                 button: [
-                    { chatID: 31, text: "I'll do everything I can! ", callback: "endRalph" }
+                    { chatID: 31, text: "I'll do everything I can!", callback: "endRalph" }
                 ]
             },
             {
