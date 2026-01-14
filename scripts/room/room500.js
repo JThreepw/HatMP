@@ -1,5 +1,4 @@
-﻿
-// ADD GOTH CHICK
+﻿// ADD GOTH CHICK
 var room500 = {};
 room500.main = function () {
     g.pass = g.internal = "";
@@ -200,8 +199,8 @@ room500.chat = function (chatID) {
             chatID: 8,
             speaker: "me",
             text: "So.. I was playing truth or dare with " + sc.n("eva") + " and " + sc.n("lola") +
-                " and my " + sc.n("landlord") + " walked in on us right when we we're all naked... she " +
-                "go mad at me and kicked me out!",
+                " and my " + sc.n("landlord") + " walked in on us right when we were all naked... she " +
+                "got mad at me and kicked me out!",
             button: [
                 { chatID: 9, text: "...", callback: "" }
             ]

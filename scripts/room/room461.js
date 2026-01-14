@@ -559,7 +559,7 @@ room461.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "me",
-            text: "Oh man! I can't believe that cultist was going to attack me. I better hide our here for the night. " +
+            text: "Oh man! I can't believe that cultist was going to attack me. I better hide out here for the night. " +
                 "I can't ever run in the forest at night!",
             button: [
                 { chatID: 14, text: "...", callback: "morning" }
@@ -568,7 +568,7 @@ room461.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "me",
-            text: "Time to wakeup.",
+            text: "Time to wake up.",
             button: [
                 { chatID: -1, text: "...", callback: "morning1" }
             ]
@@ -793,7 +793,7 @@ room461.chat = function (chatID) {
             button: [
                 { chatID: 42, text: "I love the humiliation of being pissed on. Really shows what a submissive I am. ", callback: "ppsub" },
                 { chatID: 42, text: "I love how it smells and tastes. ", callback: "pporal" },
-                { chatID: 42, text: "I just find the act of urinating so mesmorizing. It really is a thing of beauty.", callback: "ppcharisma" },
+                { chatID: 42, text: "I just find the act of urinating so mesmerizing. It really is a thing of beauty.", callback: "ppcharisma" },
 
             ]
         },

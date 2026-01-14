@@ -208,7 +208,7 @@ room600.chat = function(chatID){
         {
             chatID: 13,
             speaker: "tony",
-            text: "Arright kid. You can work for me. I exepct loyalty, so do what I say. My cut is fifty percent " +
+            text: "Alright kid. You can work for me. I expect loyalty, so do what I say. My cut is fifty percent " +
                 "of your tips, gotta keep the lights on. You need to wear a bra and panties when " +
                 "you're on stage. You can drop the bra, but don't drop them panties on stage or the " +
                 "cops give me a hard time. Capisce?",
@@ -248,14 +248,14 @@ room600.chat = function(chatID){
             chatID: 17,
             speaker: "!freddy",
             text: "Hey, youse are done for the night. I heard what you tried to do. You " +
-                "can come back tomrrow, just keep you panties on.",
+                "can come back tomorrow, just keep you panties on.",
             button: [
                 { chatID: -1, text: "Oh. Ok", callback: "leave" },
             ]
         },
         {
             chatID: 18,
-            speaker: "thiking",
+            speaker: "thinking",
             text: "Oh. They're closed..",
             button: [
                 { chatID: -1, text: "...", callback: "leave" },
@@ -276,8 +276,8 @@ room600.chat = function(chatID){
             chatID: 20,
             speaker: "!freddy",
             text: "Hehehee. I notice there's a few of youse that been working here a while. You " +
-                "already knows the rules. For the rest of youse, underwears only in the club, and " +
-                "no taking off youse panties. Take off your panties and you'll be 86th from here " +
+                "already know the rules. For the rest of youse, underwear only in the club, and " +
+                "no taking off youse panties. Take off your panties and you'll be 86'd from here " +
                 "and youse won't get no tips. Got it?",
             button: [
                 { chatID: 21, text: "[Nod]", callback: "" },

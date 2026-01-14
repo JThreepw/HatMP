@@ -141,7 +141,7 @@ room404.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "spanky",
-            text: "Just the 'batin' one? Fuck. Well she's just always going to want flick her bean. That's who she " +
+            text: "Just the batin' one? Fuck. Well she's just always going to want to flick her bean. That's who she " +
                 "is now. You could try to get her one of those remote controlled vibrators so she can cum when she's " +
                 "all horned up and shit I guess. Maybe I'll stop by and ask if she wants me to eat her pussy... You " +
                 "didn't tell her where you got it from did you. ",

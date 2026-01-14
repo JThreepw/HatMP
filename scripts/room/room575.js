@@ -229,7 +229,7 @@ room575.chat = function (chatID) {
         return {
             chatID: 998,
             speaker: "me",
-            text: "Just checking out handsom boys today. Saw you and had to meet you. ",
+            text: "Just checking out handsome boys today. Saw you and had to meet you. ",
             button: buttonList
         };
     }
@@ -342,8 +342,8 @@ room575.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "!elijah",
-            text: "It's not too important. I'm a lock smith for my cousin. It allows me to " +
-                "make some money and have flexable hours. What do you do?",
+            text: "It's not too important. I'm a locksmith for my cousin. It allows me to " +
+                "make some money and have flexible hours. What do you do?",
             button: [
                 { chatID: 9, text: "I'm a maid for the hotel", callback: "like" },
                 { chatID: 10, text: "I'm a stripper", callback: "like" }
@@ -452,7 +452,7 @@ room575.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "thinking",
-            text: "Crap. I was so close. Instead of getting a cofession I have cum all over my foot " +
+            text: "Crap. I was so close. Instead of getting a confession I have cum all over my foot " +
                 "It's going to be squishing in my shoe all day. At least I have something for Missy. " +
                 "Oh well. At least I get some free fries. ",
             button: [

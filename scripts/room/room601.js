@@ -262,7 +262,7 @@ room601.btnclick = function (name) {
             var danceMoney = Math.floor((g.internal.cust + (levels.get("stripper").l * 3) + (g.internal.excitement / 12)) * (g.rand(1, 7) / 1.5));
             if (danceMoney > 0) {
                 g.internal.money += danceMoney;
-                g.popUpNotice("You recieved $" + danceMoney + " in tips");
+                g.popUpNotice("You received $" + danceMoney + " in tips");
             }
             zcl.kill();
             var newPose = g.rand(0, 5);
@@ -933,9 +933,9 @@ room601.chat = function (chatID) {
             speaker: "!frank",
             text: "Duckin' out early? You made $" + g.internal.money + " tonight. You " +
                 "get half, $" + moneyMade + ". Now go change. ",
-            button: [
-                { chatID: -1, text: "ok!", callback: "leave" },
-            ]
+                button: [
+                    { chatID: -1, text: "ok!", callback: "leave" },
+                ]
         };
     }
     else if (chatID === 900) {
@@ -1197,7 +1197,7 @@ room601.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "chloe",
-            text: "You really should have a plan becuase he's coming and all nonbelievers will " +
+            text: "You really should have a plan because he's coming and all nonbelievers will " +
                 "be removed from this earth. You should attend a service. We meet Friday nights, but " +
                 "you'll need some help getting to our church. Can I count you in?",
             button: [

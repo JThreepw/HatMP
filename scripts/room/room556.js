@@ -173,8 +173,8 @@ room556.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "g",
-            text: "The top section is you. because you're a little wimp you'll find you're get " +
-                "you ass kicked a lot. Continue to get stronger and you'll win more fights. Also if " +
+            text: "The top section is you. Because you're a little wimp you'll find you're going to " +
+                "get your ass kicked a lot. Continue to get stronger and you'll win more fights. Also if " +
                 "you're low on energy you won't fight as well. ",
             button: [
                 { chatID: 3, text: "[Next]", callback: "lesson3" }
@@ -184,7 +184,7 @@ room556.chat = function (chatID) {
             chatID: 3,
             speaker: "g",
             text: "The bottom section is who you're fighting. In this case it's me. You see I'm way " +
-                "stronger than your puny ass. You don't stand a chance with me. ",
+                "stronger than your puny ass. You don't stand a chance against me. ",
             button: [
                 { chatID: 4, text: "[Next]", callback: "lesson4" }
             ]
@@ -201,7 +201,7 @@ room556.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "g",
-            text: "So You rolled a 17 plus your stregth of 1. I rolled a 20 plus my strength of 50. " +
+            text: "So You rolled a 17 plus your strength of 1. I rolled a 20 plus my strength of 50. " +
                 "So my 70 beats your 18. By a lot. ",
             button: [
                 { chatID: 6, text: "[Next]", callback: "bg1" }
@@ -221,7 +221,7 @@ room556.chat = function (chatID) {
             chatID: 7,
             speaker: "g",
             text: "And that's all I have to train you on. You can spar with Maggie here. If you can prove " +
-                "you're not a little bitch and beat her I'll let you so some... special strength training. ",
+                "you're not a little bitch and beat her I'll let you do some... special strength training. ",
             button: [
                 { chatID: -1, text: "Sweet!", callback: "drawEvent" },
             ]

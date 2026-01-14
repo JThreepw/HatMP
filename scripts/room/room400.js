@@ -66,7 +66,7 @@ room400.main = function () {
                 "top": 730,
                 "width": 301,
                 "height": 286,
-                "title": "Shiny Jewlery",
+                "title": "Shiny Jewelry",
                 "image": "400_mall/bling.png"
             },
             {
@@ -207,7 +207,7 @@ room400.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "tiffany",
-            text: "Ok! First thing is getting the dress, then we know which panties and shoes to get! Lets go to saucy!!",
+            text: "Ok! First thing is getting the dress, then we know which panties and shoes to get! Let's go to saucy!!",
             button: [
                 { chatID: -1, text: "[Follow " + sc.n("tiffany") + " to Saucy]", callback: "tSaucy" }
             ]

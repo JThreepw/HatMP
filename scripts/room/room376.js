@@ -225,7 +225,7 @@ room376.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "cop2",
-            text: "Do you think I'm stuipid? Don't answer that. You don't have $300! ",
+            text: "Do you think I'm stupid? Don't answer that. You don't have $300! ",
             button: [
                 { chatID: -1, text: "*gulp*", callback: "jail0" }
             ]
@@ -297,7 +297,7 @@ room376.chat = function (chatID) {
             speaker: "!jail0",
             text: "Ya know, a tiny " +
                 "little thing like yourself might get broken in another cell. Ya see, we " +
-                "don't like it when someone just bardges there way into our home, and " +
+                "don't like it when someone just barges their way into our home, and " +
                 "you barged your way into our home. ",
             button: [
                 { chatID: 11, text: "I was put here", callback: "" }
@@ -316,7 +316,7 @@ room376.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "!jail0",
-            text: "Sorry? You shoould be thankful we're not breaking your head on that " +
+            text: "Sorry? You should be thankful we're not breaking your head on that " +
                 "toilet right now. I don't think you're thankful to us for letting you " +
                 "in our home. ",
             button: [

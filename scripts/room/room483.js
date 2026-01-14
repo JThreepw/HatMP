@@ -238,7 +238,7 @@ room483.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "thinking",
-            text: "He's getting angry. I better not approch any closer. ",
+            text: "He's getting angry. I better not approach any closer. ",
             button: [
                 { chatID: -1, text: "...", callback: "drawbtn" }
             ]

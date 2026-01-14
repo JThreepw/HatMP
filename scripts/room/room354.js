@@ -204,7 +204,7 @@ room354.chat = function (chatID) {
                 speaker: "landlord",
                 text: "I'm sorry you had to see that. " + sc.n("raven") + " was completely out of line. ",
                 button: [
-                    { chatID: 4, text: "That's assult! I'm going to call the police on him.", callback: "" }
+                    { chatID: 4, text: "That's assault! I'm going to call the police on him.", callback: "" }
                 ]
             },
             {

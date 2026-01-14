@@ -948,10 +948,10 @@ room329.chat = function (chatID) {
                 "I bet you'd get fucked by this horse if I let you. ",
                 "You sissies are so easy. ",
                 "You're just a hole for my cock. ",
-                "The only thing you’re good at is spreading your legs and begging for more.",
+                "The only thing you're good at is spreading your legs and begging for more.",
                 "Your mouth was made for one thing: taking cock and staying quiet.",
-                "You’re basically a walking glory hole with lipstick.",
-                "issies don’t get to cum – they just leak while getting pounded.",
+                "You're basically a walking glory hole with lipstick.",
+                "Sissies don't get to cum – they just leak while getting pounded.",
                 "The only balls you have are the ones slapping against your ass.",
                 "You exist to serve dick – that’s your entire personality.",
                 "Every time you open your mouth, I know exactly what’s going in it.",
@@ -1152,7 +1152,7 @@ room329.chat = function (chatID) {
             {
                 chatID: 15,
                 speaker: "thinking",
-                text: "My arm can easity fit in here. Is it a snack hole? No. There's no snacks in here. Weird. ",
+                text: "My arm can easily fit in here. Is it a snack hole? No. There's no snacks in here. Weird. ",
                 button: [
                     { chatID: 1000, text: "...", callback: "av3" },
                 ]
@@ -1235,7 +1235,7 @@ room329.chat = function (chatID) {
             {
                 chatID: 25,
                 speaker: "me",
-                text: "ow ow ow! So big! Too rough! Too rough!!!! So instense!!!",
+                text: "ow ow ow! So big! Too rough! Too rough!!!! So intense!!!",
                 button: [
                     { chatID: 26, text: "...", callback: "av17" },
                 ]

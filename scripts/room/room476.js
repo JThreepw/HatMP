@@ -834,7 +834,7 @@ room476.chat = function (chatID) {
             {
                 chatID: 4,
                 speaker: "thinking",
-                text: "...ouch! My head really hurts. She didn't have to puch me so hard. " +
+                text: "...ouch! My head really hurts. She didn't have to punch me so hard. " +
                     "There was so many of them, I'm afraid to open my eyes. Maybe they all " +
                     "left. I'm sure they have something else to do. Maybe I'm just laying " +
                     "on the ground and I can limp home. I really hope they're all gone.. ",
@@ -1006,7 +1006,7 @@ room476.chat = function (chatID) {
                 speaker: "river",
                 text: "I'm so happy I came by the cabin today! Looks like we get to " +
                     "rip your sissy ass open! Hope you love the taste of your own ass " +
-                    "'cuase our cocks are going straight from your ass to your mouth! ",
+                    "'cause our cocks are going straight from your ass to your mouth! ",
                 button: [
                     { chatID: 23, text: "Fuck you " + sc.n("river") + "!", callback: "" },
                 ]
@@ -1027,7 +1027,7 @@ room476.chat = function (chatID) {
                 text: "Complain all you want, nothing you can do to stop me from sliding " +
                     "my cock inside that unwilling hole of yours. I'm really going to enjoy this. ",
                 button: [
-                    { chatID: 25, text: "No! Stop! Not you!", callback: "pillory2" },
+                    { chatID: 25, text: "No! Stop! Not you!", callback: "pillory2" }
                 ]
             },
             {
@@ -1230,7 +1230,7 @@ room476.chat = function (chatID) {
                 speaker: "kei",
                 text: "You're lucky I stop by the cabin on Fridays or you would have been stuck up there all night! " +
                     "I'd love to help you get back, but I have to get to the sermon. Can't " +
-                    "miss Friday Surmon! Later! ",
+                    "miss Friday Sermon! Later! ",
                 button: [
                     { chatID: -1, text: "Sure. Later. ", callback: "reset" }
                 ]
@@ -1280,7 +1280,7 @@ room476.chat = function (chatID) {
             },
             {
                 chatID: 53,
-                speaker: "thiking",
+                speaker: "thinking",
                 text: "She's right. Everyone says the forest is dangerous. I really should get " +
                     "out of here. Like now.",
                 button: [

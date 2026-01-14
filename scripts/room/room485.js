@@ -274,10 +274,10 @@ room485.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "!seller",
-            text: "My friend, this where where the people that don't want to be part of the grind " +
+            text: "My friend, this is where the people that don't want to be part of the grind " +
                 "of the outside world. We have everything we need, soft ground, food, and the " +
-                "company of some cool people. We did't alway have food, but I set up this stand to " +
-                "get food from the cult that passes though. We've agreed to a trade of food for safe " +
+                "company of some cool people. We didn't always have food, but I set up this stand to " +
+                "get food from the cult that passes through. We've agreed to a trade of food for safe " +
                 "passage of their followers. ",
             button: [
                 { chatID: 1, text: "ok", callback: "" },
@@ -287,7 +287,7 @@ room485.chat = function (chatID) {
             chatID: 3,
             speaker: "!seller",
             text: "As they say, not all who wander are lost. There are things in this cave that lay " +
-                "in wait for a traveler, such as yourself, to pouce on and do terrible things to in the " +
+                "in wait for a traveler, such as yourself, to pounce on and do terrible things to in the " +
                 "solitude of these walls. You should turn back and never go deeper than here. ",
             button: [
                 { chatID: 1, text: "ok", callback: "" },

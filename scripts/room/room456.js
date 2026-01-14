@@ -194,7 +194,7 @@ room456.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "tiffany",
-            text: "Yes, I usually do a morning job before the park opens up. I usually try to avoid perverts, but you " +
+            text: "Yes, I usually do a morning jog before the park opens up. I usually try to avoid perverts, but you " +
                 "look so cute laying there. So what are you doing sleeping in the park?",
             button: [
                 { chatID: 8, text: "[Tell " + sc.n("tiffany") + " the story on how you became homeless]", callback: "" }
@@ -223,7 +223,7 @@ room456.chat = function (chatID) {
             text: "I wouldn't want you to get caught. We'll have to dress you up like a girl to sneak you in. Are you in? ",
             button: [
                 { chatID: 12, text: "I guess I have no other choice, I'm in!", callback: "" },
-                { chatID: 11, text: "Thanks " + sc.n('tiffany') + ", but there's no way I'm going to wear girls clothes", callback: "" }
+                { chatID: 11, text: "Thanks " + sc.n('tiffany') + ", but there's no way I'm going to wear girls' clothes", callback: "" }
             ]
         },
         {
@@ -237,7 +237,7 @@ room456.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "tiffany",
-            text: "Oh awesome!!! We get to play dress up, I'm so excited! Get up sleepy head Lets go to the mall! ",
+            text: "Oh awesome!!! We get to play dress up, I'm so excited! Get up sleepy head Let's go to the mall! ",
             button: [
                 { chatID: -1, text: "[Follow " + sc.n('tiffany') + ", to the mall]", callback: "leave7" }
             ]
@@ -248,7 +248,7 @@ room456.chat = function (chatID) {
             text: "You ready to go shopping with me, or are you still ok being homeless?",
             button: [
                 { chatID: 12, text: "I guess I have no other choice, I'm in!", callback: "" },
-                { chatID: -1, text: "Thanks " + sc.n('tiffany') + ", but there's no way I'm going to wear girls clothes", callback: "leave6" }
+                { chatID: -1, text: "Thanks " + sc.n('tiffany') + ", but there's no way I'm going to wear girls' clothes", callback: "leave6" }
             ]
         },
         {
@@ -271,7 +271,7 @@ room456.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "me",
-            text: "Oh man! I can't believe that cop was going to make me suck his dick... I better hide our here for the night. " +
+            text: "Oh man! I can't believe that cop was going to make me suck his dick... I better hide out here for the night. " +
                 "I can't ever go back to that bench!",
             button: [
                 { chatID: -1, text: "...", callback: "morning" }
@@ -377,7 +377,7 @@ room456.chat = function (chatID) {
         {
             chatID: 29,
             speaker: "me",
-            text: "Oh no... is my penis getting shrinking!?!?",
+            text: "Oh no... is my penis shrinking!?!?",
             button: [
                 { chatID: 32, text: "....", callback: "" }
             ]

@@ -45,7 +45,7 @@ room375.chat = function (chatID) {
             speaker: "cop2",
             text: "Yeah?",
             button: [
-                { chatID: -1, text: "I've got nothing. ", callback: "" }
+                { chatID: -1, text: "I've got nothing.", callback: "" }
             ]
         }
     ];

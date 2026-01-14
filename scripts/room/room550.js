@@ -171,7 +171,7 @@ room550.chat = function (chatID) {
             chatID: 2,
             speaker: "chad",
             text: "You'll always be a loser who doesn't belong in a gym. I'll tell you what, for you I'll " +
-                "let you have a <span class='hl'>gym pass for only $500</span> cause we're such good friends.",
+                "let you have a <span class='hl'>gym pass for only $500</span> 'cause we're such good friends.",
             button: [
                 { chatID: 3, text: "but they're only $100 on the sign", callback: "" }
             ]

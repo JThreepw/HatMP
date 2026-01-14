@@ -526,7 +526,7 @@ room352.chat = function (chatID) {
             {
                 chatID: 8,
                 speaker: "landlord",
-                text: "I looks like everyone was able to jack themselves off today. Now go change.",
+                text: "It looks like everyone was able to jack themselves off today. Now go change.",
                 button: [
                     { chatID: -1, text: "[Leave]", callback: "endRotation" },
                 ]
@@ -624,7 +624,7 @@ room352.chat = function (chatID) {
             {
                 chatID: 20,
                 speaker: s,
-                text: "Now that a nice ass! It's making my cock hard baby!",
+                text: "Now that's a nice ass! It's making my cock hard baby!",
                 button: [
                     { chatID: 21, text: "...", callback: "jackit" },
                 ]

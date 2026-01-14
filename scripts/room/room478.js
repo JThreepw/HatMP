@@ -363,7 +363,7 @@ room478.chat = function (chatID) {
             speaker: "random",
             text: "I'm tied too tight. There's no escape for me. Please don't use my body for your pleasure. ",
             button: [
-                { chatID: 2, text: "It dosn't look too tight. I think I can get you down.  ", callback: "" },
+                { chatID: 2, text: "It doesn't look too tight. I think I can get you down.  ", callback: "" },
                 { chatID: -1, text: "I guess since you're tied up you have no choice. ", callback: "tiedup1" },
                 { chatID: -1, text: "oh. I'm going to move along.", callback: "reset" },
             ]
@@ -480,7 +480,7 @@ room478.chat = function (chatID) {
             text: "No one knows. Everyone that made it that far is stuck in a pitch black room. They see different " +
                 "things, but Princess Fluffykins saw a dim, almost ghostly face and long white claw like hands floating " +
                 "around her. The only noise she heard was some growling sounds and moaning unworthy over and over. " +
-                "The moaning grew louder and louder till those ghoastly claws just sunk into her sockets and " +
+                "The moaning grew louder and louder till those ghostly claws just sunk into her sockets and " +
                 "ripped them out. ",
             button: [
                 { chatID: 14, text: "Oh fuck. Wow ", callback: "" },
@@ -516,7 +516,7 @@ room478.chat = function (chatID) {
             chatID: 17,
             speaker: "random",
             text: "Oh gross. You totally dress like a boy. You need help girl. Just because you're in a cave " +
-                "doesn't mean you should dress like a cave troll. Why are you event talking to us?",
+                "doesn't mean you should dress like a cave troll. Why are you even talking to us?",
             button: [
                 { chatID: 19, text: "I was told I had to talk to people to get out of here. ", callback: "" },
             ]
@@ -546,7 +546,7 @@ room478.chat = function (chatID) {
             chatID: 20,
             speaker: "random",
             text: "You know what happened. The cult's reach is wide with members around the world. They " +
-                "find anyone they want to find. That's why we're all stuck here hiding in this gastly cave " +
+                "find anyone they want to find. That's why we're all stuck here hiding in this ghastly cave " +
                 "with a paltry collection of second hand outfits. ",
             button: [
                 { chatID: 21, text: "Where do these outfits come from? ", callback: "" },
@@ -556,7 +556,7 @@ room478.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "random",
-            text: "Oh lol! We may live in a cave, but there's little adventures out of here to aquire stuff " +
+            text: "Oh lol! We may live in a cave, but there's little adventures out of here to acquire stuff " +
                 "from the world. We have to be careful on our outings though. We only go out at night when the " +
                 "cult has gathered for their weekly gatherings. ",
             button: [
@@ -566,7 +566,7 @@ room478.chat = function (chatID) {
         {
             chatID: 22,
             speaker: "random",
-            text: "Yea, I was trying to say it without saying it. They cult kills them. Very terrible. Don't " +
+            text: "Yeah, I was trying to say it without saying it. They cult kills them. Very terrible. Don't " +
                 "leave here or you will die too. Like the rest. That's why you need to stay, so you can live. ",
             button: [
                 { chatID: 23, text: "oh.", callback: "" },

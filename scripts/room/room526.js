@@ -460,7 +460,7 @@ room526.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "orchid",
-            text: "Oh... hello. We wern't expecting any new girls here! ",
+            text: "Oh... hello. We weren't expecting any new girls here! ",
             button: [
                 { chatID: 1, text: "*GULP*", callback: "" }
             ]
@@ -935,7 +935,7 @@ room526.chat = function (chatID) {
         {
             chatID: 53,
             speaker: "zoey",
-            text: "So, we need to talk. I'm just so cornée, I need you now. ",
+            text: "So, we need to talk. J'ai la mouille qui coule aux genoux, I need you now. ",
             button: [
                 { chatID: 54, text: "Oh wow, really? I thought you were a lesbian.", callback: "" }
             ]
@@ -1145,7 +1145,7 @@ room526.chat = function (chatID) {
             chatID: 76,
             speaker: "zoey",
             text: "Hmmm... If it was for anyone but you I would answer no. But you. You have my heart, so I " +
-                "will answer yes. Let this " + sc.n("ralph") + " know. Let him know he'll be a barback and only clean. " +
+                "will answer yes. Let this " + sc.n("ralph") + " know. Let her know she'll be a barback and only clean. " +
                 "No make drinks. That is for me. ",
             button: [
                 { chatID: -1, text: "Sweet. I'll let him know. ", callback: "ralphEnd1" }
@@ -1193,7 +1193,7 @@ room526.chat = function (chatID) {
             speaker: "spanky",
             text: "Hey there. Good to see you! You know I always tell " + sc.n("ralph") + " here he needs to " +
                 "get out more. Maybe work with people. I would have hired her, but I totally don't make enough " +
-                "money to hire new help, ya know. People think becuase I own my own business I'm rich, but that's " +
+                "money to hire new help, ya know. People think because I own my own business I'm rich, but that's " +
                 "just not true. I'm barely making it. So I'm so happy you got my girl here a job. You know I dated " +
                 "a bartender once a long time ago. She was totally hot too. ",
             button: [
@@ -1302,8 +1302,8 @@ room526.chat = function (chatID) {
             chatID: 92,
             speaker: "orchid",
             text: "So the first girl has the head of her cock right at my hole, about to work it in. It was " +
-                "way too big to just shove it in and her radio goes off. I don't what it said, I was too focused " +
-                "on eating the other girl's muff, but the big dick girl say's to run. I'm like, huh? And she just " +
+                "way too big to just shove it in and her radio goes off. I don't know what it said, I was too focused " +
+                "on eating the other girl's muff, but the big dick girl says to run. I'm like, huh? And she just " +
                 "starts running away. So I think there's a wild animal in the tent and I take off running too. A " +
                 "minute later, BOOM! The entire carnival blows up! If she didn't say to run, I would totally be dead. ",
             button: [

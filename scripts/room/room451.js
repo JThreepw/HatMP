@@ -1019,7 +1019,7 @@ room451.chat = function (chatID) {
             {
                 chatID: 6,
                 speaker: "cecilia",
-                text: "Hey stanger, I love getting my mouth filled with cock. Can I suck yours?",
+                text: "Hey stranger, I love getting my mouth filled with cock. Can I suck yours?",
                 button: [
                     { chatID: 8, text: "huh?", callback: "bj2" }
                 ]
@@ -1093,7 +1093,7 @@ room451.chat = function (chatID) {
                 chatID: 15,
                 speaker: "cecilia",
                 text: "Welcome to my stall you big slut! I've always wanted to have " +
-                    "some dirty toilet gloryhole with a sissy friend! ",
+                    "some dirty toilet gloryhole sex with a sissy friend! ",
                 button: [
                     { chatID: 16, text: "Me too!", callback: "gc1" }
                 ]
@@ -1102,7 +1102,7 @@ room451.chat = function (chatID) {
                 chatID: 16,
                 speaker: "cecilia",
                 text: "Oh look a cock! It's so yummy and thick... Oh yeah, I forgot you wanted to suck that cock. Sorry I got " +
-                    "so cock hungry I forgot you were here. You go ahead and suck that. It's easy start by licking the tip!",
+                    "so cock hungry I forgot you were here. You go ahead and suck that. It's easy, start by licking the tip!",
                 button: [
                     { chatID: -1, text: "ok", callback: "" }
                 ]
@@ -1110,7 +1110,7 @@ room451.chat = function (chatID) {
             {
                 chatID: 17,
                 speaker: "thinking",
-                text: "I feel like such a confused dirty girl. What am I doing? Why am I about to suck some stanger's cock? I've really lost my mind. I'm so glad " +
+                text: "I feel like such a confused dirty girl. What am I doing? Why am I about to suck some stranger's cock? I've really lost my mind. I'm so glad " +
                     sc.n("cecilia") + "'s here to support me, but really maybe I should go...",
                 button: [
                     { chatID: 18, text: "...", callback: "c3" }
@@ -1129,7 +1129,7 @@ room451.chat = function (chatID) {
                 chatID: 19,
                 speaker: "thinking",
                 text: "MMMmmm that does taste plump and yummy. Wait what am I thinking. " +
-                    "Forget it! I'm going to suck this strage cock! I can't let " +
+                    "Forget it! I'm going to suck this strange cock! I can't let " +
                     sc.n("cecilia") + " down. ",
                 button: [
                     { chatID: 20, text: "...", callback: "" }
@@ -1156,7 +1156,7 @@ room451.chat = function (chatID) {
             {
                 chatID: 22,
                 speaker: "thinking",
-                text: "I can feel my throat strech with each thrust. Must not show how " +
+                text: "I can feel my throat stretch with each thrust. Must not show how " +
                     "uncomfortable I am! Must take that cock till he blows! I AM A SISSY! ",
                 button: [
                     { chatID: 23, text: "Swallow like a sissy!", callback: "c8_s" },
@@ -1207,7 +1207,7 @@ room451.chat = function (chatID) {
             {
                 chatID: 28,
                 speaker: "thinking",
-                text: "Should I wait around and suck some stange cock?",
+                text: "Should I wait around and suck some strange cock?",
                 button: [
                     { chatID: -1, text: "Yes, feed me the cum!", callback: "suck1" },
                     { chatID: -1, text: "No", callback: "reset" }
@@ -1225,7 +1225,7 @@ room451.chat = function (chatID) {
             {
                 chatID: 30,
                 speaker: "cop",
-                text: "Ok sick-o. I've received calls on someone blowing stangers in this bathroom. Time to go.",
+                text: "Ok sicko. I've received calls on someone blowing strangers in this bathroom. Time to go.",
                 button: [
                     { chatID: -1, text: "Get arrested for being a pervert", callback: "arrest" }
                 ]
@@ -1327,7 +1327,7 @@ room451.chat = function (chatID) {
             {
                 chatID: 42,
                 speaker: "thinking",
-                text: "I love taking a strager's cock in my ass! ",
+                text: "I love taking a stranger's cock in my ass! ",
                 button: [
                     { chatID: 43, text: "...", callback: "ass2" }
                 ]

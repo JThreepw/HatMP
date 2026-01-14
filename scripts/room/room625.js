@@ -186,7 +186,7 @@ room625.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "thinking",
-            text: "It sure is spooky here after dark. Let me go checks some tents to see if I can find " +
+            text: "It sure is spooky here after dark. Let me go check some tents to see if I can find " +
                 "anything.",
             button: [
                 { chatID: -1, text: "...", callback: "sneak" }
@@ -221,8 +221,8 @@ room625.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "missy",
-            text: "Oh crap! I too easily dissmissed the cult in this! It's too dangerous to approach them " +
-                "youself and I'm too far away. I'm going to get the police down there. They may not arrest " +
+            text: "Oh crap! I too easily dismissed the cult in this! It's too dangerous to approach them " +
+                "yourself and I'm too far away. I'm going to get the police down there. They may not arrest " +
                 "the cult, but they will get that girl free. Get out of there and hide out till they get there. Don't approach! " +
                 "Got it! ",
             button: [

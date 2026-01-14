@@ -704,7 +704,7 @@ room450.chat = function(chatID){
         {
             chatID: 18,
             speaker: "lola",
-            text: "I'm so relieved! I was afraid I was packing this picnic basket for nothing. I have a secrect place in the " +
+            text: "I'm so relieved! I was afraid I was packing this picnic basket for nothing. I have a secret place in the " +
                 "forest I want to go and have our picnic.",
             button: [
                 { chatID: 19, text: "Oh sweet, where is it?", callback: "" }
@@ -913,7 +913,7 @@ room450.chat = function(chatID){
         {
             chatID: 42,
             speaker: "lola",
-            text: "Oh. yeah. Thanks. I did try to make a nice picnic basket. Lets just enjoy the " +
+            text: "Oh. yeah. Thanks. I did try to make a nice picnic basket. Let's just enjoy the " +
                 "food and nature. ",
             button: [
                 { chatID: -1, text: "Yum! [Make small talk and finish the date]", callback: "leaveAddTime" }
@@ -933,7 +933,7 @@ room450.chat = function(chatID){
             text: "*Mwah*",
             button: [
                 { chatID: -1, text: "[Push her on her back and make out with her]", callback: "lola7kiss" },
-                { chatID: 42, text: "Back to the picnic. [Finsih kissing her]", callback: "lola6" },
+                { chatID: 42, text: "Back to the picnic. [Finish kissing her]", callback: "lola6" },
             ]
         },
         {
@@ -947,9 +947,9 @@ room450.chat = function(chatID){
         {
             chatID: 46,
             speaker: "lola",
-            text: "We shouldn't do this. Lets just enjoy the food and nature.  ",
+            text: "We shouldn't do this. Let's just enjoy the food and nature.  ",
             button: [
-                { chatID: -1, text: "Yum! [Neel level 4. Make small talk and finish the date]", callback: "leaveAddTime" }
+                { chatID: -1, text: "Yum! [Need level 4. Make small talk and finish the date]", callback: "leaveAddTime" }
             ]
         },
         {
@@ -958,15 +958,15 @@ room450.chat = function(chatID){
             text: "This is so wrong, but you're such a good kisser. ",
             button: [
                 { chatID: -1, text: "Hahaha Yea [take off her shirt up and kiss on her belly]", callback: "lola8kiss" },
-                { chatID: 42, text: "Back to the picnic. [Finsih kissing her]", callback: "lola6" },
+                { chatID: 42, text: "Back to the picnic. [Finish kissing her]", callback: "lola6" },
             ]
         },
         {
             chatID: 48,
             speaker: "lola",
-            text: "We shouldn't do this. Lets just enjoy the food and nature.  ",
+            text: "We shouldn't do this. Let's just enjoy the food and nature.  ",
             button: [
-                { chatID: -1, text: "Yum! [Neel level 5. Make small talk and finish the date]", callback: "leaveAddTime" }
+                { chatID: -1, text: "Yum! [Need level 5. Make small talk and finish the date]", callback: "leaveAddTime" }
             ]
         },
         {
@@ -975,7 +975,7 @@ room450.chat = function(chatID){
             text: "Oh wow. oh... it kinda tickles, but feels so good.  ",
             button: [
                 { chatID: -1, text: "[Pull down her skirt and lick her pussy]", callback: "lola9kiss" },
-                { chatID: 42, text: "Back to the picnic. [Finsih kissing her]", callback: "lola6" },
+                { chatID: 42, text: "Back to the picnic. [Finish kissing her]", callback: "lola6" },
             ]
         },
         {
@@ -1034,7 +1034,7 @@ room450.chat = function(chatID){
         {
             chatID: 56,
             speaker: "cop",
-            text: "Don't you fucking move or I'm going to through your ass in jail. Just stay right there and don't reach " +
+            text: "Don't you fucking move or I'm going to throw your ass in jail. Just stay right there and don't reach " +
                 "for anything or I'll crack your head open like a melon. ",
             button: [
                 { chatID: 57, text: "GULP", callback: "c2" },

@@ -633,7 +633,7 @@ room408.chat = function (chatID) {
         {
             chatID: 28,
             speaker: "stormy",
-            text: "So I don't know how to get there 'cuase " + sc.n("daddy") + " always drives me, but I do know the code to " +
+            text: "So I don't know how to get there 'cause " + sc.n("daddy") + " always drives me, but I do know the code to " +
                 "get into the compound. " + sc.n("daddy") + " makes me hop out and open the door since I ride shotgun. It " +
                 "would be fun to see you there.. I really shouldn't.",
             button: [

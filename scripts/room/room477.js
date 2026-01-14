@@ -401,7 +401,7 @@ room477.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "queen",
-            text: "You don't know what you want. Go speak with " + sc.n("a") + ". She'll set your right for your own " +
+            text: "You don't know what you want. Go speak with " + sc.n("a") + ". She'll set you right for your own " +
                 "protection. Go now. Go deep into the cave and meet with her. She'll provide you all you need. ",
             button: [
                 { chatID: 13, text: "Let me out! Let me out now!  ", callback: "" },

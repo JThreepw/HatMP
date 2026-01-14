@@ -398,7 +398,7 @@ room586.chat = function (chatID) {
             chatID: 22,
             speaker: "chuck",
             text: "I'm so sorry. I didn't mean to run away last time, it just took me " +
-                "by such a suprise. I really like you, but I understand if you never " +
+                "by such a surprise. I really like you, but I understand if you never " +
                 "want to talk to me again. ",
             button: [
                 { chatID: 23, text: "It's ok. It happens to all men. ", callback: "" }
@@ -427,7 +427,7 @@ room586.chat = function (chatID) {
         {
             chatID: 25,
             speaker: "chuck",
-            text: "Hehe. Do I look ok? I've never been naked infront of a girl before. " +
+            text: "Hehe. Do I look ok? I've never been naked in front of a girl before. " +
                 "Can I take off your clothes now? ",
             button: [
                 { chatID: 26, text: "Sure. You can take off my clothes ", callback: "chuck2_1" }

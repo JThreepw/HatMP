@@ -2296,8 +2296,8 @@ room328.chat = function (chatID) {
             "I can feel it's dick twitch all the way down in my belly ",
             "I can't even stop it. It went straight to my belly ",
             "*ugh* So full of pig cum",
-            "I'm a pig cum dumster",
-            "So long and slimey",
+            "I'm a pig cum dumpster",
+            "So long and slimy",
             "So disrespectful! Just cumming in me without asking!  ",
             "I'm a pig cum dump now",
         ];
@@ -2316,7 +2316,7 @@ room328.chat = function (chatID) {
             "I've never had a dick go so deep in me!",
             "So slimy in my rectum.",
             "Ooooff. He's so heavy... and stinky",
-            "So long and slimey",
+            "So long and slimy",
             "Fuck that's weird feeling his piggy dick squirming inside me.",
             "I'm such a piggy bitch.",
         ];

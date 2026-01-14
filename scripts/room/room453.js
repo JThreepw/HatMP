@@ -1,4 +1,4 @@
-﻿//cood stall
+﻿//coed stall
 
 var room453 = {};
 
@@ -140,6 +140,7 @@ room453.btnclick = function (name) {
 room453.chatcatch = function(callback){
     switch (callback) {
         case "":
+
             break;
         default:
             break;

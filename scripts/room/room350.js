@@ -590,7 +590,7 @@ room350.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "landlord",
-            text: "You know, I've watched you be a puddle of dissapointment for most " +
+            text: "You know, I've watched you be a puddle of disappointment for most " +
                 "of your life. After you graduated high school you've just been a lazy " +
                 "lazy waste of space. But now, but now look at you.",
             button: [
@@ -615,7 +615,7 @@ room350.chat = function (chatID) {
             text: "I suppose this is my fault. You've been around girls the entire time. " +
                 "You've never been properly shown how to be a boy. From the looks of it, " +
                 "it seems too late to go down that path, this is the path you're on. " +
-                "As your " + sc.n("landlord") + " I suppose it's my resonsiblility to " +
+                "As your " + sc.n("landlord") + " I suppose it's my responsibility to " +
                 "continue to help you on your path.",
             button: [
                 { chatID: 39, text: "Help me?", callback: "" },
@@ -656,7 +656,7 @@ room350.chat = function (chatID) {
             chatID: 42,
             speaker: "landlord",
             text: "I need a girl like you to help me out around here doing all the things " +
-                "I hate doing. Organizaing samples, greeting customers, and most importantly " +
+                "I hate doing. Organizing samples, greeting customers, and most importantly " +
                 "assisting with the donors. ",
             button: [
                 { chatID: 43, text: "Assisting the donors?", callback: "" }
@@ -694,7 +694,7 @@ room350.chat = function (chatID) {
             chatID: 46,
             speaker: "landlord",
             text: "I know. I suppose deep down I've always known. I suppose it's good " +
-                "to know that when I die, I'll have someone to hand the buisiness down " +
+                "to know that when I die, I'll have someone to hand the business down " +
                 "to. ",
             button: [
                 { chatID: 47, text: ".... ok", callback: "" }
@@ -714,7 +714,7 @@ room350.chat = function (chatID) {
             speaker: "landlord",
             text: "You can change into your nurses outfit here. If " + sc.n("raven") +
                 " is in here, just ask him to leave. I've already spoken to him " +
-                "muliple times about trying to peek at my nurses. Now get changed. ",
+                "multiple times about trying to peek at my nurses. Now get changed. ",
             button: [
                 { chatID: 49, text: "Oh my. [Change into nurse's outfit]", callback: "e1" }
             ]
@@ -931,7 +931,7 @@ room350.chat = function (chatID) {
             speaker: "thinking",
             text: "This hurts so much! I can feel the edges of this desk dig into my ribcage " +
                 "and the ropes are digging into my wrists. I wonder " +
-                "what she's up to? I can hear her talking, but I can make it out. What is she planning. " +
+                "what she's up to? I can hear her talking, but I can't make it out. What is she planning. " +
                 "I hope she isn't going to bare bottom spank me in front of " + sc.n("!boxes") + ". I would " +
                 "die of embarrassment! ",
             button: [
@@ -949,10 +949,10 @@ room350.chat = function (chatID) {
         {
             chatID: 74,
             speaker: "landlord",
-            text: "The rapiest! Now I can go on and on about how wrong it was, what you did, but " +
+            text: "The rapist! Now I can go on and on about how wrong it was, what you did, but " +
                 "I won't. I think the best way to let you know how terrible your actions are is to show " +
                 "you. That's why " + sc.n("!boxes") + " here is going to rape you up your ass. Dry. So you " +
-                "know you know how it feels to have consent taken away. ",
+                "know how it feels to have consent taken away. ",
             button: [
                 { chatID: 75, text: "What??", callback: "inspect8" },
             ]
@@ -960,7 +960,7 @@ room350.chat = function (chatID) {
         {
             chatID: 75,
             speaker: "!boxes",
-            text: "Oh boy! I do love doing suprise anal! You really are the best " + sc.n("me") +
+            text: "Oh boy! I do love doing surprise anal! You really are the best " + sc.n("me") +
                 "'s " + sc.n("landlord") + "!",
             button: [
                 { chatID: 76, text: "!", callback: "inspect9" },
@@ -980,7 +980,7 @@ room350.chat = function (chatID) {
             speaker: "!boxes",
             text: "Oh shit that's tight! I don't know how long I can last! ",
             button: [
-                { chatID: 78, text: "*whiper* please just cum", callback: "inspect11" },
+                { chatID: 78, text: "*whimper* please just cum", callback: "inspect11" },
             ]
         },
         {

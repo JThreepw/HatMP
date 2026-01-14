@@ -346,7 +346,7 @@ room527.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "me",
-            text: "Hmmm. An hour's passed an nothing. Maybe I'm not attactive enough. ",
+            text: "Hmmm. An hour's passed and nothing. Maybe I'm not attractive enough. ",
             button: [
                 { chatID: -1, text: "Leave", callback: "leave" }
             ]

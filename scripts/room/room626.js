@@ -182,7 +182,7 @@ room626.chat = function (chatID) {
                 speaker: "lola",
                 text: "So how was that for a practice date? ",
                 button: [
-                    { chatID: -1, text: "Best practice blow job every!", callback: "lola_6" },
+                    { chatID: -1, text: "Best practice blow job ever!", callback: "lola_6" },
                 ]
             },
             {
@@ -213,7 +213,7 @@ room626.chat = function (chatID) {
             {
                 chatID: 9,
                 speaker: "lola",
-                text: "Oh wow! That was so naughty! This is the best practice date I've could be on.",
+                text: "Oh wow! That was so naughty! This is the best practice date I could be on.",
                 button: [
                     { chatID: -1, text: "I had fun too [Need level 5 to go further]", callback: "leave" },
                 ]

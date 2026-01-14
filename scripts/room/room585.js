@@ -670,7 +670,7 @@ room585.chat = function (chatID) {
             chatID: 28,
             speaker: "thinking",
             text: "Well there goes my dignity. Now everyone will just know me as some " +
-                "kind of slut becuase once again I'm making a fool of myself.  ",
+                "kind of slut because once again I'm making a fool of myself.  ",
             button: [
                 { chatID: 29, text: "...", callback: "" },
             ]
@@ -749,7 +749,7 @@ room585.chat = function (chatID) {
         {
             chatID: 37,
             speaker: "thinking",
-            text: "What? Do they hate that? They're all laughing at me. I just did what " +
+            text: "What? Do they hate me? They're all laughing at me. I just did what " +
                 sc.n("eva") + " said to do. Why do they seem disgusted?",
             button: [
                 { chatID: 38, text: "...", callback: "eva10" },
@@ -767,7 +767,7 @@ room585.chat = function (chatID) {
             chatID: 39,
             speaker: "thinking",
             text: "That sucked. That really sucked. I thought they would all love me for my " +
-                "based quirky nature and free will. I've never been more embarrassed in my life! " +
+                "bold quirky nature and free will. I've never been more embarrassed in my life! " +
                 "Maybe I have gone too far into this whole sissy thing, or maybe it's just not the " +
                 "right crowd for me. I don't know. ",
             button: [
@@ -843,7 +843,7 @@ room585.chat = function (chatID) {
         {
             chatID: 48,
             speaker: "!belle",
-            text: "Oh. You're a really sweetie! My friend I met in Social Studies helped me pick it " +
+            text: "Oh. You're a real sweetie! My friend I met in Social Studies helped me pick it " +
                 "out. ",
             button: [
                 { chatID: 49, text: "Oh. Are you in college? What are you studying?", callback: "" },
@@ -899,7 +899,7 @@ room585.chat = function (chatID) {
         {
             chatID: 54,
             speaker: "liam",
-            text: "OH! The jewlery shop in the mall sells gifts! Can you go there and get me " +
+            text: "OH! The jewelry shop in the mall sells gifts! Can you go there and get me " +
                 "a stuffed animal? That would be really cool! I would get it myself, but I'm totally " +
                 "broke. ",
             button: [
@@ -925,7 +925,7 @@ room585.chat = function (chatID) {
         {
             chatID: 57,
             speaker: "Liam",
-            text: "This is the chick that totally game me to confidance to talk to you! ",
+            text: "This is the chick that totally gave me the confidence to talk to you! ",
             button: [
                 { chatID: 58, text: "...", callback: "" }
             ]

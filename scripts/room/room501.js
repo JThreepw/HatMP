@@ -351,7 +351,7 @@ room501.btnclick = function (name) {
                     '<br/><br/><br/>' +
                     sc.n('priapus') + ' offered me $500 to sit for the C.U.M. cult and have the guys bust their nuts in my ' +
                     'mouth. He promised it was only going to take an hour, but after the 30th cult follower finished in my mouth I had been sitting ' +
-                    'there for almost 2 HOURS!! My jaw is still sore! This one guy who\'s dick was only 2 inches long had to stroke it ' +
+                    'there for almost 2 HOURS!! My jaw is still sore! This one guy whose dick was only 2 inches long had to stroke it ' +
                     'for like 20 minutes before he finally came! ' +
                     '<br/><br/><br/>' +
                     sc.n('zoey') + ' totally ate me out in front of ' + sc.n("me") + '. I love it when a guy watches, but can\'t touch ' +
@@ -730,7 +730,7 @@ room501.chatcatch = function (callback) {
                 '<br/><br/><br/>' +
                 sc.n('priapus') + ' offered me $500 to sit in the middle of his free love cult and have the guys bust their nuts in my ' +
                 'mouth. He promised it was only going to take an hour, but after the 30th cult follower finished in my mouth I had been sitting ' +
-                'there for almost 2 HOURS!! My jaw is still sore! This one guy who\'s dick was only 2 inches long had to stroke it ' +
+                'there for almost 2 HOURS!! My jaw is still sore! This one guy whose dick was only 2 inches long had to stroke it ' +
                 'for like 20 minutes before he finally came! ' +
                 '<br/><br/><br/>' +
                 sc.n('zoey') + ' totally ate me out in front of ' + sc.n("me") + '. I love it when a guy watches, but can\'t touch ' +
@@ -1403,7 +1403,7 @@ room501.chat = function (chatID) {
                     "you made fun of Stacy on the lunch room and she kicked you in the balls so hard it looked like she broke them!",
                 button: [
                     { chatID: 59, text: "ohhh, hahaha yea. They're better now, but feel free to check them.", callback: "" },
-                    { chatID: 56, text: sc.n("zoey") + "!! I can't believe your told her that! So rude.", callback: "zhate" }
+                    { chatID: 56, text: sc.n('zoey') + "!! I can't believe your told her that! So rude.", callback: "zhate" }
                 ]
             },
             {
@@ -1865,7 +1865,7 @@ room501.chat = function (chatID) {
                 chatID: 106,
                 speaker: "zoey",
                 text: "ahahaha. You are my bitch. I have to go clean your éjaculation grossière " +
-                    " from my stomach. ",
+                    "from my stomach. ",
                 button: [
                     { chatID: -1, text: "Oh Yes!", callback: "room502" },
                 ]
@@ -1992,7 +1992,7 @@ room501.chat = function (chatID) {
             {
                 chatID: 109,
                 speaker: "zoey",
-                text: "Oh, we are just doing la sex, she is not mon petite amie, just an amie with benifits. Sooo, do you want a taste?",
+                text: "Oh, we are just doing la sex, she is not mon petite amie, just an amie with benefits. Sooo, do you want a taste?",
                 button: [
                     { chatID: -1, text: "Yes I do!", callback: "gotohouse" }
                 ]

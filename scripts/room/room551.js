@@ -536,7 +536,7 @@ room551.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "g",
-            text: "Hahaha it's cause he couldn't fight back with those little bitch arms!",
+            text: "Hahaha it's 'cause he couldn't fight back with those little bitch arms!",
             button: [
                 { chatID: 9, text: "...", callback: "" }
             ]

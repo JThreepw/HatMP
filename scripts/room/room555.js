@@ -1065,7 +1065,7 @@ room555.chat = function (chatID) {
         {
             chatID: 49,
             speaker: "thinking",
-            text: "Oh fuck! I can feel it really streatching my quads and slutty hole!",
+            text: "Oh fuck! I can feel it really stretching my quads and slutty hole!",
             button: [
                 { chatID: -1, text: "...", callback: "exitMachine" },
             ]
@@ -1073,7 +1073,7 @@ room555.chat = function (chatID) {
         {
             chatID: 50,
             speaker: "thinking",
-            text: "Oh fuck! I can feel it really streatching my legs and slutty hole!",
+            text: "Oh fuck! I can feel it really stretching my legs and slutty hole!",
             button: [
                 { chatID: -1, text: "...", callback: "exitMachine" },
             ]

@@ -510,7 +510,7 @@ room650.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "charlie",
-            text: "Oh, the whores? They only work Monday thru Friday starting at 9:00. Even whores needs a break. ",
+            text: "Oh, the whores? They only work Monday through Friday starting at 9:00. Even whores need a break. ",
             button: [
                 { chatID: -1, text: "oh, odd. ok", callback: "" }
             ]
@@ -527,7 +527,7 @@ room650.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "charlie",
-            text: "He ain't long, but but he is thick. Ready to take it down whore?",
+            text: "He ain't long, but he is thick. Ready to take it down whore?",
             button: [
                 { chatID: 18, text: "Ummmm Hmmmm", callback: "c2" }
             ]
@@ -613,7 +613,7 @@ room650.chat = function (chatID) {
         {
             chatID: 27,
             speaker: "candy",
-            text: "I've been on dates. The thing I hate the most of owning the Toys 'n Us store is that all guys just " +
+            text: "I've been on dates. The thing I hate the most about owning the Toys 'n Us store is that all guys just " +
                 "assume I'm some kind of slut, ya know. If I ask them to take me out on a date, they just take their cock " +
                 "out and tell me to suck it. I'm like, hello, we just met and I'm working the store. ",
             button: [
@@ -659,7 +659,7 @@ room650.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "candy",
-            text: "I just love the breeze on blowing on my bare ass and my pussy slit. It's so freeing. We should bare our asses " +
+            text: "I just love the breeze blowing on my bare ass and my pussy slit. It's so freeing. We should bare our asses " +
                 "and enjoy it. ",
             button: [
                 { chatID: 33, text: "Huh?", callback: "candy51_2" }
@@ -970,7 +970,7 @@ room650.chat = function (chatID) {
         {
             chatID: 68,
             speaker: "tiffany",
-            text: "Oh. Did you try having sex with her? I usually always orgasm with I have sex. We " +
+            text: "Oh. Did you try having sex with her? I usually always orgasm when I have sex. We " +
                 "do have numbing cream so you can last longer. Just be careful in public. You don't want " +
                 "to have someone ruin your good time!",
             button: [
