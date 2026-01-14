@@ -641,7 +641,7 @@ room321.chat = function (chatID) {
             chatID: 0,
             speaker: "janice",
             text: "Hey everyone! I've brought my friend with me on my stream! So excited! " +
-                "Let's meet him! ",
+                "Let's meet him!",
             button: [
                 { chatID: -1, text: "...", callback: "w1_0" }
             ]
@@ -691,10 +691,10 @@ room321.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "janice",
-            text: "*ugh* He's not a girl! Never mind, I'm too flustered. We'll try again. " +
-                "later. I'm just going to end this show. ",
+            text: "*ugh* He's not a girl! Never mind, I'm too flustered. We'll try again " +
+                "later. I'm just going to end this show.",
             button: [
-                { chatID: 6, text: "oh....", callback: "leave" }
+                { chatID: 6, text: "Oh....", callback: "leave" }
             ]
         },
         {
@@ -703,7 +703,7 @@ room321.chat = function (chatID) {
             text: "Is that a chastity cage? Why would you wear a chastity cage to my " +
                 "web show! I need a real man to fuck me so I can make some money and " +
                 "you show up like a little girl with that thing on! Damn it! My show " +
-                "is ruined. Just ruined! Let me trun this off!",
+                "is ruined. Just ruined! Let me turn this off!",
             button: [
                 { chatID: -1, text: "I'm so sorry...", callback: "leave" }
             ]
@@ -748,8 +748,8 @@ room321.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "janice",
-            text: "You want me to fuck his ass Jim? I have a vagina. How am I supposed to " +
-                "to fuck his ass? I don't think you guys know how a girl works. ",
+            text: "You want me to fuck his ass Jim? I have a vagina. How am I supposed " +
+                "to fuck his ass? I don't think you guys know how a girl works.",
             button: [
                 { chatID: 13, text: "...", callback: "femdom_message2" }
             ]
@@ -759,7 +759,7 @@ room321.chat = function (chatID) {
             speaker: "janice",
             text: "A strap-on? Huh? I guess I could do that, but I don't have " +
                 "one of those. Hmmmmm.... I guess I need one of those. We'll be back " +
-                "later. Make sure to keep supporting me!  ",
+                "later. Make sure to keep supporting me!",
             button: [
                 { chatID: 14, text: "...", callback: "room0a" }
             ]
@@ -796,7 +796,7 @@ room321.chat = function (chatID) {
             chatID: 17,
             speaker: "janice",
             text: "I know! Let's have my femboy suck my strap-on! I've always wanted to " +
-                "see what's it's like to ge a blow job! ",
+                "see what it's like to get a blow job!",
             button: [
                 { chatID: 18, text: "[Suck her strap-on]", callback: "suck" }
             ]
@@ -830,7 +830,7 @@ room321.chat = function (chatID) {
             chatID: 21,
             speaker: "janice",
             text: "Oh. I guess we've had sex now. Ummm. I guess the stream is over. Come " +
-                "back later. ok. ",
+                "back later. Ok.",
             button: [
                 { chatID: -1, text: "*moan*", callback: "leave" }
             ]
@@ -846,10 +846,10 @@ room321.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "janice",
-            text: "Ok everyone I would like ot re-introduce my pussy free femboy! After our " +
-                "last show I realised what a complete loser he is and almost ended things with him! " +
+            text: "Ok everyone I would like to re-introduce my pussy free femboy! After our " +
+                "last show I realized what a complete loser he is and almost ended things with him! " +
                 "But he said I could fuck other guys if I would just stay with him. So here we are, " +
-                "the sexy girl with a big ass and her pussy free femboy! ",
+                "the sexy girl with a big ass and her pussy free femboy!",
             button: [
                 { chatID: 24, text: "Hey!", callback: "" }  
             ]
@@ -876,7 +876,7 @@ room321.chat = function (chatID) {
         {
             chatID: 26,
             speaker: "janice",
-            text: "Hello all you pervets! Welcome back to my show! So what should we start with? ",
+            text: "Hello all you perverts! Welcome back to my show! So what should we start with?",
             button: [
                 { chatID: 27, text: "....", callback: "doggy1" }
             ]
@@ -892,7 +892,7 @@ room321.chat = function (chatID) {
         {
             chatID: 28,
             speaker: "janice",
-            text: "come 'er " + sc.n("dog") + ". Time for your treat! ",
+            text: "Come here " + sc.n("dog") + ". Time for your treat!",
             button: [
                 { chatID: 29, text: "....", callback: "doggy3" }
             ]
@@ -900,7 +900,7 @@ room321.chat = function (chatID) {
         {
             chatID: 29,
             speaker: "janice",
-            text: "Oh yeah, just like that! Best tongue there is!  ",
+            text: "Oh yeah, just like that! Best tongue there is!",
             button: [
                 { chatID: 30, text: "....", callback: "doggy4" }
             ]
@@ -924,7 +924,7 @@ room321.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "janice",
-            text: "ooof... Not like that. Oh maybe... Should we?  It does feel good...",
+            text: "Ooof... Not like that. Oh maybe... Should we? It does feel good...",
             button: [
                 { chatID: 33, text: "....", callback: "doggy7" }
             ]
@@ -958,7 +958,7 @@ room321.chat = function (chatID) {
             chatID: 36,
             speaker: "janice",
             text: "There's so much puppy batter! I don't think I've ever had a bigger load in me. " +
-                "Drink it all up so I don't get it on the rug. That's my good girl. ",
+                "Drink it all up so I don't get it on the rug. That's my good girl.",
             button: [
                 { chatID: -1, text: "*slurp* *suck* *gulp*", callback: "doggyEnd" }
             ]
@@ -975,22 +975,22 @@ room321.sidechat = function (metalk) {
         switch (metalk) {
             case "w1_0":
                 if (gender.pronoun("f") === "f") {
-                    g.internal.chat.push({ user: "shakey998", txt: "Sweet! Love two chick shows! ", hex: "#0a457d" });
+                    g.internal.chat.push({ user: "shakey998", txt: "Sweet! Love two chick shows!", hex: "#0a457d" });
                     g.internal.chat.push({ user: "XXKillstreakXX", txt: "I would fuck you both!", hex: "#05193b" });
-                    g.internal.chat.push({ user: "BigDick420", txt: "Hot I'm rubbin my cock", hex: "#a12336" });
+                    g.internal.chat.push({ user: "BigDick420", txt: "Hot I'm rubbing my cock", hex: "#a12336" });
                     g.internal.chat.push({ user: "AssLicker", txt: "Dykes are hot!", hex: "#a33329" });
                 }
                 else {
                     g.internal.chat.push({ user: "shakey998", txt: "Lucky man!", hex: "#0a457d" });
                     g.internal.chat.push({ user: "XXKillstreakXX", txt: "Fuck yeah! fuck that slut", hex: "#05193b" });
-                    g.internal.chat.push({ user: "BigDick420", txt: "Hot I'm rubbin my cock", hex: "#a12336" });
-                    g.internal.chat.push({ user: "AssLicker", txt: "Drop the dude! Play with your pussy! ", hex: "#a33329" });
+                    g.internal.chat.push({ user: "BigDick420", txt: "Hot I'm rubbin' my cock", hex: "#a12336" });
+                    g.internal.chat.push({ user: "AssLicker", txt: "Drop the dude! Play with your pussy!", hex: "#a33329" });
                 }
                 break;
             case "tits":
                 g.internal.chat.push({ user: "Mr. T", txt: "ARF GRRR RUFF! Love those tits baby", hex: "#0a457d" });
-                g.internal.chat.push({ user: "Firak", txt: "Beautiful fuckin' tits! ", hex: "#05193b" });
-                g.internal.chat.push({ user: "Tit lover", txt: "That's what I came for! ", hex: "#095440" });
+                g.internal.chat.push({ user: "Firak", txt: "Beautiful fuckin' tits!", hex: "#05193b" });
+                g.internal.chat.push({ user: "Tit lover", txt: "That's what I came for!", hex: "#095440" });
                 break;
             case "tips":
                 g.internal.chat.push({ user: "Janice", txt: "Hey boys! Show me love in those tips!", hex: "#4b1559" });
@@ -998,7 +998,7 @@ room321.sidechat = function (metalk) {
                 break;
             case "flirt":
                 g.internal.chat.push({ user: "Janice", txt: "❤️ you all. Need all your dicks!", hex: "#4b1559" });
-                g.internal.chat.push({ user: "Firak", txt: "Drop that loser! We'll double stuff you ", hex: "#05193b" });
+                g.internal.chat.push({ user: "Firak", txt: "Drop that loser! We'll double stuff you", hex: "#05193b" });
                 g.internal.chat.push({ user: "BigDick420", txt: "I need to be balls deep in that pussy", hex: "#a12336" });
                 break;
             case "insult":
@@ -1014,29 +1014,29 @@ room321.sidechat = function (metalk) {
                 g.internal.chat.push({ user: "CallMeDaddy", txt: "Daddy want's to fuck your face bby girl", hex: "#910d12" });
                 break;
             case "femdom_message0":
-                g.internal.chat.push({ user: "Twekle98", txt: "Show the femboy's ass! ", hex: "#34e5eb" });
-                g.internal.chat.push({ user: "Jim", txt: "Bend your femboy over and fuck him! ", hex: "#0d915a" });
+                g.internal.chat.push({ user: "Twekle98", txt: "Show the femboy's ass!", hex: "#34e5eb" });
+                g.internal.chat.push({ user: "Jim", txt: "Bend your femboy over and fuck him!", hex: "#0d915a" });
                 g.internal.chat.push({ user: "Daddy", txt: "I love a sexy femboy butt bby. Let's see it!", hex: "#13914a" });
-                g.internal.chat.push({ user: "Fufu Faroo", txt: "Show us his butt ", hex: "#474c61" });
-                g.internal.chat.push({ user: "BigD", txt: "I want to see his ass too1 ", hex: "#475a61" });
-                g.internal.chat.push({ user: "Al", txt: "BUTT BUTT BUTT BUTT ", hex: "#1d6640" });
+                g.internal.chat.push({ user: "Fufu Faroo", txt: "Show us his butt", hex: "#474c61" });
+                g.internal.chat.push({ user: "BigD", txt: "I want to see his ass too!", hex: "#475a61" });
+                g.internal.chat.push({ user: "Al", txt: "BUTT BUTT BUTT BUTT", hex: "#1d6640" });
 
                 break;
             case "femdom_message1":
-                g.internal.chat.push({ user: "shakey998", txt: "MMmmm sexy femboy. ", hex: "#0a457d" });
-                g.internal.chat.push({ user: "Jim", txt: "I said bend your femboy over and fuck his ass! ", hex: "#0d915a" });
-                g.internal.chat.push({ user: "Jim", txt: "Bend your femboy over and fuck him! ", hex: "#1d6640" });
-                g.internal.chat.push({ user: "Jim", txt: "oh yeah. I want to see you fuck him too ", hex: "#283b31" });
+                g.internal.chat.push({ user: "shakey998", txt: "MMmmm sexy femboy.", hex: "#0a457d" });
+                g.internal.chat.push({ user: "Jim", txt: "I said bend your femboy over and fuck his ass!", hex: "#0d915a" });
+                g.internal.chat.push({ user: "Jim", txt: "Bend your femboy over and fuck him!", hex: "#1d6640" });
+                g.internal.chat.push({ user: "Jim", txt: "Oh yeah. I want to see you fuck him too", hex: "#283b31" });
                 g.internal.chat.push({ user: "Jim", txt: "Make him your bitch!", hex: "#0d915a" });
                 break;
             case "femdom_message2":
                 g.internal.chat.push({ user: "HighTower894", txt: "Get a strap-on bby girl", hex: "#1a1701" });
-                g.internal.chat.push({ user: "Jim", txt: "Fuck him with a strapon! ", hex: "#0d915a" });
+                g.internal.chat.push({ user: "Jim", txt: "Fuck him with a strapon!", hex: "#0d915a" });
                 g.internal.chat.push({ user: "XXyoungbloodXX", txt: "STRAPON!!!!!", hex: "#475b73" });
                 g.internal.chat.push({ user: "GreyHairs", txt: "Fist that ass!", hex: "#4a5e5d" });
                 g.internal.chat.push({ user: "Romeo", txt: "🍆🍑 get a strapon girl", hex: "#1aba45" });
-                g.internal.chat.push({ user: "Jim", txt: "STRAP ATTACK!!!! ", hex: "#0d915a" });
-                g.internal.chat.push({ user: "Jim", txt: "Strap-ons are so sexy! ", hex: "#0d915a" });
+                g.internal.chat.push({ user: "Jim", txt: "STRAP ATTACK!!!!", hex: "#0d915a" });
+                g.internal.chat.push({ user: "Jim", txt: "Strap-ons are so sexy!", hex: "#0d915a" });
                 break;
             case "doggy1":
                 g.internal.chat.push({ user: "HighTower894", txt: "Who's the gimp???", hex: "#1a1701" });
@@ -1049,13 +1049,13 @@ room321.sidechat = function (metalk) {
             case "doggyloop":
                 var carray = [
                     { user: "Firak", txt: "Oh yeah! Fuck that puppy breeding hole!", hex: "#05193b" },
-                    { user: "XXyoungbloodXX", txt: "Love a girl that know's she's a bitch", hex: "#475b73" },
+                    { user: "XXyoungbloodXX", txt: "Love a girl that knows she's a bitch", hex: "#475b73" },
                     { user: "Daddy", txt: "Love a doggy slut!", hex: "#13914a" },
                     { user: "GreyHairs", txt: "Oooo fill that pussy with puppies", hex: "#4a5e5d" },
                     { user: "Jim", txt: "Knotty slut", hex: "#0d915a" },
-                    { user: "BigD", txt: "I want next! ", hex: "#475a61" },
+                    { user: "BigD", txt: "I want next!", hex: "#475a61" },
                     { user: "Mr. T", txt: "ARF GRRR RUFF! Breed that hole", hex: "#0a457d" },
-                    { user: "BigDick420", txt: "Hot I'm rubbin my cock", hex: "#a12336" },
+                    { user: "BigDick420", txt: "Hot I'm strokin' my cock", hex: "#a12336" },
                     { user: "AssLicker", txt: "Love a breeding bitch", hex: "#a33329" },
                     { user: "HighTower894", txt: "Momma! I need you", hex: "#1a1701" }
                 ];
@@ -1067,23 +1067,23 @@ room321.sidechat = function (metalk) {
         let sidechat = [
             { user: "shakey998", txt: "Hey beautiful", hex: "#0a457d" },
             { user: "XXKillstreakXX", txt: "Hi pretty girl", hex: "#05193b" },
-            { user: "XXKillstreakXX", txt: "You're all lossers! ", hex: "#05193b" },
+            { user: "XXKillstreakXX", txt: "You're all losers!", hex: "#05193b" },
             { user: "tylie", txt: "Who's a naughty girl!", hex: "#6c2287" },
             { user: "Jim", txt: "So hot damn I love stroking it <3", hex: "#0d915a" },
             { user: "Daddy", txt: "You're both so hot", hex: "#13914a" },
-            { user: "Jesus", txt: "hola niña bonita ", hex: "#6476ed" },
-            { user: "Daddy6969", txt: "Show me your pussy! ", hex: "#e33419" },
+            { user: "Jesus", txt: "hola niña bonita", hex: "#6476ed" },
+            { user: "Daddy6969", txt: "Show me your pussy!", hex: "#e33419" },
             { user: "Hornydad69", txt: "Love those nipples", hex: "#d9d21a" },
             { user: "XXxGamerBxXX", txt: "Play with your cunt bitch", hex: "#5448a1" },
-            { user: "sharky-59564", txt: "Dance for us slut! ", hex: "#302e3b" },
+            { user: "sharky-59564", txt: "Dance for us slut!", hex: "#302e3b" },
             { user: "LilFucker4206969", txt: "Fuck that slut.", hex: "#ff3300" },
-            { user: "Twekle98", txt: "Shake that ass! Shake for daddy ", hex: "#34e5eb" },
+            { user: "Twekle98", txt: "Shake that ass! Shake for daddy", hex: "#34e5eb" },
             { user: "TitsMcGee", txt: "Spread your legs. Show Daddy that pussy", hex: "#e39e1e" },
             { user: "Roxy420", txt: "Daddy like", hex: "#8a8346" },
             { user: "DirtyDaddy69", txt: "You two just need to fuck", hex: "#22633e" },
             { user: "HighTower894", txt: "You look like this ho I know", hex: "#1a1701" },
-            { user: "BigDick420", txt: "Hot I'm rubbin my cock", hex: "#a12336" },
-            { user: "Grandpa", txt: "you like older men? I like you :)", hex: "#4a515e" },
+            { user: "BigDick420", txt: "Hot I'm jackin' my cock", hex: "#a12336" },
+            { user: "Grandpa", txt: "You like older men? I like you :)", hex: "#4a515e" },
             { user: "Grandpa", txt: "I want to put you over my lap bby girl", hex: "#4a515e" },
             { user: "Pisslover", txt: "Piss all over him. I want to see a river", hex: "#d3d622" },
             { user: "AssLicker", txt: "Spread your butthole! Show me that starfish", hex: "#a33329" },
@@ -1092,14 +1092,14 @@ room321.sidechat = function (metalk) {
             { user: "CallMeDaddy", txt: "I'm going to suck that clitty", hex: "#910d12" },
             { user: "CallMeDaddy", txt: "I want to fuck you so bad lil girl", hex: "#910d12" },
             { user: "CallMeDaddy", txt: "Put on a show for daddy", hex: "#910d12" },
-            { user: "GreyHairs", txt: "Fuck the slut ", hex: "#4a5e5d" },
+            { user: "GreyHairs", txt: "Fuck the slut", hex: "#4a5e5d" },
             { user: "XXyoungbloodXX", txt: "I think I'm in love", hex: "#475b73" },
             { user: "XXyoungbloodXX", txt: "You dirty fucking whore", hex: "#475b73" },
             { user: "XXyoungbloodXX", txt: "I want to drink your pussy juice", hex: "#475b73" },
             { user: "AssLicker", txt: "MMmmmm so lickable", hex: "#a33329" },
-            { user: "Grandpa", txt: "🍆🍑💦 I want you both! ", hex: "#4a515e" },
-            { user: "Grandpa", txt: "🥵 ❤️❤️❤️ I'm in love! ", hex: "#4a515e" },
-            { user: "Grandpa", txt: "🍌 Suck his cock ", hex: "#4a515e" },
+            { user: "Grandpa", txt: "🍆🍑💦 I want you both!", hex: "#4a515e" },
+            { user: "Grandpa", txt: "🥵 ❤️❤️❤️ I'm in love!", hex: "#4a515e" },
+            { user: "Grandpa", txt: "🍌 Suck his cock", hex: "#4a515e" },
             { user: "BigDick420", txt: "💕 I'm going to wife you", hex: "#a12336" },
             { user: "sharky-59564", txt: "🥪 Get back to the kitchen! hehe", hex: "#302e3b" },
             { user: "Twekle98", txt: "I so want to nut in that butt!", hex: "#34e5eb" },
@@ -1109,7 +1109,7 @@ room321.sidechat = function (metalk) {
             { user: "LilFucker4206969", txt: "I'm going to make you my rape slave", hex: "#ff3300" },
             { user: "XXyoungbloodXX", txt: "Marry me baby", hex: "#475b73" },
             { user: "CallMeDaddy", txt: "Perfect ass for spanking.", hex: "#910d12" },
-            { user: "Romeo", txt: "My heart has found it's match", hex: "#1aba45" },
+            { user: "Romeo", txt: "My heart has found its match", hex: "#1aba45" },
             { user: "Romeo", txt: "Marry me, please!!!!", hex: "#1aba45" },
             { user: "Romeo", txt: "❤️🧡💛💚💙💜", hex: "#1aba45" },
             { user: "Romeo", txt: "🥰🔥🔥🥰 My passion is you", hex: "#1aba45" },

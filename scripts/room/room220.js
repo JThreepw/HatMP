@@ -165,9 +165,9 @@ room220.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "missy",
-            text: "I see you failed to properly clean this mess! You fogot this big blue cum filled " +
+            text: "I see you failed to properly clean this mess! You forgot this big blue cum filled " +
                 "condom that was under the sink! I should rub your nose in it, but I won't. This " +
-                "time. Expect your pay to get docked for doing a substandard job. Now go get lunch. ",
+                "time. Expect your pay to get docked for doing a substandard job. Now go get lunch.",
             button: [
                 { chatID: -1, text: "Yes ma'am", callback: "badCleanEnd" },
             ]
@@ -212,7 +212,7 @@ room220.chat = function (chatID) {
             text: "From now on you'll " +
                 "clean my bathroom in only your panties. You might think that I'm doing this because I'm making you more " +
                 "confident in your panties, or I'm increasing your boldness. Both would be wrong. I just think it's funny watching " +
-                "on you knees cleaning my dirty toilet in your panties. Now get to work panty boy. ",
+                "you on your knees cleaning my dirty toilet in your panties. Now get to work panty boy.",
             button: [
                 { chatID: 9, text: "Thank you ma'am", callback: "panties2" },
             ]

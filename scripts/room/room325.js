@@ -300,26 +300,26 @@ room325.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "rachel",
-            text: "Wanderin' huh. Well you better wander somewhere else, 'lessen you want to shovel horse shit fer me. ",
+            text: "Wanderin' huh. Well you better wander somewhere else, 'lessen you want to shovel horse shit fer me.",
             button: [
-                { chatID: 2, text: "Would I get paid? ", callback: "" },
-                { chatID: -1, text: "Gross, no. I 'lessin I'll leave now. ", callback: "leave" }
+                { chatID: 2, text: "Would I get paid?", callback: "" },
+                { chatID: -1, text: "Gross, no. I 'lessen I'll leave now.", callback: "leave" }
             ]
         },
         {
             chatID: 2,
             speaker: "rachel",
-            text: "Oh we got a worker don't we. I'll tell you what kid, I got a farm hand that does that, be he " + 
+            text: "Oh we got a worker don't we. I'll tell you what kid, I got a farm hand that does that, but he " + 
                 "is shit at brushing the horses. You brush my horse and I'll pay you $20 a day. How's 'bout it?",
             button: [
-                { chatID: 3, text: "That sounds awesome! ", callback: "" },
-                { chatID: -1, text: "I don't need any money. ", callback: "leave" }
+                { chatID: 3, text: "That sounds awesome!", callback: "" },
+                { chatID: -1, text: "I don't need any money.", callback: "leave" }
             ]
         },
         {
             chatID: 3,
             speaker: "rachel",
-            text: "Arright. Follow me to the li'l barn and I'll show you how it's done. ",
+            text: "Alright. Follow me to the li'l barn and I'll show you how it's done.",
             button: [
                 { chatID: 5, text: "Follow her", callback: "barn0" }
             ]
@@ -327,7 +327,7 @@ room325.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "thinking",
-            text: "It's really spooky here at night. I better leave. ",
+            text: "It's really spooky here at night. I better leave.",
             button: [
                 { chatID: -1, text: "Leave", callback: "leave" }
             ]
@@ -335,7 +335,7 @@ room325.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "rachel",
-            text: "This here's the horse stable. I just need you to brush ol " + sc.n("horse") + " here. Jimmy say hi to the new farm hand. ",
+            text: "This here's the horse stable. I just need you to brush ol' " + sc.n("horse") + " here. Jimmy say hi to the new farm hand.",
             button: [
                 { chatID: 6, text: "...", callback: "" }
             ]
@@ -343,7 +343,7 @@ room325.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "horse",
-            text: "*Snorts* ",
+            text: "*Snorts*",
             button: [
                 { chatID: 7, text: "...", callback: "" }
             ]
@@ -351,16 +351,16 @@ room325.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "rachel",
-            text: "Lets pull him out of the pen so you can brush him. ",
+            text: "Let's pull him out of the pen so you can brush him.",
             button: [
-                { chatID: 8, text: "ok", callback: "horse1" }
+                { chatID: 8, text: "Ok", callback: "horse1" }
             ]
         },
         {
             chatID: 8,
             speaker: "rachel",
             text: "That's a good boy. I'm just going to give you a li'l brushin'. You need to be careful with his undercarriage, he can get a little randy " +
-                "if you're too vigorous down there. ",
+                "if you're too vigorous down there.",
             button: [
                 { chatID: 9, text: "...", callback: "horse1a" }
             ]
@@ -368,16 +368,16 @@ room325.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "rachel",
-            text: "'course maybe you do want to rub a bit vigorous. *wink*",
+            text: "'Course maybe you do want to rub a bit vigorous. *wink*",
             button: [
-                { chatID: 10, text: "uhhh wha, no.", callback: "" }
+                { chatID: 10, text: "Uhhh wha, no.", callback: "" }
             ]
         },
         {
             chatID: 10,
             speaker: "rachel",
-            text: "Like I said, jobs yours if you want it. Just stop by during the day. Now I gotta get back to some real work. I'm sure " +
-                "you'll see yourself out. ",
+            text: "Like I said, job's yours if you want it. Just stop by during the day. Now I gotta get back to some real work. I'm sure " +
+                "you'll see yourself out.",
             button: [
                 { chatID: -1, text: "See ya.", callback: "rachel1end" }
             ]
@@ -385,41 +385,41 @@ room325.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "rachel",
-            text: "Oh my. I don't think we've been acquainted.  ",
+            text: "Oh my. I don't think we've been acquainted.",
             button: [
-                { chatID: 13, text: "What do you mean. We've met. ", callback: "" }
+                { chatID: 13, text: "What do you mean? We've met.", callback: "" }
             ]
         },
         {
             chatID: 12,
             speaker: "rachel",
-            text: "Wait a minute. Lets step outside. I do want to say hello to those amazing milk jugs you have in the light. ",
+            text: "Wait a minute. Let's step outside. I do want to say hello to those amazing milk jugs you have in the light.",
             button: [
-                { chatID: 13, text: "You like? ", callback: "outside" }
+                { chatID: 13, text: "You like?", callback: "outside" }
             ]
         },
         {
             chatID: 13,
             speaker: "rachel",
-            text: "I'm not talking to you. I'm talking to those beautiful pair of breasts you have. So much potential there! ",
+            text: "I'm not talking to you. I'm talking to those beautiful pair of breasts you have. So much potential there!",
             button: [
-                { chatID: 14, text: "Oh, you like?  ", callback: "" }
+                { chatID: 14, text: "Oh, you like?", callback: "" }
             ]
         },
         {
             chatID: 14,
             speaker: "rachel",
-            text: "I don't like them, I love them, I need them! Tell me, are you lactating? ",
+            text: "I don't like them, I love them, I need them! Tell me, are you lactating?",
             button: [
-                { chatID: 15, text: "...lactating? ", callback: "" }
+                { chatID: 15, text: "...lactating?", callback: "" }
             ]
         },
         {
             chatID: 15,
             speaker: "rachel",
-            text: "I'll take that as a no. Here take this pill. It's completely safe.  ",
+            text: "I'll take that as a no. Here take this pill. It's completely safe.",
             button: [
-                { chatID: -1, text: "hmmm", callback: "pill" },
+                { chatID: -1, text: "Hmmm", callback: "pill" },
                 { chatID: -1, text: "[Run away]", callback: "leave" },
             ]
         },
@@ -427,8 +427,8 @@ room325.chat = function (chatID) {
             chatID: 16,
             speaker: "rachel",
             text: "That's a good girl. Swallow it down for mommy. That's my improved Lactaid pill. Unlike other pills that " +
-                "don't work or take forver for little results this one will fill those beautiful breasts with so much milk " +
-                "you'll have to come here to get empty. ",
+                "don't work or take forever for little results this one will fill those beautiful breasts with so much milk " +
+                "you'll have to come here to get empty.",
             button: [
                 { chatID: 17, text: "What! Do you mean I'm going to be leaking milk from my tits all day?", callback: "" }
             ]
@@ -436,9 +436,9 @@ room325.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "rachel",
-            text: "Well, it's too late for that now. That pill is tricks your body into creating milk and it's quite long " +
+            text: "Well, it's too late for that now. That pill tricks your body into creating milk and it's quite long " +
                 "lasting. My first hucow took it 3 years ago and she's still producing some of the finest quality milk. Just " +
-                "don't go too long without a milking or you'll wake up squirting milk all over. ",
+                "don't go too long without a milking or you'll wake up squirting milk all over.",
             button: [
                 { chatID: 18, text: "But I don't want to squirt milk.", callback: "" }
             ]
@@ -465,7 +465,7 @@ room325.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "thinking",
-            text: "I've already visited today. Maybe I'll come back tomorrow. ",
+            text: "I've already visited today. Maybe I'll come back tomorrow.",
             button: [
                 { chatID: -1, text: "....", callback: "" }
             ]
@@ -473,36 +473,36 @@ room325.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "rachel",
-            text: "Here to brush the horse? I think " + sc.n("horse") + " is starting to like you. ",
+            text: "Here to brush the horse? I think " + sc.n("horse") + " is starting to like you.",
             button: [
                 { chatID: -1, text: "I sure am!", callback: "stable" },
-                { chatID: -1, text: "No. ", callback: "" },
+                { chatID: -1, text: "No.", callback: "" },
             ]
         },
         {
             chatID: 22,
             speaker: "rachel",
-            text: "I can tell your milks a little low. Take some hormones and get some sleep. In the mean time " +
-                "are you here to brush the horse? I think " + sc.n("horse") + " is starting to like you. ",
+            text: "I can tell your milk's a little low. Take some hormones and get some sleep. In the meantime " +
+                "are you here to brush the horse? I think " + sc.n("horse") + " is starting to like you.",
             button: [
                 { chatID: -1, text: "I sure am!", callback: "stable" },
-                { chatID: -1, text: "No. ", callback: "" },
+                { chatID: -1, text: "No.", callback: "" },
             ]
         },
         {
             chatID: 23,
             speaker: "rachel",
-            text: "You look ready to milk. I think " + sc.n("horse") + " is starting to like you. ",
+            text: "You look ready to milk. I think " + sc.n("horse") + " is starting to like you.",
             button: [
-                { chatID: 24, text: "I'm looking for my first milking. ", callback: "" },
+                { chatID: 24, text: "I'm looking for my first milking.", callback: "" },
                 { chatID: -1, text: "I want to brush the horse", callback: "stable" },
-                { chatID: -1, text: "I'm not sure why I'm here. ", callback: "" },
+                { chatID: -1, text: "I'm not sure why I'm here.", callback: "" },
             ]
         },
         {
             chatID: 24,
             speaker: "rachel",
-            text: "This is a big day. For you. Follow me into the big barn.  ",
+            text: "This is a big day. For you. Follow me into the big barn.",
             button: [
                 { chatID: 25, text: "...", callback: "milk0" },
             ]
@@ -512,8 +512,8 @@ room325.chat = function (chatID) {
             speaker: "rachel",
             text: "This here is the processin' area. I got so much demand for milk you wouldn't believe it. To keep this place running " +
                 "I have to have around 100 hucows. Most earn a good living... if they follow the rules, you know what I mean. " +
-                "You seem like a good girl, I'm sure you'll be just fine. You'll get a  " +
-                "healthy paycheck each time you come on by. Now follow me to the milking parlor viewing booth. ",
+                "You seem like a good girl, I'm sure you'll be just fine. You'll get a " +
+                "healthy paycheck each time you come on by. Now follow me to the milking parlor viewing booth.",
             button: [
                 { chatID: 26, text: "[Follow her]", callback: "milk1" },
             ]
@@ -522,9 +522,9 @@ room325.chat = function (chatID) {
             chatID: 26,
             speaker: "rachel",
             text: "This here is my milking parlor. As you can see I have a large collection of hucows that I've employed. All busy " +
-                "little cows makin' milk for me. I really do love this view. It's the view of money. You know how I started this farm? ",
+                "little cows makin' milk for me. I really do love this view. It's the view of money. You know how I started this farm?",
             button: [
-                { chatID: 27, text: "How? ", callback: "" },
+                { chatID: 27, text: "How?", callback: "" },
             ]
         },
         {
@@ -534,18 +534,18 @@ room325.chat = function (chatID) {
                 "Times were rough until I started talking to a client that only wanted breast milk. Well I figured a way to " +
                 "make my own from my own tits. And that kept me afloat for a while, but I was barely making it till I got the " +
                 "idea to invite some friends and give them a cut. Pretty soon I had girls lining up. I had to sell my cows and " +
-                "convert the cow pen to a hucow pen. Lets go down and we'll get to milk ya. ",
+                "convert the cow pen to a hucow pen. Let's go down and we'll get to milk ya.",
             button: [
-                { chatID: 28, text: "ok. ", callback: "milk2" },
+                { chatID: 28, text: "Ok.", callback: "milk2" },
             ]
         },
         {
             chatID: 28,
             speaker: "rachel",
-            text: "This here is Kinsey, our li'l Irish lassy. Kinsey here was caught trying to pour cows milk into her milking tubes. " +
+            text: "This here is Kinsey, our li'l Irish lassy. Kinsey here was caught trying to pour cow's milk into her milking tubes. " +
                 "Ruined an entire batch. Now she's pinned here until she replaces all that milk plus interest. It was a rather large " +
                 "batch so she's going to be here a while. Don't worry too much, we feed and water her like I did with our cows. " +
-                "Kinsey, moo for " + sc.n("me") + " so this girl here can see you know you're place here. ",
+                "Kinsey, moo for " + sc.n("me") + " so this girl here can see you know your place here.",
             button: [
                 { chatID: 29, text: "...", callback: "" },
             ]
@@ -571,9 +571,8 @@ room325.chat = function (chatID) {
         {
             chatID: 31,
             speaker: "rachel",
-            text: "This is the exam and quality assurance room. Quality milk is of the upmost importance to my clients. " +
-                "Strip down, I need to inspect your milk to make sure it's up to my standards. " +
-                "",
+            text: "This is the exam and quality assurance room. Quality milk is of the utmost importance to my clients. " +
+                "Strip down, I need to inspect your milk to make sure it's up to my standards.",
             button: [
                 { chatID: 32, text: "[Strip]", callback: "milk4" },
             ]
@@ -581,7 +580,7 @@ room325.chat = function (chatID) {
         {
             chatID: 32,
             speaker: "rachel",
-            text: "And the best way to know my standards is to taste my standards. Come take a taste of some quality lactation darlin'. ",
+            text: "And the best way to know my standards is to taste my standards. Come take a taste of some quality lactation darlin'.",
             button: [
                 { chatID: 33, text: "[Take a taste]", callback: "milk5" },
             ]
@@ -589,9 +588,9 @@ room325.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "rachel",
-            text: "That's right. Drink up, it is yummy isn't it. Come to my examining table so we can taste each other. ",
+            text: "That's right. Drink up, it is yummy isn't it? Come to my examining table so we can taste each other.",
             button: [
-                { chatID: 34, text: "mMmm yeah", callback: "milk6" },
+                { chatID: 34, text: "MMMmm yeah", callback: "milk6" },
             ]
         },
         {
@@ -613,17 +612,17 @@ room325.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "rachel",
-            text: "You look ready to milk. I think " + sc.n("horse") + " is starting to like you. ",
+            text: "You look ready to milk. I think " + sc.n("horse") + " is starting to like you.",
             button: [
-                { chatID: -1, text: "Milk me ", callback: "milkme" },
+                { chatID: -1, text: "Milk me", callback: "milkme" },
                 { chatID: -1, text: "I want to brush the horse", callback: "stable" },
-                { chatID: -1, text: "I'm not sure why I'm here. ", callback: "" },
+                { chatID: -1, text: "I'm not sure why I'm here.", callback: "" },
             ]
         },
         {
             chatID: 37,
             speaker: "rachel",
-            text: "So. I'm always recruiting new Hucows for my farm, the bigger the udders the better.  ",
+            text: "So. I'm always recruiting new Hucows for my farm, the bigger the udders the better.",
             button: [
                 { chatID: 38, text: "Huh?", callback: "" },
             ]
@@ -633,9 +632,9 @@ room325.chat = function (chatID) {
             speaker: "rachel",
             text: "You have no idea how big the demand is for my milk, so much so I need more girls. Tell ya what, " + 
                 "if you can bring in any new I'll give you a $500 finder's fee. You don't have to do anything, just bring her " +
-                "on by. ",
+                "on by.",
             button: [
-                { chatID: 39, text: "Let me think on that. ", callback: "" },
+                { chatID: 39, text: "Let me think on that.", callback: "" },
             ]
         },
         {
@@ -652,11 +651,11 @@ room325.chat = function (chatID) {
         {
             chatID: 40,
             speaker: "thinking",
-            text: "This is going to be difficult. I can see one roaving guard outside, but I wonder if there's " +
-                "guards inside. I'm glad they have flashlights so at leaste I know where they're at. I should wait " +
-                "for him to go around back and try to sneak into the barn and start there. ",
+            text: "This is going to be difficult. I can see one roving guard outside, but I wonder if there's " +
+                "guards inside. I'm glad they have flashlights so at least I know where they're at. I should wait " +
+                "for him to go around back and try to sneak into the barn and start there.",
             button: [
-                { chatID: 41, text: "wait", callback: "case0" }
+                { chatID: 41, text: "Wait", callback: "case0" }
             ]
         },
         {
@@ -664,21 +663,21 @@ room325.chat = function (chatID) {
             speaker: "thinking",
             text: "He's going around back. Now's my chance to sneak into the barn.",
             button: [
-                { chatID: 42, text: "sneaky sneaky", callback: "case1" }
+                { chatID: 42, text: "Sneaky sneaky", callback: "case1" }
             ]
         },
         {
             chatID: 42,
             speaker: "thinking",
-            text: "So creepy and loud in here. Let me see what's behind this door. ",
+            text: "So creepy and loud in here. Let me see what's behind this door.",
             button: [
-                { chatID: -1, text: "sneaky sneaky", callback: "case2" }
+                { chatID: -1, text: "Sneaky sneaky", callback: "case2" }
             ]
         },
         {
             chatID: 43,
             speaker: "thinking",
-            text: "Damn. It's locked. Let me look elsewhere.  ",
+            text: "Damn. It's locked. Let me look elsewhere.",
             button: [
                 { chatID: -1, text: "...", callback: "case2" }
             ]
@@ -686,7 +685,7 @@ room325.chat = function (chatID) {
         {
             chatID: 44,
             speaker: "rachel",
-            text: "What are you doing sneaking around my farm! ",
+            text: "What are you doing sneaking around my farm!",
             button: [
                 { chatID: 45, text: "Oh uh...", callback: "" }
             ]
@@ -696,25 +695,25 @@ room325.chat = function (chatID) {
             speaker: "security",
             text: "I told you " + gender.pronoun("he") + " was working for Missy and shouldn't be allowed here. " +
                 "I know you like a good " + (sc.getMission("rachel", "milk").notStarted ? "farm hand" : "hucow") +
-                ", but " + gender.pronoun("he") + "'s going to destory our entire operation. We need to take " +
-                "care of " + gender.pronoun("her") + " so she doesn't destroy what we've built. ",
+                ", but " + gender.pronoun("he") + "'s going to destroy our entire operation. We need to take " +
+                "care of " + gender.pronoun("her") + " so she doesn't destroy what we've built.",
             button: [
-                { chatID: 46, text: "Oh no. no. no. no. I just was curious...", callback: "" }
+                { chatID: 46, text: "Oh no. No. No. No. I just was curious...", callback: "" }
             ]
         },
         {
             chatID: 46,
             speaker: "rachel",
             text: "Fine. Do what you need for tonight. After I get some rest I'll decide what to do with " + gender.pronoun("her") +
-                ". ",
+                "you.",
             button: [
-                { chatID: 47, text: "Crap. ", callback: "case4" }
+                { chatID: 47, text: "Crap.", callback: "case4" }
             ]
         },
         {
             chatID: 47,
             speaker: "security",
-            text: "Enjoy your night in the stable. Try to get a good night sleep, it may be your last. ",
+            text: "Enjoy your night in the stable. Try to get a good night's sleep, it may be your last.",
             button: [
                 { chatID: -1, text: "*sniffle*", callback: "sleep" }
             ]
@@ -758,7 +757,7 @@ room325.chat = function (chatID) {
             speaker: "thinking",
             text: "I've got to be crazy coming back here!!!",
             button: [
-                { chatID: -1, text: "leave", callback: "leave" }
+                { chatID: -1, text: "Leave", callback: "leave" }
             ]
         },
     ];

@@ -601,9 +601,9 @@ room318.chat = function (chatID) {
                 speaker: "chad",
                 text: "Hahahahaha! Just sitting here naked like a bitch. Come to take " +
                     "lessons on how a real man fucks your girl! Hahahahaha",
-                button: [
-                    { chatID: 28, text: "...", callback: "datr_brad_1" }
-                ]
+                    button: [
+                        { chatID: 28, text: "...", callback: "datr_brad_1" }
+                    ]
             };
         }
         return {
@@ -662,8 +662,8 @@ room318.chat = function (chatID) {
             {
                 chatID: 3,
                 speaker: "thinking",
-                text: sc.n("janice") + "'s clean crips panties and bras. So fresh, so pink. She has " +
-                    "so many I'm sure she won't missy one pair missin. ",
+                text: sc.n("janice") + "'s clean crisp panties and bras. So fresh, so pink. She has " +
+                    "so many I'm sure she won't miss one pair missing.",
                 button: [
                     { chatID: -1, text: "[Steal her panties and bra]", callback: "steal" },
                     { chatID: -1, text: "[Put them back]", callback: "reset" }
@@ -681,7 +681,7 @@ room318.chat = function (chatID) {
             {
                 chatID: 5,
                 speaker: "thinking",
-                text: sc.n("janice") + "'s clean crips panties. She looks so hot in them! ",
+                text: sc.n("janice") + "'s clean crisp panties. She looks so hot in them!",
                 button: [
                     { chatID: -1, text: "[Put them back]", callback: "reset" }
                 ]
@@ -874,13 +874,13 @@ room318.chat = function (chatID) {
             {
                 chatID: 24,
                 speaker: "janice",
-                text: "So.. uh, how do I look? Is it too much? I'm so nervous. Why am I " +
-                    "so nervous? I've selp with guys before. Usually I just let them take " +
+                text: "So... uh, how do I look? Is it too much? I'm so nervous. Why am I " +
+                    "so nervous? I've slept with guys before. Usually I just let them take " +
                     "me to their place after we've met at a bar. I've never done this with " +
                     "someone I haven't met before. What if he just turns around and leaves. Ugh!",
                 button: [
-                    { chatID: 25, text: "You look amazing. He's lucky to have you. ", callback: "good" },
-                    { chatID: 25, text: "Eh. I'm sure he'll do you. ", callback: "" },
+                    { chatID: 25, text: "You look amazing. He's lucky to have you.", callback: "good" },
+                    { chatID: 25, text: "Eh. I'm sure he'll do you.", callback: "" },
                 ]
             },
             {
@@ -889,7 +889,7 @@ room318.chat = function (chatID) {
                 text: "Oh! There he is! Uhhh. Just sit in the chair. Crap we should have " +
                     "talked about rules! Damn. Too late now. Don't touch my butt and you " +
                     "can masturbate if you want. Oh. Don't ruin it by talking about dumb stuff " +
-                    "or being weird. ",
+                    "or being weird.",
                 button: [
                     { chatID: 26, text: "Weird?", callback: "datr_2" },
                 ]
@@ -897,8 +897,8 @@ room318.chat = function (chatID) {
             {
                 chatID: 26,
                 speaker: "janice",
-                text: "Don't ask dumb question right before I let him in! Go sit in the chair " +
-                    "and don't say anything! ",
+                text: "Don't ask dumb questions right before I let him in! Go sit in the chair " +
+                    "and don't say anything!",
                 button: [
                     { chatID: 27, text: "ok", callback: "bg" },
                 ]
@@ -907,8 +907,8 @@ room318.chat = function (chatID) {
                 chatID: 27,
                 speaker: "thinking",
                 text: "Oh my. I don't know if I'm ready for this. Do I just sit here and " +
-                    "and play with myself? Do I join in? Should I eat her out, suck his " +
-                    "dick? I guess I'm nervous too. ",
+                    "play with myself? Do I join in? Should I eat her out, suck his " +
+                    "dick? I guess I'm nervous too.",
                 button: [
                     { chatID: -1, text: "[Wait for them to come in]", callback: "datr_start" },
                 ]
@@ -917,7 +917,7 @@ room318.chat = function (chatID) {
                 chatID: 28,
                 speaker: "chad",
                 text: "Sit back and watch a real man work. I'm going to have her screaming " +
-                    "for my dick in ways you've never heard. ",
+                    "for my dick in ways you've never heard.",
                 button: [
                     { chatID: -1, text: "[Watch " + sc.n("chad") + " fuck your girlfriend]", callback: "brad1" },
                 ]
@@ -946,7 +946,7 @@ room318.chat = function (chatID) {
                 chatID: 31,
                 speaker: "chad",
                 text: "I've got to run to baseball practice. I'll let you two bitches " +
-                    "finish up. Call me if you need a real dick! ",
+                    "finish up. Call me if you need a real dick!",
                 button: [
                     { chatID: 32, text: "ok. Bye " + sc.n("chad"), callback: "datr_brad_7" },
                 ]
@@ -954,9 +954,9 @@ room318.chat = function (chatID) {
             {
                 chatID: 32,
                 speaker: "janice",
-                text: "He is so dreamy! It's too bad you're such a sissy, cuase I " +
+                text: "He is so dreamy! It's too bad you're such a sissy, 'cause I " +
                     "could use more dick. Oh well. I guess you can clean my pussy. " +
-                    "Maybe if you eat enough cum you'll turn into a real man. *sigh* ",
+                    "Maybe if you eat enough cum you'll turn into a real man. *sigh*",
                 button: [
                     { chatID: 33, text: "Sweet!", callback: "datr_brad_8" },
                 ]
@@ -964,9 +964,9 @@ room318.chat = function (chatID) {
             {
                 chatID: 33,
                 speaker: "janice",
-                text: "I do admit. It is nice having a pussy cleaner after sex. I hate " +
-                    "doing to squat run to the bathroom while cum drips out of me. Cuddle " +
-                    "with me while I sleep? ",
+                text: "I do admit, it is nice having a pussy cleaner after sex. I hate " +
+                    "doing the squat run to the bathroom while cum drips out of me. Cuddle " +
+                    "with me while I sleep?",
                 button: [
                     { chatID: -1, text: "Yeah.", callback: "sleep" },
                 ]
@@ -1009,9 +1009,9 @@ room318.chat = function (chatID) {
                 speaker: "janice",
                 text: "Thank you so much for waiting for me! Wow! My mind and pussy are " +
                     "blown! He was amazing. He was totally worth kicking you out. But " +
-                    "now time for your reward. You can eat a real man's cum. Lucky girl! ",
+                    "now time for your reward. You can eat a real man's cum. Lucky girl!",
                 button: [
-                    { chatID: 33, text: "sweet! ", callback: "datr_brad_8" },
+                    { chatID: 33, text: "Sweet!", callback: "datr_brad_8" },
                 ]
             },
             {
@@ -1131,8 +1131,8 @@ room318.chat = function (chatID) {
             {
                 chatID: 51,
                 speaker: "janice",
-                text: "Oh my! my my my! You are so big! Unlike my fem-boyfriend you could " +
-                    "scoop my up and carry me anywhere with those big strong arms of yours! ",
+                text: "Oh my! My my my! You are so big! Unlike my fem-boyfriend you could " +
+                    "scoop me up and carry me anywhere with those big strong arms of yours!",
                 button: [
                     { chatID: 52, text: "...", callback: "" },
                 ]
@@ -1140,8 +1140,8 @@ room318.chat = function (chatID) {
             {
                 chatID: 52,
                 speaker: "!jarome",
-                text: "Yeah baby. I could even carry to that bed over there. So why don't " +
-                    "you tell your little friend to take off so I can take them close off cha",
+                text: "Yeah baby. I could even carry you to that bed over there. So why don't " +
+                    "you tell your little friend to take off so I can take them clothes off ya",
                 button: [
                     { chatID: 53, text: "...", callback: "" },
                 ]

@@ -138,18 +138,18 @@ room223.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "missy",
-            text: "Those are such cute little panties. You're too timed to walk into a store and buy them. Where did you get them? ",
+            text: "Those are such cute little panties. You're too timid to walk into a store and buy them. Where did you get them?",
             button: [
-                { chatID: -1, text: "I found them. ", callback: "checkPanties" },
+                { chatID: -1, text: "I found them.", callback: "checkPanties" },
             ]
         },
         {
             chatID: 5,
             speaker: "missy",
             text: "You know I'm an investigator that has interrogated countless people. I can tell when you lie. Now stop " +
-                "lying and tell me the truth. ",
+                "lying and tell me the truth.",
             button: [
-                { chatID: 6, text: "I took them from my " + sc.n("el") + ". ", callback: "" },
+                { chatID: 6, text: "I took them from my " + sc.n("el") + ".", callback: "" },
             ]
         },
         {
@@ -200,7 +200,7 @@ room223.chat = function (chatID) {
             speaker: "missy",
             text: "There. Aren't you just a pretty girl in your cute little cotton panties. With a little work you'll be " +
                 "such a pretty little girl. The kind of girl other girls hate and men want to fuck. You know you have natural " +
-                "feminine features that make this so much easier. It's like you were born to be sexy. ",
+                "feminine features that make this so much easier. It's like you were born to be sexy.",
             button: [
                 { chatID: 12, text: "...I am a pretty girl", callback: "" },
             ]
@@ -220,7 +220,7 @@ room223.chat = function (chatID) {
             speaker: "cecilia",
             text: "Hey. I'm so glad you've found yourself. Take care sexy! Now go get lunch.",
             button: [
-                { chatID: -1, text: "Thanks. ", callback: "panties5End" },
+                { chatID: -1, text: "Thanks.", callback: "panties5End" },
             ]
         },
         {
@@ -236,13 +236,13 @@ room223.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "missy",
-            text: "I spoke with my friend " + sc.n("tiffany") + " at Toy 'n Us to pick you out " +
+            text: "I spoke with my friend " + sc.n("tiffany") + " at Toys 'n Us to pick you out " +
                 "something suitable for working here, but also expresses your new sissy mentality. " +
                 "I'm sure it will be just perfect. Go visit her and pick up your new uniform. " +
                 "From now on this will be your attire to work here. If you're too embarrassed " +
-                "to wear your new uniform in public you can always change in the bathroom here. ",
+                "to wear your new uniform in public you can always change in the bathroom here.",
             button: [
-                { chatID: -1, text: "Yes ma'am. I'll go visit Tiffany at Toys 'n Us. ", callback: "newAttireEnd" },
+                { chatID: -1, text: "Yes ma'am. I'll go visit Tiffany at Toys 'n Us.", callback: "newAttireEnd" },
             ]
         },
         {
@@ -272,9 +272,9 @@ room223.chat = function (chatID) {
             speaker: "missy",
             text: "Those are Bill's panties aren't they? I don't even want to know what you two " +
                 "did to get her panties. Can't say I'm surprised though. Strip off the rest of " +
-                "you clothing. Let's see what you're working with.",
+                "your clothing. Let's see what you're working with.",
             button: [
-                { chatID: 8, text: "Strip? ", callback: "" },
+                { chatID: 8, text: "Strip?", callback: "" },
             ]
         },
     ];

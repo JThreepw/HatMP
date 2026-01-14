@@ -1062,7 +1062,7 @@ room322.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "janice",
-            text: "Awww, is my poor doggy trying to eat. Let me get that gag out of your mouth. " +
+            text: "Awww, is my poor doggy trying to eat? Let me get that gag out of your mouth. " +
                 "But one word and it's going back in, and no meal!",
             button: [
                 { chatID: -1, text: "[Just eat the dog food]", callback: "kitchenEat" },
@@ -1080,7 +1080,7 @@ room322.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "thinking",
-            text: "This gag sucks so hard! My jaw hurts and I can drink or eat anything!",
+            text: "This gag sucks so hard! My jaw hurts and I can't drink or eat anything!",
             button: [
                 { chatID: -1, text: "*whine*", callback: "" },
             ]
@@ -1088,7 +1088,7 @@ room322.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "thinking",
-            text: "So crunchy and gross! She could at leaste feed me people food!",
+            text: "So crunchy and gross! She could at least feed me people food!",
             button: [
                 { chatID: 5, text: "...", callback: "kitchengood" },
             ]
@@ -1120,7 +1120,7 @@ room322.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "janice",
-            text: "Hahahaha! Good doggy! So glad I don't have to house break you! ",
+            text: "Hahahaha! Good doggy! So glad I don't have to house break you!",
             button: [
                 { chatID: -1, text: "...", callback: "backyard" },
             ]
@@ -1128,7 +1128,7 @@ room322.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "thinking",
-            text: "I'm too tired to play in the yard. ",
+            text: "I'm too tired to play in the yard.",
             button: [
                 { chatID: -1, text: "...", callback: "backyard" },
             ]
@@ -1136,7 +1136,7 @@ room322.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "thinking",
-            text: "AAAAAKKKKK!! Don't pull my tail, it's attached in me! This isn't tug-of-war!",
+            text: "AAAAAKKKKK!! Don't pull my tail, it's attached to me! This isn't tug-of-war!",
             button: [
                 { chatID: -1, text: "*muffled screams*", callback: "yardPlay3" },
             ]
@@ -1152,7 +1152,7 @@ room322.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "janice",
-            text: "Hey girl. You want to go for a walk? ",
+            text: "Hey girl. You want to go for a walk?",
             button: [
                 { chatID: -1, text: "Happy muffles", callback: "walk" },
                 { chatID: -1, text: "Sad muffles", callback: "livingroomannoy" },
@@ -1161,7 +1161,7 @@ room322.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "janice",
-            text: "Those are my good girls. ",
+            text: "Those are my good girls.",
             button: [
                 { chatID: -1, text: "...", callback: "livingroom" },
             ]
@@ -1196,18 +1196,18 @@ room322.chat = function (chatID) {
             speaker: "eva",
             text: "I knew you were a pervert, but this is so much. You know everyone can see your " +
                 "balls as you go down the sidewalk! Just jiggling back and forth! You really are " +
-                "the weirdest girl I know! ",
+                "the weirdest girl I know!",
             button: [
-                { chatID: -1, text: "sigh", callback: "livingroom" },
+                { chatID: -1, text: "Sigh", callback: "livingroom" },
             ]
         },
         {
             chatID: 18,
             speaker: "eva",
             text: "Hahahaha! I saw your butthole a mile away! You're such a weird pervert! I am " +
-                "both amazing and disgusted. ",
+                "both amazed and disgusted.",
             button: [
-                { chatID: -1, text: "sigh", callback: "livingroom" },
+                { chatID: -1, text: "Sigh", callback: "livingroom" },
             ]
         },
         {
@@ -1250,9 +1250,9 @@ room322.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "girl",
-            text: "What a bad dog! When my little doggy pees on the floor I ususally rub her face " +
+            text: "What a bad dog! When my little doggy pees on the floor I usually rub her face " +
                 "in it. Only had to do it twice. I love my doggy, but I hate training her. Well, " +
-                "I gotta get going. See you later. ",
+                "I gotta get going. See you later.",
             button: [
                 { chatID: -1, text: "...", callback: "livingroom" },
             ]
@@ -1260,7 +1260,7 @@ room322.chat = function (chatID) {
         {
             chatID: 24,
             speaker: "janice",
-            text: "Well, time to make some money! ",
+            text: "Well, time to make some money!",
             button: [
                 { chatID: -1, text: "...", callback: "room321" },
             ]
@@ -1336,8 +1336,8 @@ room322.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "!waiter",
-            text: "While those two lick each out, let's take this into the bedroom so I may " +
-                "lick you. ",
+            text: "While those two lick each other out, let's take this into the bedroom so I may " +
+                "lick you.",
             button: [
                 { chatID: 34, text: "...", callback: "" },
             ]
@@ -1397,7 +1397,7 @@ room322.chat = function (chatID) {
             chatID: 40,
             speaker: "!waiter",
             text: "You're such a bitch. You both know " + sc.n("dog") + " is the real one. You're " +
-                "just his bitch! Hahahahah! ",
+                "just his bitch! Hahahahah!",
             button: [
                 { chatID: -1, text: "*sigh*", callback: "evening" },
             ]
@@ -1413,7 +1413,7 @@ room322.chat = function (chatID) {
         {
             chatID: 42,
             speaker: "!plumber",
-            text: "I came to check your pipes... but... is that your boyfriend? ",
+            text: "I came to check your pipes... but... is that your boyfriend?",
             button: [
                 { chatID: 43, text: "...", callback: "" },
             ]
@@ -1421,7 +1421,7 @@ room322.chat = function (chatID) {
         {
             chatID: 43,
             speaker: "janice",
-            text: "Hahaha, what boyfriend. Those are just my doggies. Come, join me on the couch? ",
+            text: "Hahaha, what boyfriend. Those are just my doggies. Come, join me on the couch?",
             button: [
                 { chatID: 44, text: "...", callback: "pl2" },
             ]
@@ -1461,10 +1461,10 @@ room322.chat = function (chatID) {
         {
             chatID: 48,
             speaker: "!plumber",
-            text: "So... uh... do your dogs fuck. I mean if I was a dog with my balls I would fuck. " +
-                "You know how I love fucking. I mean fuck. I would be fuckin' everyday. ",
+            text: "So... uh... do your dogs fuck? I mean if I was a dog with my balls I would fuck. " +
+                "You know how I love fucking. I mean fuck. I would be fuckin' everyday.",
             button: [
-                { chatID: 49, text: "*whmper*", callback: "" },
+                { chatID: 49, text: "*whimper*", callback: "" },
             ]
         },
         {
@@ -1579,7 +1579,7 @@ room322.chat = function (chatID) {
         {
             chatID: 62,
             speaker: "janice",
-            text: "Whooops... Hehehe. Ooof that's bad. Let's go to bed. ",
+            text: "Whoops... Hehehe. Ooof that's bad. Let's go to bed.",
             button: [
                 { chatID: -1, text: "...", callback: "bed" },
             ]
@@ -1587,7 +1587,7 @@ room322.chat = function (chatID) {
         {
             chatID: 63,
             speaker: "janice",
-            text: "Oh yeah! One last orgasm before bed! ",
+            text: "Oh yeah! One last orgasm before bed!",
             button: [
                 { chatID: -1, text: "...", callback: "bed" },
             ]
@@ -1596,7 +1596,7 @@ room322.chat = function (chatID) {
             chatID: 64,
             speaker: "janice",
             text: "Let me get you two ready for bed. In the doggy crate with you. You haven't " +
-                "earned your place in bed yet. ",
+                "earned your place in bed yet.",
             button: [
                 { chatID: 65, text: "...", callback: "e11" },
             ]
@@ -1605,7 +1605,7 @@ room322.chat = function (chatID) {
             chatID: 65,
             speaker: "thinking",
             text: "My arms and legs are so stiff! It hurts so much! And my butthole hasn't closed " +
-                "all day! I'm going to get the worst night sleep ever! ",
+                "all day! I'm going to get the worst night's sleep ever!",
             button: [
                 { chatID: -1, text: "...", callback: "sleep" },
             ]
@@ -1613,7 +1613,7 @@ room322.chat = function (chatID) {
         {
             chatID: 66,
             speaker: "janice",
-            text: "Good girl. Time to let you out of your crate. ",
+            text: "Good girl. Time to let you out of your crate.",
             button: [
                 { chatID: -1, text: "...", callback: "livingroom" },
             ]
@@ -1621,7 +1621,7 @@ room322.chat = function (chatID) {
         {
             chatID: 67,
             speaker: "janice",
-            text: "Shoo. Let me relax. ",
+            text: "Shoo. Let me relax.",
             button: [
                 { chatID: -1, text: "...", callback: "livingroom" },
             ]
@@ -1657,39 +1657,39 @@ room322.chat = function (chatID) {
             chatID: 71,
             speaker: "janice",
             text: "...you just play with their penis for a little bit and they instantly get " +
-                "hard. But the thing about a hard penis is now it's in control of they boy. It " +
-                "seeks a warm wet hole to ejeaculate in and nothing else matters. Open you mouth " +
-                "so " + sc.n("dog") + " can put his penis in your warm wet hole. ",
+                "hard. But the thing about a hard penis is now it's in control of the boy. It " +
+                "seeks a warm wet hole to ejaculate in and nothing else matters. Open your mouth " +
+                "so " + sc.n("dog") + " can put his penis in your warm wet hole.",
             button: [
-                { chatID: 72, text: "awwww", callback: "ds3" },
+                { chatID: 72, text: "Awwww", callback: "ds3" },
             ]
         },
         {
             chatID: 72,
             speaker: "janice",
-            text: "That's so so hot! His red rocked just hovering above your face and your eager " +
-                "mouth open ready to suck it. ",
+            text: "That's so so hot! His red rocket just hovering above your face and your eager " +
+                "mouth open ready to suck it.",
             button: [
-                { chatID: 73, text: "... ", callback: "ds4" },
+                { chatID: 73, text: "...", callback: "ds4" },
             ]
         },
         {
             chatID: 73,
             speaker: "janice",
-            text: "Hahah. That's so gross. You just put your mouth on a dog's penis! Keep sucking " +
+            text: "Hahaha. That's so gross. You just put your mouth on a dog's penis! Keep sucking " +
                 "it. I want to see you swallow his cum!",
             button: [
-                { chatID: 74, text: "Swallow ", callback: "ds5" },
-                { chatID: 75, text: "Spit ", callback: "ds5a" },
+                { chatID: 74, text: "Swallow", callback: "ds5" },
+                { chatID: 75, text: "Spit", callback: "ds5a" },
             ]
         },
         {
             chatID: 74,
             speaker: "janice",
             text: "Oh gross! You did swallow his doggy cum didn't you? You really will do whatever " +
-                "I tell you to, won't you. ",
+                "I tell you to, won't you.",
             button: [
-                { chatID: -1, text: "arf! ", callback: "livingroom" },
+                { chatID: -1, text: "Arf!", callback: "livingroom" },
             ]
         },
         {
@@ -1703,7 +1703,7 @@ room322.chat = function (chatID) {
         {
             chatID: 76,
             speaker: "janice",
-            text: "awww, do you want to play huh doggy! Let's see you do some tricks! ",
+            text: "Awww, do you want to play huh doggy! Let's see you do some tricks!",
             button: [
                 { chatID: 77, text: "...", callback: "" },
             ]
@@ -1756,7 +1756,7 @@ room322.chat = function (chatID) {
         {
             chatID: 82,
             speaker: "thinking",
-            text: "Ucky! I have no idea why this is a reward! How to dogs even eat this, it's so " +
+            text: "Ucky! I have no idea why this is a reward! How do dogs even eat this? It's so " +
                 "dry and gross!",
             button: [
                 { chatID: -1, text: "...", callback: "tEnd" },
@@ -1774,7 +1774,7 @@ room322.chat = function (chatID) {
             chatID: 84,
             speaker: "thinking",
             text: "Oh no! I drank water and didn't pee yesterday! I must have peed my crate while " +
-                "I was sleeping. I'm so embarrased right now. ",
+                "I was sleeping. I'm so embarrassed right now.",
             button: [
                 { chatID: 85, text: "...", callback: "pp1" },
             ]
@@ -1782,7 +1782,7 @@ room322.chat = function (chatID) {
         {
             chatID: 85,
             speaker: "janice",
-            text: "Well good morning my.... Did you go pee pee in your crate?  ",
+            text: "Well good morning my.... Did you go pee pee in your crate?",
             button: [
                 { chatID: 86, text: "...", callback: "pp2" },
             ]
@@ -1833,8 +1833,8 @@ room322.chat = function (chatID) {
         {
             chatID: 91,
             speaker: "girl",
-            text: "I knew you two wern't going to last when I heard you were dating. You need a " +
-                "real man that can provide for you, not some loser wimp. ",
+            text: "I knew you two weren't going to last when I heard you were dating. You need a " +
+                "real man that can provide for you, not some loser wimp.",
             button: [
                 { chatID: 92, text: "...", callback: "park1_3" },
             ]
@@ -1842,7 +1842,7 @@ room322.chat = function (chatID) {
         {
             chatID: 92,
             speaker: "janice",
-            text: "Yeah, provide in more ways than one, am I right! ",
+            text: "Yeah, provide in more ways than one, am I right!",
             button: [
                 { chatID: 93, text: "...", callback: "park1_4" },
             ]
@@ -1850,7 +1850,7 @@ room322.chat = function (chatID) {
         {
             chatID: 93,
             speaker: "girl",
-            text: "Oh yeah! Well I have to get little Muffy home. My vag needs to get licked. ",
+            text: "Oh yeah! Well I have to get little Muffy home. My vag needs to get licked.",
             button: [
                 { chatID: -1, text: "...", callback: "livingroom" },
             ]
@@ -1858,7 +1858,7 @@ room322.chat = function (chatID) {
         {
             chatID: 94,
             speaker: "janice",
-            text: "Wakey wakey. You want to be my doggy some more, or do you want to leave? ",
+            text: "Wakey wakey. You want to be my doggy some more, or do you want to leave?",
             button: [
                 { chatID: -1, text: "*arf*", callback: "livingroom" },
                 { chatID: 95, text: "*pleading eyes*", callback: "" },
@@ -1867,7 +1867,7 @@ room322.chat = function (chatID) {
         {
             chatID: 95,
             speaker: "janice",
-            text: "ok. I'll take my bitch suit. You can get dressed in the bathroom.  ",
+            text: "Ok. I'll take my bitch suit. You can get dressed in the bathroom.",
             button: [
                 { chatID: -1, text: "*arf*, I mean, thank you", callback: "leave" },
             ]
@@ -1924,7 +1924,7 @@ room322.chat = function (chatID) {
         {
             chatID: 102,
             speaker: "bbc",
-            text: "I'm gunna fuck that pussy so good your bitch is gunna cum! Gerry, you can fuck that " +
+            text: "I'm gonna fuck that pussy so good your bitch is gonna cum! Gerry, you can fuck that " +
                 "freak's face. I know how much you love freaks!",
             button: [
                 { chatID: -1, text: "...", callback: "f3" },
@@ -1933,15 +1933,15 @@ room322.chat = function (chatID) {
         {
             chatID: 103,
             speaker: "janice",
-            text: "Ugh, you want to play. Fine. Turn around. ",
+            text: "Ugh, you want to play? Fine. Turn around.",
             button: [
-                { chatID: 104, text: "[turn around]", callback: "k0" },
+                { chatID: 104, text: "[Turn around]", callback: "k0" },
             ]
         },
         {
             chatID: 104,
             speaker: "janice",
-            text: "You know for a girl dog it is weird that your balls hang so low. ",
+            text: "You know for a girl dog it is weird that your balls hang so low.",
             button: [
                 { chatID: 105, text: "?", callback: "k1" },
             ]
@@ -1957,7 +1957,7 @@ room322.chat = function (chatID) {
         {
             chatID: 106,
             speaker: "thinking",
-            text: "Oh no, oh no, oh no! My poor poor balls! aaaaa! why? WHY! Damn I can't even " +
+            text: "Oh no, oh no, oh no! My poor poor balls! Aaaaa! Why? WHY! Damn I can't even " +
                 "cradle my balls in this bitch suit! Fuck my life...",
             button: [
                 { chatID: -1, text: "...", callback: "k_end" },
@@ -2016,7 +2016,7 @@ room322.chat = function (chatID) {
             chatID: 113,
             speaker: "thinking",
             text: "Oh. She's got a waiting message from someone she doesn't know. Should I " +
-                "invite them over and suprise her, and give me a little gift. Hehehe..",
+                "invite them over and surprise her, and give me a little gift. Hehehe...",
             button: [
                 { chatID: 114, text: "[Use your nose to send a reply]", callback: "phoneReply" },
                 { chatID: -1, text: "[Don't reply]", callback: "" },
@@ -2025,7 +2025,7 @@ room322.chat = function (chatID) {
         {
             chatID: 114,
             speaker: "thinking",
-            text: "There! She's going to get such a big suprise when they get here! Hehehehe! ",
+            text: "There! She's going to get such a big surprise when they get here! Hehehehe! ",
             button: [
                 { chatID: -1, text: "...", callback: "" },
             ]

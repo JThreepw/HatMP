@@ -357,9 +357,9 @@ room222.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "missy",
-            text: "I need you to pick up some files from the police station. Ask for the polie report " +
+            text: "I need you to pick up some files from the police station. Ask for the police report " +
                 "for a Ms. " + sc.n("sammi") + ". If that idiot cop asks what it's for tell him it's for " +
-                "a missing persons case. Here's $50 to cover the filing fee. ",
+                "a missing persons case. Here's $50 to cover the filing fee.",
             button: [
                 { chatID: -1, text: "Got it. Thanks", callback: "case0-1" }
             ]
@@ -412,10 +412,10 @@ room222.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "missy",
-            text: "Great work. This poor girl's been missing for several weeks now. Those lasy cops " +
+            text: "Great work. This poor girl's been missing for several weeks now. Those lazy cops " +
                 "won't lift a finger to help find her. They say she's just another run away in the " +
                 "long list of runaways in the area. I'm pretty sure they are feigning incompetence " +
-                "to hide their corruption. You may go to lunch. ",
+                "to hide their corruption. You may go to lunch.",
             button: [
                 { chatID: -1, text: "Yes ma'am", callback: "case0-end" },
             ]
@@ -440,9 +440,9 @@ room222.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "missy",
-            text: "I sent you on a simple errand, to go get some files, and you botched that up. No where " +
+            text: "I sent you on a simple errand, to go get some files, and you botched that up. Nowhere " +
                 "did I say to tell him it's for me. I said pay the money and get the file. You've failed this " + 
-                "simple task. Your lunch will be spent thinking about your screw up. ",
+                "simple task. Your lunch will be spent thinking about your screw up.",
             button: [
                 { chatID: -1, text: "...", callback: "punishLunch" },
             ]
@@ -451,9 +451,9 @@ room222.chat = function (chatID) {
             chatID: 10,
             speaker: "missy",
             text: "What do you mean you didn't get the report. I sent you there with one simple job, " +
-                "to get the report. You are a failure and a dissapointment. I'm going to have to " +
+                "to get the report. You are a failure and a disappointment. I'm going to have to " +
                 "reschedule some appointments now to do your job. You've failed this " +
-                "simple task. Your lunch will be spent thinking about your screw up. ",
+                "simple task. Your lunch will be spent thinking about your screw up.",
             button: [
                 { chatID: -1, text: "...", callback: "punishLunch" },
             ]
@@ -501,8 +501,8 @@ room222.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "thinking",
-            text: "What crap. I have to spend the entire morning in this dirty hot ass laudromat washing her dirty " +
-                "clothes while she sits in her nice office. The pay isn't even that good. ",
+            text: "What crap. I have to spend the entire morning in this dirty hot ass laundromat washing her dirty " +
+                "clothes while she sits in her nice office. The pay isn't even that good.",
             button: [
                 { chatID: -1, text: "...", callback: "laundry1" },
             ]
@@ -520,7 +520,7 @@ room222.chat = function (chatID) {
         {
             chatID: 18,
             speaker: "thinking",
-            text: "I should put these back. Don't want to get get caught stealing panties.  ",
+            text: "I should put these back. Don't want to get caught stealing panties.",
             button: [
                 { chatID: 19, text: "...", callback: "laundry2" },
             ]
@@ -528,7 +528,7 @@ room222.chat = function (chatID) {
         {
             chatID: 19,
             speaker: "thinking",
-            text: "So fucking boring. Missy should buy a washing machine so she can do her own laudry at her own home. ",
+            text: "So fucking boring. Missy should buy a washing machine so she can do her own laundry at her own home.",
             button: [
                 { chatID: 20, text: "...", callback: "laundry3" },
             ]
@@ -536,7 +536,7 @@ room222.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "thinking",
-            text: "Finally fuckin' done. I'm going to take these back to Missy and grab lunch. ",
+            text: "Finally fuckin' done. I'm going to take these back to Missy and grab lunch.",
             button: [
                 { chatID: -1, text: "...", callback: "lunch" },
             ]
@@ -556,7 +556,7 @@ room222.chat = function (chatID) {
             chatID: 22,
             speaker: "thinking",
             text: "I'll just take these. Surely Missy won't notice just one pair of missing panties. All her panties look " +
-                "the same afterall. I can't wait to try these one!",
+                "the same after all. I can't wait to try these on!",
             button: [
                 { chatID: 19, text: "Mmmm Missy's dirty panties", callback: "laundry2" },
             ]
@@ -564,9 +564,9 @@ room222.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "me",
-            text: "You know as a public servernt I have a right to those files. Rather than " +
+            text: "You know as a public servant I have a right to those files. Rather than " +
                 "making a bigger deal than it is and getting your supervisor, why don't " +
-                "you just hand over the documents. ",
+                "you just hand over the documents.",
             button: [
                 { chatID: 5, text: "...", callback: "case0-2" },
             ]
@@ -584,7 +584,7 @@ room222.chat = function (chatID) {
             speaker: "cop2",
             text: "I can lock you up for trying to bribe a police officer. I'm going to go " +
                 "easy on you since you're some dumb kid. Now get out of here. If Missy " +
-                "wants those files tell her to show her fine ass to me.  ",
+                "wants those files tell her to show her fine ass to me.",
             button: [
                 { chatID: 8, text: "ok [Return to Missy's]", callback: "displayMissy" },
             ]

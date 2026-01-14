@@ -249,7 +249,7 @@ room225.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "thinking",
-            text: "I look good, just not pick up on the street corner good. ",
+            text: "I look good, just not pick up on the street corner good.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]
@@ -265,7 +265,7 @@ room225.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "thinking",
-            text: "I got a few glances. I could try to looked sluttier, or I could wait some more. ",
+            text: "I got a few glances. I could try to look sluttier, or I could wait some more.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]
@@ -273,7 +273,7 @@ room225.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "random",
-            text: "Hola! You've very bonita. I don't suppose you want to go for a ride señorita? ",
+            text: "Hola! You're very bonita. I don't suppose you want to go for a ride señorita?",
             button: [
                 { chatID: 7, text: "Sure!", callback: "" },
                 { chatID: -1, text: "I'll pass", callback: "reset" }
@@ -314,10 +314,10 @@ room225.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "random",
-            text: "uhhh hi. Are you working? ",
+            text: "uhh hi. Are you working?",
             button: [
                 { chatID: 12, text: "Sure!", callback: "" },
-                { chatID: -1, text: "Nope. Just standing on a steet corner dressed like a whore. ", callback: "reset" }
+                { chatID: -1, text: "Nope. Just standing on a street corner dressed like a whore.", callback: "reset" }
             ]
         },
         {

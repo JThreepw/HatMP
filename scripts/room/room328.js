@@ -284,7 +284,7 @@ room328.btnclick = function (name) {
                 "color": (g.map.anger < 75 ? "green" : "red"),
                 "maxVal": 100,
                 "val": g.map.anger,
-                "title": "Racher's Anger: Day " + g.map.day
+                "title": "Rachel's Anger: Day " + g.map.day
             }, 322);
             break;
         case "pigrun_progress":
@@ -2202,9 +2202,9 @@ room328.chat = function (chatID) {
             text: "Take a look at these breasts. These here are milking breasts. Grade A milk! The best in " +
                 "the country. Now you have some great udders. Really hucow material. That's why I kept you. " +
                 "But you need to start producing milk for me. Now bend over the table, show me your ass. ",
-            button: [
-                { chatID: 8, text: "*whimper*", callback: "milk5" }
-            ]
+                button: [
+                    { chatID: 8, text: "*whimper*", callback: "milk5" }
+                ]
         }
     }
     else if (chatID === 975) {
@@ -2233,12 +2233,12 @@ room328.chat = function (chatID) {
                 break;
             case 4:
                 sc.completeMissionTask("lead", "ranch", 4);
-                leadtxt = "What do you think of " + sc.n("!rancher") + "? He's just the most handsom man ever. " +
+                leadtxt = "What do you think of " + sc.n("!rancher") + "? He's just the most handsome man ever. " +
                     "Don't let me catch you making eyes at him! ";
                 break;
             case 5:
                 sc.completeMissionTask("lead", "ranch", 5);
-                leadtxt = "The other hucows have no idea how lucky there are to be here! This is the best life " +
+                leadtxt = "The other hucows have no idea how lucky they are to be here! This is the best life " +
                     "anyone could ever have. ";
                 break;
 
@@ -2255,7 +2255,7 @@ room328.chat = function (chatID) {
     }
     else if (chatID === 950) {
         let pigdickc = [
-            "His dick is going stright for my face! ",
+            "His dick is going straight for my face! ",
             "Oooff! It's so dirty and twisty! ",
             "No! Please don't put that in my mouth! ",
             "I'm about to get a mouthful of pig dick!",
@@ -2276,7 +2276,7 @@ room328.chat = function (chatID) {
             "*ugh* I can feel it twisting down my throat ",
             "It's so long and squishy! ",
             "This smells so bad and tastes even worse! ",
-            "I can't believe I'm suck off a pig's dick!",
+            "I can't believe I'm sucking off a pig's dick!",
             "It's so deep down my throat! I can feel it twisting in and out! ",
             "His dick is so twisty it's beating my tonsils like a punching bag. ",
             "So twisty and soft! ",
@@ -2378,7 +2378,7 @@ room328.chat = function (chatID) {
             "I hate these fuckers so much!",
             "Drake is such an asshole. I want to castrate him!",
             "My tits are so sore all the time. A woman wasn't meant to be milked like this. ",
-            "My nipples are so sensative. Fuck!",
+            "My nipples are so sensitive. Fuck!",
             "We need a way to break out of here. ",
             "I'm so tired of pissing in the field. ",
             "I wish these ranchers would learn to just jack off and stop fucking me all the time. ",
@@ -2418,10 +2418,10 @@ room328.chat = function (chatID) {
             "I wish I was a real cow! ",
             "Don't you hate it when you're crawling around and stick your hand in a wet spot. I just know it's someone's pee. ",
             "hehehe, moo! ",
-            "If I was a real cow I would the best cow ever!",
+            "If I was a real cow I would be the best cow ever!",
             "I like eating grass. It's yummy, like lettuce. ",
             "Rachel said I'm doing so much better at milking. I just wish my udders were bigger. ",
-            "Bertha thinks she's so great just becuase she's give great head. But I'm better at making milk. ",
+            "Bertha thinks she's so great just because she gives great head. But I'm better at making milk. ",
             "Bertha can eat my cow hole! I hate her so much! "
         ];
         return {
@@ -2623,7 +2623,7 @@ room328.chat = function (chatID) {
             {
                 chatID: 15,
                 speaker: "kinsey",
-                text: "It was huge. I just with it was cold. That energy drink was so warm when I pushed it " +
+                text: "It was huge. I just wish it was cold. That energy drink was so warm when I pushed it " +
                     "out of my ass. But oh so good! Best day I had since I've been here. You're the best. ",
                 button: [
                     { chatID: -1, text: "Aww you are. ", callback: "reset" }
@@ -2654,8 +2654,8 @@ room328.chat = function (chatID) {
                 text: "What ever you do don't make them mad. Just do what they say, no matter how terrible. " +
                     "I came in as a virgin and my pussy hole doesn't close up anymore. It's just permanently " +
                     "gaped open with all the terrible things they've stuffed in me. I tried to resist, but " +
-                    "it's just much easier to to moo, eat, and get milked. Just keep you head down and " +
-                    "and breasts full. ",
+                    "it's just much easier to moo, eat, and get milked. Just keep your head down and " +
+                    "keep breasts full. ",
                 button: [
                     { chatID: -1, text: "I will", callback: "reset" }
                 ]
@@ -2779,7 +2779,7 @@ room328.chat = function (chatID) {
                 chatID: 33,
                 speaker: "!rancher1",
                 text: "'sides " + gender.pronoun("she") + "'s loving this cock. Look at " + gender.pronoun("her") +
-                    " comming all over! This heifer needs to be bred! ",
+                    " coming all over! This heifer needs to be bred! ",
                 button: [
                     { chatID: 34, text: "*uncontrollable moaning* ", callback: "moo6" }
                 ]
@@ -2863,7 +2863,7 @@ room328.chat = function (chatID) {
                 chatID: 43,
                 speaker: "!hucow",
                 text: "My mouth is so parched, and this grass is doing nothing! I just need a little  " +
-                    "moisture. So thristy. ",
+                    "moisture. So thirsty. ",
                 button: [
                     { chatID: -1, text: "Sorry, can't help you.", callback: "reset" },
                     { chatID: 44, text: "I could pee in your mouth.", callback: "" },
@@ -2950,7 +2950,7 @@ room328.chat = function (chatID) {
                 speaker: "!rancher",
                 text: "I'm going to enjoy this. " + sc.n("kinsey") + " you ready for your learnin'?",
                 button: [
-                    { chatID: 54, text: "...", callback: "" },
+                    { chatID: 54, text: "...", callback: "" }
                 ]
             },
             {
@@ -2958,7 +2958,7 @@ room328.chat = function (chatID) {
                 speaker: "kinsey",
                 text: "Fuck all of you! Assholes!",
                 button: [
-                    { chatID: 55, text: "...", callback: "" },
+                    { chatID: 55, text: "...", callback: "" }
                 ]
             },
             {
@@ -3168,7 +3168,7 @@ room328.chat = function (chatID) {
                 chatID: 79,
                 speaker: "security",
                 text: "Hehehe. You know you're really cute for a hucow. Too bad I'm no longer allowed to " +
-                    "to touch you girls. Just try to keep it down, 'k?", 
+                    "to touch you girls. Just try to keep it down, 'k?",
                 button: [
                     { chatID: -1, text: "Mooo!", callback: "icon_bedturn" },
                 ]
@@ -3216,10 +3216,10 @@ room328.chat = function (chatID) {
                 chatID: 84,
                 speaker: "security",
                 text: "I am going to break your throat wide open with this big ol' dick! I want you to " +
-                    "impale your face! I've been staring at you lips for so long picturing my cock sliding in and out of " +
+                    "impale your face! I've been staring at your lips for so long picturing my cock sliding in and out of " +
                     "those lips... MMmmmm hhmmmm. Tell me how much you want it. Tell me you want my dick in your mouth. ",
                 button: [
-                    { chatID: 85, text: "Please let me suck you dick! Pleeeseeeee", callback: "sleep_visit2" },
+                    { chatID: 85, text: "Please let me suck your dick! Pleeeseeeee", callback: "sleep_visit2" },
                 ]
             },
             {
@@ -3366,7 +3366,7 @@ room328.chat = function (chatID) {
             {
                 chatID: 101,
                 speaker: "security",
-                text: "Oh oh oh oh!!! That feel so amazing!!!! I can't control my body, I feel my orgasm building " +
+                text: "Oh oh oh oh!!! That feels so amazing!!!! I can't control my body, I feel my orgasm building " +
                     "everywhere!!",
                 button: [
                     { chatID: 102, text: "[speed up]", callback: "sleep_visit15" },
@@ -3375,7 +3375,7 @@ room328.chat = function (chatID) {
             {
                 chatID: 102,
                 speaker: "security",
-                text: "My entire body is orgasiming!!! It's so intense!!!",
+                text: "My entire body is orgasming!!! It's so intense!!!",
                 button: [
                     { chatID: 103, text: "...", callback: "sleep_visit12" },
                 ]
@@ -3419,8 +3419,7 @@ room328.chat = function (chatID) {
                 chatID: 107,
                 speaker: "security",
                 text: "I'm wearing panties! I had to steal them the hucow locker room when no one was looking. " +
-                    "I don't even know who's they are, but they fit nice! I was afraid they would be too tight, " +
-                    "but they fit just right. I love the feeling of the thong between my cheeks when I walk " +
+                    "I don't even know who's they are, but they fit nice! I love the feeling of the thong between my cheeks when I walk " +
                     "around! Anyways, back to my rounds! ",
                 button: [
                     { chatID: -1, text: "Ok!", callback: "icon_bedturn" },
@@ -3812,7 +3811,7 @@ room328.chat = function (chatID) {
             {
                 chatID: 149,
                 speaker: "thinking",
-                text: "Looks like the coast is clear. I bet get going while the goings good. ",
+                text: "Looks like the coast is clear. I better get going while the goings good. ",
                 button: [
                     { chatID: -1, text: "Sneak away", callback: "hole13" },
                 ]
@@ -3840,7 +3839,7 @@ room328.chat = function (chatID) {
             {
                 chatID: 152,
                 speaker: "kinsey",
-                text: "*in a low voice* Hey. Follow me out to the pasture. I got a way out of here ",
+                text: "*in a low voice* Follow me out to the pasture. I got a way out of here ",
                 button: [
                     { chatID: 153, text: "ok", callback: "kinsey0" },
                 ]
@@ -3894,7 +3893,7 @@ room328.chat = function (chatID) {
             {
                 chatID: 158,
                 speaker: "kinsey",
-                text: "I can't quite push it it. Let me work it back and forth...",
+                text: "I can't quite push it it. Let me work it back and forth... ",
                 button: [
                     { chatID: 159, text: "That really hurts...", callback: "kinsey5" },
                 ]
@@ -3977,7 +3976,7 @@ room328.chat = function (chatID) {
                 speaker: "kinsey",
                 text: "When you get in the vents follow the blue rocks. Up 1 meter, left 1 meter, up 3 " +
                     "meters and so on till you get to the end. The red rocks are over places they can " +
-                    "hear you, so don't go that way or they'll hear. Just make sure you don't toot in there. It " +
+                    "hear you, so don't go that way or they'll hear you. Just make sure you don't toot in there. It " +
                     "echos so loud everyone will know you're there. Just ask if you want me to make the map again. ",
                 button: [
                     { chatID: -1, text: "Thanks! I'll get us free ", callback: "reset" },
@@ -4058,7 +4057,7 @@ room328.chat = function (chatID) {
                 text: "Don't bother getting dressed, you know where you're going. We're going to really " +
                     "enjoy breaking in one of our own! My favorite part is hearing the crys of pain while " +
                     "we wreck your tight virgin ass. Since I found you, I get to give you your new name. " +
-                    "I think Cherry will do nicely. I love breaking cherries, hahaha! Now come with us unless " +
+                    "I think Cherry will do nicely. I love breaking cherries, hahahaha! Now come with us unless " +
                     "you want the first thing up your ass is my foot!",
                 button: [
                     { chatID: -1, text: "oh no", callback: "sleep_visit29" },

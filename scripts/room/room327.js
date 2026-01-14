@@ -341,7 +341,7 @@ room327.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "me",
-            text: "So are you down to talk today? ",
+            text: "So are you down to talk today?",
             button: [
                 { chatID: 4, text: "....", callback: "" }
             ]
@@ -349,7 +349,7 @@ room327.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "kinsey",
-            text: "Moooooo, is that what you want to hear? ",
+            text: "Moooooo, is that what you want to hear?",
             button: [
                 { chatID: 5, text: "Just trying to make small talk.", callback: "" }
             ]
@@ -359,7 +359,7 @@ room327.chat = function (chatID) {
             speaker: "kinsey",
             text: "Fucking Mooooo bitch",
             button: [
-                { chatID: -1, text: "ok.", callback: "kend" }
+                { chatID: -1, text: "Ok.", callback: "kend" }
             ]
         },
         {
@@ -406,8 +406,8 @@ room327.chat = function (chatID) {
             chatID: 11,
             speaker: "kinsey",
             text: "Well if you want to know me, know I've been stuck here for over 5 months now. I don't even " +
-                "know if my feet work anymore since I have stood on them since then! I was just trying to make " +
-                "some money when I stopped lactating. It was just a little cow milk! This is such shit! ",
+                "know if my feet work anymore since I haven't stood on them since then! I was just trying to make " +
+                "some money when I stopped lactating. It was just a little cow milk! This is such shit!",
             button: [
                 { chatID: 12, text: "Do you want me to talk to the police?", callback: "" }
             ]
@@ -416,15 +416,15 @@ room327.chat = function (chatID) {
             chatID: 12,
             speaker: "kinsey",
             text: "HAHAHAHAHA. The police are the ones that grabbed me up and put me here! They are worse than " +
-                "Rachel. If you really want to help you'll bring me an energy drink next time you come in. ",
+                "Rachel. If you really want to help you'll bring me an energy drink next time you come in.",
             button: [
-                { chatID: 13, text: "I can get an energy drink. How am I supposed to get it in here? ", callback: "" }
+                { chatID: 13, text: "I can get an energy drink. How am I supposed to get it in here?", callback: "" }
             ]
         },
         {
             chatID: 13,
             speaker: "kinsey",
-            text: "I don't know, shove it up your ass? Fuck off. ",
+            text: "I don't know, shove it up your ass? Fuck off.",
             button: [
                 { chatID: -1, text: "I'll do that!", callback: "kend" }
             ]
@@ -432,7 +432,7 @@ room327.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "kinsey",
-            text: "If you really give a shit, get me an energy drink. ",
+            text: "If you really give a shit, get me an energy drink.",
             button: [
                 { chatID: -1, text: "I'll do that!", callback: "kend" }
             ]
@@ -440,7 +440,7 @@ room327.chat = function (chatID) {
         {
             chatID: 15,
             speaker: "thinking",
-            text: "Oh yeah. I need to get soda from Spanky. ",
+            text: "Oh yeah. I need to get soda from Spanky.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -448,7 +448,7 @@ room327.chat = function (chatID) {
         {
             chatID: 16,
             speaker: "thinking",
-            text: "There's no way this giant can is fitting in my asshole. I need to stretch it more! ",
+            text: "There's no way this giant can is fitting in my asshole. I need to stretch it more!",
             button: [
                 { chatID: -1, text: "[Need anal level 6]", callback: "" }
             ]
@@ -456,7 +456,7 @@ room327.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "thinking",
-            text: "I'll just shove this can of soda up my sissy ass... Hnnnnghhhh ",
+            text: "I'll just shove this can of soda up my sissy ass... Hnnnnghhhh",
             button: [
                 { chatID: 18, text: "...", callback: "kinsey40" }
             ]
@@ -464,7 +464,7 @@ room327.chat = function (chatID) {
         {
             chatID: 18,
             speaker: "thinking",
-            text: "Oooooo my. Got it in. Now to head down to my milking and give it Kinsey. ",
+            text: "Oooooo my. Got it in. Now to head down to my milking and give it to Kinsey.",
             button: [
                 { chatID: 19, text: "...", callback: "kinsey41" }
             ]
@@ -472,7 +472,7 @@ room327.chat = function (chatID) {
         {
             chatID: 19,
             speaker: "me",
-            text: "Hey Kinsey. Psst. I got a treat for you. ",
+            text: "Hey Kinsey. Psst. I got a treat for you.",
             button: [
                 { chatID: 20, text: "...", callback: "" }
             ]
@@ -480,26 +480,26 @@ room327.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "kinsey",
-            text: "Will you just leave me alone. I have enough problems without you blabbering in my ear all the time. ",
+            text: "Will you just leave me alone? I have enough problems without you blabbering in my ear all the time.",
             button: [
-                { chatID: 21, text: "but, I brought you an energy drink. ", callback: "" }
+                { chatID: 21, text: "But, I brought you an energy drink.", callback: "" }
             ]
         },
         {
             chatID: 21,
             speaker: "kinsey",
-            text: "What? Really? Are you for real? Where's it at? ",
+            text: "What? Really? Are you for real? Where's it at?",
             button: [
-                { chatID: 22, text: "I hid it in my butt. Do you want me to get it for you?  ", callback: "" }
+                { chatID: 22, text: "I hid it in my butt. Do you want me to get it for you?", callback: "" }
             ]
         },
         {
             chatID: 22,
             speaker: "kinsey",
             text: "I'll get in trouble if I drink it out here. You'll have to hide it in my ass so I can drink it when I go back to " +
-                "the stables tonight. Shove it in quick before they come back.  ",
+                "the stables tonight. Shove it in quick before they come back.",
             button: [
-                { chatID: 23, text: "Shove the can of energy drink in Kinsey's ass ", callback: "kinsey42" }
+                { chatID: 23, text: "Shove the can of energy drink in Kinsey's ass", callback: "kinsey42" }
             ]
         },
         {
@@ -507,7 +507,7 @@ room327.chat = function (chatID) {
             speaker: "kinsey",
             text: "OOooooohhhhhh yeah Shove it in!",
             button: [
-                { chatID: 24, text: "... ", callback: "kinsey41" }
+                { chatID: 24, text: "...", callback: "kinsey41" }
             ]
         },
         {
@@ -515,23 +515,23 @@ room327.chat = function (chatID) {
             speaker: "kinsey",
             text: "My ass is so full! My pussy is going to be a drippy mess keeping that can in me all day till I can pull it " +
                 "out tonight. That's the nicest thing anyone has done for me. I don't know what to say. I thought you were " +
-                "just one of them. ",
+                "just one of them.",
             button: [
-                { chatID: 25, text: "I'm not one of them. Just wanted to be nice. ", callback: "" }
+                { chatID: 25, text: "I'm not one of them. Just wanted to be nice.", callback: "" }
             ]
         },
         {
             chatID: 25,
             speaker: "kinsey",
-            text: "You are one of the nice ones. I'm sorry I was so mean to you. ",
+            text: "You are one of the nice ones. I'm sorry I was so mean to you.",
             button: [
-                { chatID: 0, text: "I get it. I'm almost done with my milking. Rachel will be by any moment. ", callback: "m2" }
+                { chatID: 0, text: "I get it. I'm almost done with my milking. Rachel will be by any moment.", callback: "m2" }
             ]
         },
         {
             chatID: 26,
             speaker: "kinsey",
-            text: "I totally owe you one. When I get out of here I'll make it up to you. ",
+            text: "I totally owe you one. When I get out of here I'll make it up to you.",
             button: [
                 { chatID: 999, text: "...", callback: "m2" }
             ]
@@ -541,7 +541,7 @@ room327.chat = function (chatID) {
             speaker: "envy",
             text: "I'm sooooo glad you brought me here! Not only do I get to be a Hucow at night they take me to the barn " +
                 "and the farm hands and security guards fuck all my holes! Drake said I'm way better than " + sc.n("kinsey") +
-                " at taking cock and not complaining! ",
+                " at taking cock and not complaining!",
             button: [
                 { chatID: 28, text: "...", callback: "" }
             ]
@@ -550,7 +550,7 @@ room327.chat = function (chatID) {
             chatID: 28,
             speaker: "kinsey",
             text: "I'm glad you're here too. I get so tired of being used by everyone in the barn, it's nice having another " +
-                "hucow around, and your pussy tastes sweet, even after taking all those cocks. ",
+                "hucow around, and your pussy tastes sweet, even after taking all those cocks.",
             button: [
                 { chatID: 29, text: "...", callback: "" }
             ]
@@ -558,7 +558,7 @@ room327.chat = function (chatID) {
         {
             chatID: 29,
             speaker: "envy",
-            text: "I love your pussy too! I've never had a girlfriend before, but you're the best!  ",
+            text: "I love your pussy too! I've never had a girlfriend before, but you're the best!",
             button: [
                 { chatID: 999, text: "...", callback: "m2" }
             ]
@@ -569,7 +569,7 @@ room327.chat = function (chatID) {
             text: "You'll never believe what we did last night! " + sc.n("kinsey") + " was talking back to Drake saying " +
                 "he was too rough, so I said to Drake just fuck my ass tonight. So he said I'm too easy, he likes a challenge, " +
                 "so " + sc.n("kinsey") + " said Drake's biggest challenge was to get laid with that ugly face. So he got so mad! " +
-                "He said he was going to punish both of us! ",
+                "He said he was going to punish both of us!",
             button: [
                 { chatID: 31, text: "...", callback: "" }
             ]
@@ -577,11 +577,11 @@ room327.chat = function (chatID) {
         {
             chatID: 31,
             speaker: "envy",
-            text: "So he tied us up together facing each other with a dildo in both of us and covered us in iching powder. He said " +
-                "he would only scratch our ichies if " + sc.n("kinsey") + " begged for all their cocks in her ass. I was so itchy " +
+            text: "So he tied us up together facing each other with a dildo in both of us and covered us in itching powder. He said " +
+                "he would only scratch our itchies if " + sc.n("kinsey") + " begged for all their cocks in her ass. I was so itchy " +
                 "I begged them all to fuck me, but Drake said " + sc.n("kinsey") + " had to beg. I told her she didn't have to, " +
                 "but my entire body was crawling. I didn't think she was going to do it. She said they could all fuck themselves " +
-                "but after an hour we were rubbing each other to get some relief, but it was no use. ",
+                "but after an hour we were rubbing each other to get some relief, but it was no use.",
             button: [
                 { chatID: 32, text: "...", callback: "" }
             ]
@@ -591,7 +591,7 @@ room327.chat = function (chatID) {
             speaker: "envy",
             text: "She begged, but they said it wasn't good enough, so she had to scream for each cock to fuck her ass. They even " +
                 "shoved two at a time in her. She's such a champ! After they were all done they even let me eat the cum out of her " +
-                "ass and a couple of them fucked me so I wasn't left out. I hope they let us sleep tonight. I'm so tired. ",
+                "ass and a couple of them fucked me so I wasn't left out. I hope they let us sleep tonight. I'm so tired.",
             button: [
                 { chatID: 33, text: "Oh wow. Are you ok " + sc.n("kinsey") + "?", callback: "" }
             ]
@@ -599,25 +599,25 @@ room327.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "kinsey",
-            text: "I fucking hate Drake. ",
+            text: "I fucking hate Drake.",
             button: [
-                { chatID: 999, text: "Oh. Me too. ", callback: "m2" }
+                { chatID: 999, text: "Oh. Me too.", callback: "m2" }
             ]
         },
         {
             chatID: 34,
             speaker: "envy",
-            text: "I so much love it here! Thank you so much for brining me here!!!!",
+            text: "I so much love it here! Thank you so much for bringing me here!!!!",
             button: [
-                { chatID: 999, text: "I knew you would! ", callback: "m2" }
+                { chatID: 999, text: "I knew you would!", callback: "m2" }
             ]
         },
         {
             chatID: 35,
             speaker: "kinsey",
-            text: "Come talk to me when we're in the meadow. I've got an idea I can't talk about here. ",
+            text: "Come talk to me when we're in the meadow. I've got an idea I can't talk about here.",
             button: [
-                { chatID: 999, text: "ok", callback: "m2" }
+                { chatID: 999, text: "Ok", callback: "m2" }
             ]
         },
         {

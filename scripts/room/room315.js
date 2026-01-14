@@ -201,16 +201,16 @@ room315.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "janice",
-            text: "Oh. It's you. I'm getting ready for bed. Come by during the day baby.  ",
+            text: "Oh. It's you. I'm getting ready for bed. Come by during the day baby.",
             button: [
-                { chatID: 2, text: "Do you want me to tuck you in? ", callback: "" },
+                { chatID: 2, text: "Do you want me to tuck you in?", callback: "" },
                 { chatID: -1, text: "ok", callback: "reset" },
             ]
         },
         {
             chatID: 2,
             speaker: "janice",
-            text: "Hahaha, no. You know my rules on dating. No sex till marriage. ",
+            text: "Hahaha, no. You know my rules on dating. No sex till marriage.",
             button: [
                 { chatID: -1, text: "ok", callback: "reset" },
             ]
@@ -234,7 +234,7 @@ room315.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "janice",
-            text: "Hey baby. I'm about to run errands. Catch me tomorrow. ",
+            text: "Hey baby. I'm about to run errands. Catch me tomorrow.",
             button: [
                 { chatID: -1, text: "ok", callback: "leave" },
             ]
@@ -266,8 +266,8 @@ room315.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "thinking",
-            text: "What the fuck was that! Did he just laugh at me and walk away! Who does that. " +
-                "Why is he here? Is she cheating on me! I'm going to find out right now! ",
+            text: "What the fuck was that! Did he just laugh at me and walk away! Who does that? " +
+                "Why is he here? Is she cheating on me! I'm going to find out right now!",
             button: [
                 { chatID: -1, text: "[Barge inside her home.]", callback: "goinside" },
             ]
@@ -276,7 +276,7 @@ room315.chat = function (chatID) {
             chatID: 10,
             speaker: "thinking",
             text: "I have a date with " + sc.n("janice") + " this weekend. I can come on either " +
-                "Friday or Saturday. I'll come back then. ",
+                "Friday or Saturday. I'll come back then.",
             button: [
                 { chatID: -1, text: "...", callback: "" },
             ]
@@ -284,9 +284,9 @@ room315.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "thinking",
-            text: "I have a big date today, but I'm a bit early. ",
+            text: "I have a big date today, but I'm a bit early.",
             button: [
-                { chatID: -1, text: "Wait here till my date. ", callback: "waitTask3" },
+                { chatID: -1, text: "Wait here till my date.", callback: "waitTask3" },
                 { chatID: -1, text: "I'll come back", callback: "" },
             ]
         },
@@ -294,41 +294,41 @@ room315.chat = function (chatID) {
             chatID: 12,
             speaker: "thinking",
             text: "I'm way totally late for our date! I'll have to come back next Friday or " +
-                "Saturday before " + nav.convertTime(21, 0) + ". ",
+                "Saturday before " + nav.convertTime(21, 0) + ".",
             button: [
-                { chatID: -1, text: "I'll have to come back another day. ", callback: "" },
+                { chatID: -1, text: "I'll have to come back another day.", callback: "" },
             ]
         },
         {
             chatID: 13,
             speaker: "thinking",
             text: "Our big date is today! I need to find some money. I'm going to need at least " +
-                "$100 to take her out. ",
+                "$100 to take her out.",
             button: [
-                { chatID: -1, text: "I'll have get more money. ", callback: "" },
+                { chatID: -1, text: "I'll have to get more money.", callback: "" },
             ]
         },
         {
             chatID: 14,
             speaker: "janice",
-            text: "Stop stalking me! We broke up! ",
+            text: "Stop stalking me! We broke up!",
             button: [
-                { chatID: -1, text: "sigh.. ok ", callback: "reset" },
+                { chatID: -1, text: "Sigh... ok", callback: "reset" },
             ]
         },
         {
             chatID: 15,
             speaker: "thinking",
-            text: "It's too late to knock on her door. She's probably asleep. ",
+            text: "It's too late to knock on her door. She's probably asleep.",
             button: [
                 { chatID: -1, text: "Try to pick her lock", callback: "picklock" },
-                { chatID: -1, text: "Leave her alone. ", callback: "reset" },
+                { chatID: -1, text: "Leave her alone.", callback: "reset" },
             ]
         },
         {
             chatID: 16,
             speaker: "thinking",
-            text: "Damn! Didn't get in ",
+            text: "Damn! Didn't get in",
             button: [
                 { chatID: -1, text: "...", callback: "reset" },
             ]
@@ -346,8 +346,8 @@ room315.chat = function (chatID) {
             speaker: "thinking",
             text: "Should I knock? I do still have her key, and she did say she loved me. " +
                 "Maybe I should just go in. See if that takes us to the next step. Yeah. Plus " +
-                "she says she's a virgin, but I get the feeling she's cheeting on me. I should " +
-                "just go in and see what she does all day! ",
+                "she says she's a virgin, but I get the feeling she's cheating on me. I should " +
+                "just go in and see what she does all day!",
             button: [
                 { chatID: 19, text: "Just go in", callback: "bitch_0" },
             ]
@@ -372,7 +372,7 @@ room315.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "janice",
-            text: "Shut up! Let me close this computer program thingy..... crap!",
+            text: "Shut up! Let me close this computer program thingy... crap!",
             button: [
                 { chatID: 22, text: "Close what! What are you up to! Let me see!", callback: "bitch_3" },
             ]
@@ -424,7 +424,7 @@ room315.chat = function (chatID) {
             chatID: 26,
             speaker: "janice",
             text: "You're the best! Let me throw my clothes back on so my pussy isn't hanging " +
-                "out everywhere. ",
+                "out everywhere.",
             button: [
                 { chatID: -1, text: "...", callback: "completeBitch3" },
             ]
@@ -432,9 +432,9 @@ room315.chat = function (chatID) {
         {
             chatID: 27,
             speaker: "janice",
-            text: "That's so disrespectful! Go put on clothes before coming here! ",
+            text: "That's so disrespectful! Go put on clothes before coming here!",
             button: [
-                { chatID: -1, text: "oh. Of course. ", callback: "leave" },
+                { chatID: -1, text: "Oh. Of course.", callback: "leave" },
             ]
         },
     ];

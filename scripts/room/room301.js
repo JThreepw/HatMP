@@ -1104,20 +1104,20 @@ room301.chat = function (chatID) {
             {
                 chatID: 10,
                 speaker: "envy",
-                text: "You brought pizza! I'll throw it in the oven. I have a great documentry I wanted to watch if you want " +
-                    "to watch with me. ",
+                text: "You brought pizza! I'll throw it in the oven. I have a great documentary I wanted to watch if you want " +
+                    "to watch with me.",
                 button: [
-                    { chatID: 11, text: "That sounds like fun. ", callback: "pizza0" }
+                    { chatID: 11, text: "That sounds like fun.", callback: "pizza0" }
                 ]
             },
             {
                 chatID: 11,
                 speaker: "envy",
                 text: "This side of the couch has the best angle for the tv, so you can sit beside me. But no touching. " +
-                    "I'm just trying to enjoy the documentry. I think you'll like it. It's a love story set in " +
-                    "the Anglo-French Hundred Years' War. ",
+                    "I'm just trying to enjoy the documentary. I think you'll like it. It's a love story set in " +
+                    "the Anglo-French Hundred Years' War.",
                 button: [
-                    { chatID: 13, text: "Ooohhh ok ", callback: "movie1" }
+                    { chatID: 13, text: "Ooohhh ok", callback: "movie1" }
                 ]
             },
             {
@@ -1434,10 +1434,10 @@ room301.chat = function (chatID) {
             {
                 chatID: 47,
                 speaker: "evny",
-                text: "I've never heard of that one. I do love documenteries. They really make you feel the moment within. " +
-                    "Do you know if any of the streaming services have it, or do they have it at the library? ",
+                text: "I've never heard of that one. I do love documentaries. They really make you feel the moment within. " +
+                    "Do you know if any of the streaming services have it, or do they have it at the library?",
                 button: [
-                    { chatID: 48, text: "Oh, I'm not sure. I borrowed it from a friend who has a bunch of documentries. ", callback: "" },
+                    { chatID: 48, text: "Oh, I'm not sure. I borrowed it from a friend who has a bunch of documentaries.", callback: "" },
                 ]
             },
             {
@@ -1484,13 +1484,13 @@ room301.chat = function (chatID) {
             {
                 chatID: 53,
                 speaker: "envy",
-                text: "Oh hahaha. you know. Just wanted something different. I don't know, but I've just had this weird " +
+                text: "Oh hahaha. You know. Just wanted something different. I don't know, but I've just had this weird " +
                     "feeling lately. Every time you come over I get this weird feeling after you leave. A feeling I've never " +
                     "felt before. I can't concentrate on anything but my looks and desires. I would say it's love, but it feels " +
-                    "more like narcissism since it's so centered on me. I don't know. I have to think on it more. ",
+                    "more like narcissism since it's so centered on me. I don't know. I have to think on it more.",
                 button: [
                     { chatID: -1, text: "Play a board game", callback: "boardgame" },
-                    { chatID: -1, text: "Watch a movie ", callback: "hypnoLoop0" }
+                    { chatID: -1, text: "Watch a movie", callback: "hypnoLoop0" }
                 ]
             },
             {
@@ -2095,9 +2095,9 @@ room301.chat = function (chatID) {
             {
                 chatID: 122,
                 speaker: "envy",
-                text: "I'm so glad you're here. My pussy still needs to get fucked so so badly! ",
+                text: "I'm so glad you're here. My pussy still needs to get fucked so badly!",
                 button: [
-                    { chatID: 123, text: "Oh yea. It looks like it's been fucked alerady", callback: "step14b" },
+                    { chatID: 123, text: "Oh yeah. It looks like it's been fucked already", callback: "step14b" },
                 ]
             },
             {
@@ -2250,20 +2250,20 @@ room301.chat = function (chatID) {
             {
                 chatID: 139,
                 speaker: "envy",
-                text: "You want to help me? Help me by licking my clit and finger my pussy. My room " +
-                    "now! ",
+                text: "You want to help me? Help me by licking my clit and fingering my pussy. My room " +
+                    "now!",
                 button: [
-                    { chatID: 140, text: "Huh? ", callback: "gf_5_3" },
+                    { chatID: 140, text: "Huh?", callback: "gf_5_3" },
                 ]
             },
             {
                 chatID: 140,
                 speaker: "envy",
-                text: "Why are you naked? You only get to perform cunniligus on me. I'm not losing " +
+                text: "Why are you naked? You only get to perform cunnilingus on me. I'm not losing " +
                     "my virginity like this. Now get in there and give me an orgasm so I can return " +
-                    "to normal and regret this decision. ",
+                    "to normal and regret this decision.",
                 button: [
-                    { chatID: -1, text: "Oh. ok ", callback: "gf_5_4" },
+                    { chatID: -1, text: "Oh. ok", callback: "gf_5_4" },
                 ]
             },
             {
@@ -2296,9 +2296,9 @@ room301.chat = function (chatID) {
                 chatID: 144,
                 speaker: "envy",
                 text: "Well maybe you shouldn't hypnotize someone against their will. I've got a " +
-                    "huge test tomorrow on the Physics of Planets that I have to study for. Now that  " +
+                    "huge test tomorrow on the Physics of Planets that I have to study for. Now that " +
                     "I think about it, I'm going to need your help tomorrow morning. Be here " +
-                    "tomorrow before " + nav.convertTime(14, 0) + "! Don't be late. I'm counting on you! ",
+                    "tomorrow before " + nav.convertTime(14, 0) + "! Don't be late. I'm counting on you!",
                 button: [
                     { chatID: 145, text: "Tomorrow?", callback: "" },
                 ]
@@ -2306,7 +2306,7 @@ room301.chat = function (chatID) {
             {
                 chatID: 145,
                 speaker: "envy",
-                text: "Yes. Tomorrow morning. Let me get dressed and I'll see you out. ",
+                text: "Yes. Tomorrow morning. Let me get dressed and I'll see you out.",
                 button: [
                     { chatID: 146, text: "ok.", callback: "gf_5_8" },
                 ]
@@ -2314,18 +2314,18 @@ room301.chat = function (chatID) {
             {
                 chatID: 146,
                 speaker: "envy",
-                text: "Soooo, uhh. See you tomorrow. ",
+                text: "Soooo, uhh. See you tomorrow.",
                 button: [
-                    { chatID: 147, text: "[Go in for the kiss.] ", callback: "gf_5_9" },
-                    { chatID: -1, text: "Yep. See you tomorrow. ", callback: "gf_5_end" },
+                    { chatID: 147, text: "[Go in for the kiss.]", callback: "gf_5_9" },
+                    { chatID: -1, text: "Yep. See you tomorrow.", callback: "gf_5_end" },
                 ]
             },
             {
                 chatID: 147,
                 speaker: "envy",
-                text: "Ohhhh. *mwah* ",
+                text: "Ohhhh. *mwah*",
                 button: [
-                    { chatID: -1, text: "*mwah*. See you tomorrow. ", callback: "gf_5_end" },
+                    { chatID: -1, text: "*mwah*. See you tomorrow.", callback: "gf_5_end" },
                 ]
             },
             {
@@ -2351,10 +2351,10 @@ room301.chat = function (chatID) {
                 chatID: 150,
                 speaker: "envy",
                 text: "Mr. Bobcock, my professor, watches us, and we're not allowed electronics while we're taking " +
-                    "out tests. There's no way I can properly explain to Mr. Bobcock that I need to " +
-                    "press an orgasm button because you hypnotized me into being horny all the time! ",
+                    "our tests. There's no way I can properly explain to Mr. Bobcock that I need to " +
+                    "press an orgasm button because you hypnotized me into being horny all the time!",
                 button: [
-                    { chatID: -1, text: "Oh. That makes sense. Sure I'll put in the vibrator. ", callback: "" },
+                    { chatID: -1, text: "Oh. That makes sense. Sure I'll put in the vibrator.", callback: "" },
                 ]
             },
             {

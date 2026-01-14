@@ -343,6 +343,7 @@ room227.btnclick = function (name) {
         case "lb_grappleSingleleg":
         case "lb_grappleLapeldrag":
         case "lb_grappleLegsweep":
+
             var grappleSuccess = true;
             switch (name) {
                 case "lb_grappleSingleleg": grappleSuccess = g.fight.grappleBox[0]; break;
@@ -490,7 +491,7 @@ room227.chat = function (chatID) {
                 chatID: 1,
                 speaker: "me",
                 text: g.fight.e[0].loss,
-                button: [{ chatID: -1, text: "You've won!! Dollar dollar bills ya'll!", callback: "moneyend" }]
+                button: [{ chatID: -1, text: "You've won!! Dollar dollar bills y'all!", callback: "moneyend" }]
             },
             {
                 chatID: 2,

@@ -537,10 +537,10 @@ room221.chat = function (chatID) {
             {
                 chatID: 9,
                 speaker: "!nips",
-                text: "I cheated on my husband.. again. I need Missy to help make sure he doens't find out. ",
+                text: "I cheated on my husband... again. I need Missy to help make sure he doesn't find out.",
                 button: [
-                    { chatID: -1, text: "Sure. Head on in. ", callback: "appIn" },
-                    { chatID: -1, text: "Sorry, no. You have to make an appointment. ", callback: "appNo" },
+                    { chatID: -1, text: "Sure. Head on in.", callback: "appIn" },
+                    { chatID: -1, text: "Sorry, no. You have to make an appointment.", callback: "appNo" },
                 ]
             },
             {
@@ -663,8 +663,8 @@ room221.chat = function (chatID) {
             {
                 chatID: 23,
                 speaker: "missy",
-                text: "This is a very important client! How hard is it to remember their appointments " +
-                    " Pull your head out of your ass and let them in. ",
+                text: "This is a very important client! How hard is it to remember their appointments? " +
+                    "Pull your head out of your ass and let them in.",
                 button: [
                     { chatID: 24, text: "ok", callback: "blank" },
                 ]
@@ -886,7 +886,7 @@ room221.chat = function (chatID) {
             {
                 chatID: 48,
                 speaker: "thinking",
-                text: "Such crap. I get pissed on my some angry crazy guy because of a case " +
+                text: "Such crap. I get pissed on by some angry crazy guy because of a case " +
                     "Missy does, then I get yelled at and forced to clean up. Now I have to sit " +
                     "here in my damp pissy clothes and finish out the work day. Bullshit.",
                 button: [

@@ -390,7 +390,7 @@ room300.chat = function (chatID) {
                 chatID: 7,
                 speaker: "envy",
                 text: "I told you I'm waiting. This is only our fourth date and you've groped my tits, tried to finger my butt " +
-                    "and pulled you dick out and show me when I don't know you well enough. I'm not just a piece of meat, " +
+                    "and pulled your dick out and showed me when I don't know you well enough. I'm not just a piece of meat, " +
                     "I want to get to know you better. Just come in and talk with me.",
                 button: [
                     { chatID: 8, text: "...", callback: "" }
@@ -425,7 +425,7 @@ room300.chat = function (chatID) {
             {
                 chatID: 11,
                 speaker: "envy",
-                text: "*sobbing* fine... it's over. I never want to see you again. ",
+                text: "*sobbing* Fine... it's over. I never want to see you again.",
                 button: [
                     { chatID: 12, text: "...", callback: "fight1" }
                 ]
@@ -469,19 +469,19 @@ room300.chat = function (chatID) {
                 chatID: 16,
                 speaker: "envy",
                 text: "That's ok. I didn't expect " + sc.n("kei") + " to start a fight with me right there. Why are guys " +
-                    "such horny pigs? ",
+                    "such horny pigs?",
                 button: [
-                    { chatID: 17, text: "Not all of us are horny pigs. ", callback: "envyUp" },
-                    { chatID: 18, text: "Because your only purpose is as a cum receptacle. ", callback: "" }
+                    { chatID: 17, text: "Not all of us are horny pigs.", callback: "envyUp" },
+                    { chatID: 18, text: "Because your only purpose is as a cum receptacle.", callback: "" }
                 ]
             },
             {
                 chatID: 17,
                 speaker: "envy",
-                text: "That's what they all say. My first boyfried said he didn't want sex, just to be my best friend. Then " +
+                text: "That's what they all say. My first boyfriend said he didn't want sex, just to be my best friend. Then " +
                     "I caught him jacking off in my panties. Why are guys like this?",
                 button: [
-                    { chatID: 19, text: "Ok. we're all horny pigs.", callback: "" }
+                    { chatID: 19, text: "Ok. We're all horny pigs.", callback: "" }
                 ]
             },
             {
@@ -497,18 +497,18 @@ room300.chat = function (chatID) {
                 chatID: 19,
                 speaker: "envy",
                 text: "There's something about you I like, but I can't put my finger on it right now. " +
-                    "Do you think it's possible you and I could just be friends without sex getting in the way. ",
+                    "Do you think it's possible you and I could just be friends without sex getting in the way?",
                 button: [
-                    { chatID: 20, text: "There's something about you I like too. I would love to be your friend. ", callback: "" }
+                    { chatID: 20, text: "There's something about you I like too. I would love to be your friend.", callback: "" }
                 ]
             },
             {
                 chatID: 20,
                 speaker: "envy",
                 text: "Oh good. I was hoping you would say that and not some stupid sex joke. I've got to run. You should " +
-                    "stop by again sometime. ",
+                    "stop by again sometime.",
                 button: [
-                    { chatID: -1, text: "Sweet! See you later my new buddy ", callback: "firstMeetEnd" }
+                    { chatID: -1, text: "Sweet! See you later my new buddy", callback: "firstMeetEnd" }
                 ]
             },
             {
@@ -522,16 +522,16 @@ room300.chat = function (chatID) {
             {
                 chatID: 22,
                 speaker: "thinking",
-                text: "Weird. Her door is slightly open. ",
+                text: "Weird. Her door is slightly open.",
                 button: [
                     { chatID: -1, text: "Just go in", callback: "enter" },
-                    { chatID: -1, text: "I repsect her privacy and close the door and leave. ", callback: "reset" },
+                    { chatID: -1, text: "I respect her privacy and close the door and leave.", callback: "reset" },
                 ]
             },
             {
                 chatID: 23,
                 speaker: "thinking",
-                text: "That's a lot of guys lined outside her door.... ",
+                text: "That's a lot of guys lined outside her door....",
                 button: [
                     { chatID: -1, text: "Go in", callback: "enter" },
                     { chatID: -1, text: "I'll come back later", callback: "reset" },
@@ -540,7 +540,7 @@ room300.chat = function (chatID) {
             {
                 chatID: 24,
                 speaker: "thinking",
-                text: "Evicted... I guess she's not coming back. ",
+                text: "Evicted... I guess she's not coming back.",
                 button: [
                     { chatID: -1, text: "....", callback: "" },
                 ]
@@ -548,7 +548,7 @@ room300.chat = function (chatID) {
             {
                 chatID: 25,
                 speaker: "thinking",
-                text: "I'm not even going to try knocking on her door until after I talk to Spanky. ",
+                text: "I'm not even going to try knocking on her door until after I talk to Spanky.",
                 button: [
                     { chatID: -1, text: "....", callback: "" },
                 ]
@@ -556,9 +556,9 @@ room300.chat = function (chatID) {
             {
                 chatID: 26,
                 speaker: "thinking",
-                text: "I'm on the first floor. Which floor do I want to walk up?  ",
+                text: "I'm on the first floor. Which floor do I want to walk up?",
                 button: [
-                    { chatID: -1, text: "Second floor, My girlfirend's floor", callback: "315" },
+                    { chatID: -1, text: "Second floor, My girlfriend's floor", callback: "315" },
                     { chatID: -1, text: "Third floor.", callback: "303" },
                     { chatID: -1, text: "Stay here", callback: "" },
                 ]
@@ -566,24 +566,24 @@ room300.chat = function (chatID) {
             {
                 chatID: 27,
                 speaker: "envy",
-                text: "Is that you " + sc.n("me") + "! ",
+                text: "Is that you " + sc.n("me") + "!",
                 button: [
-                    { chatID: 28, text: "It is. I came to aplogize. ", callback: "" },
+                    { chatID: 28, text: "It is. I came to apologize.", callback: "" },
                 ]
             },
             {
                 chatID: 28,
                 speaker: "envy",
-                text: "I told you to fuck off! because of you I can't stop playing with myself. Go away!",
+                text: "I told you to fuck off! Because of you I can't stop playing with myself. Go away!",
                 button: [
-                    { chatID: 29, text: "I'm not going away. I'm going to stay here until you let me in to try and help you. I don't care how many days it takes. ", callback: "" },
-                    { chatID: -1, text: "Ok. ", callback: "" },
+                    { chatID: 29, text: "I'm not going away. I'm going to stay here until you let me in to try and help you. I don't care how many days it takes.", callback: "" },
+                    { chatID: -1, text: "Ok.", callback: "" },
                 ]
             },
             {
                 chatID: 29,
                 speaker: "thinking",
-                text: "I'm just going to sit in front of her door till she lets me in. ",
+                text: "I'm just going to sit in front of her door till she lets me in.",
                 button: [
                     { chatID: -1, text: "Wait.", callback: "wait" },
                     { chatID: -1, text: "I'll do this later", callback: "" },
@@ -592,9 +592,9 @@ room300.chat = function (chatID) {
             {
                 chatID: 30,
                 speaker: "random",
-                text: "Oh wait. You're not Jim. I'm saving myself for Jim. ",
+                text: "Oh wait. You're not Jim. I'm saving myself for Jim.",
                 button: [
-                    { chatID: -1, text: "oh. Drat.", callback: "reset" },
+                    { chatID: -1, text: "Oh. Drat.", callback: "reset" },
                 ]
             },
             {
@@ -611,7 +611,7 @@ room300.chat = function (chatID) {
                 speaker: "envy",
                 text: "You can help by never coming back here. Ever. Go away! I hate you.",
                 button: [
-                    { chatID: -1, text: "I know you don't mean that. I'm going to stay right here and wait for when you're ready.  ", callback: "bg" },
+                    { chatID: -1, text: "I know you don't mean that. I'm going to stay right here and wait for when you're ready.", callback: "bg" },
                     { chatID: -1, text: "Oh. Damn. Ok, then bye.", callback: "reset" },
                 ]
             },
@@ -621,7 +621,7 @@ room300.chat = function (chatID) {
                 text: "Fine! I'll let you help. But nothing else. You know I'm now failing my math " +
                     "class because I can't concentrate? You really ruined me and I don't know what to " +
                     "do. I've masturbated so many times I'm starting to get calluses on my clit. Come " +
-                    "on in. But behave yourself. And no more movies. ",
+                    "on in. But behave yourself. And no more movies.",
                 button: [
                     { chatID: 34, text: "Yes. Ok. Thank you!", callback: "backin_0" },
                 ]
@@ -661,12 +661,12 @@ room300.chat = function (chatID) {
             {
                 chatID: 37,
                 speaker: "envy",
-                text: "The craving just build and build till it's all I can think about. I was in a 2 hour lab " +
-                    " and the craving came on. I tried not touching myself, but I was so lost in my own head I " +
+                text: "The craving just builds and builds till it's all I can think about. I was in a 2 hour lab " +
+                    "and the craving came on. I tried not touching myself, but I was so lost in my own head I " +
                     "caused a little fire. Right after I put it out I had to run to the bathroom to rub one out. " +
-                    "it's taking over my life. My teachers think I have to poop all the time 'cause I'm gone so much. ",
+                    "It's taking over my life. My teachers think I have to poop all the time 'cause I'm gone so much.",
                 button: [
-                    { chatID: 38, text: "That sounds terrible. I'm so sorry I did this to you. ", callback: "" },
+                    { chatID: 38, text: "That sounds terrible. I'm so sorry I did this to you.", callback: "" },
                 ]
             },
             {
@@ -674,7 +674,7 @@ room300.chat = function (chatID) {
                 speaker: "envy",
                 text: "You can stop being sorry and help me. I've got to stop craving orgasms somehow!",
                 button: [
-                    { chatID: 39, text: "Hmmmm.... What if you removed your clit? ", callback: "" },
+                    { chatID: 39, text: "Hmmmm.... What if you removed your clit?", callback: "" },
                 ]
             },
             {
@@ -683,50 +683,50 @@ room300.chat = function (chatID) {
                 text: "What the fuck! I'm not cutting off my clit. What if that doesn't work and I'm just " +
                     "horny all the time. Also gross! Think of something else.",
                 button: [
-                    { chatID: 40, text: "Have you ever had the craving go away on their own? ", callback: "" },
+                    { chatID: 40, text: "Have you ever had the craving go away on its own?", callback: "" },
                 ]
             },
             {
                 chatID: 40,
                 speaker: "envy",
-                text: "Yes, by masturbating. I even tried stabbing myself with a knife and it just made it worse. ",
+                text: "Yes, by masturbating. I even tried stabbing myself with a knife and it just made it worse.",
                 button: [
-                    { chatID: 41, text: "So you have to find a way to masturbate any time. Without getting caught. ", callback: "" },
+                    { chatID: 41, text: "So you have to find a way to masturbate any time. Without getting caught.", callback: "" },
                 ]
             },
             {
                 chatID: 41,
                 speaker: "envy",
                 text: "Yes genius. I'll just masturbate all the time no matter where I am. I'll just pull " +
-                    "down my panties in the middle of the store and rub one out! ",
+                    "down my panties in the middle of the store and rub one out!",
                 button: [
-                    { chatID: 42, text: "What if there was a way to masturbate without anyone knowing? ", callback: "" },
+                    { chatID: 42, text: "What if there was a way to masturbate without anyone knowing?", callback: "" },
                 ]
             },
             {
                 chatID: 42,
                 speaker: "envy",
-                text: "What do you mean? ",
+                text: "What do you mean?",
                 button: [
-                    { chatID: 43, text: "I don't know, but I know someone that might be able to help. Wait here. I'm going to go ask someone! ", callback: "" },
+                    { chatID: 43, text: "I don't know, but I know someone that might be able to help. Wait here. I'm going to go ask someone!", callback: "" },
                 ]
             },
             {
                 chatID: 43,
                 speaker: "envy",
                 text: "You better come back with good news! Also I have to rub one out, so you do need " +
-                    "to go. Like now. Fuck I'm so horny. ",
+                    "to go. Like now. Fuck I'm so horny.",
                 button: [
-                    { chatID: 44, text: "Ok! I'll be back with good news! I think. I promise! ", callback: "bg" },
+                    { chatID: 44, text: "Ok! I'll be back with good news! I think. I promise!", callback: "bg" },
                 ]
             },
             {
                 chatID: 44,
                 speaker: "thinking",
-                text: "If anyone know how to make a girl orgasm it's " + sc.n("tiffany") + "! She'll have " +
+                text: "If anyone knows how to make a girl orgasm it's " + sc.n("tiffany") + "! She'll have " +
                     "something. She has to have something!",
                 button: [
-                    { chatID: -1, text: "I'll look for her at Toy's 'n Us!", callback: "backin_1" },
+                    { chatID: -1, text: "I'll look for her at Toys 'n Us!", callback: "backin_1" },
                 ]
             },
             {
@@ -748,7 +748,7 @@ room300.chat = function (chatID) {
             {
                 chatID: 47,
                 speaker: "thinking",
-                text: "That's the end of her path for this release. ",
+                text: "That's the end of her path for this release.",
                 button: [
                     { chatID: -1, text: "...", callback: "" },
                 ]

@@ -239,9 +239,9 @@ room250.chat = function (chatID) {
         {
             chatID: 7,
             speaker: "holly",
-            text: "You have to be a girl to work at the Naked Beaver.. sorry honey.",
+            text: "You have to be a girl to work at the Naked Beaver... sorry honey.",
             button: [
-                { chatID: -1, text: "Oh ", callback: "applyEnd" }
+                { chatID: -1, text: "Oh", callback: "applyEnd" }
             ]
         },
         {
@@ -257,9 +257,9 @@ room250.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "holly",
-            text: "No you're not, or you would know " + sc.n("jeffery") + " only interviews in the morning before 10AM. ",
+            text: "No you're not, or you would know " + sc.n("jeffery") + " only interviews in the morning before 10 in the morning.",
             button: [
-                { chatID: -1, text: "Oh I guess I'll come back tomorrow. " , callback: "" }
+                { chatID: -1, text: "Oh I guess I'll come back tomorrow.", callback: "" }
             ]
         },
         {
@@ -275,7 +275,7 @@ room250.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "holly",
-            text: "Oh, I thought you would have a beaver.. oh well " + sc.n("jeffery") + "'s in the back office",
+            text: "Oh, I thought you would have a beaver... oh well " + sc.n("jeffery") + "'s in the back office",
             button: [
                 { chatID: -1, text: "Thank you [Go to the back office]", callback: "backOffice" }
             ]
@@ -352,17 +352,17 @@ room250.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "cop",
-            text: "I one way ride to the jail. c'mon weird-o, you're going with me.  ",
+            text: "A one way ride to the jail. C'mon weirdo, you're going with me.",
             button: [
-                { chatID: -1, text: "drat!", callback: "jail" },
+                { chatID: -1, text: "Drat!", callback: "jail" },
             ]
         },
         {
             chatID: 21,
             speaker: "holly",
-            text: "Oh honey. You're naked. You can't come in here like that. ",
+            text: "Oh honey. You're naked. You can't come in here like that.",
             button: [
-                { chatID: -1, text: "I guess that makes sense. ", callback: "leave" }
+                { chatID: -1, text: "I guess that makes sense.", callback: "leave" }
             ]
         },
         {
@@ -378,23 +378,23 @@ room250.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "holly",
-            text: "Sorry hun, work day started already. Please come in before 10. ",
+            text: "Sorry hun, work day started already. Please come in before 10.",
             button: [
-                { chatID: -1, text: "oh ok.", callback: "" }
+                { chatID: -1, text: "Oh ok.", callback: "" }
             ]
         },
         {
             chatID: 24,
             speaker: "holly",
-            text: "No way! I'm not going to serve you. Eat somewhere else!  ",
+            text: "No way! I'm not going to serve you. Eat somewhere else!",
             button: [
-                { chatID: -1, text: "Still mad? ", callback: "" }
+                { chatID: -1, text: "Still mad?", callback: "" }
             ]
         },
         {
             chatID: 25,
             speaker: "thinking",
-            text: "They must be closed for the night. ",
+            text: "They must be closed for the night.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]

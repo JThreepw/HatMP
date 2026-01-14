@@ -241,7 +241,7 @@ room319.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "thinking",
-            text: "Now I have the entire house to myself. ",
+            text: "Now I have the entire house to myself.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -249,7 +249,7 @@ room319.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "thinking",
-            text: "I don't have to pee. I should drink some water. ",
+            text: "I don't have to pee. I should drink some water.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -267,7 +267,7 @@ room319.chat = function (chatID) {
             chatID: 3,
             speaker: "thinking",
             text: "He's just ignoring me. Ungrateful dog! Maybe I should improve my relationship with " +
-                "him. ",
+                "him.",
             button: [
                 { chatID: -1, text: "...", callback: "reset" }
             ]

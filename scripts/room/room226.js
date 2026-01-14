@@ -715,7 +715,7 @@ room226.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "me",
-            text: "I don't have enough energy to continue... ",
+            text: "I don't have enough energy to continue...",
             button: [
                 { chatID: -1, text: "Give up.", callback: "leaveSewer" }
             ]

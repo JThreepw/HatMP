@@ -87,7 +87,7 @@ room317.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "thinking",
-            text: "I need to feed the dog first. ",
+            text: "I need to feed the dog first.",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -95,9 +95,9 @@ room317.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "thinking",
-            text: "Oh no! I better go pee before wet my pants!",
+            text: "Oh no! I better go pee before I wet my pants!",
             button: [
-                { chatID: -1, text: ".... ", callback: "drinkDown" }
+                { chatID: -1, text: "....", callback: "drinkDown" }
             ]
         },
         {

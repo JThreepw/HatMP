@@ -417,7 +417,7 @@ room326.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "me",
-            text: "That's a good boy. All brushed up. If I keep brushing you I'm sure you'll trust  me.",
+            text: "That's a good boy. All brushed up. If I keep brushing you I'm sure you'll trust me.",
             button: [
                 { chatID: -1, text: "...", callback: "brushEnd" }
             ]
@@ -427,13 +427,13 @@ room326.chat = function (chatID) {
             speaker: "horse",
             text: "*Snort* *Groan*",
             button: [
-                { chatID: -1, text: "I don't think he liked that. Probably doens't trust me enough yet. ", callback: "" }
+                { chatID: -1, text: "I don't think he liked that. Probably doesn't trust me enough yet.", callback: "" }
             ]
         },
         {
             chatID: 3,
             speaker: "thinking",
-            text: "What the hell am I doing? I should stop this. ",
+            text: "What the hell am I doing? I should stop this.",
             button: [
                 { chatID: 4, text: "Touch his penis", callback: "horse4" },
                 { chatID: 6, text: "Stop", callback: "stop" }
@@ -442,7 +442,7 @@ room326.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "thinking",
-            text: "Really. I should stop, what a fucking degenerate I am. ",
+            text: "Really. I should stop, what a fucking degenerate I am.",
             button: [
                 { chatID: 5, text: "Stroke his penis", callback: "horse5" },
                 { chatID: 6, text: "Stop, Really", callback: "stop" }
@@ -453,14 +453,14 @@ room326.chat = function (chatID) {
             speaker: "thinking",
             text: "STOP YOU SICK FUCK. Stop stop stop!",
             button: [
-                { chatID: 7, text: "Stroke faster! ", callback: "horse6" },
+                { chatID: 7, text: "Stroke faster!", callback: "horse6" },
                 { chatID: 6, text: "Stop or he's going to blow!", callback: "stop" }
             ]
         },
         {
             chatID: 6,
             speaker: "me",
-            text: "I'll just put " + sc.n("horse") + " back and never speak of this. ",
+            text: "I'll just put " + sc.n("horse") + " back and never speak of this.",
             button: [
                 { chatID: -1, text: "...", callback: "badEnd" }
             ]
@@ -476,7 +476,7 @@ room326.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "me",
-            text: "BLECH! I'm covered in horse cum! ",
+            text: "BLECH! I'm covered in horse cum!",
             button: [
                 { chatID: -1, text: "I guess I'll have to walk home and show everyone how disgusting I am.", callback: "horseJackitEnd" }
             ]
@@ -484,7 +484,7 @@ room326.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "thinking",
-            text: "Here I go, jacking of horses again. ",
+            text: "Here I go, jacking off horses again.",
             button: [
                 { chatID: 7, text: "...", callback: "horse6" }
             ]
@@ -500,7 +500,7 @@ room326.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "me",
-            text: "I'm almost there. I can feel the horse trusting me more. ",
+            text: "I'm almost there. I can feel the horse trusting me more.",
             button: [
                 { chatID: -1, text: "...", callback: "brushEnd" }
             ]
@@ -508,7 +508,7 @@ room326.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "me",
-            text: "I'm pretty sure the horse trusts me pretty good now. ",
+            text: "I'm pretty sure the horse trusts me pretty well now.",
             button: [
                 { chatID: -1, text: "...", callback: "brushEnd" }
             ]
@@ -516,7 +516,7 @@ room326.chat = function (chatID) {
         {
             chatID: 13,
             speaker: "me",
-            text: "I'm sure the horse completely trusts me now. ",
+            text: "I'm sure the horse completely trusts me now.",
             button: [
                 { chatID: -1, text: "...", callback: "brushEnd" }
             ]
@@ -575,7 +575,7 @@ room326.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "thinking",
-            text: "Oh shit. What did I get myself into. Luckily it's squishy, I might be able to do this. ",
+            text: "Oh shit. What did I get myself into? Luckily it's squishy, I might be able to do this.",
             button: [
                 { chatID: 21, text: "...", callback: "lick5" },
             ]
@@ -583,27 +583,27 @@ room326.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "thinking",
-            text: "MMmmm I can taste some precum. I didn't know horses had precum. Not as bad as I thought. ",
+            text: "MMmmm I can taste some precum. I didn't know horses had precum. Not as bad as I thought.",
             button: [
-                { chatID: -1, text: "Well... here goes. ", callback: "lick6" },
+                { chatID: -1, text: "Well... here goes.", callback: "lick6" },
             ]
         },
         {
             chatID: 22,
             speaker: "rachel",
-            text: "That's a lot of cum. I guess you won't need dinner today... ",
+            text: "That's a lot of cum. I guess you won't need dinner today...",
             button: [
-                { chatID: 23, text: "*gulp* ", callback: "lick12" },
+                { chatID: 23, text: "*gulp*", callback: "lick12" },
             ]
         },
         {
             chatID: 23,
             speaker: "rachel",
-            text: "Now I need you to stop playing with that horse's cock. That's horse is a breeder and his balls need to be " +
+            text: "Now I need you to stop playing with that horse's cock. That horse is a breeder and his balls need to be " +
                 "full to sell his sperm. You have almost $900 worth of semen in your mouth. My guards will be watching you " +
-                "from now on. ",
+                "from now on.",
             button: [
-                { chatID: 24, text: "*swollow* *gasp*", callback: "" },
+                { chatID: 24, text: "*swallow* *gasp*", callback: "" },
             ]
         },
         {
@@ -634,7 +634,7 @@ room326.chat = function (chatID) {
         {
             chatID: 27,
             speaker: "thinking",
-            text: "I'm not touching a horse cock! Gross! ",
+            text: "I'm not touching a horse cock! Gross!",
             button: [
                 { chatID: -1, text: "[Need beast level 3]", callback: "" },
             ]
@@ -654,7 +654,7 @@ room326.chat = function (chatID) {
             chatID: 29,
             speaker: "me",
             text: "*ugh* It's so big and I can't quite push back on it. I'm going to have to put a bench under " +
-                "that beam; get him to mount me. ",
+                "that beam; get him to mount me.",
             button: [
                 { chatID: 30, text: "[Move the bench]", callback: "horse108" },
             ]
@@ -662,7 +662,7 @@ room326.chat = function (chatID) {
         {
             chatID: 30,
             speaker: "thinking",
-            text: "Hehehe. I can feel his breath on my little bum. ",
+            text: "Hehehe. I can feel his breath on my little bum.",
             button: [
                 { chatID: 31, text: "...", callback: "horse109" },
             ]
@@ -670,7 +670,7 @@ room326.chat = function (chatID) {
         {
             chatID: 31,
             speaker: "thinking",
-            text: "OOOofff that's thick! Must relax. must relax my hole.",
+            text: "OOOofff that's thick! Must relax. Must relax my hole.",
             button: [
                 { chatID: 32, text: "...", callback: "horse110" },
             ]
@@ -686,23 +686,23 @@ room326.chat = function (chatID) {
         {
             chatID: 33,
             speaker: "security",
-            text: "Hey! Stop playing with that horse's cock! I'm telling on you, you freak! ",
+            text: "Hey! Stop playing with that horse's cock! I'm telling on you, you freak!",
             button: [
-                { chatID: -1, text: "[Crap. I have to distract him if I'm going to play with this horse cock. ]", callback: "room329" },
+                { chatID: -1, text: "[Crap. I have to distract him if I'm going to play with this horse cock.]", callback: "room329" },
             ]
         },
         {
             chatID: 34,
             speaker: "thinking",
-            text: "...so much cum. I'm such a dirty slut. ",
+            text: "...so much cum. I'm such a dirty slut.",
             button: [
-                { chatID: -1, text: "Put " + sc.n("horse") + " back in his stable. ", callback: "room329" },
+                { chatID: -1, text: "Put " + sc.n("horse") + " back in his stable.", callback: "room329" },
             ]
         },
         {
             chatID: 35,
             speaker: "thinking",
-            text: "MMmmmm tastes like a mix of musk, barn, and a little salty.  ",
+            text: "MMmmmm tastes like a mix of musk, barn, and a little salty.",
             button: [
                 { chatID: -1, text: "[Suck that horse cock]", callback: "lick001" },
             ]
@@ -710,7 +710,7 @@ room326.chat = function (chatID) {
         {
             chatID: 36,
             speaker: "thinking",
-            text: "He's fucking me so hard and so think! I'm gunna cum! Oh wow I'm going to cum so hard! ",
+            text: "He's fucking me so hard and so thick! I'm gonna cum! Oh wow I'm going to cum so hard!",
             button: [
                 { chatID: 37, text: "...", callback: "horse112" },
             ]
@@ -718,7 +718,7 @@ room326.chat = function (chatID) {
         {
             chatID: 37,
             speaker: "thinking",
-            text: "My entire body is orgasaming! ",
+            text: "My entire body is orgasming!",
             button: [
                 { chatID: 38, text: "...", callback: "horse113" },
             ]
@@ -726,7 +726,7 @@ room326.chat = function (chatID) {
         {
             chatID: 38,
             speaker: "thinking",
-            text: "He's not stopping! So much cock inside me! ",
+            text: "He's not stopping! So much cock inside me!",
             button: [
                 { chatID: 39, text: "...", callback: "horse114" },
             ]
@@ -734,7 +734,7 @@ room326.chat = function (chatID) {
         {
             chatID: 39,
             speaker: "thinking",
-            text: "I'm cumming again!!! My entire body is shaking so hard!! I need just a minute! ",
+            text: "I'm cumming again!!! My entire body is shaking so hard!! I need just a minute!",
             button: [
                 { chatID: 40, text: "...", callback: "horse115" },
             ]
@@ -768,7 +768,7 @@ room326.chat = function (chatID) {
             chatID: 43,
             speaker: "thinking",
             text: "So good. So very very good. My legs are still shaking from all those orgasms. " +
-                "I should put " + sc.n("horse") + " back before I get caught. ",
+                "I should put " + sc.n("horse") + " back before I get caught.",
             button: [
                 { chatID: -1, text: "...", callback: "horse_end" },
             ]

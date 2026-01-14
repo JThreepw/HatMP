@@ -709,7 +709,7 @@ gv.mod = function (name, amount) {
                 break;
             case "energy":
                 var maxEnergy = gv.get("maxenergy");
-                gv.st[index].t += amount;
+                gv.st[index].t += Math.floor(amount);
                 if (gv.st[index].t < 0)
                     gv.st[index].t = 0;
                 if (gv.st[index].t > maxEnergy)
@@ -731,7 +731,7 @@ gv.mod = function (name, amount) {
                 break;
             case "bladder":
                 if (gv.st[index].t < .9 && amount > 0)
-                    gv.mod("energy", Math.floor(amount * 100));
+                    gv.mod("energy", (Math.floor(amount * 100) / 3));
 
                 gv.st[index].t += amount;
                 if (gv.st[index].t > 1)

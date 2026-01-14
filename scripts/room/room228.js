@@ -75,9 +75,9 @@ room228.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "cop2",
-            text: "Alright. If you're going to prostitute yourself for sex be less obvious about it and wear some clothes. ",
+            text: "Alright. If you're going to prostitute yourself for sex be less obvious about it and wear some clothes.",
             button: [
-                { chatID: -1, text: "but officer, I wasn't....", callback: "tojail" }
+                { chatID: -1, text: "But officer, I wasn't....", callback: "tojail" }
             ]
         },
         {
