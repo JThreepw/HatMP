@@ -414,7 +414,7 @@ room197.chat = function (chatID) {
             chatID: 8,
             speaker: "missy",
             text: "You are really showing what a submissive you are. I suppose I'll let you lick the soles of my bare feet. " +
-                "really taste the sweat that collects in my high heel shoes as I walk around all day. Come kneel at my feet " +
+                "really taste the sweat that collects in my high heels shoes as I walk around all day. Come kneel at my feet " +
                 "and stick out your tongue.",
             button: [
                 { chatID: 9, text: "Yes ma'am", callback: "sideDesk" },

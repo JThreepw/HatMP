@@ -206,7 +206,7 @@ sc.charMission = [
                         { id: 7, txt: "Unexpected visitor", show: true, mStatus: 0, roomId: 13 },
                         { id: 8, txt: "A taste of the unexpected visitor", show: true, mStatus: 0, roomId: 13 },
                         { id: 9, txt: "This could be fun", show: true, mStatus: 0, roomId: 13 },
-                        { id: 10, txt: "Suprise mothefucker! ", show: true, mStatus: 0, roomId: 13 },
+                        { id: 10, txt: "Surprise motherfucker! ", show: true, mStatus: 0, roomId: 13 },
                         { id: 11, txt: "Pills are best served cold", show: true, mStatus: 0, roomId: 13 },
                         { id: 12, txt: "Give them both the sleeping pills", show: true, mStatus: 0, roomId: 25 },
                         { id: 13, txt: "Everyone gets fucked!", show: true, mStatus: 0, roomId: 13 },

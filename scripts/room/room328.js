@@ -3159,7 +3159,7 @@ room328.chat = function (chatID) {
             {
                 chatID: 78,
                 speaker: "security",
-                text: "Oh! yeah. I guess so. Well I've gotta watch the hucows. Try to keep it down.  ",
+                text: "Oh! yeah. I guess so. I've gotta watch the hucows. Try to keep it down.  ",
                 button: [
                     { chatID: -1, text: "Mooo!", callback: "icon_bedturn" },
                 ]

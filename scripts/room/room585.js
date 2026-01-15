@@ -28,6 +28,7 @@ room585.main = function () {
         daily.set("eva585");
         sc.completeMissionTask("eva", "sissy", 7);
         nav.bg("585_livingRoom/eva_7.jpg");
+        nav.kill();
         chat(0, 585);
         return;
     }

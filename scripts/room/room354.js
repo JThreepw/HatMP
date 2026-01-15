@@ -337,7 +337,7 @@ room354.chat = function (chatID) {
                 speaker: "!madison",
                 text: "So nice having you around. I think some of those pervy men " +
                     "just come in to check out my breasts, but still more respectable " +
-                    "than being a stripper I guess. Hehehe. Well I've got to go. " +
+                    "than being a stripper I guess. Hehehe. I've got to go. " +
                     "If " + sc.n("raven") + " tries to peek on you just yell at him. " +
                     "He's dirty, but he scares easily. ",
                 button: [

@@ -227,7 +227,7 @@ room101.chat = function (chatID) {
             "Are you religious? Because you're the answer to all my prayers.",
             "You look great and all, but do you know what really looks good on you? Me.",
             "What's your favorite silverware? Because I like to spoon!",
-            "Hey I'm looking for treasure, Can I look around your chest?",
+            "Hey. I'm looking for treasure, Can I look around your chest?",
             "Are you a musician vampire? Because my organ is filling up with blood.",
             "Hey baby, wanna sit on my lap and we'll talk about the first thing that pops up!?",
             "If it's true that we are what we eat, then I could be you by morning.",

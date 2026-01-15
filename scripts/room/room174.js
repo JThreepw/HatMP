@@ -1643,7 +1643,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 91,
                 speaker: "lola",
-                text: "How was that? When I swim I've been practicing holding my breathe. " +
+                text: "How was that? When I swim I've been practicing holding my breath. " +
                     "Would that make you cum if you were a boy? ",
                 button: [
                     { chatID: 92, text: "That would scare me! You don't just go deep, you have to move your head! ", callback: "el_bj4" },
@@ -1697,7 +1697,7 @@ room174.chat = function (chatID) {
                 chatID: 97,
                 speaker: "eva",
                 text: "No. I get bottom because you try to thrust your hips into me and nearly broke " +
-                    "my nose! Also it like to grab and spread you butt. Hehe. ",
+                    "my nose! Also it like to grab and spread your butt. Hehe. ",
                 button: [
                     { chatID: 98, text: "...", callback: "" },
                 ]
@@ -1706,7 +1706,7 @@ room174.chat = function (chatID) {
                 chatID: 98,
                 speaker: "lola",
                 text: "*ugh* I know. You also like to sneak attack my butthole with your finger. I " +
-                    "get the couch you two get to kneel!",
+                    "get the couch, you two get to kneel!",
                 button: [
                     { chatID: 99, text: "...", callback: "" },
                 ]
@@ -1714,7 +1714,7 @@ room174.chat = function (chatID) {
             {
                 chatID: 99,
                 speaker: "eva",
-                text: "I get next! " + sc.n("me") + " you have to eat my pussy! ",
+                text: "I get next! " + sc.n("me") + ", you have to eat my pussy! ",
                 button: [
                     { chatID: 100, text: "oh. Sweet!", callback: "el_twat0" },
                 ]

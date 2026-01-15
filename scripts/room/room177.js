@@ -232,7 +232,7 @@ room177.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "missy",
-            text: "Oh good, there's only two of your for this class. I know " + sc.n("me") + " knows chastity all too well, " +
+            text: "Oh good, there's only two of you for this class. I know " + sc.n("me") + " knows chastity all too well, " +
                 "but " + sc.n("ralph") + " do you know why I lock up our sissies? ",
             button: [
                 { chatID: 5, text: "...", callback: "" }
@@ -271,7 +271,7 @@ room177.chat = function (chatID) {
         {
             chatID: 8,
             speaker: "missy",
-            text: "My dear sweet stupid puppy. Show me see this cock you so desperately want to keep.  ",
+            text: "My dear sweet stupid puppy. Show me this cock you so desperately want to keep.  ",
             button: [
                 { chatID: 9, text: "...", callback: "chastity2" }
             ]

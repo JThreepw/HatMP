@@ -939,7 +939,7 @@ room486.chat = function (chatID) {
                 g.pass.r6 === "piss" ? "I feel so gross right now. I think some of that piss has somehow " +
                     "flowed into every hole of my body, or include my ear holes. I now know what piss sounds " +
                     "like. " :
-                    "I feel so gross right now. It's a good thing cum is good for your skin becuase every " +
+                    "I feel so gross right now. It's a good thing cum is good for your skin because every " +
                     "inch of my body is covered in it. *sigh*",
             button: [
                 { chatID: -1, text: "...", callback: "" }

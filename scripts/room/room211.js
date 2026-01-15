@@ -583,7 +583,7 @@ room211.chat = function (chatID) {
         return {
             chatID: 501,
             speaker: "!jeremy",
-            text: "This is so dumb. I don't know why I've even here. ",
+            text: "This is so dumb. I don't know why I'm even here. ",
             button: [
                 { chatID: -1, text: "oh", callback: "" },
             ]

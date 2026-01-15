@@ -143,7 +143,7 @@ cl.init = function () {
         { type: "shoes", name: "w", display: "Workboots", img: "shoes_workboots.png", sex: "m", inv: true, daring: 0, price: -1 },
         { type: "shoes", name: "d", display: "Dress Shoes", img: "shoes_black.png", sex: "m", inv: false, daring: 0, price: 60 },
         { type: "shoes", name: "br", display: "Blue Running", img: "shoes_blueRun.png", sex: "m", inv: true, daring: 0, price: 75 },
-        { type: "shoes", name: "nu", display: "Nurses", img: "shoes_nurse.png", sex: "f", inv: false, daring: 1, price: -1 },
+        { type: "shoes", name: "nu", display: "Nurse shoes", img: "shoes_nurse.png", sex: "f", inv: false, daring: 1, price: -1 },
         { type: "shoes", name: "v", display: "Naked Beaver Shoes", img: "shoes_beaver.png", sex: "f", inv: false, daring: 1, price: -1 },
         { type: "shoes", name: "pr", display: "Pink Running", img: "shoes_pinkRun.png", sex: "f", inv: false, daring: 1, price: 120 },
         { type: "shoes", name: "u", display: "Uggs", img: "shoes_uggs.png", sex: "f", inv: false, daring: 1, price: 169 },

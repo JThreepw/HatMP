@@ -664,7 +664,7 @@ room352.chat = function (chatID) {
             {
                 chatID: 25,
                 speaker: s,
-                text: "Hey I can't seem to get hard. Could you help me with this so I can make my donation?",
+                text: "I can't seem to get hard. Could you help me with this so I can make my donation?",
                 button: [
                     { chatID: 26, text: "Sure. I can try licking it.", callback: "l1" },
                     { chatID: 7, text: "oh no, I'll have to get another nurse ", callback: "getLandlord" },

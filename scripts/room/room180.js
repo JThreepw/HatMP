@@ -678,7 +678,7 @@ room180.chat = function (chatID) {
             speaker: "martha",
             text: "I've carefully selected this outfit to guarantee it meets our standards for " +
                 "both suitability and style. In the past, individual choices occasionally resulted " +
-                "in attire that wasn't quite lady like. It was like walking into a cheap brothal. ",
+                "in attire that wasn't quite lady like. It was like walking into a cheap brothel. ",
             button: [
                 { chatID: 54, text: "...", callback: "" },
             ]
@@ -735,8 +735,8 @@ room180.chat = function (chatID) {
         {
             chatID: 59,
             speaker: "ralph",
-            text: "I saw the upcoming classes. I'm so looking forward to the high heel class! " +
-                "I trip so much when I try to wear them at home. Every time I fall my two moms yell " +
+            text: "I saw the upcoming classes. I'm so looking forward to the high heels class! " +
+                "I trip so much when I try to wear them at home. Every time I fall my moms yells " +
                 "at me wondering what I'm doing in my room.",
             button: [
                 { chatID: 60, text: "Hahah, You are though!", callback: "fem103_2" },
@@ -754,7 +754,7 @@ room180.chat = function (chatID) {
             chatID: 61,
             speaker: "missy",
             text: "This is your uniform. You won't be admitted to class without it. I don't care " +
-                "were you change your clothes, you can do it at home, or in the lobby before class. " + 
+                "where you change your clothes, you can do it at home, or in the lobby before class. " + 
                 "Also wash it. I know most of you get embarrased wearing your cute little uniforms " +
                 "in public, but don't be the stinky girl in class. ",
             button: [

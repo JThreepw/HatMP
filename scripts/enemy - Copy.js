@@ -1252,7 +1252,7 @@ tEnemy.chibi = function (thischibi) {
                 "height": 1000,
                 "image": "227_fight/chibi_dance.png"
             }, 9999);
-            g.internal = "I'm such a dirty dirty whore!";
+            g.internal = "I'm such a dirty whore!";
             chat(8, g.fight.thisRoomID);
         }
             break;

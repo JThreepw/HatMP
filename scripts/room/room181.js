@@ -363,7 +363,7 @@ room181.chat = function (chatID) {
         {
             chatID: 18,
             speaker: "cecilia",
-            text: "You were amazing! Hey I know a place where we can suck more cocks! Have you been to the bathroom at the park? ",
+            text: "You were amazing! Hey, I know a place where we can suck more cocks! Have you been to the bathroom at the park? ",
             button: [
                 { chatID: 19, text: "I've been a few times...", callback: "" }
             ]
@@ -1000,7 +1000,7 @@ room181.chat = function (chatID) {
             chatID: 82,
             speaker: "thinking",
             text: "Ouchie ouchie ouchie! They pinched me! Hard! Damn that hurt. Stop " +
-                "it you! Who ever you are stop it!",
+                "it you! Whoever you are stop it!",
             button: [
                 { chatID: 83, text: "*muffled noises*", callback: "b303_7" },
             ]
@@ -1159,7 +1159,7 @@ room181.chat = function (chatID) {
             speaker: "black",
             text: "No thrill is as delicious as exposing your slutty side to strangers " +
                 "you've never met. There is no greater rush than reading the lewd comments " +  
-                "these stange men will make about how they'll fuck you, tie you up. punish you, " +
+                "these strange men will make about how they'll fuck you, tie you up, punish you, " +
                 "and gather all their friends to rape your tight little holes. ",
             button: [
                 { chatID: 99, text: "...", callback: "" },
@@ -1170,8 +1170,8 @@ room181.chat = function (chatID) {
             speaker: "black",
             text: "Now don't worry, my new little hatchlings. I know most of you haven't " +
                 "told a soul that you enjoy dressing up like a girl and long to get sexually " +
-                "molested and used. You're outing needs to be personal, so all pictures " +
-                "we take and post will use cleaver angles to hide your identity. ",
+                "molested and used. Your outing needs to be personal, so all pictures " +
+                "we take and post will use clever angles to hide your identity. ",
             button: [
                 { chatID: 100, text: "...", callback: "" },
             ]
@@ -1200,7 +1200,7 @@ room181.chat = function (chatID) {
             chatID: 102,
             speaker: "!thomas",
             text: "I don't know. It's one thing wearing a skirt in here, but showing " +
-                "the world makes me scared. What if someone knows me looks at it? Can " +
+                "the world makes me scared. What if someone who knows me looks at it? Can " +
                 "I delete it after? ",
             button: [
                 { chatID: 103, text: "...", callback: "" },
@@ -1210,12 +1210,12 @@ room181.chat = function (chatID) {
             chatID: 103,
             speaker: "black",
             text: "No. You won't be able to delete it. It will be up there forever. " +
-                "If someone you knows is able to figure out that it's you, then you'll " +
+                "If someone you know is able to figure out that it's you, then you'll " +
                 "just have to have that uncomfortable talk with them. Who knows, you may " +
                 "find yourself a new sexual partner that is into sissies like each of you. " +
                 "Doing something for the first time is always a little scary, but once you " +
                 "get used to the idea you'll find yourself posting more revealing pictures " +
-                "of your slutty selves. Be careful it is addicting. ",
+                "of your slutty selves. Be careful, it is addicting. ",
             button: [
                 { chatID: 104, text: "...", callback: "" },
             ]

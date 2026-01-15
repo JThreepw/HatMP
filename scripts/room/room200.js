@@ -1578,7 +1578,7 @@ room200.chat = function (chatID) {
             {
                 chatID: 81,
                 speaker: "jeffery",
-                text: "H-H-H-H-H-Hello " + sc.n("me") + " I'm hoping you can h-h-help me with catch the waitress that has been stealing " +
+                text: "H-H-H-H-H-Hello, " + sc.n("me") + " I'm hoping you can h-h-help me with catch the waitress that has been stealing " +
                     "from me. You'll need to pose as a waitress in my restaurant to gain their trust to try and catch the thief. " +
                     "Do you think you can do that?",
                 button: [
@@ -1629,7 +1629,7 @@ room200.chat = function (chatID) {
             {
                 chatID: 87,
                 speaker: "jeffery",
-                text: "I love it! Tell her to strip of her panties!",
+                text: "I love it! Tell her to strip off her panties!",
                 button: [
                     { chatID: 88, text: "*GROAN* again", callback: "" }
                 ]
@@ -1645,8 +1645,8 @@ room200.chat = function (chatID) {
             {
                 chatID: 89,
                 speaker: "missy",
-                text: "Sissy. Get dressed. Tomorrow report to the Naked Beaver Diner and start invistigating the staff to see who and " +
-                    "how they are stealing form " + sc.n("jeffery") + " here. When you're done report back to me.",
+                text: "Sissy. Get dressed. Tomorrow report to the Naked Beaver Diner and start investigating the staff to see who and " +
+                    "how they are stealing from " + sc.n("jeffery") + " here. When you're done report back to me.",
                 button: [
                     { chatID: -1, text: "Yes ma'am", callback: "case_beaver_start" }
                 ]
@@ -1802,7 +1802,7 @@ room200.chat = function (chatID) {
             {
                 chatID: 107,
                 speaker: "missy",
-                text: "Stop. This isn't a brothal. You always take things too far. " +
+                text: "Stop. This isn't a brothel. You always take things too far. " +
                     gender.pronoun("she") + " will be punished, and you will be refunded " +
                     "for our failure to solve such a simple case. ",
                 button: [

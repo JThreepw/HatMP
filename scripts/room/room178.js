@@ -105,7 +105,7 @@ room178.chat = function (chatID) {
             speaker: "missy",
             text: "Hello my cum piggies. You're all here because you're interested in swallowing cum, but you're too scared to do it on " +
                 "your own. It's like the first time you try coffee. It can be a little bitter, have an unusual taste or texture, but " +
-                "you learn to enjoy it all. Even crave it. Like coffee, cum isn't all the same. You'll learn where good smooth cum is, " +
+                "you learn to enjoy it all. Even crave it. Like coffee, cum isn't all the same. You'll learn where good, smooth, cum is, " +
                 "and where to avoid nasty cheap bitter cum.",
             button: [
                 { chatID: 1, text: "...", callback: "" }
@@ -291,7 +291,7 @@ room178.chat = function (chatID) {
             chatID: 20,
             speaker: "missy",
             text: "No. Your last orgasm was a one time gift. Chastity sluts don't get to cum, but lucky for you I'll let you " +
-                "participate even if you didn't contribute. Now let slip into something more arousing for your feeding. ",
+                "participate even if you didn't contribute. Now let's slip into something more arousing for your feeding. ",
             button: [
                 { chatID: 21, text: "...", callback: "cum104" },
             ]

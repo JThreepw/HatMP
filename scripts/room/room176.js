@@ -492,7 +492,7 @@ room176.chat = function (chatID) {
             {
                 chatID: 0,
                 speaker: "!philbert",
-                text: "I can't wait for this class! I'm going to totally eat that pink sluts pussy so good she's going to be " +
+                text: "I can't wait for this class! I'm going to totally eat that pink slut's pussy so good she's going to be " +
                     "visiting my house after school for the entire meal!  ",
                 button: [
                     { chatID: 1, text: "...", callback: "" }
@@ -536,7 +536,7 @@ room176.chat = function (chatID) {
             {
                 chatID: 5,
                 speaker: "p",
-                text: "Ok sluts, welcome to oral 101, where you learn how to use your sissy mouths. I know most sluts think " +
+                text: "Ok sluts, welcome to Oral 101, where you learn how to use your sissy mouths. I know most sluts think " +
                     "they're amazing at oral because their partner said they did good. Well you're WRONG! They said you did fine " +
                     "because they were bored and wanted to do anything other than let you continue rubbing your stupid mouth " +
                     "over their naughty bits while they fantasize someone cuter.",
@@ -567,7 +567,7 @@ room176.chat = function (chatID) {
             {
                 chatID: 8,
                 speaker: "p",
-                text: "Ok. Lets make love to our cocks. We'll start by licking the tip. Don't just shove it in your slutty mouths, " +
+                text: "Ok. Let's make love to our cocks. We'll start by licking the tip. Don't just shove it in your slutty mouths, " +
                     "really lick around the head. ",
                 button: [
                     { chatID: 9, text: "...", callback: "oral4" }
@@ -577,7 +577,7 @@ room176.chat = function (chatID) {
                 chatID: 9,
                 speaker: "p",
                 text: "A good amount of drool will really give that extra slippery feeling that men love. Now you all try it. " +
-                    "lick that cock. ",
+                    "Lick that cock. ",
                 button: [
                     { chatID: 10, text: "...", callback: "oral5" }
                 ]
@@ -602,7 +602,7 @@ room176.chat = function (chatID) {
             {
                 chatID: 12,
                 speaker: "!philbert",
-                text: "Say, since this is oral 101, how about instead of sucking this dildo, I do some real oral. On you. I'll " +
+                text: "Say, since this is Oral 101, how about instead of sucking this dildo, I do some real oral. On you. I'll " +
                     "give you the orgasm of your life. ",
                 button: [
                     { chatID: 13, text: "...", callback: "" }

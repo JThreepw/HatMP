@@ -517,7 +517,7 @@ room802.chat = function (chatID) {
                 chatID: 28,
                 speaker: "me",
                 text: "Listen. You are a girl. Other people may not know it, but I know it, and you know it. Also every " +
-                    "in class knows it. Even Missy. Girls come in all shapes and sizes. Just becuase you're not a tiny " +
+                    "in class knows it. Even Missy. Girls come in all shapes and sizes. Just because you're not a tiny " +
                     "girl makes you no less a girl. Besides. Some people like bigger girls. Don't ever try to " +
                     "pretend to be a boy around me. I know you. And I know that you're a girl. You just have to " +
                     "learn to accept who you really are. ",

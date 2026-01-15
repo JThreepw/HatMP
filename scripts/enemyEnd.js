@@ -42,7 +42,7 @@ enemyEnd.g = function (eArray) {
 				"height": 884,
 				"image": "227_fight/g_bj_front0.png"
 			}, 9999);
-			retVar = { eventStep: 2, type: "c", chat: "I love a soft slutty tonge on my clit ", r: "hmmmm", p: null };
+			retVar = { eventStep: 2, type: "c", chat: "I love a soft slutty tongue on my clit ", r: "hmmmm", p: null };
 		}
 		else if (eArray.eventStep === 2) {
 

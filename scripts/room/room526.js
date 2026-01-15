@@ -494,7 +494,7 @@ room526.chat = function (chatID) {
         {
             chatID: 4,
             speaker: "!juniper",
-            text: "Oh sweet summer child. We each pull out our cocks and who ever has the smallest " +
+            text: "Oh sweet summer child. We each pull out our cocks and whoever has the smallest " +
                 "cock gets fucked by the bigger, superior cocks. Orchid always loses, I think she " +
                 "does it on purpose.  ",
             button: [
@@ -602,14 +602,14 @@ room526.chat = function (chatID) {
             speaker: "!timothy",
             text: "Hey slut! I'm really loving this bar.  ",
             button: [
-                { chatID: 16, text: "My too. It's my friend, " + sc.n("zoey") + "'s bar. ", callback: "" },
+                { chatID: 16, text: "My too. It's my friend's bar. ", callback: "" },
             ]
         },
         {
             chatID: 16,
             speaker: "!thomas",
             text: "It is chill, and it's nice to hang out with other girls, but I do wish there " +
-                "some men here. Maybe someone that will buy me drinks and take me home. ",
+                "were some men here. Maybe someone that will buy me drinks and take me home. ",
             button: [
                 { chatID: 17, text: "Yeah. She's not a fan of men. ", callback: "" },
             ]
@@ -672,7 +672,7 @@ room526.chat = function (chatID) {
             chatID: 23,
             speaker: "zoey",
             text: "You're the sluttiest slut I know. Just don't get any cum on my floor again or " +
-                "your licking it up this time! ",
+                "you're licking it up this time! ",
             button: [
                 { chatID: 24, text: "....", callback: "m0_0" },
             ]
@@ -828,7 +828,7 @@ room526.chat = function (chatID) {
             speaker: "stormy",
             text: "Awesome! I'm so excited you got your dish washer to watch us! Let's go fuck " +
                 "in your bedroom. There's so much random cum on this floor we'll both get " +
-                "pregnant if put our bare pussies on it. ",
+                "pregnant if we put our bare pussies on it. ",
             button: [
                 { chatID: 42, text: "...", callback: "" },
             ]
@@ -970,7 +970,7 @@ room526.chat = function (chatID) {
             text: "So did I, but I remembered when I began my attraction to women. When I was younger je suis tombé amoureux with " +
                 "this boy. I would follow him around our park hoping he would notice me, but he never did. " +
                 "One day I was following bêtement him and one of his friends m'a fait remarquer and stared se moquant de moi. Then his " +
-                "other friends staring to laugh at me too. ",
+                "other friends laughed at me too. ",
             button: [
                 { chatID: 58, text: "...", callback: "" }
             ]
@@ -1037,7 +1037,7 @@ room526.chat = function (chatID) {
         {
             chatID: 64,
             speaker: "orchid",
-            text: "And I transfered it right to " + sc.n("me") + "'s ass! The cum " +
+            text: "And I transferred it right to " + sc.n("me") + "'s ass! The cum " +
                 "transfer is complete! ",
             button: [
                 { chatID: -1, text: "...my butt is so full of cum...", callback: "g7" }

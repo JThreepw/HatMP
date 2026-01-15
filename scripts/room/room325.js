@@ -436,7 +436,7 @@ room325.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "rachel",
-            text: "Well, it's too late for that now. That pill tricks your body into creating milk and it's quite long " +
+            text: "Well, it's too late for that now. That pill will trick your body into creating milk and it's quite long " +
                 "lasting. My first hucow took it 3 years ago and she's still producing some of the finest quality milk. Just " +
                 "don't go too long without a milking or you'll wake up squirting milk all over.",
             button: [
@@ -446,7 +446,7 @@ room325.chat = function (chatID) {
         {
             chatID: 18,
             speaker: "rachel",
-            text: "Don't worry just come here when you're full and I'll give you a good milking and a decent paycheck. Breast " +
+            text: "Don't worry, just come here when you're full and I'll give you a good milking and a decent paycheck. Breast " +
                 "milk from hucows are worth a pretty penny in these parts, and breasts your size will produce so much milk. ",
             button: [
                 { chatID: 19, text: "I can't believe you've done this to me.", callback: "" }

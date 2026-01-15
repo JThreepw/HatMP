@@ -1983,7 +1983,7 @@ room322.chat = function (chatID) {
             chatID: 109,
             speaker: "!bbc",
             text: "Oh we've heard about you. You know how this is going to go down slut. Jerry, " +
-                "strip of this bitch's clothes. I wanna see where I'm going to stick my dick.",
+                "strip off this bitch's clothes. I wanna see where I'm going to stick my dick.",
             button: [
                 { chatID: 101, text: "...", callback: "f1" },
             ]

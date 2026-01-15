@@ -1685,7 +1685,7 @@ room26.chat = function (chatID) {
                 chatID: 87,
                 speaker: "landlord",
                 text: "So many changes. I'm so excited you've found your real self. I've always preferred " +
-                    "girls. I suppose when Harry left me for an 18 year old bimbo I've soured on men. I think that's why I've been so hard " +
+                    "girls. I suppose after Harry left me for an 18 year old bimbo I've soured on men. I think that's why I've been so hard " +
                     "on you. I've been afraid that you would turn out like him.",
                 button: [
                     { chatID: 88, text: "I'm nothing like Harry.", callback: "" }
@@ -1708,7 +1708,7 @@ room26.chat = function (chatID) {
                 button: [
                     { chatID: 91, text: "What's the best way to get rid of all this body hair!", callback: "" },
                     { chatID: 92, text: "How do I measure my bra size?", callback: "" },
-                    { chatID: 93, text: "Is a bigger always better?", callback: "" },
+                    { chatID: 93, text: "Is bigger always better?", callback: "" },
                     { chatID: 94, text: "Nothing", callback: "" }
                 ]
             },
@@ -1719,7 +1719,7 @@ room26.chat = function (chatID) {
                 button: [
                     { chatID: 91, text: "What's the best way to get rid of all this body hair!", callback: "" },
                     { chatID: 92, text: "How do I measure my bra size?", callback: "" },
-                    { chatID: 93, text: "Is a bigger always better?", callback: "" },
+                    { chatID: 93, text: "Is bigger always better?", callback: "" },
                     { chatID: 94, text: "Nothing", callback: "" }
                 ]
             },

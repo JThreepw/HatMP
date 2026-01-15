@@ -591,7 +591,7 @@ room350.chat = function (chatID) {
             chatID: 36,
             speaker: "landlord",
             text: "You know, I've watched you be a puddle of disappointment for most " +
-                "of your life. After you graduated high school you've just been a lazy " +
+                "of your life. After you graduated high school you've just been a " +
                 "lazy waste of space. But now, but now look at you.",
             button: [
                 { chatID: 37, text: "...yes...", callback: "" },
@@ -665,7 +665,7 @@ room350.chat = function (chatID) {
         {
             chatID: 43,
             speaker: "landlord",
-            text: "Some men come in and have a hard time creating a donation, so it will be your responsibility to assit them. Some " +
+            text: "Some men come in and have a hard time creating a donation, so it will be your responsibility to assist them. Some " +
                 "just need a peek at your boobs, some need to check out your butt, and others need a helping hand.",
             button: [
                 { chatID: 44, text: "Helping hand, do you mean...", callback: "" }
@@ -712,7 +712,7 @@ room350.chat = function (chatID) {
         {
             chatID: 48,
             speaker: "landlord",
-            text: "You can change into your nurses outfit here. If " + sc.n("raven") +
+            text: "You can change into your nurse outfit here. If " + sc.n("raven") +
                 " is in here, just ask him to leave. I've already spoken to him " +
                 "multiple times about trying to peek at my nurses. Now get changed. ",
             button: [

@@ -178,7 +178,7 @@ room905.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "eva",
-            text: "Stop covering up doggy. I know your still a big pervert. ",
+            text: "Stop covering up doggy. I know you're still a big pervert. ",
             button: [
                 { chatID: 10, text: "Why?", callback: "" }
             ]

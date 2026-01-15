@@ -1092,7 +1092,7 @@ room252.chat = function (chatID) {
             {
                 chatID: 24,
                 speaker: "dolly",
-                text: "You're as sweet as candy. Well I've got a table of 7 I've got to get, and they are a hungry bunch! You " +
+                text: "You're as sweet as candy. I've got a table of 7 I've got to get, and they are a hungry bunch! You " +
                     "keep a smile on that pretty face of yours!",
                 button: [
                     { chatID: -1, text: "Thanks, you too!", callback: "success" }

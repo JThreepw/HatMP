@@ -206,7 +206,7 @@ room251.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "jeffery",
-            text: "Oh hello " + sc.n("me") + " I-I-I-I'm glad you could make it. Let me go over the details with you.",
+            text: "Oh hello, " + sc.n("me") + ", I-I-I-I'm glad you could make it. Let me go over the details with you.",
             button: [
                 { chatID: 1, text: "ok", callback: "" }
             ]

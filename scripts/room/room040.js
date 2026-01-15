@@ -195,7 +195,7 @@ room40.chat = function (chatID) {
                 chatID: 2,
                 speaker: "bigguy",
                 text: "Yeah. Little fuckers keep chewing on the wires; they fuck the cars up. " +
-                    "After lunch you'll clean this place up. The oil makes it as slippery " +
+                    "After lunch you'll clean this place up. The oil makes it as slippy " +
                     "as hot shit on a hockey rink. I need you to clean it up for us so we can focus on getting work done. Got it?",
                 button: [
                     { chatID: 3, text: "I guess", callback: "rt1" }
@@ -378,7 +378,7 @@ room40.chat = function (chatID) {
                 chatID: 22,
                 speaker: "tom",
                 text: "Oh wow! You're the best ever! I'll be the best boyfriend she's ever had! " +
-                    "Thank you thank you thank you!",
+                    "Thank you, thank you, thank you!",
                 button: [
                     { chatID: -1, text: "...", callback: "endlolaboyTom" }
                 ]

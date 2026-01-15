@@ -2253,7 +2253,7 @@ room1004.chat = function (chatID) {
         let spreadTxt = [
             "I'm going to love tearing that ass up!",
             "I knew you were a slut",
-            "You dirty dirty whore",
+            "You dirty, dirty whore",
             "I see you know your purpose",
             "Awww! I was looking forward to forcing you to take my cock!",
             "That is a sexy hole",

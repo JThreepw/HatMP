@@ -3668,7 +3668,7 @@ room13.chat = function (chatID) {
             {
                 chatID: 174,
                 speaker: "eva",
-                text: "Hey I said you could lick my feet, not munch my box! You know " +
+                text: "Hey! I said you could lick my feet, not munch my box! You know " +
                     "if I tell " + sc.n("landlord") + " she'll kick you out of this " +
                     "place so fast!",
                 button: [
@@ -3956,7 +3956,7 @@ room13.chat = function (chatID) {
             {
                 chatID: 207,
                 speaker: "eva",
-                text: sc.n("chad") + ". He's really is a dick. I told her he's just trying to sleep with her, but she " +
+                text: sc.n("chad") + " is such a dick. I told her he's just trying to sleep with her, but she " +
                     "thinks he's cute and nice to her. Sheesh. ",
                 button: [
                     { chatID: 208, text: "What? She can't really be talking to him. ", callback: "" },
@@ -3966,7 +3966,7 @@ room13.chat = function (chatID) {
                 chatID: 208,
                 speaker: "eva",
                 text: "For real! When you came out as a sissy it really broke her heart. She's just gone completely boy " +
-                    "crazy. And that " + sc.n("chad") + " has been trying to get in her panties for a while. He is silky smooth ",
+                    "crazy. And that " + sc.n("chad") + " has been trying to get in her panties for a while. He is silky smooth.",
                 button: [
                     { chatID: 209, text: "oh no. We've got to break them up somehow. ", callback: "" },
                 ]
@@ -3974,7 +3974,7 @@ room13.chat = function (chatID) {
             {
                 chatID: 209,
                 speaker: "eva",
-                text: "That's one thing you and I agree on booger eater. I'll snoop on her phone, see what's he's up to. I'll " +
+                text: "That's one thing you and I agree on, booger eater. I'll snoop on her phone, see what's he's up to. I'll " +
                     "let you know if we should be worried. ",
                 button: [
                     { chatID: 210, text: "Do that. Let me know. We can't let those two get together! ", callback: "hallway" },
@@ -3984,7 +3984,7 @@ room13.chat = function (chatID) {
                 chatID: 210,
                 speaker: "thinking",
                 text: "I can't let " + sc.n("chad") + " date my " + g.makeSingular(sc.n("el")) + "! She's such a nice girl " +
-                    "she'll totally fall for his games. That asshole! I must think of something to make sure she doens't " +
+                    "she'll totally fall for his games. That asshole! I must think of something to make sure he doens't " +
                     "use her and dump her. ",
                 button: [
                     { chatID: -1, text: "...", callback: "leave" },
@@ -4725,7 +4725,7 @@ room13.chat = function (chatID) {
             {
                 chatID: 293,
                 speaker: "lola",
-                text: "That's becuase she deserved it! And it's not worth talking about.  ",
+                text: "That's because she deserved it! And it's not worth talking about.  ",
                 button: [
                     { chatID: 294, text: "...", callback: "" },
                 ]

@@ -604,7 +604,7 @@ room10.chat = function (chatID) {
             {
                 chatID: 18,
                 speaker: "lola",
-                text: "Hey I know you have them!",
+                text: "Hey, I know you have them!",
                 button: [
                     { chatID: 19, text: "What?, have what?", callback: "evaYell" }
                 ]
