@@ -556,14 +556,14 @@ room901.chat = function(chatID){
             speaker: "lola",
             text: "I just want to tackle you and squeeze you, but that lifeguard is a real butthead. Where did you go after? ",
             button: [
-                { chatID: 14, text: sc.n("zoey") + " was nice enough to take me in. [Tell " + sc.n("lola") + " your story. ", callback: "" },
+                { chatID: 14, text: sc.n("zoey") + " was nice enough to take me in. [Tell " + sc.n("lola") + " your story]", callback: "" },
             ]
         },
         {
             chatID: 14,
             speaker: "lola",
-            text: "Oh I'm so happy " + sc.n("lola") + " was able to take you in. She's such a great friend. " +
-                + sc.n("eva") + " and I will keep working on " + sc.n("landlord") + " to get you back in.We really miss " +
+            text: "Oh I'm so happy " + sc.n("zoey") + " was able to take you in. She's such a great friend. " +
+                sc.n("eva") + " and I will keep working on " + sc.n("landlord") + " to get you back in. We really miss " +
                 "you. Also ever since you left " + sc.n("bigguy") + " has been acting really creepy. He's been staring at us, and I " +
                 "swear he was licking his lips. We told " + sc.n("landlord") + ", but she just said we were being weird. ",
             button: [
@@ -688,7 +688,7 @@ room901.chat = function(chatID){
         {
             chatID: 29,
             speaker: "cindy",
-            text: "You better. Here's a sneak peak of your dinner.",
+            text: "You better. Here's a sneak peek of your dinner.",
             button: [
                 { chatID: 30, text: "I'm hungry for a snack now...", callback: "swimLose" }
             ]
@@ -745,7 +745,7 @@ room901.chat = function(chatID){
         {
             chatID: 36,
             speaker: "tim",
-            text: "You must be a swimmer 'cause it looks like you've mastered the brest stroke.",
+            text: "You must be a swimmer 'cause it looks like you've mastered the breast stroke.",
             button: [
                 { chatID: -1, text: "haha stop, you're embarrassing me.", callback: "checkboy" },
                 { chatID: -1, text: "Nevermind", callback: "reset" },

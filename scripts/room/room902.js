@@ -223,7 +223,7 @@ room902.chat = function (chatID) {
         {
             chatID: 3,
             speaker: "thinking",
-            text: "She's not swiming now... is that a picture of me when we went hiking last year? ",
+            text: "She's not swimming now... is that a picture of me when we went hiking last year? ",
             button: [{ chatID: -1, text: "...", callback: "" }]
         },
         {
@@ -270,7 +270,7 @@ room902.chat = function (chatID) {
         {
             chatID: 9,
             speaker: "thinking",
-            text: "Now to hide and wait for her to discover she has not clothes.. hehehehehhehe",
+            text: "Now to hide and wait for her to discover she has no clothes.. hehehehehhehe",
             button: [
                 { chatID: 10, text: "...", callback: "s1" },
             ]

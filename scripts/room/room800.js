@@ -710,8 +710,8 @@ room800.chat = function (chatID) {
             speaker: "me",
             text: "A friend of mine is, but that's not the point. You see you go around kidnapping people for the ceremony " +
                 "at the commands from higher, but you're not quite sure why. In this case they don't have their facts straight " +
-                "about Ralph. To transform you have to want to transform in your heart. Ralph here just likes wearing crossdressing. " +
-                "He's doens't desire to be a girl, just to wear women's clothing. So you're about to kidnap some poor crossdresser " +
+                "about Ralph. To transform you have to want to transform in your heart. Ralph here just likes crossdressing. " +
+                "He doesn't desire to be a girl, just to wear women's clothing. So you're about to kidnap some poor crossdresser " +
                 "and subject him to all the evils and tortures for nothing. ",
             button: [
                 { chatID: 13, text: "...", callback: "" }
@@ -919,7 +919,7 @@ room800.chat = function (chatID) {
             chatID: 35,
             speaker: "ralphsmom",
             text: "Oh honey. Look at the tiny little penis. You poor thing. I do hope " +
-                "you are good giving the lotus a kiss becuase " +
+                "you are good giving the lotus a kiss because " +
                 "no girl's going to want to have that inside her. You can do what " +
                 sc.n("ralph") + " does and just be a sissy. It's really not all that bad. " +
                 "It'll be hard at first, but practice putting a joy stick in your tushie and in no " +

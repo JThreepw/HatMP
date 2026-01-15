@@ -1,4 +1,4 @@
-﻿//coed stall
+﻿//cood stall
 
 var room453 = {};
 

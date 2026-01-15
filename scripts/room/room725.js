@@ -257,7 +257,7 @@ room725.chat = function (chatID) {
             return {
                 chatID: 1000,
                 speaker: "thinking",
-                text: "You drank a " + g.internal.n + " and passout out. Looks like this " +
+                text: "You drank a " + g.internal.n + " and passed out. Looks like this " +
                     "sissy doesn't know when to stop. ",
                 button: [
                     { chatID: -1, text: "...", callback: "passout" }
@@ -325,7 +325,7 @@ room725.chat = function (chatID) {
             {
                 chatID: 4,
                 speaker: "me",
-                text: "Hey " + sc.n("chloe") + ", Emily. Didn't expect to see you too out tonight. ",
+                text: "Hey " + sc.n("chloe") + ", Emily. Didn't expect to see you two out tonight. ",
                 button: [
                     { chatID: 5, text: "...", callback: "" }
                 ]
@@ -492,7 +492,7 @@ room725.chat = function (chatID) {
                 chatID: 23,
                 speaker: "!emily",
                 text: "Hehehe! So much cum from such a big boy! Best fuck of my life! Now we have " +
-                    "to go to bed. You really  fucked the energy out of me. ",
+                    "to go to bed. You really fucked the energy out of me. ",
                 button: [
                     { chatID: -1, text: "Ok. 'night you two! ", callback: "chloeGoodEnd" },
                 ]

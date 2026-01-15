@@ -229,7 +229,7 @@ room776.chat = function (chatID) {
             chatID: 4,
             speaker: "thinking",
             text: "Please please please make me be a more charismatic and less " +
-                "awkard around people so I can get more dates!",
+                "awkward around people so I can get more dates!",
             button: [
                 { chatID: -1, text: "...", callback: "charaisma" },
             ]
@@ -289,7 +289,7 @@ room776.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "nun",
-            text: "Welcome. Why don't you find a to pray and find holiness. ",
+            text: "Welcome. Why don't you find a spot to pray and find holiness. ",
             button: [
                 { chatID: -1, text: "I will", callback: "" },
             ]
@@ -360,7 +360,7 @@ room776.chat = function (chatID) {
             chatID: 19,
             speaker: "nun",
             text: "*squeal* I shouldn't... I-I-I took a vow of celibacy... oooOOoooo. " +
-                "Of fiddle sticks! I need it so bad! You have no idea! Please keep it " +
+                "Oh fiddle sticks! I need it so bad! You have no idea! Please keep it " +
                 "quiet and don't tell ANYONE. I can't get found out",
             button: [
                 { chatID: 20, text: "[Fuck that virgin pussy]", callback: "nun_3" },

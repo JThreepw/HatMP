@@ -421,8 +421,8 @@ room750.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "dale",
-            text: "Well no. Never beat one up, but I could. Everyone wants to fight fair. Life is not a boxing rink, life " +
-                "is the deep sea. There's no rules. because rules were made to be broken, so why have them. That's why I live " +
+            text: "Well no. Never beat one up, but I could. Everyone wants to fight fair. Life is not a boxing ring, life " +
+                "is the deep sea. There's no rules, because rules were made to be broken, so why have them. That's why I live " +
                 "without rules. You know the secret to beating an alien? ",
             button: [
                 { chatID: 22, text: "What? ", callback: "" },
@@ -440,7 +440,7 @@ room750.chat = function (chatID) {
         {
             chatID: 23,
             speaker: "dale",
-            text: "Lucky for you I have some. Don't have a lot. I have to travel to the top of the moutain in " +
+            text: "Lucky for you I have some. Don't have a lot. I have to travel to the top of the mountain in " +
                 "the forest. It's a long trip. I go every 2 weeks. If you go too much they know what you're up " +
                 "to. But too little and you run out of pocket sand! Can I interest you in some pocket sand? " +
                 "Only $50 for one pocket full! ",
@@ -468,8 +468,8 @@ room750.chat = function (chatID) {
         {
             chatID: 26,
             speaker: "dale",
-            text: "Smart. You can never have too much pocketsand. Unless your pocket is full of sand. Then " +
-                "if you try to more more in you can have too much. So I guess you can have too much pocket sand.",
+            text: "Smart. You can never have too much pocket sand. Unless your pocket is full of sand. Then " +
+                "if you try to add more in you can have too much. So I guess you can have too much pocket sand.",
             button: [
                 { chatID: -1, text: "Thanks!", callback: "" },
             ]
@@ -533,7 +533,7 @@ room750.chat = function (chatID) {
             speaker: "dale",
             text: "Nothin'! That's why I spy for Missy, to take them all down. So I'll help you. You'll need " +
                 "this crowbar to get in. Once you're in the sewer is a maze of tunnels. When you hit a grate " +
-                "you need to double back down and try a differnt path. ",
+                "you need to double back down and try a different path. ",
             button: [
                 { chatID: 34, text: "...", callback: "" },
             ]

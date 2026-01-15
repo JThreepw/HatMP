@@ -1274,7 +1274,7 @@ room876.chat = function (chatID) {
                 chatID: 97,
                 speaker: "courtney",
                 text: "Ugh! I told you she wasn't real cheerleader material. She's just playing one. Go back to the " +
-                    "steet corner skank. You're not good enough to be one of us. Pom-poms are for winners, not losers " +
+                    "street corner skank. You're not good enough to be one of us. Pom-poms are for winners, not losers " +
                     "like you. ",
                 button: [
                     { chatID: -1, text: "You know what " + sc.n("courtney") + ", I am going to ride each one of those dildos and you're going to get me those pom-poms.", callback: "cheer5_4" }
@@ -1436,7 +1436,7 @@ room876.chat = function (chatID) {
             {
                 chatID: 116,
                 speaker: "stacy",
-                text: "We're so lucky to have you as our qurterback. We're just so happy to help anyway we can. ",
+                text: "We're so lucky to have you as our quarterback. We're just so happy to help anyway we can. ",
                 button: [
                     { chatID: 117, text: "...", callback: "" }
                 ]
@@ -1737,7 +1737,7 @@ room876.chat = function (chatID) {
             {
                 chatID: 150,
                 speaker: "utah",
-                text: "We gotta get ready for the big game tomorrow. Totally gunna beats those pussies. ",
+                text: "We gotta get ready for the big game tomorrow. Totally gonna beat those pussies. ",
                 button: [
                     { chatID: 151, text: "...", callback: "cheer10_3" },
                 ]

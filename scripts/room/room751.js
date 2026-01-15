@@ -60,7 +60,7 @@ room751.chat = function (chatID) {
         let storyLine = "";
         if (gv.get("jobapplyconst") > 1)
             storyLine += "Complete: ";
-        storyLine += "Get a job at the construction site. Use you computer in your room to apply. <br/>";
+        storyLine += "Get a job at the construction site. Use your computer in your room to apply. <br/>";
 
         if (missy.get("totalDaysWorked") > 0)
             storyLine += "Complete: ";
@@ -121,7 +121,7 @@ room751.chat = function (chatID) {
             speaker: "crystal",
             text: "What would you like to know?",
             button: [
-                { chatID: -1, text: "Make you selection", callback: "select" }
+                { chatID: -1, text: "Make your selection", callback: "select" }
             ]
         },
     ];

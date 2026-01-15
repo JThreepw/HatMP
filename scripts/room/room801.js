@@ -425,7 +425,7 @@ room801.chat = function (chatID) {
         {
             chatID: 19,
             speaker: "thinking",
-            text: "hmmm! Is he kissing me? And fondeling my chest. He's squeezing me so " +
+            text: "hmmm! Is he kissing me? And fondling my chest. He's squeezing me so " +
                 "tight I can't pull away. What if " + sc.n("ralphsmom") + " walked in. " +
                 "She would totally kill me! I should pull away.. He's too strong, I can't.",
             button: [
@@ -435,9 +435,9 @@ room801.chat = function (chatID) {
         {
             chatID: 20,
             speaker: "ralphsdad",
-            text: "I could't help myself. I just had to see if you were as into me as " +
+            text: "I couldn't help myself. I just had to see if you were as into me as " +
                 "I was into you. I'm so glad you didn't pull away. You have such great " +
-                "lips. I knew you would. This is totally going to make my dad. ",
+                "lips. I knew you would. This is totally going to make my day. ",
             button: [
                 { chatID: 21, text: "Oh yes. You are such a great kisser!", callback: "reset" },
                 { chatID: -1, text: "You brute! I couldn't pull away! I'm going to visit my friend!", callback: "ralphRoom" },
@@ -459,7 +459,7 @@ room801.chat = function (chatID) {
             text: "I'm so glad you came by! I've been thinking about those lips around my dick all day. ",
             button: [
                 { chatID: 23, text: "[Get down on your knees and suck his dick]", callback: "bj0" },
-                { chatID: -1, text: "That's hot, could we do a three some instead? ", callback: "3some" },
+                { chatID: -1, text: "That's hot, could we do a threesome instead? ", callback: "3some" },
                 { chatID: -1, text: "Just came to visit " + sc.n("ralph"), callback: "ralphRoom" },
             ]
         },

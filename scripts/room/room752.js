@@ -208,7 +208,7 @@ room752.chat = function (chatID) {
         {
             chatID: 1,
             speaker: "whore",
-            text: "Look. I'm a whore, not a therapist. I'm not goint to talk about your dick being all locked up. If you want " +
+            text: "Look. I'm a whore, not a therapist. I'm not going to talk about your dick being all locked up. If you want " +
                 "to fuck, take that thing off and come back. ",
             button: [
                 { chatID: -1, text: "Oh uhh, hahaha", callback: "" }
@@ -328,7 +328,7 @@ room752.chat = function (chatID) {
         {
             chatID: 14,
             speaker: "whore",
-            text: "Yeah. I told Dale I'll give him feebies anytime he wants, but he said he doens't put his sperm anywhere " +
+            text: "Yeah. I told Dale I'll give him freebies anytime he wants, but he said he doesn't put his sperm anywhere " +
                 "so the government can't track him or something. But yeah. You can have the locket. Just don't give it back to " +
                 "him. Fuck that guy! ",
             button: [
@@ -354,7 +354,7 @@ room752.chat = function (chatID) {
         {
             chatID: 17,
             speaker: "whore",
-            text: "I'll tell you what. I'll give you once chance to get this locket. Give me the underwear you have on right now " +
+            text: "I'll tell you what. I'll give you one chance to get this locket. Give me the underwear you have on right now " +
                 "and I'll give you the locket. This is a one time deal. I know you're wearing your favorite pair and I don't want " +
                 "you to go changing them on me. Underwear or nothing! ",
             button: [
@@ -365,7 +365,7 @@ room752.chat = function (chatID) {
             chatID: 18,
             speaker: "whore",
             text: "Yeah. I have a real freak of a client that comes in and buys my panties. The dirtier the better, and I'm totally " +
-                "out of panties. So gimmie yours or no deal! ",
+                "out of panties. So give me yours or no deal! ",
             button: [
                 { chatID: 23, text: "Fine. Here's my underwear", callback: "givePanties" },
                 { chatID: 20, text: "I'm not giving you my underwear!", callback: "" },

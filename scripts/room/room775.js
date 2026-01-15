@@ -1,4 +1,4 @@
-﻿  //Room name
+﻿//Room name
 var room775 = {};
 room775.main = function () {
     g.internal = cl.hasoutfit("public");
@@ -494,7 +494,7 @@ room775.chat = function (chatID) {
                 chatID: 16,
                 speaker: "thinking",
                 text: "Oh look. Here comes the collection plate. Not only is it boring, but they want money too. I hope she " +
-                    "doens't make me donate. It's not like I'm rich enough to give this guy money. Shit, she's looking at me " +
+                    "doesn't make me donate. It's not like I'm rich enough to give this guy money. Shit, she's looking at me " +
                     "like she's going to make me donate. Fuck. ",
                 button: [
                     { chatID: 998, text: "...", callback: "collection0" }
@@ -628,8 +628,8 @@ room775.chat = function (chatID) {
             {
                 chatID: 29,
                 speaker: "priest",
-                text: "I can't recall any part of the bible that strickly forbids urinating on another, I would caution you " +
-                    "against such practices. To bare the genitals to one who isn't your wife, priest, or doctor is can lead " +
+                text: "I can't recall any part of the bible that strictly forbids urinating on another, I would caution you " +
+                    "against such practices. To bare the genitals to one who isn't your wife, priest, or doctor can lead " +
                     "to sins of the flesh. ",
                 button: [
                     { chatID: 49, text: "Yes Father. ", callback: "" },
@@ -665,7 +665,7 @@ room775.chat = function (chatID) {
             {
                 chatID: 33,
                 speaker: "me",
-                text: "Well, I was a little scared at first. I thought it would just slide it, but it was a little painful at " +
+                text: "Well, I was a little scared at first. I thought it would just slide in, but it was a little painful at " +
                     "first. I had to just try to tell myself to relax, breathe, and wait for my anus to loosen up. I knew " +
                     "it would feel good if I can just relax and try to enjoy the pain for a bit. ",
                 button: [
@@ -684,7 +684,7 @@ room775.chat = function (chatID) {
                 chatID: 35,
                 speaker: "me",
                 text: "Well, then he grabbed me by my hips and really started to pound my poor virgin anus. It was good though, " +
-                    "since my butthole was loosing up and his dick was angled just enough down to push into my prostate. " +
+                    "since my butthole was loosening up and his dick was angled just enough down to push into my prostate. " +
                     "Also they never really tell you how good it feels on the lips of your anus, the rubbing back and forth. ",
                 button: [
                     { chatID: 36, text: "...", callback: "" }, //add cum shot
@@ -846,9 +846,9 @@ room775.chat = function (chatID) {
             {
                 chatID: 53,
                 speaker: "priest",
-                text: "Oh. hahaha. In that case, it is normal to be curious about the opposit sex. But you must refrain from " +
-                    "lusting after those so close to you. Go outside your own house and find members of the opposit sex to " +
-                    "learn about their mind and sould before you start lusting after their body.",
+                text: "Oh. hahaha. In that case, it is normal to be curious about the opposite sex. But you must refrain from " +
+                    "lusting after those so close to you. Go outside your own house and find members of the opposite sex to " +
+                    "learn about their mind and soul before you start lusting after their body.",
                 button: [
                     { chatID: 49, text: "Oh hehe ok.", callback: "" },
                 ]
@@ -859,7 +859,7 @@ room775.chat = function (chatID) {
                 text: "Oh no. You must refrain from such evil thoughts. As the good word states, you shall not " +
                     "indulge in familiarities with relatives, such as kissing, embracing, winking, peeping, " +
                     "which may lead to incest. Go think on the evils of your sin and learn to control these  " +
-                    "lustftul thought. ",
+                    "lustful thought. ",
                 button: [
                     { chatID: 49, text: "I will", callback: "" },
                 ]
@@ -876,10 +876,10 @@ room775.chat = function (chatID) {
             {
                 chatID: 56,
                 speaker: "priest",
-                text: "Hmmm.... I know a young man, like yourself, needs employment for idle hands are the devils " +
+                text: "Hmmm.... I know a young man, like yourself, needs employment for idle hands are the devil's " +
                     "plaything. You know what's right and what's wrong. If you find yourself doing the wrong things " +
                     "then you have the choice. A sin is committed when you make the wrong choice. You must have the  " +
-                    "moral fortitude to do the right thing if you feel this job is taking your down the dark path. ",
+                    "moral fortitude to do the right thing if you feel this job is taking you down the dark path. ",
                 button: [
                     { chatID: 49, text: "I will make the right choice when if it comes.", callback: "" },
                 ]

@@ -382,7 +382,7 @@ room875.chat = function (chatID) {
             {
                 chatID: 6,
                 speaker: "thinking",
-                text: "FFFUUUU!!!! I'm such a weirdo. I totally came all over the football field. I hope nobody get tackeled " +
+                text: "FFFUUUU!!!! I'm such a weirdo. I totally came all over the football field. I hope nobody gets tackled " +
                     "face first here. ",
                 button: [
                     { chatID: -1, text: "Lay around in your cum for a bit and enjoy it. Freak.", callback: "odd3" },
@@ -596,7 +596,7 @@ room875.chat = function (chatID) {
             {
                 chatID: 31,
                 speaker: "football",
-                text: "Let's go to the locker room, we want some more that that ass of yours. ",
+                text: "Let's go to the locker room, we want some more that ass of yours. ",
                 button: [
                     { chatID: 47, text: "Oh, anything for the team. ", callback: "cheer9_2" },
                     { chatID: -1, text: "Squeal and run away. ", callback: "leaveLate" },
@@ -715,7 +715,7 @@ room875.chat = function (chatID) {
                 chatID: 45,
                 speaker: "thinking",
                 text: "That was awesome! I've never been filled and fucked like that before! My bussy is so " +
-                    "sensative I can still feel the aftershocks of my sissygasms. I've got so much cum in me " +
+                    "sensitive I can still feel the aftershocks of my sissygasms. I've got so much cum in me " +
                     "I hope no one notices it leaking down my legs on my way home. ",
                 button: [
                     { chatID: -1, text: "...", callback: "cheer9_11" },
@@ -725,7 +725,7 @@ room875.chat = function (chatID) {
                 chatID: 46,
                 speaker: "thinking",
                 text: "That was awesome! I've never been filled and fucked like that before! My bussy is so " +
-                    "sensative I can still feel the aftershocks of my sissygasms. I've got so much cum in me " +
+                    "sensitive I can still feel the aftershocks of my sissygasms. I've got so much cum in me " +
                     "I hope no one notices it leaking down my legs on my way home. ",
                 button: [
                     { chatID: -1, text: "...", callback: "cheer9_11" },

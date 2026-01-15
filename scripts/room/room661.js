@@ -193,7 +193,7 @@ room661.chat = function (chatID) {
         {
             chatID: 0,
             speaker: "tiffany",
-            text: "So, like, there's this peep hole in this door. You can use it watch for people going into the booths.",
+            text: "So, like, there's this peep hole in this door. You can use it to watch for people going into the booths.",
             button: [
                 { chatID: 1, text: "...", callback: "" }
             ]
@@ -405,7 +405,7 @@ room661.chat = function (chatID) {
         {
             chatID: 25,
             speaker: "tiffany",
-            text: "I'll let " + sc.n("missy") + " know what a big help you were! Those cultist are always trouble! You're the best! ",
+            text: "I'll let " + sc.n("missy") + " know what a big help you were! Those cultists are always trouble! You're the best! ",
             button: [
                 { chatID: -1, text: "Thanks! [Leave]", callback: "caught8" }
             ]

@@ -195,7 +195,7 @@ room651.chat = function (chatID) {
             speaker: "tiffany",
             text: "Yeah, " + sc.n("missy") + " sent him over. I'm going to take him to the back so he can watch the booths. ",
             button: [
-                { chatID: -1, text: "[Follow " + sc.n("tiffany") + " behind the Employee's Only' Door]", callback: "onDuty" }
+                { chatID: -1, text: "[Follow " + sc.n("tiffany") + " behind the 'Employees Only' Door]", callback: "onDuty" }
             ]
         },
         {

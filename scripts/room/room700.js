@@ -181,7 +181,7 @@ room700.chat = function (chatID) {
             button: [
                 { chatID: 9, text: "My tummy hurts", callback: "" },
                 { chatID: -1, text: "I have a general pain all over. ", callback: "" },
-                { chatID: -1, text: "Oh anus hurts. ", callback: "" },
+                { chatID: -1, text: "My anus hurts. ", callback: "" },
                 { chatID: -1, text: "My balls are too full", callback: "" },
                 
             ]
@@ -193,7 +193,7 @@ room700.chat = function (chatID) {
             button: [
                 { chatID: 9, text: "My tummy hurts", callback: "" },
                 { chatID: -1, text: "I have a general pain all over. ", callback: "" },
-                { chatID: -1, text: "Oh anus hurts. ", callback: "" },
+                { chatID: -1, text: "My anus hurts. ", callback: "" },
                 { chatID: -1, text: "My balls are too full", callback: "" },
 
             ]

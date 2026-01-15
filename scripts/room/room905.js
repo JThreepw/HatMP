@@ -186,7 +186,7 @@ room905.chat = function (chatID) {
         {
             chatID: 10,
             speaker: "eva",
-            text: "Becasue I told my friends all about you and they wanted to see it. Now get on all fours doggy and beg for " +
+            text: "Because I told my friends all about you and they wanted to see it. Now get on all fours doggy and beg for " +
                 "your clothes. ",
             button: [
                 { chatID: 11, text: "Ok", callback: "e6" }
@@ -203,7 +203,7 @@ room905.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "eva",
-            text: "That's not how doggies beg. I think you need a tail so you know how to be a proppery doggy. ",
+            text: "That's not how doggies beg. I think you need a tail so you know how to be a proper doggy. ",
             button: [
                 { chatID: 13, text: "A tail?", callback: "e7" }
             ]

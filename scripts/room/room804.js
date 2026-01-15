@@ -227,7 +227,7 @@ room804.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "ralphpsmom",
-            text: "Now go play. I don't want you to spoil your appitite for dinner. ",
+            text: "Now go play. I don't want you to spoil your appetite for dinner. ",
             button: [
                 { chatID: -1, text: "...", callback: "" }
             ]
@@ -305,9 +305,9 @@ room804.chat = function (chatID) {
         {
             chatID: 11,
             speaker: "ralphsdad",
-            text: "Do you like it when I sqeeze your bare ass like this. I think you " +
+            text: "Do you like it when I squeeze your bare ass like this. I think you " +
                 "do, otherwise you wouldn't be displaying it in my kitchen. But I don't " +
-                "think sqeezing your ass is enough for a girl like you. You want more " +
+                "think squeezing your ass is enough for a girl like you. You want more " +
                 "don't you. ",
             button: [
                 { chatID: 12, text: "[You're frozen in fear and excitement]", callback: "me_panties1" },
@@ -395,7 +395,7 @@ room804.chat = function (chatID) {
         {
             chatID: 21,
             speaker: "ralphsmom",
-            text: "I'm fading... hhhrrrruuufffff. oh oh buscits I'm going to....yes",
+            text: "I'm fading... hhhrrrruuufffff. oh oh biscuits I'm going to....yes",
             button: [
                 { chatID: 22, text: "*drown yourself in her excessive pussy juice*", callback: "muffdive3" },
             ]

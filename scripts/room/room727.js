@@ -641,7 +641,7 @@ room727.chat = function (chatID) {
             {
                 chatID: 37,
                 speaker: "tina",
-                text: "Did you know a cat's penis has barbs. It's so the girl cat can't during the breeding. " +
+                text: "Did you know a cat's penis has barbs? It's so the girl cat can't escape during the breeding. " +
                     "Does your penis have barbs? ",
                 button: [{ chatID: 38, text: "uhhh. I don't think so", callback: "tina5" }]
             },
@@ -708,7 +708,7 @@ room727.chat = function (chatID) {
                 chatID: 45,
                 speaker: "tina",
                 text: "*meeeeowwwww* My womb feels so hot and yummy!!! I can feel your little " +
-                    "spermies simming around inside me! hehehe! ",
+                    "spermies swimming around inside me! hehehe! ",
                 button: [
                     { chatID: 46, text: "..Cum so hard inside you! *grunt* *huff* *huff*", callback: "tina9" },
                 ]

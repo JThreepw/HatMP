@@ -184,7 +184,7 @@ room910.chat = function (chatID) {
         {
             chatID: 12,
             speaker: "govlady",
-            text: "I'm sorry sir, I can't change your name to a girl's name. You're way to manly for that.",
+            text: "I'm sorry sir, I can't change your name to a girl's name. You're way too manly for that.",
             button: [
                 { chatID: -1, text: "Oh, ok", callback: "" }
             ]

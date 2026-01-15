@@ -804,14 +804,14 @@ room803.chat = function (chatID) {
             text: "Should I go through their closet? ",
             button: [
                 { chatID: -1, text: "Totally!", callback: "closet" },
-                { chatID: -1, text: "Gross. That's an invastion of privacy!", callback: "" },
+                { chatID: -1, text: "Gross. That's an invasion of privacy!", callback: "" },
             ]
         },
         {
             chatID: 2,
             speaker: "thinking",
             text: "It's getting pretty late. I better leave before " + sc.n("ralphsmom") + 
-                "gets back. She doens't like us playing after dark. ",
+                " gets back. She doesn't like us playing after dark. ",
             button: [
                 { chatID: -1, text: "...", callback: "closet" },
             ]
@@ -1043,7 +1043,7 @@ room803.chat = function (chatID) {
         {
             chatID: 28,
             speaker: "thinking",
-            text: "Bubble bath! Damn, She does look peacful though. I shouldn't distrub " +
+            text: "Bubble bath! Damn, She does look peaceful though. I shouldn't disturb " +
                 "her. ",
             button: [
                 { chatID: -1, text: "...", callback: "peekLeave" },
@@ -1204,7 +1204,7 @@ room803.chat = function (chatID) {
         {
             chatID: 46,
             speaker: "ralphsmom",
-            text: "I finsished that book and I'm starting Madame Bovary. ",
+            text: "I finished that book and I'm starting Madame Bovary. ",
             button: [
                 { chatID: 47, text: "What's that about?", callback: "" },
                 { chatID: -1, text: "cool. ", callback: "" },
@@ -1254,7 +1254,7 @@ room803.chat = function (chatID) {
             speaker: "ralphsmom",
             text: "Come to inquire about what I'm reading again? ",
             button: [
-                { chatID: 52, text: "Yes, unless you want to let me try your warm honey buiscuit.", callback: "read1" },
+                { chatID: 52, text: "Yes, unless you want to let me try your warm honey biscuit.", callback: "read1" },
             ]
         },
         {
@@ -1262,14 +1262,14 @@ room803.chat = function (chatID) {
             speaker: "ralphsmom",
             text: " ",
             button: [
-                { chatID: -1, text: "Yes, unless you want to let me try your warm honey buiscuit.", callback: "read1" },
+                { chatID: -1, text: "Yes, unless you want to let me try your warm honey biscuit.", callback: "read1" },
             ]
         },
         {
             chatID: 53,
             speaker: "ralphsmom",
-            text: "Hehehe, don't temp me while my husband is in the other room. I mean " +
-                "what would he think about you eating my yummy honey buiscuit. ",
+            text: "Hehehe, don't tempt me while my husband is in the other room. I mean " +
+                "what would he think about you eating my yummy honey biscuit. ",
             button: [
                 { chatID: -1, text: "heheh, yeah", callback: "" },
             ]
@@ -1338,7 +1338,7 @@ room803.chat = function (chatID) {
         {
             chatID: 61,
             speaker: "ralphsmom",
-            text: "Hahah! I'm so sorry. I shouldn't laugh. It tickels me so much I can't help it. Just keep " +
+            text: "Hahah! I'm so sorry. I shouldn't laugh. It tickles me so much I can't help it. Just keep " +
                 "going till you finish honey. Don't worry about me. Just do your thing. ",
             button: [
                 { chatID: -1, text: "...", callback: "bed_fuck1" },
@@ -1444,7 +1444,7 @@ room803.chat = function (chatID) {
             chatID: 73,
             speaker: "ralphsmom",
             text: "You tried to initiate sex? I'm sorry, but trying to put your finger in my butt is not " +
-                "initiating sex. It's border line sexual assult, becuse I keep telling you to stop that. If " +
+                "initiating sex. It's border line sexual assault, because I keep telling you to stop that. If " +
                 "you really wanted to have sex with me, try some romance. Or ask me about my day. Then maybe " +
                 "start with some oral. You know how much I love oral. I don't orgasm from you just pounding " +
                 "away on me like I'm some empty hole.",
@@ -1508,7 +1508,7 @@ room803.chat = function (chatID) {
         {
             chatID: 80,
             speaker: "ralphsdad",
-            text: "Damn that was awesome! My balls were overflowing. I so needed that. So glad my wife and " +
+            text: "Damn that was awesome! My balls were overflowing. I so needed that. So glad my wife and I " +
                 "agreed we could use you however we wanted. Now go play and remember, this is just between us.  ",
             button: [
                 { chatID: -1, text: "Yes daddy. Our little secret. ", callback: "anal5end" },
@@ -1542,7 +1542,7 @@ room803.chat = function (chatID) {
         {
             chatID: 84,
             speaker: "ralphsmom",
-            text: "Not as much as I love to get licked. I orgasdmed so much I don't think I have any left. hehehe ",
+            text: "Not as much as I love to get licked. I orgasmed so much I don't think I have any left. hehehe ",
             button: [
                 { chatID: 85, text: "*lick*", callback: "3some_s3" },
             ]

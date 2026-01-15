@@ -231,7 +231,7 @@ room802.chat = function (chatID) {
             { t: "Oh man, I just ordered the new Kekko Kamen doll doing a muff attack. So excited for it to come! ", r1: "Fuck yeah!", r2: "You need to grow up" },
             { t: "Who do you think would win an arm wrestling contest, Hulk or Super Man?", r1: "Super Man", r2: "Hulk" },
             { t: "I would do anything to be enslaved by Snu Snus!  ", r1: "We all do", r2: "They're way too big" },
-            { t: "My dad got so mad at me last night when he caught me playing with my resin figures. I got the worst spanking of my life! ", r1: "That sucks. So glad I don't have a dad that spanks me", r2: "Hahah what? " },
+            { t: "My dad got so mad at me last night when he caught me playing with my resin figures. I got the worst spanking of my life! ", r1: "That sucks. So glad I don't have a dad that spanks me", r2: "Haha what? " },
             { t: "Do you really think Bruce Wayne would be able to date the president's wife if he really wanted to?", r1: "Bruce Wayne can do anything", r2: "No way! He'd never get past the secret service!" },
             { t: "Do girls fart cum after they have anal sex, or does it just come out like a poo?", r1: "I like to think they just randomly do cum farts", r2: "I'm sure they just push it out into the toilet" },
             { t: "Is it weird if your dad sleeps in the same bed as you? ", r1: "Not at all", r2: "Yeah. He should sleep with the mom" },
@@ -418,8 +418,8 @@ room802.chat = function (chatID) {
                 chatID: 18,
                 speaker: "ralph",
                 text: "Yeah. My dad says I have too many toys and I need to get a job, but all the jobs " +
-                    "in this town are so lame. He's just mad becuase he has to travel for work on Friday, " +
-                    "Saturday, and Sunday. The good thing is here not here to give me a hard time. ",
+                    "in this town are so lame. He's just mad because he has to travel for work on Friday, " +
+                    "Saturday, and Sunday. The good thing is he's not here to give me a hard time. ",
                 button: [
                     { chatID: 19, text: "Totally ", callback: "" },
                 ]
@@ -563,7 +563,7 @@ room802.chat = function (chatID) {
             {
                 chatID: 33,
                 speaker: "ralph",
-                text: "Really, What does she do? Whould would I do? ",
+                text: "Really, What does she do? What would I do? ",
                 button: [
                     { chatID: 34, text: "She owns her own bar and really needs help cleaning up. It's that bar Caravaggio.", callback: "" },
                 ]
@@ -654,7 +654,7 @@ room802.chat = function (chatID) {
                 speaker: "ralph",
                 text: "Did I do good? ",
                 button: [
-                    { chatID: -1, text: "You did great. Those oral classes really payed off. ", callback: "scselect" },
+                    { chatID: -1, text: "You did great. Those oral classes really paid off. ", callback: "scselect" },
                 ]
             },
         ];

@@ -426,7 +426,7 @@ room726.chat = function (chatID) {
         {
             chatID: 2,
             speaker: "random",
-            text: "You have an intersting look, but I'm not interested.",
+            text: "You have an interesting look, but I'm not interested.",
             button: [
                 { chatID: -1, text: "Neither am I", callback: "reset" }
             ]
@@ -458,7 +458,7 @@ room726.chat = function (chatID) {
         {
             chatID: 6,
             speaker: "cindy",
-            text: "You're sexy,  but I only date swimmers. Prove you can out swim me and maybe I'll dance with you.",
+            text: "You're sexy, but I only date swimmers. Prove you can out swim me and maybe I'll dance with you.",
             button: [
                 { chatID: -1, text: "Odd, but ok", callback: "reset" }
             ]
@@ -741,7 +741,7 @@ room726.chat = function (chatID) {
         {
             chatID: 40,
             speaker: "tim",
-            text: "Oh my god I'm never fucking anything excepty sissy pussy again!",
+            text: "Oh my god I'm never fucking anything except sissy pussy again!",
             button: [
                 { chatID: 41, text: "Groan", callback: "tim3_15" }
             ]
@@ -838,7 +838,7 @@ room726.chat = function (chatID) {
         {
             chatID: 52,
             speaker: "cindy",
-            text: "My pussy is so in love with you! I love walking home with cum dripping down my leg. I reminds me of " +
+            text: "My pussy is so in love with you! I love walking home with cum dripping down my leg. It reminds me of " +
                 "what a slut I can be!",
             button: [
                 { chatID: -1, text: "...", callback: "c5" }
