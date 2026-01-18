@@ -18,6 +18,8 @@ room328.main = function () {
             temp: 0,
             pig: null,
             kinsey: 0,
+            kinseyRot: 0,
+            kinseySpit: false,
             firsteat: true,
             milked: false,
             badcounter: 0,
@@ -102,8 +104,8 @@ room328.main = function () {
             g.map.barn = true;
             chat(124, 328);
         }
-        else if (g.map.trust > 97 && !daily.get("rachelReward328") && g.rand(0, 6)) {
-            room328.btnclick("meadow");
+        else if (future.get("rachelReward328") === -1 && g.rand(0, 6) === 0) {
+            future.add("rachelReward328", 3);
             zcl.kill();
             daily.set("rachelReward328");
             nav.button({
@@ -138,17 +140,24 @@ room328.main = function () {
     }
 
     if (g.map.event === "eat") {
-        room328.btnclick("progressbar");
-        g.map.event = "eat";
-        nav.bg("328_farm/feed.webp");
-        sc.select("icon_eat", "328_farm/icon_eat.webp", -2);
-        sc.select("icon_eatno", "328_farm/icon_eatno.webp", -1);
-        if (g.map.ppgirl && g.gethourdecimal() < 12) {
-            if (sc.getMissionTask("ppgirl", "ranch", 2).startedOrComplete) {
-                sc.select("icon_food1", "328_farm/icon_food1.webp", 0);
-            }
-            else {
-                sc.select("icon_food0", "328_farm/icon_food0.webp", 0);
+        if (g.map.kinseySpit) {
+            g.map.kinseySpit = false;
+            nav.bg("328_farm/kinsey_spit0.webp");
+            chat(192, 328);
+        }
+        else {
+            room328.btnclick("progressbar");
+            g.map.event = "eat";
+            nav.bg("328_farm/feed.webp");
+            sc.select("icon_eat", "328_farm/icon_eat.webp", -2);
+            sc.select("icon_eatno", "328_farm/icon_eatno.webp", -1);
+            if (g.map.ppgirl && g.gethourdecimal() < 12) {
+                if (sc.getMissionTask("ppgirl", "ranch", 2).startedOrComplete) {
+                    sc.select("icon_food1", "328_farm/icon_food1.webp", 0);
+                }
+                else {
+                    sc.select("icon_food0", "328_farm/icon_food0.webp", 0);
+                }
             }
         }
     }
@@ -184,7 +193,7 @@ room328.main = function () {
             }
             g.map.badevent += 1;
         }
-        else if (sc.getMission("security", "ranch").complete) {
+        else if (!sc.getMission("security", "ranch").complete) {
             nav.bg("328_farm/sleep_visit0.webp");
             switch (sc.taskGetStep("security", "ranch")) {
                 case -1:
@@ -297,7 +306,7 @@ room328.btnclick = function (name) {
                 "width": 1200,
                 "height": 10,
                 "color": "pink",
-                "maxVal": 15,
+                "maxVal": 13,
                 "val": g.map.temp,
                 "title": "Progress"
             }, 322);
@@ -372,7 +381,7 @@ room328.btnclick = function (name) {
                                     "height": 348,
                                     "image": "328_farm/frolic_r1.webp"
                                 }, 328);
-                                char.addtime(30);
+                                char.addtime(90);
                                 chat(41, 328);
                                 break;
                             case 1:
@@ -394,7 +403,7 @@ room328.btnclick = function (name) {
                                     "height": 348,
                                     "image": "328_farm/frolic_r2.webp"
                                 }, 328);
-                                char.addtime(30);
+                                char.addtime(90);
                                 chat(43, 328);
                                 break;
                             case 2:
@@ -416,7 +425,7 @@ room328.btnclick = function (name) {
                                     "height": 348,
                                     "image": "328_farm/frolic_r0.webp"
                                 }, 328);
-                                char.addtime(30);
+                                char.addtime(90);
                                 chat(750, 328);
                                 break;
                             case 3:
@@ -438,7 +447,7 @@ room328.btnclick = function (name) {
                                     "height": 865,
                                     "image": "328_farm/frolic_r3.webp"
                                 }, 328);
-                                char.addtime(30);
+                                char.addtime(90);
                                 chat(146, 328);
                                 break;
                         }
@@ -446,7 +455,7 @@ room328.btnclick = function (name) {
                 }
                 else {
                     gv.mod("energy", -5);
-                    char.addtime(60);
+                    char.addtime(90);
                     levels.mod("fitness", 10);
                     nav.bg("328_farm/frolic_" + gender.pronoun("f") + ".webp");
                     chat(39, 328);
@@ -495,7 +504,7 @@ room328.btnclick = function (name) {
             break;
         case "icon_chat":
             nav.killbuttonStartsWith("icon_");
-            sc.selectCancel("reset", -2);
+            sc.selectCancel("icon_reset", -2);
             break;
         case "icon_crawl":
             nav.killbuttonStartsWith("icon_");
@@ -510,7 +519,7 @@ room328.btnclick = function (name) {
             room328.btnclick("progressbar");
             chat(169, 328);
             break;
-        case "reset":
+        case "icon_reset":
             char.addtime(-2);
             char.room(328);
             break;
@@ -670,8 +679,13 @@ room328.btnclick = function (name) {
                 nav.killbuttonStartsWith("icon_");
                 gv.mod("energy", -50);
                 var holeDig = Math.floor((g.rand(3, 8) + (levels.get("strength").l / 2)) / 2);
-                if (g.map.spade)
+                if (!g.map.spade)
                     holeDig = Math.round(holeDig / 3);
+                else if (g.map.hole < 100)
+                    holeDig = holeDig * 2;
+                else if (g.map.hole < 150)
+                    holeDig = holeDig * 1.5;
+
                 g.map.hole += holeDig;
                 g.popUpNotice("You dug up " + (holeDig / 3.0).toFixed(2) + " cubic meters. ");
                 nav.killbutton("mat");
@@ -892,15 +906,33 @@ room328.btnclick = function (name) {
                     chat(37, 328);
                 }
                 else if (sc.getLevel("kinsey") > 6 && sc.getMissionTask("kinsey", "ranch", 1).notStarted) {
+                    nav.button({
+                        "type": "img",
+                        "name": "kinsey",
+                        "left": 0,
+                        "top": 0,
+                        "width": 1920,
+                        "height": 1080,
+                        "image": "328_farm/kinseyc_mad.webp"
+                    }, 328);
                     if (g.map.hole > -1) {
                         chat(152, 328);
                     }
                     else {
-                        sc.startMissionTask("kinesy", "ranch", 1);
+                        sc.startMissionTask("kinsey", "ranch", 1);
                         chat(150, 328);
                     }
                 }
                 else if (sc.getMissionTask("kinsey", "ranch", 1).inProgress && g.map.hole > -1) {
+                    nav.button({
+                        "type": "img",
+                        "name": "kinsey",
+                        "left": 0,
+                        "top": 0,
+                        "width": 1920,
+                        "height": 1080,
+                        "image": "328_farm/kinseyc_mad.webp"
+                    }, 328);
                     chat(152, 328);
                 }
                 else if (sc.getMissionTask("kinsey", "ranch", 2).notStarted && sc.getLevel("kinsey") > 8) {
@@ -971,7 +1003,7 @@ room328.btnclick = function (name) {
             gv.mod("energy", -4);
             nav.kill();
             room328.btnclick("pigrun_progress");
-            if (g.map.temp > 14) {
+            if (g.map.temp > 12) {
                 nav.bg("328_farm/pig_finish.webp");
                 sc.modLevel("kinsey", 50, 10);
                 zcl.bellydown(100, 550, .7, "sad", false);
@@ -1589,6 +1621,7 @@ room328.btnclick = function (name) {
         case "lead":
             nav.killbuttonStartsWith("icon_");
             nav.killbutton("lead");
+            zcl.kill();
             nav.button({
                 "type": "img",
                 "name": "lead",
@@ -1631,9 +1664,14 @@ room328.chatcatch = function (callback) {
         case "sleep_visit19":
         case "sleep_visit20":
         case "kinsey2":
+        case "kinsey2a":
         case "kinsey3":
         case "kinsey4":
         case "kinsey5":
+        case "kinsey_punch1":
+        case "kinsey_punch2":
+        case "kinsey_punch3":
+        case "kinsey_punch4":
             nav.bg("328_farm/" + callback + ".webp");
             break;
         case "punish0_6":
@@ -1643,9 +1681,18 @@ room328.chatcatch = function (callback) {
         case "sleep_holeescape":
         case "kinsey1":
         case "kinsey_map":
+        case "rachel2":
+        case "kinsey_punch0":
+        case "kinsey_spit2":
+        case "kinsey_spit3":
+        case "kinsey_spit4":
             nav.kill();
             nav.bg("328_farm/" + callback + ".webp");
-            //zcl.pucker(500, 1000, .1, "back", true)
+            break;
+        case "rachel1":
+            nav.kill();
+            gv.mod("bladder", .5);
+            nav.bg("328_farm/" + callback + ".webp");
             break;
         case "kinsey0":
             nav.kill();
@@ -1708,6 +1755,10 @@ room328.chatcatch = function (callback) {
             break;
         case "kinseynormal":
             nav.modbutton("kinsey", "328_farm/kinseyc_normal.webp", null, null);
+            break;
+        case "kinsey_punch5":
+            daily.set("328_kinseybad");
+            char.room(329);
             break;
         case "envy1":
             nav.killbutton("envy");
@@ -2169,8 +2220,58 @@ room328.chatcatch = function (callback) {
             sc.completeMissionTask("security", "ranch", 6);
             chat(177, 328);
             break;
+        case "rachel0":
+            char.addtime(30);
+            if (g.map.trust < 97) {
+                chat(180, 328);
+            }
+            else {
+                chat(182, 328);
+            }
+            break;
+        case "kinseyRot":
+            if (g.map.kinseySpit) {
+                chat(198, 328);
+            }
+            else {
+                switch (g.map.kinseyRot) {
+                    case 0:
+                        chat(184, 328);
+                        break;
+                    case 1:
+                        g.map.kinseySpit = true;
+                        chat(191, 328);
+                        break;
+                    default:
+                        if (!daily.get("kisey_eat328")) {
+                            daily.set("kisey_eat328");
+                            chat(199, 328);
+                        }
+                        else {
+                            chat(202, 328);
+                        }
+                        break;
+                }
+                g.map.kinseyRot++;
+            }
+            break;
+        case "kinsey_eat3":
+            levels.oral(3, "f", "kinsey");
+            nav.bg("328_farm/kinsey_eat3.webp");
+            sc.modLevel("kinsey", 80, 10); 
+            char.addtime(60);
+            break;
         case "reset":
             char.room(328);
+            break;
+        case "kinsey_spit1":
+            nav.bg("328_farm/kinsey_spit1.webp");
+            zcl.pucker(580, 1000, .23, "", false);
+            break;
+        case "kinsey_spit5":
+            sc.modLevel("kinsey", 100, 10);
+            nav.bg("328_farm/kinsey_spit5.webp");
+            zcl.pucker(580, 1000, .23, "", false);
             break;
         default:
             break;
@@ -2210,7 +2311,7 @@ room328.chat = function (chatID) {
     else if (chatID === 975) {
         let leadtxt = "";
         char.addtime(30);
-        switch (taskGetStep("lead", "ranch")) {
+        switch (sc.taskGetStep("lead", "ranch")) {
             case -1:
             case 0:
                 sc.completeMissionTask("lead", "ranch", 0);
@@ -2241,7 +2342,22 @@ room328.chat = function (chatID) {
                 leadtxt = "The other hucows have no idea how lucky they are to be here! This is the best life " +
                     "anyone could ever have. ";
                 break;
-
+            case 6:
+                sc.completeMissionTask("lead", "ranch", 6);
+                leadtxt = "I saw you looking at my man! I told him what a bitch you are, haha. He " +
+                    "said he thinks you're a bitch too. He just fucks you because he needs to cum. He'll " +
+                    "never love you like he does me. He just uses you for sex! ";
+                break;
+            case 7:
+                sc.completeMissionTask("lead", "ranch", 7);
+                leadtxt = "I told " + sc.n("rancher") + " that you pee your bed at night. He said that's " +
+                    "gross. He'll never marry a hucow that pees the bed like you. ";
+                break;
+            default:
+                sc.completeMissionTask("lead", "ranch", 8);
+                leadtxt = "Everyone hates you. You'll never be a real hucow like me. Even " + sc.n("rancher") +
+                    " thinks so. You should just wander into the forest and die! ";
+                break;
         }
 
         return {
@@ -2405,6 +2521,7 @@ room328.chat = function (chatID) {
             text: kinseychat[g.rand(0, kinseychat.length)],
             button: [
                 { chatID: -1, text: "... ", callback: "reset" },
+                { chatID: -1, text: "Shall we get back at them? ", callback: "kinseyRot" },
                 { chatID: 173, text: "Do you have any plans for breaking out of here?", callback: "" },
             ]
         }
@@ -3879,7 +3996,7 @@ room328.chat = function (chatID) {
                 speaker: "kinsey",
                 text: "I feel it poking out a bit. Grab it with your teeth and drop it on the ground.",
                 button: [
-                    { chatID: 157, text: "...", callback: "kinsey3" },
+                    { chatID: 190, text: "...", callback: "kinsey2a" },
                 ]
             },
             {
@@ -4026,7 +4143,7 @@ room328.chat = function (chatID) {
             },
             {
                 chatID: 173,
-                speaker: "!rancher",
+                speaker: "kinsey",
                 text: "Maybe. But I'm not just going to tell anyone! ",
                 button: [
                     { chatID: -1, text: "[Need to raise your level]", callback: "reset" },
@@ -4084,10 +4201,213 @@ room328.chat = function (chatID) {
             {
                 chatID: 179,
                 speaker: "rachel",
-                text: "You've been a good li'l heifer lately. You're earned yourself a little treat. Come " +
-                    "suck on my teet and get some extra nourishment. ",
+                text: "It's time to reward the best heifer we have...",
                 button: [
-                    { chatID: -1, text: "oh, thank you!", callback: "rachel1" },
+                    { chatID: -1, text: "...", callback: "rachel0" },
+                ]
+            },
+            {
+                chatID: 180,
+                speaker: "rachel",
+                text: sc.n("lead") + " get on up here! Not only do produce the most milk, but your " +
+                    "milk is so damn good! Almost as delicious as mine. You also help keep all these " +
+                    "boys in line. Really heifers, you all can learn from " + sc.n("lead") + "! Now " +
+                    "get up here for your reward! ",
+                button: [
+                    { chatID: 181, text: "...", callback: "rachel2" },
+                ]
+            },
+            {
+                chatID: 181,
+                speaker: "rachel",
+                text: "That's right. Suck your yummy reward right from mommy's bosom. You are my favorite li'l " +
+                    "ol' hucow. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 182,
+                speaker: "rachel",
+                text: sc.n("me") + " get on up here! I see you've been taking notes from " + sc.n("lead") +
+                    ". You're such a big help lately and always doin' what you're told. You deserve " +
+                    "this reward! ",
+                button: [
+                    { chatID: 183, text: "...", callback: "rachel1" },
+                ]
+            },
+            {
+                chatID: 183,
+                speaker: "rachel",
+                text: "That's right. Suck your yummy reward right from mommy's bosom. In a few years I may " +
+                    "just let you take the lead hucow spot! Haha! ",
+                button: [
+                    { chatID: -1, text: "...", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 184,
+                speaker: "kinsey",
+                text: "Fuck yes I do! I'll tell you what, I'll distract that asshole by pretending " +
+                    "I want him to fuck me and when his pants are down, punch him right in the balls! Hard! ",
+                button: [
+                    { chatID: 185, text: "Let's do this! ", callback: "kinsey_punch0" },
+                    { chatID: -1, text: "Some other time ", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 185,
+                speaker: "kinsey",
+                text: "Oh my. I'm so horny right now. I could use a big penis right up my soft tight " +
+                    "little butt! Hehe",
+                button: [
+                    { chatID: 186, text: "...", callback: "kinsey_punch1" },
+                ]
+            },
+            {
+                chatID: 186,
+                speaker: "!rancher",
+                text: "About time you've come around, ya dumb ass hucow. I've been tellin' ya that " +
+                    "life is so much better when you know your place. Since I'm a nice guy I'm gunna " +
+                    "let you suck it first. Get it nice and slippery before I take that asshole. ",
+                button: [
+                    { chatID: 187, text: "[Punch that asshole right in the balls!]", callback: "kinsey_punch2" },
+                ]
+            },
+            {
+                chatID: 187,
+                speaker: "kinsey",
+                text: "Haha! That's what you get! Do you think I would ever LET you fuck me!? Loser ass asshole!! ",
+                button: [
+                    { chatID: 188, text: "...", callback: "kinsey_punch3" },
+                ]
+            },
+            {
+                chatID: 188,
+                speaker: "!rancher",
+                text: "ow my balls. You're both gunna pay... ow  ",
+                button: [
+                    { chatID: 189, text: "...", callback: "kinsey_punch4" },
+                ]
+            },
+            {
+                chatID: 189,
+                speaker: "!cowboy",
+                text: "Heh. You know you two hucows are in a heap of trouble. Follow me 'fore it gets worse. ",
+                button: [
+                    { chatID: -1, text: "mooo", callback: "kinsey_punch5" },
+                ]
+            },
+            {
+                chatID: 190,
+                speaker: "kinsey",
+                text: "There you go. Now turn around so I can slide it inside you. ",
+                button: [
+                    { chatID: 157, text: "...", callback: "kinsey3" },
+                ]
+            },
+            {
+                chatID: 191,
+                speaker: "kinsey",
+                text: "I hate that bitch, " + sc.n("lead") + ". Tonight when we eat distract her so I " +
+                    "can spit on her pellets! Hehe! Well get together at feeding time, 'k?",
+                button: [
+                    { chatID: -1, text: "totally", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 192,
+                speaker: "kinsey",
+                text: "Ok. Here's the plan. You talk to her and distract her. When she's not looking " +
+                    "I'm going to spit right into her pile of pellets! hehehe!",
+                button: [
+                    { chatID: 193, text: "ok", callback: "kinsey_spit1" },
+                ]
+            },
+            {
+                chatID: 193,
+                speaker: "lead",
+                text: "What do you two bitches want?",
+                button: [
+                    { chatID: 194, text: "Hello to you", callback: "kinsey_spit2" },
+                ]
+            },
+            {
+                chatID: 194,
+                speaker: "lead",
+                text: "You know you two have got the be the dumbest bimbos on the farm! ",
+                button: [
+                    { chatID: 195, text: "Oh wow. That's pretty mean. ", callback: "kinsey_spit3" },
+                ]
+            },
+            {
+                chatID: 195,
+                speaker: "lead",
+                text: "*cruch* Just the other day I was tellin' *chew* " + sc.n("!rancher") + 
+                    " that he 'oughta just lock you two up in the barn. *cruch* so we never " +
+                    "have to deal with you *gulp* idiots again.",
+                button: [
+                    { chatID: 196, text: "...", callback: "kinsey_spit4" },
+                ]
+            },
+            {
+                chatID: 196,
+                speaker: "kinsey",
+                text: "That's why everyone hates you. Because you think only about yourself. Did you like " +
+                    "the yummy pellets? Notice they're a bit more moist today? I spit in your food. Hahaha. " +
+                    "You're eating my spit you evil bitch!",
+                button: [
+                    { chatID: 197, text: "...", callback: "kinsey_spit5" },
+                ]
+            },
+            {
+                chatID: 197,
+                speaker: "kinsey",
+                text: "Haha. Eat my spit bitch! " + sc.n("me") + ", let's get out of here before the ranchers come over!",
+                button: [
+                    { chatID: -1, text: "Scurry out of there!", callback: "finisheating" },
+                ]
+            },
+            {
+                chatID: 198,
+                speaker: "kinsey",
+                text: "I already have a plan. Just wait till we eat.",
+                button: [
+                    { chatID: -1, text: "oh yeah!", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 199,
+                speaker: "kinsey",
+                text: "I'm out of ideas, but I could use an orgasm. Care to eat me out?",
+                button: [
+                    { chatID: 200, text: "Sure!", callback: "kinsey1" },
+                    { chatID: -1, text: "Some other time.", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 200,
+                speaker: "kinsey",
+                text: "As much as I love to fight these assholes, sometimes you have to take a break and get a good ol' " +
+                    "fashion orgasm!",
+                button: [
+                    { chatID: 201, text: "Totally agree!", callback: "kinsey_eat3" },
+                ]
+            },
+            {
+                chatID: 201,
+                speaker: "kinsey",
+                text: "Oh! That's it! Fuck that feels amazing! I an orgasm! ",
+                button: [
+                    { chatID: -1, text: "*nom* *nom* *nom*", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 202,
+                speaker: "kinsey",
+                text: "I can't think of anything. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "reset" },
                 ]
             },
         ];

@@ -6,110 +6,7 @@ room10.main = function () {
     }
     else {
         $('.room-topper').show();
-        var btnList = [
-            {
-                "type": "btn",
-                "name": "wardrobe",
-                "left": 1684,
-                "top": 230,
-                "width": 236,
-                "height": 602,
-                "title": "Wardrobe",
-                "image": "10_mainchar/10_wardrobe.png",
-                "night": "10_mainchar/10_wardrobeNight.png"
-            },
-            {
-                "type": "btn",
-                "name": "Bed",
-                "left": 514,
-                "top": 531,
-                "width": 547,
-                "height": 401,
-                "title": "Sleep",
-                "image": "10_mainchar/10_bed.png",
-                "night": "10_mainchar/10_bedNight.png"
-            },
-           
-        ];
-        if (gv.get("jobapplyconst") === 0) {
-            btnList.push({
-                "type": "btn",
-                "name": "computer",
-                "left": 1233,
-                "top": 469,
-                "width": 202,
-                "height": 115,
-                "title": "Use your computer",
-                "image": "10_mainchar/10_computerApply.png",
-            });
-        }
-        else {
-            btnList.push({
-                "type": "btn",
-                "name": "computer",
-                "left": 1233,
-                "top": 469,
-                "width": 202,
-                "height": 115,
-                "title": "Use your computer",
-                "image": "10_mainchar/10_computer.png",
-                "night": "10_mainchar/10_computerNight.png"
-            });
-            
-        }
-        if (gv.get("sissySchoolClass") === "anal102" || gv.get("sissySchoolClass") === "oral101") {
-            btnList.push({
-                "type": "btn",
-                "name": "nightStand",
-                "left": 373,
-                "top": 604,
-                "width": 137,
-                "height": 197,
-                "title": "Toybox - play with your dildos (if you have them)",
-                "image": "10_mainchar/nightstandPracticeDay.png",
-                "night": "10_mainchar/nightstandPracticeNight.png"
-            });
-        }
-        else {
-            btnList.push({
-                "type": "btn",
-                "name": "nightStand",
-                "left": 373,
-                "top": 604,
-                "width": 137,
-                "height": 197,
-                "title": "Toybox - play with your dildos (if you have them)",
-                "image": "10_mainchar/10_nightstand.png",
-                "night": "10_mainchar/10_nightstandNight.png"
-            });
-        }
-
-        if (levels.get("cheer").l > 0) {
-            btnList.push({
-                "type": "btn",
-                "name": "cheerleader",
-                "left": 1033,
-                "top": 86,
-                "width": 236,
-                "height": 251,
-                "title": "Practice Cheerleading",
-                "image": "10_mainchar/cheerleader.png",
-            });
-        }
-        let shoeLevels = levels.get("heels").l < 8;
-        if (sissy.st[16].ach && !daily.get("practiceHeels") && shoeLevels) {
-            btnList.push({
-                "type": "btn",
-                "name": "heels",
-                "left": 783,
-                "top": 86,
-                "width": 236,
-                "height": 251,
-                "title": "Practice Walking in heels",
-                "image": "10_mainchar/heels.png",
-            });
-        }
-
+        room10.btnclick("drawRoom");
         var navList = [];
         var missingClothing = cl.hasoutfit("public");
 
@@ -121,7 +18,7 @@ room10.main = function () {
             if (hour.between(6, 21))
                 navList.push(0);
             if (cat === 1 || cat === 2) {
-                btnList.push({
+                nav.button({
                     "type": "btn",
                     "name": "cat",
                     "left": 1334,
@@ -129,7 +26,7 @@ room10.main = function () {
                     "width": 136,
                     "height": 233,
                     "image": "10_mainchar/cat.png"
-                });
+                }, 10);
             }
             let weekday = [1, 2, 3, 4, 5];
             if (missy.get("totalDaysWorked") > 1 && g.hourBetween(7, 10) && weekday.includes(g.dt.getDay()))
@@ -139,9 +36,6 @@ room10.main = function () {
             g.internal = missingClothing;
             chat(999, 10);
         }
-        $.each(btnList, function (i, v) {
-            nav.button(v, 10);
-        });
 
         nav.buildnav(navList);
     }
@@ -149,6 +43,167 @@ room10.main = function () {
 
 room10.btnclick = function (name) {
     switch (name) {
+        case "drawRoom":
+            nav.bg("10_mainchar/10_bedroom.png", "10_mainchar/10_bedroomNight.png");
+            var mr_paint10 = gv.get("mr_paint");
+            var mr_poster_l10 = gv.get("mr_poster_l");
+            var mr_poster_r10 = gv.get("mr_poster_r");
+            var mr_bed10 = gv.get("mr_bed");
+            var mr_rug10 = gv.get("mr_rug");
+            if (mr_bed10 === "mr_blueblanket" || mr_bed10 === null) {
+                mr_bed10 = "10_bed";
+            }
+            if (mr_paint10 !== "mr_blue" || mr_poster_l10 !== null || mr_poster_r10 !== null) {
+                nav.button({
+                    "type": "img",
+                    "name": "room_paint",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "10_mainchar/" + mr_paint10 + ".webp",
+                    "night": "10_mainchar/" + mr_paint10 + "_night.webp"
+                }, 10);
+            }
+            if (!(mr_rug10 === null || mr_rug10 === "mr_rugblue")) {
+                nav.button({
+                    "type": "img",
+                    "name": "room_rug",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "10_mainchar/" + mr_rug10 + ".webp",
+                    "night": "10_mainchar/" + mr_rug10 + "_night.webp"
+                }, 10);
+            }
+            if (mr_poster_l10 !== null) {
+                nav.button({
+                    "type": "img",
+                    "name": "room_pic_l",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "10_mainchar/" + mr_poster_l10 + "_l.webp",
+                }, 10);
+            }
+            if (mr_poster_r10 !== null) {
+                nav.button({
+                    "type": "img",
+                    "name": "room_pic_r",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "10_mainchar/" + mr_poster_r10 + "_r.webp",
+                }, 10);
+            }
+            nav.button({
+                "type": "btn",
+                "name": "wardrobe",
+                "left": 1684,
+                "top": 230,
+                "width": 236,
+                "height": 602,
+                "title": "Wardrobe",
+                "image": "10_mainchar/10_wardrobe.png",
+                "night": "10_mainchar/10_wardrobeNight.png"
+            }, 10);
+
+            nav.button({
+                "type": "btn",
+                "name": "Bed",
+                "left": 514,
+                "top": 531,
+                "width": 547,
+                "height": 401,
+                "title": "Sleep",
+                "image": "10_mainchar/" + mr_bed10 + ".png",
+                "night": "10_mainchar/" + mr_bed10 + "Night.png"
+            }, 10);
+
+            if (gv.get("jobapplyconst") === 0) {
+                nav.button({
+                    "type": "btn",
+                    "name": "computer",
+                    "left": 1233,
+                    "top": 469,
+                    "width": 202,
+                    "height": 115,
+                    "title": "Use your computer",
+                    "image": "10_mainchar/10_computerApply.png",
+                }, 10);
+            }
+            else {
+                nav.button({
+                    "type": "btn",
+                    "name": "computer",
+                    "left": 1233,
+                    "top": 469,
+                    "width": 202,
+                    "height": 115,
+                    "title": "Use your computer",
+                    "image": "10_mainchar/10_computer.png",
+                    "night": "10_mainchar/10_computerNight.png"
+                }, 10);
+
+            }
+            if (gv.get("sissySchoolClass") === "anal102" || gv.get("sissySchoolClass") === "oral101") {
+                nav.button({
+                    "type": "btn",
+                    "name": "nightStand",
+                    "left": 373,
+                    "top": 604,
+                    "width": 137,
+                    "height": 197,
+                    "title": "Toybox - play with your dildos (if you have them)",
+                    "image": "10_mainchar/nightstandPracticeDay.png",
+                    "night": "10_mainchar/nightstandPracticeNight.png"
+                }, 10);
+            }
+            else {
+                nav.button({
+                    "type": "btn",
+                    "name": "nightStand",
+                    "left": 373,
+                    "top": 604,
+                    "width": 137,
+                    "height": 197,
+                    "title": "Toybox - play with your dildos (if you have them)",
+                    "image": "10_mainchar/10_nightstand.png",
+                    "night": "10_mainchar/10_nightstandNight.png"
+                }, 10);
+            }
+
+            if (levels.get("cheer").l > 0) {
+                nav.button({
+                    "type": "btn",
+                    "name": "cheerleader",
+                    "left": 1033,
+                    "top": 86,
+                    "width": 236,
+                    "height": 251,
+                    "title": "Practice Cheerleading",
+                    "image": "10_mainchar/cheerleader.png",
+                }, 10);
+            }
+            let shoeLevels = levels.get("heels").l < 8;
+            if (sissy.st[16].ach && !daily.get("practiceHeels") && shoeLevels) {
+                nav.button({
+                    "type": "btn",
+                    "name": "heels",
+                    "left": 783,
+                    "top": 86,
+                    "width": 236,
+                    "height": 251,
+                    "title": "Practice Walking in heels",
+                    "image": "10_mainchar/heels.png",
+                }, 10);
+            }
+
+
+            break;
         case "computer":
             g.pass = 10;
             char.room(9);

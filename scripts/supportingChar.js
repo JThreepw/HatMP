@@ -51,7 +51,7 @@ sc.char = [
     { name: "kinsey", display: "Kinsey", image: "kinsey.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, q3: null },
     { name: "envy", display: "Envy", image: "envy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, q3: null },
     { name: "horse", display: "Jimmy Dingler", image: "horse.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, q3: null },
-    { name: "lead", display: "Lead Heifer", image: "lead.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "lead", display: "Bessie", image: "lead.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
 
     { name: "cult", display: "Cult", image: "cult.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
     { name: "priapus", display: "Priapus", image: "Priapus.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
@@ -1452,7 +1452,14 @@ sc.charMission = [
                 missionName: "ranch", mStatus: 0, title: "I'm the boss", desc: "Do what you're told", task:
                     [
                         { id: 0, txt: "Mooo", show: true, mStatus: 0, roomId: 328 },
-                        { id: 1, txt: "The talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 1, txt: "Talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 2, txt: "Talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 3, txt: "Talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 4, txt: "Talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 5, txt: "Talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 6, txt: "Talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 7, txt: "Talk", show: true, mStatus: 0, roomId: 328 },
+                        { id: 8, txt: "Talk", show: true, mStatus: 0, roomId: 328 }
                     ]
             },
         ]

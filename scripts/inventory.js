@@ -38,8 +38,11 @@ inv.t = [
     { t: "u", n: "Graduate of" },
     { t: "x", n: "ID Card" },
     { t: "y", n: "Hypno" },
-    { t: "z", n: "Gift" }
-    
+    { t: "z", n: "Gift" },
+    { t: "0", n: "Room Paint" },
+    { t: "1", n: "Blanket" },
+    { t: "2", n: "Rug" },
+    { t: "3", n: "Poster" },
     
 ];
 
@@ -160,6 +163,33 @@ inv.master = [
     { type: "a", name: "elephant", display: "Elephant", entry: false, count: 0, cost: 12, buy: 4, image: "elephant.png", n: false, desc: "Elephant plush toy" },
     { type: "a", name: "mug", display: "Travel Mug", entry: false, count: 0, cost: 36, buy: 12, image: "mug.png", n: false, desc: "Pink travel mug" },
     { type: "a", name: "whoopee", display: "Whoopee cushion", entry: false, count: 0, cost: 3, buy: 1, image: "whoopee.png", n: false, desc: "Whoopee cushion go fart! Hahaha" },
+
+    //{ type: "0", name: "mr_pink", display: "Pink Paint", entry: false, count: null, cost: 75, buy: null, image: "mr_pink.png", n: false, desc: "Paint for your bedroom walls." },
+    //{ type: "0", name: "mr_blue", display: "Blue Paint", entry: false, count: null, cost: 75, buy: null, image: "mr_blue.png", n: false, desc: "Paint for your bedroom walls." },
+
+    { type: "1", name: "mr_blueblanket", display: "Blue Blanket", entry: true, count: 1, cost: -1, buy: null, image: "mr_blueblanket.png", n: false, desc: "Blankets for your bed." },
+    { type: "1", name: "mr_pinkblanket", display: "Pink Blanket", entry: false, count: null, cost: 80, buy: null, image: "mr_pinkblanket.png", n: false, desc: "Blankets for your bed." },
+    { type: "1", name: "mr_purpleblanket", display: "Purple Blanket", entry: false, count: null, cost: 80, buy: null, image: "mr_purpleblanket.png", n: false, desc: "Blankets for your bed." },
+
+    { type: "2", name: "mr_rugblue", display: "Blue Rug", entry: true, count: 1, cost: -1, buy: null, image: "mr_rugblue.png", n: false, desc: "Blankets for your bed." },
+    { type: "2", name: "mr_rugpink", display: "Pink Rug", entry: false, count: null, cost: 240, buy: null, image: "mr_rugpink.png", n: false, desc: "Blankets for your bed." },
+    { type: "2", name: "mr_rugpurple", display: "Purple Rug", entry: false, count: null, cost: 240, buy: null, image: "mr_rugpurple.png", n: false, desc: "Blankets for your bed." },
+
+    { type: "3", name: "mr_poseter_1", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_1.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_2", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_2.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_3", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_3.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_4", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_4.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_5", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_5.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_6", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_5.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_7", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_7.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_8", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_8.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_9", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_9.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_10", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_10.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_11", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_11.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_12", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_12.png", n: false, desc: "Poster for your room." },
+    { type: "3", name: "mr_poseter_13", display: " ", entry: false, count: null, cost: 35, buy: null, image: "mr_poseter_13.png", n: false, desc: "Poster for your room." },
+
+
 ];
 
 inv.getall = function () {
@@ -470,8 +500,29 @@ inv.display = function () {
                 $("#menu_displayAction").attr("data-itype", "bag");
                 $("#menu_displayAction").attr("data-type", thisItem.type);
                 $("#menu_displayAction").attr("data-name", thisItem.name);
+                $("#menu_displayAction").html("Change Apartment Picture");
+                $("#menu_displayAction").show();
+                break;
+            case "0"://room decoration
+            case "1"://room decoration
+            case "2"://room decoration
+                $("#menu_displayAction").attr("data-itype", "bag");
+                $("#menu_displayAction").attr("data-type", thisItem.type);
+                $("#menu_displayAction").attr("data-name", thisItem.name);
                 $("#menu_displayAction").html("Change Room Decoration");
                 $("#menu_displayAction").show();
+                break;
+            case "3":
+                $("#menu_displayAction").attr("data-itype", "bag");
+                $("#menu_displayAction2").attr("data-itype", "bag");
+                $("#menu_displayAction").attr("data-type", thisItem.type);
+                $("#menu_displayAction").attr("data-name", thisItem.name);
+                $("#menu_displayAction2").attr("data-type", thisItem.type);
+                $("#menu_displayAction2").attr("data-name", thisItem.name);
+                $("#menu_displayAction").html("Change Left Poster");
+                $("#menu_displayAction2").html("Change Right Poster");
+                $("#menu_displayAction").show();
+                $("#menu_displayAction2").show();
                 break;
             case "h":
                 var xh = gv.get("autohormone");
@@ -599,10 +650,12 @@ inv.createElements = function () {
         '<div class="menu-line" style="' + g.cssText(8) + ' margin-top:' + 10 * g.ratio + 'px;">How Many</div>' +
         '</div>' +
         '<div id="menu_displayInfo" class="menu-line-desc" style="' + g.cssText(9) + ' margin-top:' + 10 * g.ratio + 'px;"></div>' +
-        '<button id="menu_displayAction" class="menu-action" data-itype="" data-type="" data-name="" style="' + g.cssText(12) + ' margin-top:' + 10 * g.ratio + 'px; padding:' + 5 * g.ratio + 'px;">Action</button>');
+        '<button id="menu_displayAction" class="menu-action" data-itype="" data-type="" data-name="" style="' + g.cssText(12) + ' margin-top:' + 10 * g.ratio + 'px; padding:' + 5 * g.ratio + 'px;">Action</button>' +
+        '<button id="menu_displayAction2" class="menu-action" data-itype="" data-type="" data-name="" style="' + g.cssText(12) + ' margin-top:' + 10 * g.ratio + 'px; padding:' + 5 * g.ratio + 'px;">Action</button>');
 
     $("#menu_displayCountLine").hide();
     $('#menu_displayAction').hide();
+    $('#menu_displayAction2').hide();
 
     $("#menu_displayUp").click(function () {
         var thisCost = parseInt($('#menu_displayUp').attr("data-price"));
@@ -622,6 +675,13 @@ inv.createElements = function () {
         }
     });
 
+    $("#menu_displayAction2").click(function () {
+        let thisName2 = $(this).attr("data-name");
+        gv.set("mr_poster_r", thisName2);
+        if (g.roomID === 10) {
+            room10.btnclick("drawRoom");
+        }
+    });
     $("#menu_displayAction").click(function () {
         var thisIType = $(this).attr("data-itype");
         var thisType = $(this).attr("data-type");
@@ -790,6 +850,30 @@ inv.createElements = function () {
                     $("#menu_displayInfo").html("UPDATED");
                     $("#menu_displayAction").hide();
                     inv.close();
+                    break;
+                case "0":
+                    gv.set("mr_paint", thisName);
+                    if (g.roomID === 10) {
+                        room10.btnclick("drawRoom");
+                    }
+                    break;
+                case "1":
+                    gv.set("mr_bed", thisName);
+                    if (g.roomID === 10) {
+                        room10.btnclick("drawRoom");
+                    }
+                    break;
+                case "2":
+                    gv.set("mr_rug", thisName);
+                    if (g.roomID === 10) {
+                        room10.btnclick("drawRoom");
+                    }
+                    break;
+                case "3":
+                    gv.set("mr_poster_l", thisName);
+                    if (g.roomID === 10) {
+                        room10.btnclick("drawRoom");
+                    }
                     break;
                 case "h":
                     var xh = gv.get("autohormone");

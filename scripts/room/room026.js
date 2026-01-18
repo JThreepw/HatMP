@@ -102,8 +102,10 @@ room26.btnclick = function (name) {
                     sc.select("confess_bigguy", "26_livingRoom/icon_confess.png", 3);
                 }
                 sc.select("icon_girl", "26_livingRoom/icon_girl.png", 2);
-                
-                sc.selectCancel("chat_cancel", 4);
+                if (gv.get("mr_paint") === "mr_blue" || gv.get("mr_paint") === null) {
+                    sc.select("icon_paint", "26_livingRoom/icon_paint.webp", 4);
+                }
+                sc.selectCancel("chat_cancel", 5);
             }
             break;
         case "chat_landlordSissy":
@@ -178,6 +180,7 @@ room26.btnclick = function (name) {
             nav.killbutton("sit_dickSissy");
             nav.killbutton("confess_bigguy");
             nav.killbutton("icon_girl");
+            nav.killbutton("icon_paint");
             return;
         case "chat_landlord":
             room26.btnclick("chat_cancel");
@@ -437,6 +440,10 @@ room26.btnclick = function (name) {
             nav.bg("26_livingRoom/pills13.webp");
             levels.oral(3, "f", "landlord");
             chat(131, 26);
+            break;
+        case "icon_paint":
+            room26.btnclick("chat_cancel");
+            chat(149, 26);
             break;
         default:
             break;
@@ -744,6 +751,22 @@ room26.chatcatch = function (callback) {
             case "bettergirl":
 
                 break;
+            case "paint":
+                nav.kill();
+                gv.set("mr_paint", "mr_pink");
+                char.addtime(180);
+                room10.btnclick("drawRoom");
+                nav.button({
+                    "type": "img",
+                    "name": "ll",
+                    "left": 946,
+                    "top": 87,
+                    "width": 450,
+                    "height": 993,
+                    "image": "26_livingRoom/paint.webp"
+                }, 26);
+                
+                break;
             case "pills0":
                 nav.killall();
                 nav.bg("26_livingRoom/pills0.webp");
@@ -849,6 +872,9 @@ room26.chatcatch = function (callback) {
                 }
                 char.addtime(30);
                 char.room(26);
+                break;
+            case "room10":
+                char.room(10);
                 break;
             default:
                 console.log("unknown callback: " + v)
@@ -2275,6 +2301,35 @@ room26.chat = function (chatID) {
                     "with them.",
                 button: [
                     { chatID: -1, text: "Thanks!", callback: "girl_boobs0" },
+                ]
+            },
+            {
+                chatID: 149,
+                speaker: "me",
+                text: "Now that I'm, uhhh, more girly I should have a room that more... uhh... girly. " +
+                    "Would it be fine if I redecorate it to something more girly?  ",
+                button: [
+                    { chatID: 150, text: "...", callback: "" },
+                ]
+            },
+            {
+                chatID: 150,
+                speaker: "landlord",
+                text: "Now that sounds like a great way to accept your new self. We should " +
+                    "paint your room. I have the perfect color for my little girl. Shall we paint it now? ",
+                button: [
+                    { chatID: 151, text: "Yes! Let's! ", callback: "paint" },
+                    { chatID: -1, text: "Some other time ", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 151,
+                speaker: "landlord",
+                text: "That should do it! A girly color for my little girl! You know I never really " +
+                    "liked the blue color in your room. It was so cold. This pink will liven things right " +
+                    "up! I'm so glad you let me change it up! Now I've got to clean this paint off. ",
+                button: [
+                    { chatID: -1, text: "Thank you so much " + sc.n("landlord") + "!", callback: "room10" }
                 ]
             },
         ];

@@ -151,6 +151,10 @@ room401.main = function () {
         case "happyGirl":
             navList = [400];
             room401.makeInv(["r"], true, 1);
+            room401.makeInv(["0"], true, 1);
+            room401.makeInv(["1"], true, 1);
+            room401.makeInv(["2"], true, 1);
+            room401.makeInv(["3"], true, 1);
             room401.makeClothing("chastity", "m");
             nav.bg("401_purchase/paint.jpg", "401_purchase/paint.jpg");
             break;

@@ -153,6 +153,10 @@ room327.btnclick = function (name) {
                     chat(26, 327);
                     break;
                 default:
+                    if (!daily.get("kinsey327chat")) {
+                        sc.modLevel("kinsey", 10);
+                        daily.set("kinsey327chat");
+                    }
                     chat(36, 327);
                     break;
             };

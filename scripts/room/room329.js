@@ -7,6 +7,16 @@ room329.main = function () {
         chat(90, 329);
         return;
     }
+    else if (daily.get("328_kinseybad")) {
+        g.map.event = "bed";
+        char.settime(19, 23);
+        g.map.anger = 100;
+        daily.set("328_kinseybad", false);
+        sc.modLevel("kinsey", 120, 10);
+        nav.bg("329_barn/kinsey_0_" + gender.pronoun("f") + ".webp");
+        chat(100, 329);
+        return;
+    }
     if (g.gethourdecimal() > 12 && !g.map.milked && !g.map.barnTooLong) {
         chat(10, 329);
     }
@@ -24,6 +34,7 @@ room329.main = function () {
         }
     }
     else if (!g.map.philbertBarn) {
+        g.map.philbertBarn = true;
         nav.bg("329_barn/ph1.webp");
         chat(96, 329);
     }
@@ -181,13 +192,19 @@ room329.btnclick = function (name) {
             g.map.jars[1].t--;
             g.popUpNotice("You drank some piss");
             levels.piss(true, false, false, "m");
-            room329.btnclick("icon_stall");
+            if (g.room === 329)
+                room329.btnclick("icon_stall");
+            else
+                room328.btnclick("icon_bedturn"); 
             break;
         case "icon_pissjargirl":
             g.map.jars[2].t--;
             g.popUpNotice("You drank girl's piss");
             levels.piss(true, false, false, "f");
-            room329.btnclick("icon_stall");
+            if (g.room === 329)
+                room329.btnclick("icon_stall");
+            else
+                room328.btnclick("icon_bedturn"); 
             break;
         case "icon_cumjar":
             g.map.jars[3].t--;
@@ -195,7 +212,10 @@ room329.btnclick = function (name) {
             gv.mod("energy", 100);
             levels.mod("xdress", 10, 999);
             levels.mod("cum", 25);
-            room329.btnclick("icon_stall");
+            if (g.room === 329)
+                room329.btnclick("icon_stall");
+            else
+                room328.btnclick("icon_bedturn"); 
             break;
         case "icon_dogcumjar":
             g.map.jars[4].t--;
@@ -203,7 +223,10 @@ room329.btnclick = function (name) {
             gv.mod("energy", 150);
             levels.mod("xdress", 10, 999);
             levels.mod("cum", 25);
-            room329.btnclick("icon_stall");
+            if (g.room === 329)
+                room329.btnclick("icon_stall");
+            else
+                room328.btnclick("icon_bedturn"); 
             break;
         case "icon_horsecumjar":
             g.map.jars[5].t--;
@@ -211,7 +234,10 @@ room329.btnclick = function (name) {
             gv.mod("energy", 200);
             levels.mod("xdress", 10, 999);
             levels.mod("cum", 25);
-            room329.btnclick("icon_stall");
+            if (g.room === 329)
+                room329.btnclick("icon_stall");
+            else
+                room328.btnclick("icon_bedturn"); 
             break;
         case "icon_pigcumjar":
             g.map.jars[6].t--;
@@ -219,7 +245,10 @@ room329.btnclick = function (name) {
             gv.mod("energy", 300);
             levels.mod("xdress", 10, 999);
             levels.mod("cum", 25);
-            room329.btnclick("icon_stall");
+            if(g.room === 329)
+                room329.btnclick("icon_stall");
+            else
+                room328.btnclick("icon_bedturn"); 
             break;
         case "icon_expel":
             if (gv.getButtCum().total === 0) {
@@ -544,6 +573,7 @@ room329.chatcatch = function (callback) {
         case "ppgirl3":
         case "ppgirlfeed":
         case "hole4":
+        case "kinsey_1":
             nav.bg("329_barn/" + callback + ".webp");
             break;
         case "av4":
@@ -611,9 +641,9 @@ room329.chatcatch = function (callback) {
             sc.select("icon_brush", "329_barn/icon_brush.webp", 1);
             sc.select("icon_look", "329_barn/icon_look.webp", 2);
             sc.select("icon_stall", "329_barn/icon_stall.webp", 3);
-            if (g.map.ppgirl) 
+            if (g.map.ppgirl)
                 sc.select("icon_ppgirl", "329_barn/icon_ppgirl.webp", 4);
-            if (g.map.av > 0) 
+            if (g.map.av > 0)
                 sc.select("icon_av", "329_barn/icon_av.webp", 5);
             if (g.map.hole > 0)
                 sc.select("icon_hole", "329_barn/icon_hole.webp", 6);
@@ -775,7 +805,7 @@ room329.chatcatch = function (callback) {
                     [0, 0, 0, 2, 1, 1, 1, 1, 1, 0, 0],//11
                     [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],//12
                 ]
-            }; 
+            };
             nav.kill();
             nav.bg("329_barn/maze_bg.webp");
             room329.btnclick("maze");
@@ -868,6 +898,9 @@ room329.chatcatch = function (callback) {
                 "height": 1080,
                 "image": "329_barn/philbert1.webp"
             }, 329);
+            break;
+        case "room328":
+            char.room(328);
             break;
         case "reset":
             char.room(329);
@@ -1885,6 +1918,31 @@ room329.chat = function (chatID) {
                 text: "So you're tryin' to escape? You know what we do with li'l hucows that try to escape?  ",
                 button: [
                     { chatID: 80, text: "wha?", callback: "hole4" },
+                ]
+            },
+            {
+                chatID: 100,
+                speaker: "kinsey",
+                text: "Sorry about getting you in trouble.",
+                button: [
+                    { chatID: 101, text: "It's ok. ", callback: "" },
+                ]
+            },
+            {
+                chatID: 101,
+                speaker: "kinsey",
+                text: "I was so worth it though. I love making them suffer. Those other bitches are too soft. " +
+                    "I'm glad you're here. ",
+                button: [
+                    { chatID: 102, text: "Me too.", callback: "kinsey_1" },
+                ]
+            },
+            {
+                chatID: 102,
+                speaker: "rachel",
+                text: "*sigh* You two. Always you two. You know what happens when you're bad. Let's get to it.",
+                button: [
+                    { chatID: 102, text: "*sigh*", callback: "room328" },
                 ]
             },
         ];

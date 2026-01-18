@@ -79,6 +79,11 @@ gv.init = function () {
         { n: "ralphcycle", t: -1, q: "int" },
         //room decoration
         { n: "painting", t: "", q: "string" },
+        { n: "mr_paint", t: "mr_blue", q: "string" },
+        { n: "mr_poster_l", t: null, q: "string" },
+        { n: "mr_poster_r", t: null, q: "string" },
+        { n: "mr_bed", t: null, q: "string" },
+        { n: "mr_rug", t: null, q: "string" },
 
         //firstTime
         { n: "firstTimeInWardrobe", t: false, q: "bool" },
@@ -731,7 +736,7 @@ gv.mod = function (name, amount) {
                 break;
             case "bladder":
                 if (gv.st[index].t < .9 && amount > 0)
-                    gv.mod("energy", (Math.floor(amount * 100) / 3));
+                    gv.mod("energy", Math.floor((amount * 100) / 3));
 
                 gv.st[index].t += amount;
                 if (gv.st[index].t > 1)
