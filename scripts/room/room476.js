@@ -61,7 +61,19 @@ room476.main = function () {
 room476.btnclick = function (name) {
     switch (name) {
         case "door":
-            if (future.get("case_dam") > -1) {
+            if (missy.activecase().name === "case_cult" && !g.isNight()) {
+                if (cl.c.dress === "robe") {
+                    nav.kill();
+                    nav.bg("476_cabin/bg_empty.jpg", "476_cabin/bg_empty_night.jpg");
+                    chat(55, 476);
+                }
+                else {
+                    nav.kill();
+                    nav.bg("476_cabin/bg_empty.jpg", "476_cabin/bg_empty_night.jpg");
+                    chat(54, 476);
+                }
+            }
+            else if (future.get("case_dam") > -1) {
                 nav.kill();
                 nav.bg("476_cabin/bg_empty.jpg", "476_cabin/bg_empty_night.jpg");
                 nav.button({
@@ -474,6 +486,14 @@ room476.btnclick = function (name) {
             }
             g.internal++;
             break;
+        case "case_cult1":
+            nav.bg("476_cabin/case_cult1.webp");
+            break;
+        case "case_cult2":
+            missy.set("activeCaseComplete", 1);
+            missy.caseComplete(22);
+            char.room(950);
+            break;
         default:
             break;
     }
@@ -773,6 +793,11 @@ room476.chatcatch = function (callback) {
             future.kill("case_dam");
             missy.set("activeCaseComplete", 1);
             char.room(476);
+            break;
+        case "case_cult0":
+            char.addtime(47);
+            nav.kill();
+            nav.bg("476_cabin/case_cult0.webp");
             break;
         default:
             break;
@@ -1285,6 +1310,59 @@ room476.chat = function (chatID) {
                     "out of here. Like now.",
                 button: [
                     { chatID: -1, text: "...", callback: "" },
+                ]
+            },
+            {
+                chatID: 54,
+                speaker: "thinking",
+                text: "Oh crap. I'm supposed to be wearing the cult robe. I better go change somewhere. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "leave" },
+                ]
+            },
+            {
+                chatID: 55,
+                speaker: "thinking",
+                text: "I guess I'll wait for whoever is supposed to show up... ",
+                button: [
+                    { chatID: 56, text: "[Wait for the informant]", callback: "case_cult0" },
+                ]
+            },
+            {
+                chatID: 56,
+                speaker: "river",
+                text: "Well holy fucking shit! If it isn't " + sc.n("me") + "!! You won't be meeting your " +
+                    "traitor of a friend. He spilled everything about his little meet up after only three " +
+                    "hours of torture. He's such a pussy like you. ",
+                button: [
+                    { chatID: 57, text: sc.n("river") + "!!", callback: "" },
+                ]
+            },
+            {
+                chatID: 57,
+                speaker: "river",
+                text: "You know I was told to go easy on you since my boss didn't want to mess with " +
+                    "Missy. Wait. She's isn't here to save your ass is she?",
+                button: [
+                    { chatID: 58, text: "*grrrr*", callback: "" },
+                ]
+            },
+            {
+                chatID: 58,
+                speaker: "river",
+                text: "Well fuck it! I was told to bring in whoever was here, and that looks like you. " +
+                    "You're going to wish you came with me the first time! Hahaha! Get him! He's coming with " +
+                    "us! ",
+                button: [
+                    { chatID: -1, text: "Wait!!", callback: "case_cult1" },
+                ]
+            },
+            {
+                chatID: 59,
+                speaker: "thinking",
+                text: "Oh crap. Is this how I go out?",
+                button: [
+                    { chatID: -1, text: "[Fade to black]", callback: "case_cult2" },
                 ]
             },
         ];

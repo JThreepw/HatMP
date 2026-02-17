@@ -628,6 +628,9 @@ zcl.bj = function (top, left, ratio, mod, reverse) {
             zcl.subDisplay("head_open.png", top, left, ratio, reverse, w, h, f);
             zcl.subDisplay("w.png", top, left, ratio, reverse, w, h, f);
             break;
+        case "cummouth":
+            zcl.subDisplay("head_cummouth.png", top, left, ratio, reverse, w, h, f);
+            break;
         default:
             zcl.subDisplay("head.png", top, left, ratio, reverse, w, h, f);
             break;
@@ -714,6 +717,42 @@ zcl.bjpov = function (top, left, ratio, mod, reverse) {
         else
             zcl.subDisplay("bj_" + pg + "_open_" + bjpovdick + ".webp", top, left, ratio, reverse, w, h, f);
     }
+};
+
+//closed w
+//c facial or swallow b
+zcl.legsup = function (top, left, ratio, mod, reverse) {
+    let w = 1700;
+    let h = 2100;
+    let f = "legsup";
+    let face = "smile";
+    if (mod.includes("eyes"))
+        face = "eyes";
+    else if (mod.includes("open"))
+        face = "open";
+
+    let dick = "big";
+    if (!gender.canUseCock()) {
+        if (cl.c.chastity !== null)
+            dick = "chastity";
+        else
+            dick = "small";
+    }
+
+    let anus = "anus";
+    if (mod.includes("c1"))
+        anus = "anus_c1";
+    else if (mod.includes("c2"))
+        anus = "anus_c2";
+    else if (mod.includes("c3"))
+        anus = "anus_c3";
+
+    zcl.kill();
+
+    zcl.subDisplay("body_" + gender.pronoun("f") + "_" + face + ".webp", top, left, ratio, reverse, w, h, f);
+    zcl.subDisplay(dick + ".webp", top, left, ratio, reverse, w, h, f);
+    zcl.subDisplay(anus + ".webp", top, left, ratio, reverse, w, h, f);
+
 };
 
 zcl.squat = function (top, left, ratio, mod, reverse) {
@@ -927,6 +966,8 @@ zcl.poseExpose = function (top, left, ratio, mod, reverse) {
             zcl.subDisplay("body_3_panties.png", top, left, ratio, reverse, w, h, f);
         if(cl.c.bra !== null)
             zcl.subDisplay("body_3_bra.png", top, left, ratio, reverse, w, h, f);
+        if (cl.c.dress === "maid")
+            zcl.subDisplay("maid_3.png", top, left, ratio, reverse, w, h, f);
     }
     else {
         zcl.subDisplay("body_0.png", top, left, ratio, reverse, w, h, f);
@@ -934,6 +975,8 @@ zcl.poseExpose = function (top, left, ratio, mod, reverse) {
             zcl.subDisplay("body_0_panties.png", top, left, ratio, reverse, w, h, f);
         if (cl.c.bra !== null)
             zcl.subDisplay("body_0_bra.png", top, left, ratio, reverse, w, h, f);
+        if (cl.c.dress === "maid")
+            zcl.subDisplay("maid_0.png", top, left, ratio, reverse, w, h, f);
     }
 
     if (cl.c.chastity !== null && cl.c.panties === null)

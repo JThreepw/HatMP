@@ -2263,42 +2263,22 @@
                         nav.button({
                             "type": "img",
                             "name": "r1004bg",
-                            "left": 619,
-                            "top": 440,
-                            "width": 985,
-                            "height": 594,
-                            "image": "1004_rape/futa1/phase5_anal_b.png"
-                        }, 1004);
-                        zcl.assup(650, 500, .7, "");
-                        nav.button({
-                            "type": "img",
-                            "name": "r1004bg",
-                            "left": 619,
-                            "top": 440,
-                            "width": 985,
-                            "height": 594,
-                            "image": "1004_rape/futa1/phase5_anal_f.png"
-                        }, 1004);
-                        nav.button({
-                            "type": "img",
-                            "name": "r1004bg",
-                            "left": 400,
-                            "top": 80,
-                            "width": 1415,
-                            "height": 357,
-                            "image": "1004_rape/anal_xray.gif"
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/14_futa/phase5_anal_" + gender.pronoun("f") + ".webp"
                         }, 1004);
                     }
                     else {
-                        zcl.bj(250, 400, .6, "open", true);
                         nav.button({
                             "type": "img",
                             "name": "r1004bg",
-                            "left": 544,
+                            "left": 0,
                             "top": 0,
-                            "width": 699,
+                            "width": 1920,
                             "height": 1080,
-                            "image": "1004_rape/futa1/phase6_oral.png"
+                            "image": "1004_rape/14_futa/phase5_bj_" + gender.pronoun("f") + ".webp"
                         }, 1004);
                     }
                     return false;
@@ -2311,37 +2291,36 @@
                         nav.button({
                             "type": "img",
                             "name": "r1004bg",
-                            "left": 619,
-                            "top": 440,
-                            "width": 985,
-                            "height": 594,
-                            "image": "1004_rape/futa1/phase5_anal_b.png"
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/14_futa/phase6.webp"
                         }, 1004);
-                        zcl.assup(650, 500, .7, "");
-                        nav.button({
-                            "type": "img",
-                            "name": "r1004bg",
-                            "left": 619,
-                            "top": 440,
-                            "width": 985,
-                            "height": 594,
-                            "image": "1004_rape/futa1/phase6_anal_f.png"
-                        }, 1004);
-                        levels.anal(5, false, "n", true, "!futa1");
-                        return { c: false, s: rape.char.name, m: "Oh fuck! I'm cummin'!!!!!" };
+                        zcl.bellydown(300, 500, .6, "", true);
+                        levels.anal(4, false, "n", true, "futa1");
+                        return { c: false, s: rape.char.name, m: "Love seeing my cum leak out of a slut!" };
                     }
                     else {
-                        zcl.bj(0, 200, 1, "w", true);
                         nav.button({
                             "type": "img",
                             "name": "r1004bg",
-                            "left": 522,
+                            "left": 0,
                             "top": 0,
-                            "width": 1171,
+                            "width": 1920,
                             "height": 1080,
-                            "image": "1004_rape/futa1/phase7_oral.png"
+                            "image": "1004_rape/14_futa/phase5_bj_" + gender.pronoun("f") + ".webp"
                         }, 1004);
-                        levels.oral(4, "n", "!futa1", true);
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/14_futa/phase6gulp.webp"
+                        }, 1004);
+                        levels.oral(4, "n", "futa1", true);
                         return { c: false, s: rape.char.name, m: "Oh yeah! Feels so good baby!" };
                     }
                 }
@@ -2349,6 +2328,307 @@
             },
             phase7: function () {
                 return { default: true };
+            }
+        },
+        {
+            num: 15,
+            name: "futa2",
+            displayName: "",
+            location: ["sewer"],
+            img: "15_futa/icon.png",
+            openingLine: ["You will pay for ", "destroying my home!!"],
+            openingImg: null,
+            fight: g.rand(8, 15),
+            energy: 100,
+            arousal: 0,
+            options: ["oral", "anal", "anal"],
+            slap: true,
+            color: "w",
+            gender: "m",
+            t: "futa",
+            cocksize: 5,
+            kick: "15_futa/kick.webp",
+            phase0: function () { return { default: true, complete: null }; },
+            phase1: function () { return { default: true, complete: null }; },
+            phase2: function () { return { default: true, complete: null }; },
+            phase3: function () {
+                if (rape.phases[3].c === 0) {
+                    nav.button({
+                        "type": "img",
+                        "name": "r1004bg",
+                        "left": 0,
+                        "top": 0,
+                        "width": 1920,
+                        "height": 1080,
+                        "image": "1004_rape/15_futa/phase3_0.webp"
+                    }, 1004);
+                    return { complete: false, s: "futa2", message: "I hope your holes are deep" };
+                }
+                nav.button({
+                    "type": "img",
+                    "name": "r1004bg",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "1004_rape/15_futa/phase3_1.webp"
+                }, 1004);
+                return { complete: true, s: "futa2", message: "Becuase this cock is going all the way down!" };
+            },
+            phase4: function () {
+                return { default: true, complete: null };
+            },
+            phase5: function () {
+                if (rape.phases[5].c === 0) {
+                    if (rape.rapeType === "anal") {
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/15_futa/phase5_anal_" + gender.pronoun("f") + ".webp"
+                        }, 1004);
+                    }
+                    else {
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/15_futa/phase5_bj_" + gender.pronoun("f") + ".webp"
+                        }, 1004);
+                    }
+                    return false;
+                }
+                return true;
+            },
+            phase6: function () {
+                if (rape.phases[6].c === 0) {
+                    if (rape.rapeType === "anal") {
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/15_futa/phase6_anal.webp"
+                        }, 1004);
+                        levels.anal(4, false, "n", true, "futa1");
+                        return { c: false, s: rape.char.name, m: "CLOWN CUM IS BEST CUM!!!" };
+                    }
+                    else {
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/15_futa/phase5_bj_" + gender.pronoun("f") + ".webp"
+                        }, 1004);
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/15_futa/phase6gulp.webp"
+                        }, 1004);
+                        levels.oral(4, "n", "futa1", true);
+                        return { c: false, s: rape.char.name, m: "Oh yeah! Feels so good baby!" };
+                    }
+                }
+                return { c: true, s: null, m: null };
+            },
+            phase7: function () {
+                return { default: true };
+            }
+        },
+        {
+            num: 16,
+            name: "clownqueen",
+            displayName: "Clown",
+            location: ["sewer"],
+            img: "16_clown/icon.webp",
+            openingLine: ["I do love breaking in", "sissies."],
+            fight: g.rand(20, 30),
+            energy: 150,
+            arousal: 0,
+            options: ["cunnilugus", "cunnilugus", "anal"],
+            slap: false,
+            color: "w",
+            gender: "f",
+            t: "femdom",
+            cocksize: 6,
+            kick: "16_clown/kick.webp",
+            phase0: function () { return { default: true, complete: true }; },
+            phase1: function () { return { default: true, complete: true }; },
+            phase2: function () { return { default: true, complete: null }; },
+            phase3: function () {
+                nav.button({
+                    "type": "img",
+                    "name": "r1004bg",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "1004_rape/16_clown/phase3.webp"
+                }, 1004);
+                zcl.embarrass(0, 900, .9, "back", false);
+                return { complete: true, s: "clownqueen", message: "I hope you're hungry 'cuase you're going to eat a big plate of clown pussy!" };
+            },
+            phase4: function () {
+                if (rape.rapeType === "cunnilugus") {
+                    if (rape.phases[4].c === 0) {
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/16_clown/phase4.webp"
+                        }, 1004);
+                        return { default: false, complete: false };
+                    }
+                        
+                }
+                return { default: false, complete: true };
+            },
+            phase5: function () {
+                if (rape.rapeType === "anal") {
+                    if (rape.phases[5].c === 0 || rape.phases[5].c === 2) {
+                        nav.killbutton("r1004bg");
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/16_clown/phase5_anal0.webp"
+                        }, 1);
+                        zcl.facedown(670, 700, .35, "", true);
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/16_clown/phase5_anal1.webp"
+                        }, 1004);
+                        if (rape.phases[5].c === 2)
+                            return true;
+                        return false;
+                    }
+                    else if (rape.phases[5].c === 1) {
+                        nav.killbutton("r1004bg");
+                        levels.piss(false, true, false, "f", "clownqueen");
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/16_clown/phase5_anal0_p.webp"
+                        }, 1);
+                        zcl.facedown(670, 700, .35, "", true);
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/16_clown/phase5_anal1.webp"
+                        }, 1004);
+                        return false;
+                    }
+                }
+                else {
+                    zcl.bj(100, 190, 1, "open", true);
+                    nav.button({
+                        "type": "img",
+                        "name": "r1004bg",
+                        "left": 0,
+                        "top": 0,
+                        "width": 1920,
+                        "height": 1080,
+                        "image": "1004_rape/16_clown/phase5_oral.webp"
+                    }, 1004);
+                    return false;
+                }
+                return true;
+            },
+            phase6: function () {
+                if (rape.phases[6].c === 0) {
+                    if (rape.rapeType === "anal") {
+                        zcl.kill();
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/16_clown/phase6_anal.webp"
+                        }, 1004);
+                        return { c: false, s: rape.char.name, m: "Don't we just make the sluttiest pair of holes ever! *HONK*" }
+
+                    }
+                    else {
+                        zcl.bj(100, 190, 1, "open", true);
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/16_clown/phase6_oral.webp"
+                        }, 1004);
+                        return { c: false, s: rape.char.name, m: "*Honk* You made my clussy squirt! " }
+                    }
+                }
+                return { c: true, s: null, m: null };
+            },
+            phase7: function () {
+                if (rape.phases[7].c === 0) {
+                    if (rape.rapeType === "anal") {
+                        zcl.kill();
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1004_rape/missx/phase6_" + gender.pronoun("f") + ".png"
+                        }, 1004);
+                    }
+                    else {
+                        zcl.kill();
+                        nav.button({
+                            "type": "img",
+                            "name": "r1004bg",
+                            "left": 456,
+                            "top": 0,
+                            "width": 1084,
+                            "height": 1080,
+                            "image": "1004_rape/phase6_cun_" + gender.pronoun("f") + ".png"
+                        }, 1004);
+                    }
+                    return false;
+                }
+                return true;
             }
         },
     ];

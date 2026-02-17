@@ -184,6 +184,44 @@ room0.btnclick = function (name) {
                 }, 4000);
             }
             else {
+                if (g.rand(0, 6) === 0) {
+                    if (levels.get("anal").l < 6 || levels.get("oral").l > 6) {
+                        if (g.rand(0, 2) === 0) {
+                            nav.button({
+                                "type": "img",
+                                "name": "screen",
+                                "left": 0,
+                                "top": 0,
+                                "width": 1920,
+                                "height": 1080,
+                                "image": "1001_rand/map_pop" + g.rand(0, 3) + ".webp"
+                            }, 0);
+                        }
+                        else {
+                            nav.button({
+                                "type": "img",
+                                "name": "screen",
+                                "left": 0,
+                                "top": 0,
+                                "width": 1920,
+                                "height": 1080,
+                                "image": "1001_rand/map_gpop" + g.rand(0, 4) + ".webp"
+                            }, 0);
+                        }
+                    }
+                    else if(gv.get("arousal") > 65)  {
+                        nav.button({
+                            "type": "img",
+                            "name": "screen",
+                            "left": 0,
+                            "top": 0,
+                            "width": 1920,
+                            "height": 1080,
+                            "image": "1001_rand/map_apop" + g.rand(0, 4) + ".webp"
+                        }, 0);
+                    }
+                }
+                
                 setTimeout(function () {
                     char.room(roomnum);
                 }, 800);

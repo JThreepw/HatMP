@@ -69,6 +69,8 @@ missy.init = function () {
         { caseId: 18, name: "case_carnival", show: true, complete: false, success: false },
         { caseId: 19, name: "case_farm", show: true, complete: false, success: false },
         { caseId: 20, name: "case_sewer", show: true, complete: false, success: false },
+        { caseId: 21, name: "case_elijah_boyfriend", show: true, complete: false, success: false },
+        { caseId: 22, name: "case_cult", show: true, complete: false, success: false },
     ];
 }
 
@@ -148,6 +150,8 @@ missy.activecase = function () {
             { caseId: 18, name: "case_carnival", txt: "You need to find those missing girls from the carnival!", m: [625], isComplete: activeCaseComplete },
             { caseId: 19, name: "case_farm", txt: "Investigate Rachel's Farm.", m: [325], isComplete: activeCaseComplete },
             { caseId: 20, name: "case_sewer", txt: "Talk to Dale in the homeless camp to get the crowbar then make you way to the back of the sewer next to the dance club till you find the robe.", m: [225], isComplete: activeCaseComplete },
+            { caseId: 21, name: "case_elijah_boyfriend", txt: "Visit the tattoo girl and see if Elijah is there", m: [408], isComplete: activeCaseComplete },
+            { caseId: 22, name: "case_cult", txt: "Meet with the contact in the cabin in the woods. Be sure to wear the CUM Cult Robe. ", m: [450], isComplete: activeCaseComplete },
 
         ];
         if (activecase > cases.length) {
@@ -267,13 +271,13 @@ missy.getcases = function () {
                         }
                         break;
                     case "case_bimbopanties":
-                        if (levels.get("pi").l > 4) {
+                        if (levels.get("pi").l > 2) {
                             canDoCase = inv.has("lockpick");
                             caseList.push({
                                 caseId: i,
                                 active: canDoCase,
                                 icon: "case" + i.toString() + (canDoCase ? "" : "_no") + ".png",
-                                notReadyTxt: "Work everyday till Missy decides you're worthy of the lock picking class. ",
+                                notReadyTxt: "Work everyday till Missy decides you're worthy of the lock picking class Intelligence Level 4. ",
                                 callback: missy.cases[i].name
                             });
                         }
@@ -292,10 +296,21 @@ missy.getcases = function () {
                         break;
                     case "case_elijah":
                         if (qdress.st[3].ach && sissy.st[10].ach && missy.cases[15].success) {
-                            canDoCase = piLevel > 2;
+                            canDoCase = true;
                             caseList.push({
                                 caseId: i,
                                 active: canDoCase,
+                                icon: "case" + i.toString() + (canDoCase ? "" : "_no") + ".png",
+                                notReadyTxt: "Raise your PI Level. ",
+                                callback: missy.cases[i].name
+                            });
+                        }
+                        break;
+                    case "case_elijah_boyfriend":
+                        if (missy.cases[13].success && future.get("case_elijah_complete") === -1) {
+                            caseList.push({
+                                caseId: i,
+                                active: true,
                                 icon: "case" + i.toString() + (canDoCase ? "" : "_no") + ".png",
                                 notReadyTxt: "Raise your PI Level. ",
                                 callback: missy.cases[i].name
@@ -362,6 +377,17 @@ missy.getcases = function () {
                         break;
                     case "case_sewer":
                         if (missy.cases[18].complete) {
+                            caseList.push({
+                                caseId: i,
+                                active: true,
+                                icon: "case" + i.toString() + ".png",
+                                notReadyTxt: "N/A. ",
+                                callback: missy.cases[i].name
+                            });
+                        }
+                        break;
+                    case "case_cult": 
+                        if (missy.cases[20].complete) {
                             caseList.push({
                                 caseId: i,
                                 active: true,
@@ -485,7 +511,7 @@ missy.afterLunch = function () {
         }
     }
     if (returnRoomId === 198) {
-        if (levels.get("pi").l > 4 && !inv.has("lockpick")) {
+        if (levels.get("pi").l > 3 && !inv.has("lockpick")) {
             returnRoomId = 195;
         }
     }

@@ -336,6 +336,10 @@ phone.characters = function () {
     for (i = 0; i < sc.char.length; i++) {
         if (sc.char[i].show) {
             if (showCharcterCounter >= phone.charPointer && j < 18) {
+                $('#room-buttons').append('<div class="room-img resize" data-name="phone_char_bg" ' +
+                    'style="position: absolute; background: ' + sc.char[i].hex + '; z-index:2; ' +
+                    g.makeCss(150, 150, 180 + (Math.floor(j / 6) * 220), 485 + ((j % 6) * 190)) + '">' +
+                    '</div>');
                 nav.button({
                     "type": "zbtn",
                     "name": "phone_charselect_" + sc.char[i].name,
@@ -351,19 +355,31 @@ phone.characters = function () {
                     name: "phone_char_",
                     "left": 485 + ((j % 6) * 190),
                     "top": 330 + (Math.floor(j / 6) * 220),
-                    font: 30,
+                    font: sc.char[i].display.length < 20 ? 20 : 12,
                     hex: "#ffffff",
-                    text: sc.levelName(i),
+                    text: sc.char[i].display,
                 }, 1);
+
+                $('#room-buttons').append('<div class="resize room-img" data-name="phone_char_" data-room="999" style=" ' + g.makeCss(5, (sc.char[i].l * 15), 360 + (Math.floor(j / 6) * 220), 485 + ((j % 6) * 190)) + '  background: #00ff00; border-radius:100px; z-index:2" ></div>');
+
+                //nav.t({
+                //    type: "zimg",
+                //    name: "phone_char_",
+                //    "left": 485 + ((j % 6) * 190),
+                //    "top": 360 + (Math.floor(j / 6) * 220),
+                //    font: 30,
+                //    hex: "#ffffff",
+                //    text: sc.levelName(i),
+                //}, 1);
 
                 nav.t({
                     type: "zimg",
                     name: "phone_char_",
                     "left": 485 + ((j % 6) * 190),
-                    "top": 360 + (Math.floor(j / 6) * 220),
-                    font: 30,
-                    hex: "#ffffff",
-                    text: "Secret: " + sc.char[i].secret + "%",
+                    "top": 365 + (Math.floor(j / 6) * 220),
+                    font: 20,
+                    hex: "#ffc2ff",
+                    text: sc.char[i].secret > 99 ? "They know" : (sc.char[i].secret === 0 ? "" : "Suspicious"),
                 }, 1);
                 j++;
             }

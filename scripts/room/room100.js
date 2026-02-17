@@ -77,7 +77,7 @@ room100.btnclick = function (name) {
                 chat(0, 100);
             else if (gv.get("energy") < 60)
                 chat(1, 100);
-            else if (!(cl.c.pants === "j" && (cl.c.shirt === "g" || cl.c.shirt === "c" || cl.c.shirt === "p" || cl.c.shirt === "w"))) {
+            else if (!(cl.c.pants === "j" && cl.c.shirt !== null)) {
                 chat(2, 100);
             }
             else if (missy.activecase().name === "apply") {

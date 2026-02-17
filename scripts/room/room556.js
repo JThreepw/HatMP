@@ -65,7 +65,7 @@ room556.btnclick = function (name) {
             }
             else {
                 nav.bg("556_spar/bg1.jpg");
-                quickFight.init(50, sc.n("g"), "gwin", "glose", "exit", 556);
+                quickFight.init(16, sc.n("g"), "gwin", "glose", "exit", 556);
                 if (thisEnergyg < 50) {
                     chat(8, 556)
                 }
@@ -201,8 +201,8 @@ room556.chat = function (chatID) {
         {
             chatID: 5,
             speaker: "g",
-            text: "So You rolled a 17 plus your strength of 1. I rolled a 20 plus my strength of 50. " +
-                "So my 70 beats your 18. By a lot. ",
+            text: "So You rolled a 17 plus your strength of 1. I rolled a 20 plus my strength of 16. " +
+                "So my 36 beats your 18. By a lot. ",
             button: [
                 { chatID: 6, text: "[Next]", callback: "bg1" }
             ]

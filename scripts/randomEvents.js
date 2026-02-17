@@ -2,7 +2,7 @@
 fame.niceCounter = 0;
 fame.rapeCounter = 0;
 fame.moanCounter = null;
-
+fame.animateTimeout = null;
 fame.event = function (roomId, returnBtn) {
     if (g.isNight()) {
         let orallevel = levels.get("oral").l;
@@ -62,7 +62,23 @@ fame.moankill = function () {
     nav.killbutton("fame.moan-kill");
 };
 
-fame.moan = function (side) {
+//side: left, right, center, double
+fame.moanAnimate = function (side) {
+    if (fame.animateTimeout !== null) return;
+    fame.moan(side);
+    fame.animateTimeout = setInterval(function () {
+        nav.killbutton("fame.moan-kill"); 
+        fame.moan(side);
+    }, 1200);
+};
+
+fame.moanAnimateStop = function () {
+    nav.killbutton("fame.moan-kill");
+    clearInterval(fame.animateTimeout);
+    fame.animateTimeout = null;
+};
+
+fame.moan = function (side = "center") {
     //0-8
     fame.moankill();
     let initmoan0 = g.rand(150, 201);

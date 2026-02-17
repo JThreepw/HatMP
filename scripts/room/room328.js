@@ -677,7 +677,7 @@ room328.btnclick = function (name) {
             }
             else {
                 nav.killbuttonStartsWith("icon_");
-                gv.mod("energy", -50);
+                gv.mod("energy", -40);
                 var holeDig = Math.floor((g.rand(3, 8) + (levels.get("strength").l / 2)) / 2);
                 if (!g.map.spade)
                     holeDig = Math.round(holeDig / 3);
@@ -698,6 +698,7 @@ room328.btnclick = function (name) {
                     "height": 367,
                     "image": "328_farm/sleep_hole.webp"
                 }, 329);
+                room328.btnclick("hole_progress");
                 g.roomTimeout = setTimeout(function () {
                     g.map.temp = 1;
                     room328.btnclick("icon_bedturn");

@@ -691,6 +691,7 @@ menu.save = function (cookieName, saveToCookie) {
 };
 
 menu.load = function (cookieName, btn, saveID) {
+    fame.moanAnimateStop();
     if (g.newLoad) {
         $('.room-left').show();
         $('#room_footer').show();

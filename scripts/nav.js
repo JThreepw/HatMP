@@ -126,6 +126,8 @@ nav.button = function (btn, roomNum) {
             classes = "room-btn-brush rom-event";
         else if (btn.type === "hand")
             classes = "room-btn-hand rom-event";
+        else if (btn.type === "zhand")
+            classes = "room-btn-hand rom-event room-zindex";
         else if (btn.type === "grab")
             classes = "room-btn-grab rom-event";
         else if (btn.type === "vib")

@@ -149,6 +149,9 @@ room321.gameloop = function () {
     if (g.internal.viewers > g.internal.maxviews)
         g.internal.maxviews = g.rand(g.internal.maxviews - 20, g.internal.maxviews + 20);
 
+    if(g.internal.excitement > 40)
+        g.internal.excitement = 40;
+
     nav.killbutton("viewers");
     nav.t({
         type: "zimg",
@@ -351,7 +354,10 @@ room321.btnclick = function (name) {
             room321.sidechat(null);
             break;
         case "icon_suckdildo":
-            levels.oral(3, "f", "janice");
+            if (!daily.get("icon_suckdildo_321")) {
+                daily.set("icon_suckdildo_321");
+                levels.oral(3, "f", "janice");
+            }
             g.internal.excitement++;
             gv.mod("arousal", 10);
             nav.bg("321_whorechat/bg.jpg");
@@ -447,7 +453,8 @@ room321.btnclick = function (name) {
                 levels.oral(3, "f", "janice");
                 daily.set("janiceEatPussy");
             }
-            g.internal.excitement += 2;
+            if (g.internal.excitement < 30)
+                g.internal.excitement += 2;
             g.internal.button = "main";
             room321.btnclick("buttons");
             break;

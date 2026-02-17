@@ -2,133 +2,162 @@
 
 //g.char MUST BE LOWERCASE!!!!!!!!!!
 sc.char = [
-    { name: "me", display: "Alex", image: "me.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: false, phone: -1, p: false,  q3: null },
+    { name: "me", display: "Alex", image: "me.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: false, phone: -1, p: false, hex: "#D3CBBE" },
 
-    { name: "missy", display: "Missy", image: "missy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 2, p: true, q3: null },
-    { name: "tudor", display: "Mr. Tudor", image: "tudor.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 2, p: true, q3: null },
-    { name: "p", display: "Ms. Pussywinks", image: "princess.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, q3: null },
-    { name: "martha", display: "Mistress Martha", image: "martha.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, q3: null },
-    { name: "black", display: "Ms. Black", image: "black.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, q3: null },
-    { name: "cecilia", display: "Cecilia", image: "cecilia.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, q3: null },
+    { name: "landlord", display: "Landlady", image: "mom.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, hex: "#D3CBBE" },
+    { name: "el", display: "Co-Tenant", image: "lolaEva.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#D3CBBE" },
+    { name: "lola", display: "Lola", image: "lola.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, hex: "#D3CBBE" },
+    { name: "tom", display: "Tom", image: "tom.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 0, p: true, hex: "#D3CBBE" },
+    { name: "eva", display: "Eva", image: "eva.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, hex: "#D3CBBE" },
+    { name: "bigguy", display: "Dick", image: "bigman.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#D3CBBE" },
+    { name: "raven", display: "Raven", image: "raven.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, hex: "#D3CBBE" },
 
-    { name: "landlord", display: "Landlady", image: "mom.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, q3: false },
-    { name: "el", display: "Co-Tenant", image: "lolaEva.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true,  q3: null },
-    { name: "lola", display: "Lola", image: "lola.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true,  q3: null },
-    { name: "tom", display: "Tom", image: "tom.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, q3: null },
-    { name: "eva", display: "Eva", image: "eva.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, q3: false },
-    { name: "bigguy", display: "Dick", image: "bigman.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "raven", display: "Raven", image: "raven.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, q3: null },
+    { name: "missy", display: "Missy", image: "missy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 2, p: true, hex: "#E993AD" },
+    { name: "tudor", display: "Mr. Tudor", image: "tudor.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 2, p: true, hex: "#E993AD" },
+    { name: "p", display: "Ms. Pussywinks", image: "princess.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#E993AD" },
+    { name: "martha", display: "Mistress Martha", image: "martha.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#E993AD" },
+    { name: "black", display: "Ms. Black", image: "black.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, hex: "#E993AD" },
+    { name: "cecilia", display: "Cecilia", image: "cecilia.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, hex: "#E993AD" },
 
-    { name: "janice", display: "Janice", image: "janice.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: -1, p: true, q3: null },
-    { name: "dog", display: "Cooper the Mythical Demon", image: "dog.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: -1, p: true, q3: null },
+    { name: "philbert", display: "Philbert", image: "philbert.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, hex: "#F7BECC" },
+    { name: "sporty", display: "Sporty", image: "sporty.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, hex: "#F7BECC" },
 
-    { name: "zoey", display: "Zoey", image: "zoey.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, q3: null },
-    { name: "stormy", display: "Stormy", image: "stormy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true,  q3: false },
-    { name: "chloe", display: "Chloé", image: "chloe.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true,  q3: false },
+    { name: "zoey", display: "Zoey", image: "zoey.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: 0, p: true, hex: "#373231" },
+    { name: "stormy", display: "Stormy", image: "stormy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#373231" },
+    { name: "chloe", display: "Chloé", image: "chloe.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#373231" },
+    { name: "elijah", display: "Elijah", image: "elijah.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#373231" },
+    { name: "keaton", display: "Keaton", image: "keaton.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#373231" },
+    { name: "poppy", display: "Poppy", image: "poppy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#373231" },
+    { name: "orchid", display: "Orchid", image: "orchid.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#373231" },
+    { name: "juniper", display: "Juniper", image: "juniper.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#373231" },
 
-    { name: "tina", display: "Tina", image: "tina.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 12, p: true, q3: null },
-    { name: "construction", display: "The Bossman", image: "bossman.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false,  q3: null },
- 
-    { name: "brayden", display: "Brayden", image: "brayden.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, q3: null },
+    { name: "janice", display: "Janice", image: "janice.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: -1, p: true, hex: "#8B8BBA" },
+    { name: "dog", display: "Cooper the Mythical Demon", image: "dog.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: true, phone: -1, p: true, hex: "#8B8BBA" },
 
-    { name: "govlady", display: "Ms. Pixie", image: "govlady.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, q3: false },
-    { name: "chad", display: "Chad", image: "brad.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "g", display: "Gertrude", image: "gertrude.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true,  q3: false },
-    { name: "tiffany", display: "Tiffany", image: "tiffany.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true,  q3: null },
-    { name: "candy", display: "Candy", image: "candy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true,  q3: null },
-    { name: "charlie", display: "Charlie", image: "charlie.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "wyatt", display: "Agent Wyatt", image: "wyatt.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "cop", display: "Big Cop", image: "cop.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: false },
-    { name: "cop2", display: "Idiot Cop", image: "cop2.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: false },
-    { name: "jada", display: "Jada", image: "jada.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true,  q3: null },
-    { name: "red", display: "Red", image: "red.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true,  q3: null },
-    { name: "spanky", display: "Spanky", image: "spanky.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "keaton", display: "Keaton", image: "keaton.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "daddy", display: "Daddy", image: "daddy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: false },
+    { name: "envy", display: "Envy", image: "envy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#7924C6" },
 
-    { name: "rachel", display: "Rachel", image: "rachel.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, q3: false },
-    { name: "security", display: "CUM Gaurd", image: "security.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: false, phone: -1, p: true, q3: null },
-    { name: "kinsey", display: "Kinsey", image: "kinsey.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, q3: null },
-    { name: "envy", display: "Envy", image: "envy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, q3: null },
-    { name: "horse", display: "Jimmy Dingler", image: "horse.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, q3: null },
-    { name: "lead", display: "Bessie", image: "lead.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "tiffany", display: "Tiffany", image: "tiffany.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#DC7C82" },
+    { name: "candy", display: "Candy", image: "candy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#DC7C82" },
+    { name: "charlie", display: "Charlie", image: "charlie.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#DC7C82" },
+    { name: "treyvon", display: "Treyvon", image: "treyvon.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#DC7C82" },
 
-    { name: "cult", display: "Cult", image: "cult.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "priapus", display: "Priapus", image: "Priapus.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "daria", display: "Morgan", image: "daria.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false,  q3: null },
-    { name: "bodhi", display: "Bodhi", image: "bodhi.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "jen", display: "Jen", image: "jen.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, q3: null },
-    { name: "ubel", display: "Ubel", image: "ubel.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
+    { name: "stacy", display: "Stacy", image: "stacy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#C50000" },
+    { name: "courtney", display: "Courtney", image: "courtney.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#C50000" },
+    { name: "chuck", display: "Chuck", image: "chuck.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#C50000" },
+    { name: "utah", display: "Utah", image: "utah.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#C50000" },
+    { name: "football", display: "Player", image: "football.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#C50000" },
+    { name: "liam", display: "Liam", image: "liam.png", step: 0, secret: 100, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#C50000" },
 
-    { name: "ppgirl", display: "Pee Pee Girl", image: "pp.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "jimmy", display: "Jimmy", image: "jimmy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#84C8E8" },
+    { name: "kei", display: "Kei", image: "kei.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#84C8E8" },
+    { name: "jada", display: "Jada", image: "jada.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#84C8E8" },
+    { name: "spanky", display: "Spanky", image: "spanky.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#84C8E8" },
 
-    { name: "river", display: "River", image: "river.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "jeffery", display: "Jeffery", image: "jeffery.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "holly", display: "Holly", image: "holly.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "molly", display: "Molly", image: "molly.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "dolly", display: "Dolly", image: "dolly.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "bimbo", display: "Bimbo", image: "bimbo.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true,  q3: null },
-    { name: "treyvon", display: "Treyvon", image: "treyvon.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
-    { name: "jimmy", display: "Jimmy", image: "jimmy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "kei", display: "Kei", image: "kei.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "ralph", display: "Ralph", image: "ralph.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "ralphsmom", display: "Ralph's Mom", image: "ralphsmom.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "ralphsdad", display: "Ralph's Dad", image: "ralphsdad.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "ralph", display: "Ralph", image: "ralph.png", step: 0, secret: 0, c: 0, l: 0, show: true, setName: false, phone: -1, p: false, hex: "#33053C" },
+    { name: "ralphsmom", display: "Ralph's Mom", image: "ralphsmom.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#33053C" },
+    { name: "ralphsdad", display: "Ralph's Dad", image: "ralphsdad.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#33053C" },
 
-    { name: "jones", display: "Mr. Jones", image: "jones.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
+    { name: "tina", display: "Tina", image: "tina.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 12, p: true, hex: "#F79F00" },
+    { name: "construction", display: "The Bossman", image: "bossman.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, hex: "#F79F00" },
+    { name: "river", display: "River", image: "river.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#F79F00" },
 
-    { name: "librarian", display: "The Librarian", image: "librarian.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, q3: null },
+    { name: "chad", display: "Chad", image: "brad.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#007C00" },
+    { name: "g", display: "Gertrude", image: "gertrude.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#007C00" },
 
-    { name: "dale", display: "Dale", image: "dale.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, q3: null },
-    { name: "doc", display: "Dr. Strangelove", image: "doctor.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "whore", display: "Dirty Whore", image: "whore.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "jeffery", display: "Jeffery", image: "jeffery.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#940000" },
+    { name: "holly", display: "Holly", image: "holly.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#940000" },
+    { name: "molly", display: "Molly", image: "molly.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#940000" },
+    { name: "dolly", display: "Dolly", image: "dolly.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#940000" },
 
-    { name: "cindy", display: "Cindy", image: "cindy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true,  q3: null },
-    { name: "tim", display: "Tim", image: "tim.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
+    { name: "jones", display: "Mr. Jones", image: "jones.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#56545E" },
+    { name: "bitch", display: "Bitch Face", image: "bitch.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#56545E" },
+    { name: "chef", display: "Chef", image: "chef.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#56545E" },
 
-    { name: "dollmaker", display: "Doll maker", image: "dollmaker.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "rachel", display: "Rachel", image: "rachel.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#531000" },
+    { name: "security", display: "CUM Guard", image: "security.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#531000" },
+    { name: "kinsey", display: "Kinsey", image: "kinsey.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#531000" },
+    { name: "horse", display: "Jimmy Dingler", image: "horse.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, hex: "#531000" },
+    { name: "lead", display: "Bessie", image: "lead.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#531000" },
 
-    { name: "poppy", display: "Poppy", image: "poppy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "orchid", display: "Orchid", image: "orchid.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "juniper", display: "Juniper", image: "juniper.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: false },
+    { name: "cindy", display: "Cindy", image: "cindy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "#4BE1D2" },
+    { name: "tim", display: "Tim", image: "tim.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#4BE1D2" },
 
-    { name: "clownqueen", display: "Clown", image: "clownQueen.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "futa1", display: "Fink", image: "futaYellow.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "futa2", display: "Frown", image: "futaRed.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    //{ name: "slime", display: "Slime Girl", image: "slime.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
+    { name: "wyatt", display: "Agent Wyatt", image: "wyatt.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#0100DA" },
+    { name: "cop", display: "Big Cop", image: "cop.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#0100DA" },
+    { name: "cop2", display: "Idiot Cop", image: "cop2.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#0100DA" },
 
-    { name: "stacy", display: "Stacy", image: "stacy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "courtney", display: "Courtney", image: "courtney.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "chuck", display: "Chuck", image: "chuck.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "utah", display: "Utah", image: "utah.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "football", display: "Player", image: "football.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "liam", display: "Liam", image: "liam.png", step: 0, secret: 100, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "ppgirl", display: "Pee Pee Girl", image: "pp.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#F7D71F" },
 
-    { name: "queen", display: "Forest Queen", image: "queen.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "a", display: "Aethelreda", image: "aethelreda.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "vag", display: "Slutty Slave", image: "cockgobbler.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "cock", display: "Cock Gobbler", image: "cockgobbler.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "sammi", display: "Sammi Olifant", image: "sammi.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
-    { name: "aurora", display: "Aurora Kirei", image: "sammi.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, q3: null },
+    { name: "dale", display: "Dale", image: "dale.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, hex: "#734B30" },
+    { name: "doc", display: "Dr. Strangelove", image: "doctor.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#734B30" },
+    { name: "whore", display: "Dirty Whore", image: "whore.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#734B30" },
+
+    { name: "priest", display: "Father O'Mally", image: "priest.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 0, p: true, hex: "#EAE9E7" },
+    { name: "nun", display: "Sister Jane", image: "nun.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 0, p: true, hex: "#EAE9E7" },
+
+    { name: "bimbo", display: "Bimbo", image: "bimbo.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: true, hex: "#F7F5C9" },
+
+    { name: "queen", display: "Forest Queen", image: "queen.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "#125E06" },
+    { name: "wolf", display: "Lobo", image: "wolf.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, hex: "#125E06" },
+
+
+    { name: "red", display: "Red", image: "red.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "" },
+
+    
+    
+    { name: "brayden", display: "Brayden", image: "brayden.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false, hex: "" },
+
+    { name: "govlady", display: "Ms. Pixie", image: "govlady.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "" },
+    
+    
+    { name: "daddy", display: "Daddy", image: "daddy.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
+
+    
+    { name: "cult", display: "Cult", image: "cult.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+    { name: "priapus", display: "Priapus", image: "Priapus.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+    { name: "daria", display: "Morgan", image: "daria.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: -1, p: false,  hex: "" },
+    { name: "bodhi", display: "Bodhi", image: "bodhi.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
+    { name: "jen", display: "Jen", image: "jen.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "" },
+    { name: "ubel", display: "Ubel", image: "ubel.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+
+
+    
+   
+
+
+    
+    { name: "librarian", display: "The Librarian", image: "librarian.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: true, hex: "" },
+
+    
+    
+    { name: "dollmaker", display: "Doll maker", image: "dollmaker.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
+
+    
+    { name: "clownqueen", display: "Clown", image: "clownQueen.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+    { name: "futa1", display: "Fink", image: "futaYellow.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+    { name: "futa2", display: "Frown", image: "futaRed.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+    //{ name: "slime", display: "Slime Girl", image: "slime.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+
+    
+    { name: "a", display: "Aethelreda", image: "aethelreda.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
+    { name: "vag", display: "Slutty Slave", image: "cockgobbler.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
+    { name: "cock", display: "Cock Gobbler", image: "cockgobbler.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
+    { name: "sammi", display: "Sammi Olifant", image: "sammi.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
+    { name: "aurora", display: "Aurora Kirei", image: "sammi.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false, hex: "" },
     //add her to sissy cave
 
-    { name: "priest", display: "Father O'Mally", image: "priest.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 0, p: true, q3: false },
-    { name: "nun", display: "Sister Jane", image: "nun.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: true, phone: 0, p: true, q3: false },
+    
+    
+    { name: "photo", display: "Photographer", image: "photo.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, hex: "" },
 
-    { name: "philbert", display: "Philbert", image: "philbert.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, q3: false },
-    { name: "sporty", display: "Sporty", image: "sporty.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, q3: false },
+    { name: "blade", display: "Blade", image: "blade.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, hex: "" },
 
-    { name: "photo", display: "Photographer", image: "photo.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, q3: false },
+    { name: "tony", display: "Fat Tony", image: "tony.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, hex: "" },
 
-    { name: "blade", display: "Blade", image: "blade.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, q3: false },
-    { name: "wolf", display: "Lobo", image: "wolf.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, q3: false },
+    { name: "dr", display: "Dr. Degenerate", image: "dr.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, hex: "" },
 
-    { name: "tony", display: "Fat Tony", image: "tony.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, q3: false },
-
-    { name: "dr", display: "Dr. Degenerate", image: "dr.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: 0, p: true, q3: false },
-
-    { name: "random", display: " ", image: "rand.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
-    { name: "thinking", display: "Thinking", image: "thinking.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  q3: null },
+    { name: "random", display: " ", image: "rand.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
+    { name: "thinking", display: "Thinking", image: "thinking.png", step: 0, secret: 0, c: 0, l: 0, show: false, setName: false, phone: -1, p: false,  hex: "" },
 ];
 
 sc.i = function (name) {
@@ -752,7 +781,7 @@ sc.charMission = [
             {
                 missionName: "bully", mStatus: 0, title: "Bully", desc: "You're my bitch", task:
                     [
-                        { id: 0, txt: "Shows his bully side", show: false, mStatus: 0, roomId: 211 },
+                        { id: 0, txt: "Shows his bully side", show: true, mStatus: 0, roomId: 211 },
                         { id: 1, txt: "Blackmailed into sucking his cock", show: true, mStatus: 0, roomId: 211 },
                         { id: 2, txt: "Everyone knows", show: true, mStatus: 0, roomId: 211 },
                         { id: 3, txt: "Not made yet.", show: true, mStatus: 0, roomId: 211 },
@@ -761,7 +790,7 @@ sc.charMission = [
             {
                 missionName: "barn", mStatus: 0, title: "Barn", desc: "My little helper", task:
                     [
-                        { id: 0, txt: "We meet again. ", show: false, mStatus: 0, roomId: 329 },
+                        { id: 0, txt: "We meet again. ", show: true, mStatus: 0, roomId: 329 },
                     ]
             },
         ]
@@ -771,8 +800,8 @@ sc.charMission = [
             {
                 missionName: "corrupt", mStatus: 0, title: "Corrupt the sissy", desc: "Not made yet.", task:
                     [
-                        { id: 0, txt: "In development (Not made)", show: false, mStatus: 0, roomId: 211 },
-                        { id: 1, txt: "strip club", show: false, mStatus: 0, roomId: 211 },
+                        { id: 0, txt: "In development (Not made)", show: true, mStatus: 0, roomId: 211 },
+                        { id: 1, txt: "strip club", show: true, mStatus: 0, roomId: 211 },
                     ]
             },
         ]
@@ -782,8 +811,8 @@ sc.charMission = [
             {
                 missionName: "gloryhole", mStatus: 0, title: "Glory hole!", desc: "Park bathroom on weekends ", task:
                     [
-                        { id: 0, txt: "Did we just become friends?", show: false, mStatus: 0, roomId: 211 },
-                        { id: 1, txt: "2 sissies. 1 gloryhole", show: false, mStatus: 0, roomId: 211 },
+                        { id: 0, txt: "Did we just become friends?", show: true, mStatus: 0, roomId: 211 },
+                        { id: 1, txt: "2 sissies. 1 gloryhole", show: true, mStatus: 0, roomId: 211 },
                     ]
             },
         ]
@@ -793,17 +822,17 @@ sc.charMission = [
             {
                 missionName: "fuck", mStatus: 0, title: "Cum dumpster", desc: "How many ways can you cum in her?", task:
                     [
-                        { id: 0, txt: "Blow job", show: false, mStatus: 0, roomId: 77 },
-                        { id: 1, txt: "Pussy", show: false, mStatus: 0, roomId: 77 },
-                        { id: 2, txt: "Anus", show: false, mStatus: 0, roomId: 77 },
-                        { id: 3, txt: "Sleepy pussy", show: false, mStatus: 0, roomId: 76 },
-                        { id: 4, txt: "Sleepy anal", show: false, mStatus: 0, roomId: 76 },
+                        { id: 0, txt: "Blow job", show: true, mStatus: 0, roomId: 77 },
+                        { id: 1, txt: "Pussy", show: true, mStatus: 0, roomId: 77 },
+                        { id: 2, txt: "Anus", show: true, mStatus: 0, roomId: 77 },
+                        { id: 3, txt: "Sleepy pussy", show: true, mStatus: 0, roomId: 76 },
+                        { id: 4, txt: "Sleepy anal", show: true, mStatus: 0, roomId: 76 },
                     ]
             },
             {
                 missionName: "preg", mStatus: 0, title: "Preggers!", desc: "Am I a mom?", task:
                     [
-                        { id: 0, txt: "Gave her a sloppy cream pie", show: false, mStatus: 0, roomId: 77 },
+                        { id: 0, txt: "Gave her a sloppy cream pie", show: true, mStatus: 0, roomId: 77 },
                     ]
             },
         ]
@@ -1271,6 +1300,8 @@ sc.charMission = [
                     [
                         { id: 0, txt: "Submissive piss whore", show: true, mStatus: 0, roomId: 170 },
                         { id: 1, txt: "Visit me at my mansion", show: true, mStatus: 0, roomId: 150 },
+                        { id: 2, txt: "First time around", show: true, mStatus: 0, roomId: 150 },
+                        { id: 3, txt: "Missing bitch", show: true, mStatus: 0, roomId: 150 },
                     ]
             },
             {
@@ -1279,6 +1310,30 @@ sc.charMission = [
                         { id: 0, txt: "Told Mr. Jones no", show: true, mStatus: 0, roomId: 150 },
                     ]
             },
+        ]
+    },
+    {
+        name: "bitch", mission: [
+            {
+                missionName: "bitch", mStatus: 0, title: "Friend", desc: "Can we be friends?", task:
+                    [
+                        { id: 0, txt: "Caught in the basement", show: true, mStatus: 0, roomId: 155 },
+                        { id: 1, txt: "Fuck that bitch", show: true, mStatus: 0, roomId: 150 },
+                        { id: 2, txt: "Stay out of my room!", show: true, mStatus: 0, roomId: 155 },
+                        { id: 3, txt: "I warned you!", show: true, mStatus: 0, roomId: 155 },
+                    ]
+            }
+        ]
+    },
+    {
+        name: "chef", mission: [
+            {
+                missionName: "chef", mStatus: 0, title: "Sex", desc: "I love fucking sluts", task:
+                    [
+                        { id: 0, txt: "Meet", show: true, mStatus: 0, roomId: 155 },
+                        { id: 1, txt: "Take his fat greasy hog up your ass", show: true, mStatus: 0, roomId: 155 },
+                    ]
+            }
         ]
     },
     {
@@ -1320,7 +1375,7 @@ sc.charMission = [
                     [
                         { id: 0, txt: "Want a job? ", show: true, mStatus: 0, roomId: 600 },
                         { id: 1, txt: "First day ", show: true, mStatus: 0, roomId: 600 },
-                        { id: 2, txt: "StripWithChris ", show: false, mStatus: 0, roomId: 600 },
+                        { id: 2, txt: "StripWithChris ", show: true, mStatus: 0, roomId: 600 },
                     ]
             },
         ]
@@ -1442,6 +1497,29 @@ sc.charMission = [
                     [
                         { id: 0, txt: "intro", show: true, mStatus: 0, roomId: 328 },
                         { id: 1, txt: "Give me wine!", show: true, mStatus: 0, roomId: 328 },
+                    ]
+            },
+        ]
+    },
+    {
+        name: "elijah", mission: [
+            {
+                missionName: "elijah", mStatus: 0, title: "Date", desc: "The boy's in love. ", task:
+                    [
+                        { id: 0, txt: "Didn't rat him out.", show: true, mStatus: 0, roomId: 408 },
+                        { id: 1, txt: "Third date?", show: true, mStatus: 0, roomId: 408 },
+                        { id: 2, txt: "Where is he?", show: true, mStatus: 0, roomId: 408 },
+                        { id: 3, txt: "Forth date?", show: true, mStatus: 0, roomId: 750 },
+                        { id: 4, txt: "You tried to touch my erect penis!", show: true, mStatus: 0, roomId: 750 },
+                        { id: 5, txt: "Gift for my girl.", show: true, mStatus: 0, roomId: 750 },
+                        { id: 6, txt: "Hand job is still a job.", show: true, mStatus: 0, roomId: 750 },
+                    ]
+            },
+            {
+                missionName: "betray", mStatus: 0, title: "No date", desc: "Not going on that date. ", task:
+                    [
+                        { id: 0, txt: "Betrayed him. Told Missy where he is", show: true, mStatus: 0, roomId: 200 },
+                        { id: 1, txt: "I just don't want to date you.", show: true, mStatus: 0, roomId: 408 },
                     ]
             },
         ]
@@ -1618,62 +1696,40 @@ sc.getLevelDetails = function (name) {
 };
 
 sc.modLevel = function (name, amount, targetLevel = 10) {
-    var actualAmount = 0;
-    var i, j;
-    sc.getch
-    i = sc.i(name);
+    let i = sc.i(name);
+    var char = sc.char[i];
+    var addedLevels = 0;
+
+    if (char.l > targetLevel || amount === 0)
+        return;
+
     if (amount > 0) {
-        if (sc.char[i].l > 9) {
-            g.popUpNotice("At maximum level for " + sc.char[i].display + ". ");
-            return;
+        var currentTotalPoints = (char.l * 100) + char.c;
+        var newTotalPoints = currentTotalPoints + amount;
+
+        var projectedLevel = Math.floor(newTotalPoints / 100);
+        var projectedPoints = newTotalPoints % 100;
+
+        if (projectedLevel >= targetLevel) {
+            // If they hit or exceed the target, pin to Level 5, 99 Points
+            addedLevels = targetLevel - char.l;
+            char.l = targetLevel;
+            char.c = 99;
+        } else {
+            addedLevels = projectedLevel - char.l;
+            char.l = projectedLevel;
+            char.c = projectedPoints;
         }
 
-        if (sc.char[i].l <= targetLevel)
-            actualAmount = amount;
-        else if (sc.char[i].l <= targetLevel + 1)
-            actualAmount = Math.floor(amount / 3) + 1;
-        else if (sc.char[i].l <= targetLevel + 2)
-            actualAmount = 1; //fix this later
-        
-
-        var additionalLevels = Math.floor(actualAmount / 100);
-        var addedLevels = 0;
-        var remainderPoints = actualAmount % 100;
-        sc.char[i].c += remainderPoints;
-
-        if (additionalLevels > 0) {
-            for (j = 0; j < additionalLevels; j++) { //i know. Shut up. this is easier
-                if (sc.char[i].l < targetLevel) {
-                    sc.char[i].l++;
-                    addedLevels++;
-                }
-                else if (sc.char[i].l === targetLevel) {
-                    sc.char[i].l++;
-                    sc.char[i].c = 0;
-                    addedLevels++;
-                }
-            }
+        if (addedLevels > 0) {
+            g.popUpNotice("Level Up! " + char.display + " is now Level " + char.l + ".");
+        } else {
+            g.popUpNotice(char.display + " gained " + amount + " points.");
         }
 
-        if (sc.char[i].c >= 100) {
-            remainderPoints = sc.char[i].c % 100;
-            sc.char[i].c = 0;
-            sc.char[i].l++;
-            addedLevels++;
-            if (sc.char[i].l <= targetLevel)
-                sc.char[i].c += remainderPoints;
-        }
-
-        if (addedLevels > 0)
-            g.popUpNotice("You gained " + addedLevels + " level(s) for: " + sc.char[i].display + "!");
-        else if(actualAmount > 0)
-            g.popUpNotice(sc.char[i].display + " points have increased by " + actualAmount + "! ");
-    }
-    else if (amount < 0) {
-        sc.char[i].c -= amount;
-        if (sc.char[i].c < 0)
-            sc.char[i].c = 0;
-        g.popUpNotice(sc.char[i].display + "'s points have decreased. ");
+    } else if (amount < 0) {
+        char.c = Math.max(0, char.c + amount);
+        g.popUpNotice(char.display + " points decreased.");
     }
 };
 
@@ -2716,7 +2772,7 @@ sc.trivial = function (charname) {
             name = "Telchar";
             image = "lep.png";
             break;
-        case "!bitch":
+        case "bitch":
             name = "Bitch Face";
             image = "bitch.png";
             break;
@@ -2775,10 +2831,6 @@ sc.trivial = function (charname) {
         case "!chem":
             name = "Chemist";
             image = "chem.png";
-            break;
-        case "!elijah":
-            name = "Elijah";
-            image = "elijah.png";
             break;
         case "!rex":
             name = "Mr. Rex";
@@ -3027,6 +3079,14 @@ sc.trivial = function (charname) {
         case "!cowboy":
             name = "Cowboy";
             image = "cowboy.png";
+            break;
+        case "!chef":
+            name = "Fat Bastard";
+            image = "chef.png";
+            break;
+        case "!info":
+            name = "Information";
+            image = "info.png";
             break;
         default:
             console.log("unknown trivial char: (check capitilazation)" + charname);

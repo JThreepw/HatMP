@@ -106,11 +106,20 @@ room752.btnclick = function (name) {
 
 room752.chatcatch = function (callback) {
     switch (callback) {
+        case "hand2":
+        case "hand3":
+            nav.bg("752_whore/" + callback + ".webp");
+            break;
         case "reset":
             char.room(752);
             break;
         case "fuck":
             gv.mod("money", -75);
+            break;
+        case "hj":
+            gv.mod("money", -75);
+            nav.kill();
+            nav.bg("752_whore/hand1.webp");
             break;
         case "fuck0":
             nav.killall();
@@ -186,6 +195,11 @@ room752.chatcatch = function (callback) {
             }, 752);
             cl.c.panties = null;
             break;
+        case "handEnd":
+            levels.gothandjob("f", "whore", false, true);
+            char.addtime(15);
+            char.room(752);
+            break;
         case "home":
             g.pass = 10;
             char.room(8);
@@ -218,9 +232,10 @@ room752.chat = function (chatID) {
             chatID: 2,
             speaker: "whore",
             text: "Look. I know I'm a big girl. There's no way that tiny little pecker is going to be able to reach inside me. " +
-                "I guess I can give you a hand job if you want. ",
+                "I guess I can give you a hand job if you want. It's still going to be $75 though. ",
             button: [
-                { chatID: -1, text: "future release [Let me know if you get this]", callback: "" }
+                { chatID: 28, text: "Fuck yeah! Here's $75", callback: "hj" },
+                { chatID: -1, text: "Oh. I changed my mind. ", callback: "reset" }
             ]
         },
         {
@@ -450,6 +465,32 @@ room752.chat = function (chatID) {
                 "I better get home and put on some new underwear. ",
             button: [
                 { chatID: -1, text: "...", callback: "home" },
+            ]
+        },
+        {
+            chatID: 28,
+            speaker: "whore",
+            text: "Hehe. I've never seen a penis so small. I didn't think they got so tiny. Must be really " +
+                "sad to be you knowing no girl would ever touch it without you paying them. ",
+            button: [
+                { chatID: 29, text: "mmmhmmm", callback: "hand2" },
+            ]
+        },
+        {
+            chatID: 29,
+            speaker: "whore",
+            text: "I can only use one finger to jack you off it's so tiny. Does it even make cum?",
+            button: [
+                { chatID: 30, text: "mmmMmm keep going", callback: "hand3" },
+            ]
+        },
+        {
+            chatID: 30,
+            speaker: "whore",
+            text: "Oh. That's all the cum it makes? I guess a tiny penis makes tiny cum. Better that way " +
+                "since no one wants your cum hehe. ",
+            button: [
+                { chatID: -1, text: "awww so good!", callback: "handEnd" },
             ]
         },
     ];

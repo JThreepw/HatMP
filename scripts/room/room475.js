@@ -62,13 +62,18 @@ room475.main = function () {
             howOften = 10;
     }
     if (g.map.ev.length === 0) {
-        eventArray = ["rope", "rope", "hole", "random", "random", "treasure"];
-        for (let i = 0; i < fameLevel - 4; i++) {
-            eventArray.push("rape");
+        if (cl.c.dress === "robe") {
+            g.map.ev = ["noop", "noop", "noop", "noop"];
         }
-        eventArray.push("rape");
+        else {
+            eventArray = ["rope", "rope", "hole", "random", "random", "treasure"];
+            for (let i = 0; i < fameLevel - 4; i++) {
+                eventArray.push("rape");
+            }
+            eventArray.push("rape");
 
-        g.map.ev = g.shuffleArray(eventArray);
+            g.map.ev = g.shuffleArray(eventArray);
+        }
         g.map.eventCounter = g.rand(howOften, howOften + 3);
     }
 
@@ -92,6 +97,9 @@ room475.main = function () {
                 break;
             case "treasure":
                 trap.init("treasure", currentLocation, 475, "reload", null);
+                break;
+            case "noop":
+                //wearing a robe, no events;
                 break;
         }
     }

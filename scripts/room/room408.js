@@ -1,22 +1,42 @@
 ﻿//Tattoo name
 var room408 = {};
 room408.main = function () {
-    nav.button({
-        "type": "btn",
-        "name": "door",
-        "left": 794,
-        "top": 142,
-        "width": 199,
-        "height": 307,
-        "image": "408_tattoo/door.png",
-        "night": "408_tattoo/door_night.png"
-    }, 408);
-    nav.buildnav([0]);
+    if (sc.taskGetStep("elijah", "elijah") === 0) {
+        nav.button({
+            "type": "img",
+            "name": "eli",
+            "left": 711,
+            "top": 0,
+            "width": 674,
+            "height": 1080,
+            "image": "408_tattoo/elijah3.webp",
+        }, 408);
+        chat(61, 408);
+    }
+    else {
+        nav.button({
+            "type": "btn",
+            "name": "door",
+            "left": 794,
+            "top": 142,
+            "width": 199,
+            "height": 307,
+            "image": "408_tattoo/door.png",
+            "night": "408_tattoo/door_night.png"
+        }, 408);
+        nav.buildnav([0]);
+    }
 };
 
 room408.btnclick = function (name) {
     switch (name) {
         case "door":
+            if (missy.activecase().caseId === 21 && !missy.activecase().isComplete) {
+                if (gender.pronoun("her") === "him" || cl.isLewd()) {
+                    chat(58, 408);
+                    return;
+                }
+            }
             nav.kill();
             nav.bg("408_tattoo/inside.jpg", "408_tattoo/inside_night.jpg");
             nav.button({
@@ -30,7 +50,13 @@ room408.btnclick = function (name) {
             }, 408);
             break;
         case "stormy":
-            if (sc.taskGetStep("stormy", "property") === 1) {
+            if (missy.activecase().caseId === 21 && !missy.activecase().isComplete) {
+                chat(47, 408);
+            }
+            else if (sc.taskGetStep("elijah", "elijah") === 2) {
+                chat(74, 408);
+            } 
+            else if (sc.taskGetStep("stormy", "property") === 1) {
                 chat(43, 408);
             }
             else if (!qdress.st[4].ach && !qdress.st[6].ach) {
@@ -280,6 +306,19 @@ room408.btnclick = function (name) {
 room408.chatcatch = function (callback) {
     var i;
     switch (callback) {
+        case "elijah0":
+        case "elijah1":
+        case "elijah2":
+        case "elijah4":
+        case "elijah5":
+        case "elijah7":
+        case "elijah8":
+            nav.kill();
+            nav.bg("408_tattoo/" + callback + ".webp");
+            break;
+        case "bg":
+            nav.bg("408_tattoo/bg.jpg", "408_tattoo/bgNight.jpg");
+            break;
         case "leave":
             char.room(0);
             break;
@@ -361,6 +400,54 @@ room408.chatcatch = function (callback) {
                 s: 1
             };
             room408.btnclick("getit2");
+            break;
+        case "elijah_case_end":
+            missy.set("activeCaseComplete", 1);
+            sc.show("elijah"); 
+            char.addtime(60);
+            char.room(0);
+            break;
+        case "elijah6":
+            inv.add("roses");
+            nav.bg("408_tattoo/elijah6.webp");
+            if (sc.getMission("holly", "mad").success) {
+                chat(65, 408);
+            }
+            else {
+                chat(67, 408);
+            }
+            break;
+        case "elijah9":
+            nav.bg("408_tattoo/bg.jpg", "408_tattoo/bgNight.jpg"); 
+            nav.button({
+                "type": "img",
+                "name": "eli",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "408_tattoo/elijah9.webp",
+            }, 408);
+            break;
+        case "elijahEndGood":
+            sc.modLevel("elijah", 200, 10);
+            sc.completeMissionTask("elijah", "elijah", 0);
+            sc.completeMissionTask("elijah", "elijah", 1);
+            char.addtime(180);
+            daily.set("elijah");
+            char.room(408);
+            break;
+        case "elijahEnd":
+            sc.modLevel("elijah", 50, 10);
+            sc.completeMissionTask("elijah", "elijah", 0);
+            sc.completeMissionTask("elijah", "elijah", 1);
+            char.addtime(180);
+            daily.set("elijah");
+            char.room(408);
+            break;
+        case "elijStep2":
+            sc.completeMissionTask("elijah", "elijah", 2);
+            char.room(408);
             break;
         default:
             break;
@@ -797,6 +884,267 @@ room408.chat = function (chatID) {
             text: "Hahaha no! Now lay back and let me mark you! ",
             button: [
                 { chatID: -1, text: "ok", callback: "imawhore" },
+            ]
+        },
+        {
+            chatID: 47,
+            speaker: "me",
+            text: "Hi " + sc.n("stormy") + ", anything new? ",
+            button: [
+                { chatID: 48, text: "...", callback: "" },
+            ]
+        },
+        {
+            chatID: 48,
+            speaker: "stormy",
+            text: "Anything new? Why don't you...",
+            button: [
+                { chatID: 49, text: "...", callback: "elijah0" },
+            ]
+        },
+        {
+            chatID: 49,
+            speaker: "elijah",
+            text: "Is that " + sc.n("me") + "!!! I'm so glad you're here! Oh wow! Sorry about running " +
+                "off on you. I was just shocked. I've been thinking about you every day since. You're so " +
+                "beautiful and wonderful. Did I say how glad I am that I found you? ",
+            button: [
+                { chatID: 50, text: "Oh, hi. What are you doing here? Are you two dating? ", callback: "" },
+            ]
+        },
+        {
+            chatID: 50,
+            speaker: "stormy",
+            text: "Haha! No! That's my step brother. Our dad really got around back in the day. ",
+            button: [
+                { chatID: 51, text: "...", callback: "" },
+            ]
+        },
+        {
+            chatID: 51,
+            speaker: "elijah",
+            text: "Haha. I'm not going to date my step sister. Gross. " +
+                + sc.n("stormy") + "'s just letting me crash here for a bit. " +
+                "I totally lost my job and ended up losing my apartment " +
+                "trying to get even with that asshole, Mr. Rex! I'll make him pay for what he did to " +
+                "My sister, Reya! ",
+            button: [
+                { chatID: 52, text: "What did he do to Reya?", callback: "" },
+            ]
+        },
+        {
+            chatID: 52,
+            speaker: "elijah",
+            text: "She was working late and he and his friend cornered her and tried to rape her. Ripped " +
+                "her panties right off. They touched her all over, but she was able to escape before " +
+                "they could do anything too bad. She went to the police, but those assholes lied and said " +
+                "she was asking for it. ",
+            button: [
+                { chatID: 53, text: "That's terrible! ", callback: "" },
+            ]
+        },
+        {
+            chatID: 53,
+            speaker: "elijah",
+            text: "I know. My boss at the plant caught me plotting my revenge and fired me on the spot. Said " +
+                "I was crazy. It's not crazy to want to get back at the man that tried to rape my sister! So " +
+                "glad she got away or I would be plotting something more evil! ",
+            button: [
+                { chatID: 54, text: "...", callback: "" },
+            ]
+        },
+        {
+            chatID: 54,
+            speaker: "stormy",
+            text: "Calm down, Norman Bates, you'll scare her away. I'm going to " +
+                "get some coffee and let you two catch up. Bye bye.",
+            button: [
+                { chatID: 55, text: "oh", callback: "elijah1" },
+            ]
+        },
+        {
+            chatID: 55,
+            speaker: "elijah",
+            text: "Now that she's gone there's something I've been playing over and over in my head.",
+            button: [
+                { chatID: 56, text: "Yes?", callback: "elijah2" },
+            ]
+        },
+        {
+            chatID: 56,
+            speaker: "thinking",
+            text: "He's kissing me? He's kissing me! A bit of a suprise, but his lips are so soft. He " +
+                "is a good kisser. ",
+            button: [
+                { chatID: 57, text: "*uncontrolled moan*", callback: "elijah1" },
+            ]
+        },
+        {
+            chatID: 57,
+            speaker: "elijah",
+            text: "Sorry. That was a bit forward. I just wanted to let you know what I thought. I know this " +
+                "is only our second date, but I think I love you. When I saw your face I knew you were the " +
+                "girl for me. ",
+            button: [
+                { chatID: 59, text: "I've been thinking a lot about you and our first date too. ", callback: "" },
+            ]
+        },
+        {
+            chatID: 58,
+            speaker: "thinking",
+            text: "If Elijah is here I need to look more feminine or he'll know something's up. Let me " +
+                "go change before I go in looking for him. ",
+            button: [
+                { chatID: -1, text: "...", callback: "leave" },
+            ]
+        },
+        {
+            chatID: 59,
+            speaker: "elijah",
+            text: "That makes me so happy! You deserve a proper date. Come by here tomorrow and I'll take you " +
+                "out. I can't wait to see you again! ",
+            button: [
+                { chatID: 60, text: "I can't wait to see you either. I'll see you here tomorrow. ", callback: "bg" },
+            ]
+        },
+        {
+            chatID: 60,
+            speaker: "thinking",
+            text: "Well, I know he's here, and I know he'll be here for a while. I do feel guilty about " +
+                "turning him in. Even more so that he seems so in love with me. I just don't know " +
+                "if I should tell Missy or not that he's here.",
+            button: [
+                { chatID: -1, text: "...", callback: "elijah_case_end" },
+            ]
+        },
+        {
+            chatID: 61,
+            speaker: "elijah",
+            text: "So glad you came! Let me take you out to my favorite restaurant! ",
+            button: [
+                { chatID: 62, text: "ok!", callback: "elijah4" },
+            ]
+        },
+        {
+            chatID: 62,
+            speaker: "elijah",
+            text: "Hello. Your finest table for my girlfriend and I please.  ",
+            button: [
+                { chatID: 63, text: "...", callback: "" },
+            ]
+        },
+        {
+            chatID: 63,
+            speaker: "molly",
+            text: "Our finest table? Haha, sure. Right this way sir.",
+            button: [
+                { chatID: 64, text: "...", callback: "elijah5" },
+            ]
+        },
+        {
+            chatID: 64,
+            speaker: "elijah",
+            text: "I'm so glad you decided to go out with me again. My heart is fluttering. I got you " +
+                "some roses. They're almost as pretty as you. I made sure to get red since red roses " +
+                "are the color of love. They guy who sold them to me told me. A girl as amazing as you " +
+                "should have a room full of roses so you know how much you're loved everyday. ",
+            button: [
+                { chatID: -1, text: "Awww. Thank you. They are lovely. ", callback: "elijah6" },
+            ]
+        },
+        {
+            chatID: 65,
+            speaker: "molly",
+            text: "*hrumph* If it isn't the little bitch. You, boy, you know this girl is a massive " +
+                "bitch and no one likes her. I even heard she's slept with every man in this " +
+                "town. Her butt is probably full of cum right now! tbbbth ",
+            button: [
+                { chatID: 66, text: "Please just get our food. ", callback: "elijah7" },
+            ]
+        },
+        {
+            chatID: 66,
+            speaker: "elijah",
+            text: "Wow. What a bitch! She's probably just jealous of your beauty. You don't have to " +
+                "defend yourself to her. I know a girl like you doesn't sleep around. You're way to pretty " +
+                "for that. Fuck her. Let's eat. It'll just piss her off more hehe. ",
+            button: [
+                { chatID: 70, text: "Yeah Let's eat ", callback: "elijah8" },
+            ]
+        },
+        {
+            chatID: 67,
+            speaker: "molly",
+            text: "Hi " + sc.n("me") + ", who's the lucky boy? ",
+            button: [
+                { chatID: 68, text: "It's my boyfriend " + sc.n("elijah") + ". ", callback: "" },
+            ]
+        },
+        {
+            chatID: 68,
+            speaker: "molly",
+            text: sc.n("elijah") + ", you're on a date with the most wonderful girl we've ever met. " +
+                "You sure are a lucky boy, just treat her right ok. I'll go get your food.",
+            button: [
+                { chatID: 69, text: "Oh you. Thanks so much. ", callback: "elijah8" },
+            ]
+        },
+        {
+            chatID: 69,
+            speaker: "elijah",
+            text: "You know. I come here way too much. It's just those girls are so hot. Not as hot as " +
+                "you, but there's something special about them. And they're really so friendly. ",
+            button: [
+                { chatID: 70, text: "They are the best girls around. ", callback: "" },
+            ]
+        },
+        {
+            chatID: 70,
+            speaker: "elijah",
+            text: "You know, you're my first real girlfriend. I'm usually too busy to date, but ever " +
+                "since we met at Sausage I knew you were the one. That might be pretty forward, but " +
+                "no one has ever caused this much... excitment in my life. When I see you I just think " +
+                "dating, marriage, and 3 little kids running around. ",
+            button: [
+                { chatID: 71, text: "...well I", callback: "" },
+            ]
+        },
+        {
+            chatID: 71,
+            speaker: "elijah",
+            text: "You don't have to say anything. I know it's way too soon to go out and buy houses yet. " +
+                "I just want you to know you're not just some fling with me. You're my eveything and I want " +
+                "to see how this goes. ",
+            button: [
+                { chatID: 72, text: "You're really sweet. ", callback: "" },
+            ]
+        },
+        {
+            chatID: 72,
+            speaker: "elijah",
+            text: "[You two continue to make small talk for a while about your lives and desires.]",
+            button: [
+                { chatID: 73, text: "[Head back to the trailer]", callback: "elijah9" },
+            ]
+        },
+        {
+            chatID: 73,
+            speaker: "elijah",
+            text: "I had a great time today and I so much want to see you again. You can come by tomorrow, " +
+                "or really any day. I love you. *mwah*",
+            button: [
+                { chatID: -1, text: "*mwah* I love you too", callback: "elijahEndGood" },
+                { chatID: -1, text: "*mwah*", callback: "elijahEnd" },
+            ]
+        },
+        {
+            chatID: 74,
+            speaker: "stormy",
+            text: "Looking for my step bro, " + sc.n("elijah") + "? He found a place at the homeless camp. Last tent in the " +
+                "middle. It is really nice. You should go see him. I haven't seen him this happy since " +
+                "our dad died. ",
+            button: [
+                { chatID: -1, text: "oh thanks. I'll check it out. ", callback: "elijStep2" },
             ]
         },
     ];

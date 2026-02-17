@@ -107,6 +107,12 @@ room200.btnclick = function (name) {
                     case 19:
                         chat(133, 200);
                         break;
+                    case 20:
+                        chat(169, 200);
+                        break;
+                    case 21:
+                        chat(166, 200);
+                        break;
                 }
             }
             else if (missyUniform === 0 && cl.pantiesTxt() === "panties") {
@@ -196,9 +202,16 @@ room200.chatcatch = function (callback) {
         case "case_ranch4":
         case "case_ranch5":
         case "case_ranch6":
+        case "case_cult2":
+        case "case_cult3":
+        case "case_cult4":
+        case "case_cult5":
             nav.bg("200_frontOffice/" + callback + ".webp");
             break;
         case "case_ranch0":
+        case "case_sewer1":
+        case "case_cult1":
+        case "case_cult0":
             nav.kill();
             nav.bg("200_frontOffice/" + callback + ".webp");
             break;
@@ -393,12 +406,36 @@ room200.chatcatch = function (callback) {
             gv.mod("money", 150);
             missy.mod("mood", 20);
             missy.caseComplete(13);
+            future.add("case_elijah_complete", 3);
             room200.chatcatch("case_complete_end");
             break;
         case "case_elijah_completeBad":
             missy.mod("mood", -40);
             missy.caseComplete(13);
             char.room(217);
+            break;
+        case "case_elijah_boyfriend":
+            nav.bg("200_frontOffice/case_elijah.jpg");
+            chat(164, 200);
+            break;
+        case "case_elijah_boyfriend_start":
+            room200.chatcatch("case_afterExplaniation");
+            break;
+        case "case_elijah_boyfriend_bad":
+            sc.startMission("elijah", "elijah");
+            sc.startMissionTask("elijah", "elijah", 0);
+            missy.set("activeCaseComplete", 0);
+            missy.caseComplete(21);
+            room200.chatcatch("case_complete_end");
+            break;
+        case "case_elijah_boyfriend_good":
+            sc.completeMission("elijah", "betray");
+            sc.completeMissionTask("elijah", "betray", 0);
+            sc.completeMission("elijah", "elijah", false);
+            gv.mod("money", 350);
+            missy.mod("mood", 20);
+            missy.caseComplete(21);
+            room200.chatcatch("case_complete_end");
             break;
         case "case_beaver":
             nav.bg("200_frontOffice/case_beaver0.jpg");
@@ -685,6 +722,15 @@ room200.chatcatch = function (callback) {
         case "case_sewer_start":
             room200.chatcatch("case_afterExplaniation");
             break;
+        case "case_sewer_end":
+            cl.add("dress", "robe");
+            gv.mod("money", 250);
+            missy.caseComplete(20);
+            room200.chatcatch("case_complete_end");
+            break;
+        case "case_cult":
+            chat(172, 200);
+            break;
         case "case_saveralph":
             nav.bg("200_frontOffice/case_saveralph.jpg");
             chat(122, 200);
@@ -714,6 +760,9 @@ room200.chatcatch = function (callback) {
             inv.addMulti("soda", 3);
             future.add("case_dam", 6 - g.dt.getDay() - 1);
             gv.set("mapopen", true);
+            room200.chatcatch("case_afterExplaniation");
+            break;
+        case "case_cult_start":
             room200.chatcatch("case_afterExplaniation");
             break;
         case "case_dam_end":
@@ -799,8 +848,8 @@ room200.chat = function (chatID) {
                 chatID: 1,
                 speaker: "missy",
                 text: "Thank you for the chance to demonstrate how you will be disciplined. Not calling me by my " +
-                    "proper title is a minor infraction. $10 will be deducted from your paycheck on the end of " +
-                    "week. ",
+                    "proper title is a minor infraction. $10 will be deducted from your paycheck at the end of " +
+                    "the week. ",
                 button: [
                     { chatID: 2, text: "Yes ma'am", callback: "minorInfraction" },
                 ]
@@ -809,8 +858,8 @@ room200.chat = function (chatID) {
                 chatID: 2,
                 speaker: "missy",
                 text: "I've been without proper help for far too long, so there are many things to do. Each morning " +
-                    "I will allow you to pick which job you will do for me. Each one has a different compensation " +
-                    "depending on it's need and difficulty. I will allow you to take lunch, then the afternoon I " +
+                    "I will allow you to pick which job you will do for me. Each one has different compensation " +
+                    "depending on its need and difficulty. I will allow you to take lunch, then in the afternoon I " +
                     "will administer any training I have for you. You have a lot to learn, and my time is valuable.  ",
                 button: [
                     { chatID: 3, text: "Yes ma'am", callback: "" },
@@ -878,7 +927,7 @@ room200.chat = function (chatID) {
             {
                 chatID: 9,
                 speaker: "missy",
-                text: "Now that you've complete a week's worth of work I'm going to give you a chance to " +
+                text: "Now that you've completed a week's worth of work I'm going to give you a chance to " +
                     "do some investigations. Some will be for me, and some for our clients. All are to be " +
                     "treated with the utmost care and dedication. Successfully completing a case will bring " +
                     "great rewards, and failures will bring great retribution. ",
@@ -972,7 +1021,7 @@ room200.chat = function (chatID) {
                 chatID: 18,
                 speaker: "missy",
                 text: "Excellent work in tracking down Sanaria. " + sc.n("martha") + " is thrilled to get her daughter back. " +
-                    "as promised, your $250 reward for a job well done. ",
+                    "As promised, your $250 reward for a job well done. ",
                 button: [
                     { chatID: -1, text: "Thank you ma'am!", callback: "case_lostgirl_goodend" }
                 ]
@@ -1876,11 +1925,10 @@ room200.chat = function (chatID) {
                     "the C.U.M. Cult. The women they kidnap to work as Milk Maids are held at the cabin unitl Friday " +
                     "night, where they are then taken to their ceremony and begin their indoctrination into the cult. " +
                     "If you don't find and free her before Friday she'll be lost to the cult forever. As to " +
-                    "your previous question as to why I don't call the police is that they are members of the cult. " +
-                    "It's like getting eaten by a lion and complaining to another lion. Now you're being eaten by " +
-                    "two lions. ",
+                    "why I don't call the police. Some officers are members of the cult. " +
+                    "It's like getting complaining to a lion while being eaten by another lion.",
                 button: [
-                    { chatID: 115, text: "Oh wow. Ok. I'll free her ma'am!", callback: "" }
+                    { chatID: 115, text: "I'm going to save her ma'am!", callback: "" }
                 ]
             },
             {
@@ -1949,7 +1997,7 @@ room200.chat = function (chatID) {
                     "you because I'm always right. I'm still gathering information, but it appears there is a group called " +
                     "the Clown Clan that was part of the carnival workers. They would kidnap young girls and sell them " +
                     "to the highest bidder. I think you saw the CUM cult there because they heard they could buy these girls, " +
-                    "but the CUM cult weren't the only buyers. I'm looking into others, but that will take time. The " +
+                    "but the CUM cult weren't the only buyers. I'm looking into others, but that'll take time. The " +
                     "good news is that we shut them down. The Clown Clan has escaped. I think they may be either hiding " +
                     "in the forest, or possibly the sewers, but I'll need more time. Really great job!",
                 button: [
@@ -2376,6 +2424,151 @@ room200.chat = function (chatID) {
                     "get you in. Any questions? ",
                 button: [
                     { chatID: -1, text: "No ma'am. Talk to Dale, go into the sewer and find the box. ", callback: "case_sewer_start" }
+                ]
+            },
+            {
+                chatID: 164,
+                speaker: "missy",
+                text: "I have good news. I've found out more about our little mad pooper. Seems like he's " +
+                    "been seen hiding out with the local tattoo artist, " + sc.n("stormy") + ". I need you to " +
+                    "go visit her trailer and my information is correct and let me know. ",
+                button: [
+                    { chatID: 165, text: "Do I need to take him in ma'am?", callback: "" }
+                ]
+            },
+            {
+                chatID: 165,
+                speaker: "missy",
+                text: "Haha, no. You aren't the police, and we don't kidnap people. I just need you to go " +
+                    "and look around to see if he's really there without tipping him off. Be discreet and thorough. ",
+                button: [
+                    { chatID: -1, text: "Yes ma'am! I'll see if he's hiding out at the tattoo trailer. ", callback: "case_elijah_boyfriend_start" }
+                ]
+            },
+            {
+                chatID: 166,
+                speaker: "missy",
+                text: "Oh good. You're back! Did you find that disgusting creature? ",
+                button: [
+                    { chatID: 167, text: "[Lie] No ma'am! I did find out he left town. ", callback: "" },
+                    { chatID: 168, text: "[Truth] Yes ma'am! He's hiding out at the tattoo trailer. ", callback: "" }
+                ]
+            },
+            {
+                chatID: 167,
+                speaker: "missy",
+                text: "That makes sense. Better luck next time.  ",
+                button: [
+                    { chatID: -1, text: "Yes ma'am", callback: "case_elijah_boyfriend_bad" }
+                ]
+            },
+            {
+                chatID: 168,
+                speaker: "missy",
+                text: "Perfect. I'll contact Mr. Rex and let him know the Mad Pooper is going down. He'll " +
+                    "be so happy to get his club back in order. Great work! You can rest easy knowing he'll " +
+                    "be in jail and Mr. Rex can go back to enjoying his life. ",
+                button: [
+                    { chatID: -1, text: "Yes ma'am", callback: "case_elijah_boyfriend_good" }
+                ]
+            },
+            {
+                chatID: 169,
+                speaker: "missy",
+                text: "Ahh. The red box. Perfect! It does look like my plan is coming together. Open " +
+                    "it. It's ok, the box is for you. ",
+                button: [
+                    { chatID: 170, text: "Yes ma'am", callback: "case_sewer1" }
+                ]
+            },
+            {
+                chatID: 170,
+                speaker: "me",
+                text: "Is this a cult's robe ma'am?!?",
+                button: [
+                    { chatID: 171, text: "...", callback: "" }
+                ]
+            },
+            {
+                chatID: 171,
+                speaker: "missy",
+                text: "Exactly! It's your cult robe. You're going to need it for the next case. We're " +
+                    "going to take down the CULT for good! When you're ready let me know becuase you're " +
+                    "going under cover for your biggest mission yet! Hold on to that until then. ",
+                button: [
+                    { chatID: -1, text: "Yes ma'am", callback: "case_sewer_end" }
+                ]
+            },
+            {
+                chatID: 172,
+                speaker: "!info",
+                text: "This is the next chapter. You won't be able to to continue many of the story lines " +
+                    "once you start this case. Are you sure you want to begin? ",
+                button: [
+                    { chatID: 173, text: "Let's do this!", callback: "case_cult0" },
+                    { chatID: -1, text: "I have something I want to finish first. ", callback: "reset" },
+                ]
+            },
+            {
+                chatID: 173,
+                speaker: "missy",
+                text: "This is the Carnal Union of Mortals, or CUM's castle, built in the 1700's by an eccentric railroad tycoon. " +
+                    "It used to be an astounding piece of architecture, but in the 1800's the river changed direction and flooded " +
+                    "the entire plains it was built on and flooded the area forcing him to abandon it, where it's sat" +
+                    "for the last few hundred years. ",
+                button: [
+                    { chatID: 174, text: "...", callback: "case_cult1" },
+                ]
+            },
+            {
+                chatID: 174,
+                speaker: "missy",
+                text: "That is until a man named Teufel and his followers moved in around 40 " +
+                    "years ago and turned the place into into their church. Teufel is long dead, but his " +
+                    "eldest son, " + sc.n("ubel") + " has taken control of the CUM Cult, set on fulfilling " +
+                    "the prophecy his father never could. ",
+                button: [
+                    { chatID: 175, text: "...", callback: "case_cult2" },
+                ]
+            },
+            {
+                chatID: 175,
+                speaker: "missy",
+                text: "Bringing about the the demon Azrael. Like any typical dooms day cult they have stupid " +
+                    "rituals and beliefs, but they are dangrous. I believe they've kidnapped no less than 20 " +
+                    "people and are holding them against their will to try and bring this Azreal into this world. ", 
+                button: [
+                    { chatID: 176, text: "...", callback: "case_cult3" },
+                ]
+            },
+            {
+                chatID: 176,
+                speaker: "missy",
+                text: "My informant has gathered real evidence of these kidnappings that I can use to take down " +
+                    "their entire operation. He's going to meet you at the cabin in the forest. You must wear the " +
+                    "CUM Cult robe when you go to meet him, and only during the day. Just go inside and wait for " +
+                    "him to show. ",
+                button: [
+                    { chatID: 177, text: "...", callback: "case_cult4" },
+                ]
+            },
+            {
+                chatID: 177,
+                speaker: "missy",
+                text: "Since you won't know who he is, or what he looks like, treat everyone like they're the enemy. " +
+                    "If it's him, he'll place a manila envelope on the bed and leave. Don't greet him or talk to him. " +
+                    "Just take the envelope, leave the area, and bring it to me. ",
+                button: [
+                    { chatID: 178, text: "...", callback: "case_cult5" },
+                ]
+            },
+            {
+                chatID: 178,
+                speaker: "missy",
+                text: "To recap. Go to the cabin in the woods. Be sure to wear the cult robe. Grab the " +
+                    "manila envelope and bring it to me. Think you can do this? ",
+                button: [
+                    { chatID: -1, text: "Yes ma'am! I've got it!", callback: "case_cult_start" },
                 ]
             },
         ];

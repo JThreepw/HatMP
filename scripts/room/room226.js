@@ -394,19 +394,21 @@ room226.main = function () {
 
     }
     else {
-        if (g.pass === "runaway") {
+        if (g.pass === "nofight")
             g.internal = "nofight";
-            var backRoom = g.map.l[g.map.id].b;
-            if (backRoom === null)
-                backRoom = 0;
-            backRoom = g.map.l[backRoom].b;
-            if (backRoom === null)
-                backRoom = 0;
-            g.map.id = backRoom;
-        }
-        else if (g.pass === "win") {
-            g.internal = "nofight";
-        }
+        //if (g.pass === "runaway") {
+        //    g.internal = "nofight";
+        //    var backRoom = g.map.l[g.map.id].b;
+        //    if (backRoom === null)
+        //        backRoom = 0;
+        //    backRoom = g.map.l[backRoom].b;
+        //    if (backRoom === null)
+        //        backRoom = 0;
+        //    g.map.id = backRoom;
+        //}
+        //else if (g.pass === "win") {
+        //    g.internal = "nofight";
+        //}
     }
 
     char.changeMenu("map", false, true);
@@ -423,6 +425,10 @@ room226.main = function () {
 
 room226.btnclick = function (name) {
     switch (name) {
+        case "resetRape":
+            g.pass = "nofight";
+            char.room(226);
+            break;
         case "drawMap":
             
             nav.killbutton("left");
@@ -502,7 +508,8 @@ room226.btnclick = function (name) {
                     "image": "225_sewer/exit.png",
                     "title": "exit"
                 }, 226);
-                if (!inv.has("redbox")) {
+                var missycase226 = missy.activecase();
+                if (missycase226.name === "case_sewer" && !missycase226.isComplete) {
                     nav.button({
                         "type": "btn",
                         "name": "redbox",
@@ -575,14 +582,12 @@ room226.btnclick = function (name) {
                     else {
                         var thisEnemy;
                         if (g.map.l[g.map.id].e === "c")
-                            thisEnemy = "sc";
-                        else if (g.map.l[g.map.id].e === "g" && gv.get("fantasyCreatures"))
-                            thisEnemy = "goo";
+                            thisEnemy = 16;
+                        //else if (g.map.l[g.map.id].e === "g" && gv.get("fantasyCreatures"))
+                        //    thisEnemy = "goo";
                         else
-                            thisEnemy = Math.floor(Math.random() * 2) === 0 ? "fr" : "fy";
-                        //{ enemy0: "futaRed", enemy1: "futaYellow", enemy2: null, bg: "sewer", roomID: 0 };
-                        //g.pass = { enemy0: thisEnemy, enemy1: null, enemy2: null, bg: "sewer", roomID: 226 };
-                        //char.room(227);
+                            thisEnemy = Math.floor(Math.random() * 2) === 0 ? 15 : 14;
+                        rape.init(thisEnemy, "sewer", 226, "resetRape");
                     }
                 }
                 else if (g.map.l[g.map.id].t === "e" && !g.map.slime) {
@@ -601,12 +606,14 @@ room226.btnclick = function (name) {
         case "left":
             g.map.id = g.map.l[g.map.id].l;
             g.map.l[g.map.id].v = true;
+            gv.mod("energy", -2);
             room226.btnclick("drawMap");
             room226.btnclick("midSave");
             break;
         case "right":
             g.map.id = g.map.l[g.map.id].r;
             g.map.l[g.map.id].v = true;
+            gv.mod("energy", -2);
             room226.btnclick("drawMap");
             room226.btnclick("midSave");
             break;
@@ -617,6 +624,7 @@ room226.btnclick = function (name) {
             }
             else {
                 g.map.id = g.map.l[g.map.id].b;
+                gv.mod("energy", -2);
                 room226.btnclick("drawMap");
                 room226.btnclick("midSave");
             }
@@ -643,6 +651,7 @@ room226.btnclick = function (name) {
         case "redbox":
             nav.killbutton("redbox");
             inv.add("redbox");
+            missy.set("activeCaseComplete", 1);
             chat(1, 226);
             break;
         default:

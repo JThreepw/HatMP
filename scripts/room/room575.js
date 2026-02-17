@@ -89,7 +89,7 @@ room575.chatcatch = function (callback) {
             break;
         case "e_footsie3":
             nav.bg("575_fastfood/" + callback + ".jpg");
-            levels.gavefootjob("m", "!elijah");
+            levels.gavefootjob("m", "elijah");
             levels.mod("xdress", 50, 999);
             break;
         case "e_horny2":
@@ -281,7 +281,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 1,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Hey bud. There's plenty of other places to sit. ",
             button: [
                 { chatID: 2, text: "Oh. Hi. I just wanted to say hi. ", callback: "" }
@@ -289,7 +289,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 2,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Hi. Now go away. I'm trying to eat weird-o.",
             button: [
                 { chatID: 3, text: "So do you...", callback: "" }
@@ -297,7 +297,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 3,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Dude. Please stop. Go away I'm eating. ",
             button: [
                 { chatID: -1, text: "*sigh* [You failed to use your feminine charms and failed the case]", callback: "e_fail" }
@@ -313,7 +313,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 5,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Oh! hahaha. You're cute too. ",
             button: [
                 { chatID: 6, text: "So what do you like to do for fun?", callback: "" }
@@ -321,7 +321,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 6,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Besides eating fast food, hahaha. I dunno. I really like building and painting " +
                 "vinyl action figures. I have this one I'm working on now of Meiko Shiraki from, um,  " +
                 "this one show I watch. ",
@@ -331,7 +331,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 7,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Really! Yeah. I have almost 100 figures. The thing most people don't understand " +
                 "is how hard it is to paint on the vinyl and get the details just right. Last year " +
                 "I put together a full size batman figure. Took me almost a month to paint it just right. ",
@@ -341,7 +341,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 8,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "It's not too important. I'm a locksmith for my cousin. It allows me to " +
                 "make some money and have flexible hours. What do you do?",
             button: [
@@ -351,7 +351,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 9,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Oh that's cool. I like a girl that's clean. I could use a maid. ",
             button: [
                 { chatID: 11, text: "I'm super clean. So do you like dancing?", callback: "" }
@@ -359,7 +359,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 10,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Hehehe. Oh wow! That's so hot! I love strippers! Wow. You're really hot! I'll " +
                 "have to go to the club and see you work. ",
             button: [
@@ -368,7 +368,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 11,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "I hate dancing. I hope that's ok. I just really hate dancing. ",
             button: [
                 { chatID: 12, text: "Oh. Why? If you can't dance I could show you. ", callback: "" }
@@ -376,7 +376,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 12,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "It's too personal.  ",
             button: [
                 { chatID: 14, text: "[Rub your foot on his leg] I like personal. ", callback: "e_footsie" },
@@ -385,7 +385,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 13,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "I said it's too personal. I don't like this. I'm going to go.  ",
             button: [
                 { chatID: -1, text: "oh. [Failed case]", callback: "e_fail" },
@@ -393,7 +393,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 14,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "I... uh.... what. I hate it because of that club...",
             button: [
                 { chatID: 16, text: "[Slip off your shoe and play with his balls] What about the club?", callback: "e_horny" },
@@ -403,7 +403,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 15,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Oh... nothing. Forget I said anything. I should go.",
             button: [
                 { chatID: -1, text: "oh. [Failed case]", callback: "e_fail" }
@@ -411,7 +411,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 16,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "I don't usually talk about it...",
             button: [
                 { chatID: 17, text: "[Stoke his cock with your foot] I just want to get to know you better. ", callback: "e_footsie2" }
@@ -419,7 +419,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 17,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "I uh.. hate the owner. He's such an asshole. He was terrible to my sister. ",
             button: [
                 { chatID: 18, text: "[Stroke faster] Really, what did he do? ", callback: "e_horny2" }
@@ -427,7 +427,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 18,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "She used to work for him until he....",
             button: [
                 { chatID: 19, text: "[Keep stroking] until he? ", callback: "e_footsie3" }
@@ -435,7 +435,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 19,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "Oh no.... ",
             button: [
                 { chatID: 20, text: "Huh?", callback: "e_horny3" }
@@ -443,7 +443,7 @@ room575.chat = function (chatID) {
         },
         {
             chatID: 20,
-            speaker: "!elijah",
+            speaker: "elijah",
             text: "I'm sorry I have to go! ",
             button: [
                 { chatID: 21, text: "wait..", callback: "e_horny4" }

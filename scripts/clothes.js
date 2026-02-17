@@ -36,6 +36,7 @@ cl.init = function () {
     ];
 
     cl.list = [
+        { type: "necklace", name: "eli", display: "Elijah's Gift", img: "necklace_eli.png", sex: "f", inv: false, daring: 2, price: -1 },
         { type: "necklace", name: "g", display: "Mister T", img: "necklace_g.png", sex: "f", fem: 0, inv: false, daring: 2, price: 135 },
         { type: "necklace", name: "b", display: "Diamond Necklack", img: "necklace_b.png", fem: 0, sex: "f", inv: false, daring: 2, price: 180 },
         { type: "necklace", name: "a", display: "Diamond Necklack", img: "necklace_a.png", sex: "f", inv: false, daring: 2, price: 165 },
@@ -220,6 +221,10 @@ cl.init = function () {
         { type: "buttplug", name: "fp", display: "Pink flower", img: "plug_pinkFlower.png", sex: "f", inv: false, daring: 1, price: -1 },
         { type: "buttplug", name: "t", display: "Tampon", img: "plug_tampon.png", sex: "f", inv: false, daring: 1, price: -1 },
         { type: "buttplug", name: "tail", display: "Tail", img: "plug_tail.png", sex: "f", inv: false, daring: 4, price: -1 },
+        { type: "buttplug", name: "sh", display: "Shock", img: "plug_shock.png", sex: "f", inv: false, daring: 4, price: -1 },
+        { type: "buttplug", name: "i", display: "Inflate", img: "plug_inflate.png", sex: "f", inv: false, daring: 4, price: -1 },
+
+
         
         { type: "wig", name: "d", img: "wig_d.png", sex: "f", inv: false, daring: 2, price: -1 },
         { type: "wig", name: "f", img: "wig_f.png", sex: "f", inv: false, daring: 2, price: -1 }
@@ -1268,7 +1273,8 @@ cl.necklace = [
     { name: "d", image: "necklace_d_front.png", back: "necklace_d_back.png" },
     { name: "s", image: "necklace_s_front.png", back: "necklace_s_back.png" },
     { name: "e", image: "necklace_e_front.png", back: "necklace_e_back.png" },
-    { name: "g", image: "necklace_g_front.png", back: "necklace_g_back.png" }
+    { name: "g", image: "necklace_g_front.png", back: "necklace_g_back.png" },
+    { name: "eli", image: "necklace_eli_front.png", back: "necklace_eli_back.png" }
 ];
 
 cl.shirt = [
@@ -2016,7 +2022,21 @@ cl.buttplug = [
     { name: "tail", leg: 2, image: "plug_tail_2.png" },
     { name: "tail", leg: 3, image: "plug_tail_3.png" },
     { name: "tail", leg: 4, image: "plug_tail_4.png" },
-    { name: "tail", leg: 5, image: "plug_tail_5.png" }
+    { name: "tail", leg: 5, image: "plug_tail_5.png" },
+
+    { name: "sh", leg: 0, image: "plug_sh_0.png" },
+    { name: "sh", leg: 1, image: "plug_sh_0.png" },
+    { name: "sh", leg: 2, image: "plug_sh_2.png" },
+    { name: "sh", leg: 3, image: "plug_sh_3.png" },
+    { name: "sh", leg: 4, image: "plug_sh_4.png" },
+    { name: "sh", leg: 5, image: "plug_sh_5.png" },
+
+    { name: "i", leg: 0, image: "plug_i_0.png" },
+    { name: "i", leg: 1, image: "plug_i_0.png" },
+    { name: "i", leg: 2, image: "plug_i_2.png" },
+    { name: "i", leg: 3, image: "plug_i_3.png" },
+    { name: "i", leg: 4, image: "plug_i_4.png" },
+    { name: "i", leg: 5, image: "plug_i_5.png" }
 ];
 
 cl.accessories = [

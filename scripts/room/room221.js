@@ -11,7 +11,7 @@ room221.main = function () {
         { n: "!cheezy", bg: "z_cheezy.jpg", btnclick: "zcheezy" },
         { n: "!nips", bg: "z_nips.jpg", btnclick: "znips" },
         { n: "!lep", bg: "z_lep.jpg", btnclick: "zlep" },
-        { n: "!bitch", bg: "z_bitch.jpg", btnclick: "zbitch" },
+        { n: "bitch", bg: "z_bitch.jpg", btnclick: "zbitch" },
         { n: "!twat", bg: "z_twat.jpg", btnclick: "ztwat" },
         { n: "jeffery", bg: "z_jeffery.jpg", btnclick: "zjeffery" },
     ];
@@ -555,7 +555,7 @@ room221.chat = function (chatID) {
             },
             {
                 chatID: 11,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Ugh! You aren't Ceclia. You look like some idiot that Missy dragged off the street as one of her projects. " +
                     "Tell me, idiot, are you house broken? ",
                 button: [
@@ -564,7 +564,7 @@ room221.chat = function (chatID) {
             },
             {
                 chatID: 12,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Are you smart enough to use a toilet, or do you still pee on the floor like a puppy? ",
                 button: [
                     { chatID: 13, text: "I pee in the toilet? ", callback: "" },
@@ -572,7 +572,7 @@ room221.chat = function (chatID) {
             },
             {
                 chatID: 13,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Missy's going to have her hands full with your 2 brain cells. Just let me in. I'm tired of talking to you. ",
                 button: [
                     { chatID: -1, text: "Sure. Head on in. ", callback: "appIn" },
@@ -581,7 +581,7 @@ room221.chat = function (chatID) {
             },
             {
                 chatID: 14,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "I see Missy's little project is now as stupid as she looks. Great work advertising you only have 2 brain. " +
                     "cells. Now let me in. ",
                 button: [

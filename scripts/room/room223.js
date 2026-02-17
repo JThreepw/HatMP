@@ -3,6 +3,7 @@ var room223 = {};
 room223.main = function () {
     var missyUniform = missy.get("uniform");
     if (missyUniform === 0) {
+        sc.modSecret("missy", 100);
         chat(0, 223);
     }
     else if (missyUniform === 2) {

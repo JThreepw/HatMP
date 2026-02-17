@@ -39,6 +39,8 @@ room486.main = function () {
             a2: [],
             inst: false,
             greenbutton: false,
+            cum: 0,
+            excitement: 0,
             r1: null,
             r2: null,
             r3: null,
@@ -48,6 +50,9 @@ room486.main = function () {
             r7: null,//hole
             r8: null,
             r9: null,
+            r10: null,
+            r11: null,
+            r12: null
         };
         nav.button({
             "type": "img",
@@ -72,10 +77,18 @@ room486.main = function () {
     }
     else {
         levels.mod("fame", 5);
-        g.pass.r++;
         g.pass.inst = false;
         g.pass.greenbutton = false;
         nav.bg("486_game/r" + g.pass.r + ".webp");
+        nav.button({
+            "type": "btn",
+            "name": "bg-window",
+            "left": 1585,
+            "top": 207,
+            "width": 335,
+            "height": 605,
+            "image": "486_game/w" + g.pass.cum + ".webp"
+        }, 486);
         nav.button({
             "type": "img",
             "name": "bg-door",
@@ -93,7 +106,17 @@ room486.main = function () {
 room486.btnclick = function (name) {
     switch (name) {
         case "redrawroom":
+            nav.kill();
             nav.bg("486_game/r" + g.pass.r + ".webp");
+            nav.button({
+                "type": "btn",
+                "name": "bg-window",
+                "left": 1585,
+                "top": 207,
+                "width": 335,
+                "height": 605,
+                "image": "486_game/w" + g.pass.cum + ".webp"
+            }, 486);
             nav.button({
                 "type": "img",
                 "name": "bg-door",
@@ -105,14 +128,56 @@ room486.btnclick = function (name) {
             }, 486);
             room486.btnclick("drawbtns");
             room486.btnclick("initroom");
-
+            switch (g.pass.r) {
+                case 1:
+                    if (g.pass.inst &&  !g.pass.greenbutton) {
+                        g.pass.inst = false;
+                        room486.chatcatch("room1");
+                    }
+                    break;
+                case 3:
+                    if (g.pass.inst && !g.pass.greenbutton) {
+                        g.pass.inst = false;
+                        room486.chatcatch("room3");
+                    }
+                    break;
+                case 4:
+                    if (g.pass.inst && !g.pass.greenbutton) {
+                        g.pass.inst = false;
+                        room486.chatcatch("room4");
+                    }
+                    break;
+                case 5:
+                    if (g.pass.inst && !g.pass.greenbutton) {
+                        g.pass.inst = false;
+                        room486.chatcatch("room5");
+                    }
+                    break;
+                case 6:
+                    if (g.pass.inst && !g.pass.greenbutton) {
+                        g.pass.inst = false;
+                        room486.chatcatch("room6");
+                    }
+                    break;
+                case 7:
+                    if (g.pass.inst && !g.pass.greenbutton) {
+                        g.pass.inst = false;
+                        room486.chatcatch("room7");
+                    }
+                    break;
+                case 9:
+                    if (g.pass.inst && !g.pass.greenbutton) {
+                        room486.chatcatch("room9redraw");
+                    }
+                    break;
+            }
             break;
         case "drawbtns":
             nav.killbutton("mask");
             nav.killbutton("redbutton");
             nav.killbutton("greenbutton");
             nav.button({
-                "type": "hand",
+                "type": "zhand",
                 "name": "mask",
                 "left": 1398,
                 "top": 463,
@@ -133,7 +198,7 @@ room486.btnclick = function (name) {
             }, 486);
             if (g.pass.greenbutton)
                 nav.button({
-                    "type": "hand",
+                    "type": "zhand",
                     "name": "greenbutton",
                     "left": 1156,
                     "top": 444,
@@ -143,7 +208,7 @@ room486.btnclick = function (name) {
                 }, 486);
             else
                 nav.button({
-                    "type": "hand",
+                    "type": "zhand",
                     "name": "greenbutton",
                     "left": 1156,
                     "top": 444,
@@ -214,10 +279,13 @@ room486.btnclick = function (name) {
                     }, 486);
                     break;
                 case 9:
-                    g.internal = {
-                        bucket: 0,
-                        c: [null, null, null, null, null] 
-                    };
+                    if (!g.pass.inst) {
+                        g.internal = {
+                            bucket: 0,
+                            s: null,
+                            c: [null, null, null, null, null]
+                        };
+                    }
                     nav.bg("486_game/room9bg.webp");
                     nav.button({
                         "type": "btn",
@@ -228,6 +296,54 @@ room486.btnclick = function (name) {
                         "height": 111,
                         "image": "486_game/room9_bucket.webp"
                     }, 486);
+                    break;
+                case 10:
+                    nav.button({
+                        "type": "img",
+                        "name": "room10_0a",
+                        "left": 483,
+                        "top": 0,
+                        "width": 527,
+                        "height": 1080,
+                        "image": "486_game/room10_0.webp"
+                    }, 486);
+                    nav.button({
+                        "type": "img",
+                        "name": "room10_1a",
+                        "left": 1039,
+                        "top": 0,
+                        "width": 527,
+                        "height": 1080,
+                        "image": "486_game/room10_1.webp"
+                    }, 486);
+                    nav.button({
+                        "type": "grab",
+                        "name": "room10_0",
+                        "left": 717,
+                        "top": 710,
+                        "width": 101,
+                        "height": 102,
+                        "image": "486_game/room10_btn.webp"
+                    }, 486);
+                    nav.button({
+                        "type": "grab",
+                        "name": "room10_1",
+                        "left": 1271,
+                        "top": 710,
+                        "width": 101,
+                        "height": 102,
+                        "image": "486_game/room10_btn.webp"
+                    }, 486);
+                    if (g.pass.r10 === "sh") {
+                        nav.modbutton("room10_1a", "486_game/room10_1_out.webp", null, null)
+                        nav.killbutton("room10_1");
+                        nav.killbutton("room10_0");
+                    }
+                    else if (g.pass.r10 === "i") {
+                        nav.modbutton("room10_0a", "486_game/room10_0_out.webp", null, null)
+                        nav.killbutton("room10_1");
+                        nav.killbutton("room10_0");
+                    }
                     break;
             }
             break;
@@ -260,6 +376,7 @@ room486.btnclick = function (name) {
                 nav.modbutton("mask", "486_game/m" + g.pass.r + ".webp", null, "img");
                 nav.modbutton("bg-door", "486_game/r_open.webp", null, null);
                 g.roomTimeout = setTimeout(function () {
+                    g.pass.r++;
                     char.room(486);
                 }, 1200);
             }
@@ -272,6 +389,7 @@ room486.btnclick = function (name) {
             break;
         case "room1":
             nav.killbutton("room1");
+            g.pass.excitement += 20;
             chat(10011, 486);
             break;
         case "room2":
@@ -279,6 +397,7 @@ room486.btnclick = function (name) {
                 chat(8, 486);
             }
             else if (!g.pass.greenbutton) {
+                g.pass.excitement += 20;
                 nav.modbutton("room2", "486_game/room2a.webp", null, "img");
                 cl.nude();
                 nav.button({
@@ -297,6 +416,7 @@ room486.btnclick = function (name) {
         case "room3_0":
             nav.killbutton("room3_0");
             nav.killbutton("room3_1");
+            g.pass.excitement += 100;
             zcl.assup(800, 1200, .3, "", false);
             room486.chatcatch("greenbuttonON");
             g.pass.temp = 0;
@@ -305,6 +425,7 @@ room486.btnclick = function (name) {
         case "room3_1":
             nav.killbutton("room3_0");
             nav.killbutton("room3_1");
+            g.pass.excitement += 100;
             room486.chatcatch("greenbuttonON");
             nav.button({
                 "type": "img",
@@ -322,13 +443,13 @@ room486.btnclick = function (name) {
             nav.killbutton("room4_0");
             nav.killbutton("room4_1");
             g.pass.r4 = "spank";
-            g.pass.inst = true;
+            g.pass.excitement += 100;
             chat(13, 486);
             break;
         case "room4_1":
             nav.killbutton("room4_0");
             nav.killbutton("room4_1");
-            g.pass.inst = true;
+            g.pass.excitement += 100;
             chat(14, 486);
             break;
         case "room4_2":
@@ -338,10 +459,12 @@ room486.btnclick = function (name) {
             break;
         case "room5_0":
             g.pass.r5 = "anal";
+            g.pass.excitement += 25;
             room486.btnclick("5_2");
             break;
         case "room5_1":
             g.pass.r5 = "pain";
+            g.pass.excitement += 25;
             room486.btnclick("5_2");
             break;
         case "5_2":
@@ -374,12 +497,13 @@ room486.btnclick = function (name) {
                 "top": 0,
                 "width": 1920,
                 "height": 1080,
-                "image": "486_game/room5" + (g.pass === "anal" ? "2" : "3") + ".webp"
+                "image": "486_game/room5" + (g.pass.r5 === "anal" ? "2" : "3") + ".webp"
             }, 486);
             chat(10051, 486);
             break;
         case "room6_0":
             levels.mod("piss", 20);
+            g.pass.excitement += 50;
             nav.killbutton("room6_0");
             nav.killbutton("room6_1");
             g.pass.r6 = "piss";
@@ -396,6 +520,7 @@ room486.btnclick = function (name) {
             break;
         case "room6_1":
             levels.mod("cum", 20);
+            g.pass.excitement += 50;
             nav.killbutton("room6_0");
             nav.killbutton("room6_1");
             g.pass.r6 = "cum";
@@ -431,6 +556,7 @@ room486.btnclick = function (name) {
             break;
         case "room7":
             nav.kill();
+            g.pass.excitement += 100;
             nav.bg("486_game/room7_0_" + gender.pronoun("f") + ".webp");
             if (levels.oralTake(5).canTake) {
                 chat(20, 486);
@@ -475,7 +601,7 @@ room486.btnclick = function (name) {
                     "width": 1920,
                     "height": 1080,
                     "image": "28_transformation/cock_" + cl.c.cock + ".gif"
-                }, 219);
+                }, 486);
                 room8_1trans = true;
             }
             else if (cl.c.leg < 3) {
@@ -488,7 +614,7 @@ room486.btnclick = function (name) {
                     "width": 1920,
                     "height": 1080,
                     "image": "28_transformation/leg_" + cl.c.leg + ".gif"
-                }, 219);
+                }, 486);
                 room8_1trans = true;
             }
             else if (cl.c.chest < 3) {
@@ -501,7 +627,7 @@ room486.btnclick = function (name) {
                     "width": 1920,
                     "height": 1080,
                     "image": "28_transformation/chest_" + cl.c.chest + ".gif"
-                }, 219);
+                }, 486);
                 room8_1trans = true;
             }
             else if (cl.c.leg < 5) {
@@ -514,7 +640,7 @@ room486.btnclick = function (name) {
                     "width": 1920,
                     "height": 1080,
                     "image": "28_transformation/leg_" + cl.c.leg + ".gif"
-                }, 219);
+                }, 486);
                 room8_1trans = true;
             }
             else if (cl.c.chest < 6) {
@@ -527,7 +653,7 @@ room486.btnclick = function (name) {
                     "width": 1920,
                     "height": 1080,
                     "image": "28_transformation/chest_" + cl.c.chest + ".gif"
-                }, 219);
+                }, 486);
                 room8_1trans = true;
             }
             else if (cl.c.lips < 2) {
@@ -540,7 +666,7 @@ room486.btnclick = function (name) {
                     "width": 1920,
                     "height": 1080,
                     "image": "28_transformation/lip_" + cl.c.lips + ".gif"
-                }, 219);
+                }, 486);
                 room8_1trans = true;
             }
 
@@ -556,7 +682,6 @@ room486.btnclick = function (name) {
             }
             break;
         case "room9bucket":
-            if(g.internal.bucket === 0)
             chat(10091, 486);
             break;
         case "room9c0":
@@ -565,9 +690,184 @@ room486.btnclick = function (name) {
         case "room9c3":
         case "room9c4":
             var room9c = parseInt(name.replace("room9c", ""));
-
+            if (g.internal.c[room9c] === null) {
+                g.popUpNotice("There's no cock there, dumb ass.");
+                return;
+            }
+            nav.kill();
+            g.internal.s = room9c;
+            nav.bg("486_game/room9d_" + g.internal.s.toString() + g.internal.c[g.internal.s].toString() + ".webp");
+            zcl.bj(0, 900, 1, "", false);
+            sc.select("icon_room9suck", "451_parkMensRoom/icon_suck.png", -2);
+            sc.select("icon_room9anal", "451_parkMensRoom/icon_anal.png", -1);
             break;
-
+        case "icon_room9suck":
+            nav.kill();
+            nav.bg("486_game/room9e_" + g.internal.s.toString() + g.internal.c[g.internal.s].toString() + ".webp");
+            zcl.double(0, 320, 1.1, "open", false);
+            fame.moanAnimate("center");
+            sc.select("icon_room9suck1", "486_game/icon_r9_oral.webp", -2);
+            break;
+        case "icon_room9anal":
+            nav.kill();
+            nav.bg("486_game/room9e_" + g.internal.s.toString() + g.internal.c[g.internal.s].toString() + ".webp");
+            zcl.hanging(0, 300, 1.2, "", true);
+            fame.moanAnimate("right");
+            sc.select("icon_room9anal1", "486_game/icon_r9_anal.webp", -2);
+            break;
+        case "icon_room9suck1":
+            nav.kill();
+            fame.moanAnimateStop();
+            sc.select("icon_room9oral2", "486_game/icon_r9_fillbucket.webp", -2);
+            nav.bg("486_game/room9f_" + g.internal.s.toString() + g.internal.c[g.internal.s].toString() + ".webp");
+            levels.oral(3, "m", "!man", false, null, true);
+            zcl.bj(0, 900, 1, "cummouth", false);
+            break;
+        case "icon_room9anal1":
+            nav.killbutton("icon_room9anal1");
+            nav.button({
+                "type": "img",
+                "name": "room9bg",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "486_game/room9anal1.webp"
+            }, 486);
+            levels.anal(3, false, "m", true, "!man");
+            sc.select("icon_room9anal2", "486_game/icon_r9_fillbucket.webp", -2);
+            break;
+        case "icon_room9anal2":
+            fame.moanAnimateStop();
+            nav.killbutton("icon_room9anal2");
+            g.pass.excitement += 45;
+            room486.btnclick("window_draw");
+            g.internal.bucket += gv.getButtCum().total;
+            gv.clearButtCum();
+            room486.btnclick("room9bucket_draw");
+            nav.button({
+                "type": "img",
+                "name": "room9bg",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "486_game/room9_cumanal_" + gender.pronoun("f") + ".webp"
+            }, 486);
+            sc.select("icon_r9_nextcock", "486_game/icon_r9_nextcock.webp", -2); 
+            break;
+        case "icon_room9oral2":
+            fame.moanAnimateStop();
+            nav.killbutton("icon_room9anal2");
+            g.pass.excitement += 25;
+            room486.btnclick("window_draw");
+            g.internal.bucket++;
+            room486.btnclick("room9bucket_draw");
+            nav.button({
+                "type": "img",
+                "name": "room9bg",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "486_game/room9_cumoral_" + gender.pronoun("f") + ".webp"
+            }, 486);
+            sc.select("icon_r9_nextcock", "486_game/icon_r9_nextcock.webp", -2); 
+            break;
+        case "icon_r9_nextcock":
+            if (g.internal.bucket > 6) {
+                g.pass.greenbutton = true;
+            }
+            room486.btnclick("redrawroom"); 
+            break;
+        case "room9bucket_draw":
+            if (g.internal.bucket > 7) {
+                g.internal.bucket = 7;
+            }
+            nav.button({
+                "type": "img",
+                "name": "room9bg",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "486_game/room9_bucket" + (g.internal.bucket - 4 < 0 ? 0 : (g.internal.bucket - 4)) + ".webp"
+            }, 486);
+            break;
+        case "bg-window":
+            room486.btnclick("window_draw");
+            nav.back("redrawroom");
+            break;
+        case "window_draw":
+            nav.kill();
+            nav.bg("486_game/w_bg.webp");
+            if (g.pass.excitement > 99) {
+                g.pass.cum++;
+                g.pass.excitement = 0;
+                nav.button({
+                    "type": "img",
+                    "name": "room9bg_window",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "486_game/jo" + (g.pass.cum % 4) + ".webp"
+                }, 486);
+            }
+            nav.button({
+                "type": "img",
+                "name": "room9bg_window",
+                "left": 0,
+                "top": 0,
+                "width": 1920,
+                "height": 1080,
+                "image": "486_game/wc" + (g.pass.cum > 8 ? 8: g.pass.cum) + ".webp"
+            }, 486);
+            break;
+        case "room10_0":
+            if (!g.pass.inst) {
+                chat(32, 486);
+            }
+            else {
+                nav.killbutton("room10_0");
+                nav.killbutton("room10_1");
+                nav.modbutton("room10_0a", "486_game/room10_0_out.webp", null, null);
+                cl.c.buttplug = "sh";
+                g.pass.r10 = "sh";
+                nav.button({
+                    "type": "img",
+                    "name": "room10_kill",
+                    "left": 641,
+                    "top": 149,
+                    "width": 700,
+                    "height": 704,
+                    "image": "486_game/room10_0d.webp"
+                }, 486);
+                chat(33, 486);
+            }
+            break;
+        case "room10_1":
+            if (!g.pass.inst) {
+                chat(32, 486);
+            }
+            else {
+                cl.c.buttplug = "i";
+                nav.killbutton("room10_0");
+                nav.killbutton("room10_1");
+                nav.modbutton("room10_1a", "486_game/room10_1_out.webp", null, null);
+                g.pass.r10 = "i";
+                nav.button({
+                    "type": "img",
+                    "name": "room10_kill",
+                    "left": 641,
+                    "top": 149,
+                    "width": 700,
+                    "height": 704,
+                    "image": "486_game/room10_1d.webp"
+                }, 486);
+                chat(33, 486);
+            }
+            break;
         default:
             break;
     }
@@ -606,6 +906,7 @@ room486.chatcatch = function (callback) {
             break;
         case "room4":
             if (!g.pass.inst) {
+                g.pass.inst = true;
                 sc.select("room4_0", "486_game/icon_r4_0.webp", 0);
                 sc.select("room4_1", "486_game/icon_r4_1.webp", 1);
             }
@@ -662,8 +963,8 @@ room486.chatcatch = function (callback) {
             }
             break;
         case "room7_3":
-            room486.btnclick("redrawroom"); 
             room486.chatcatch("greenbuttonON");
+            room486.btnclick("redrawroom"); 
             gv.mod("energy", -15);
             levels.anal(5, false, "m", false, "!statue");
             levels.oral(5, "m", "!statue", false, null, true);
@@ -686,14 +987,16 @@ room486.chatcatch = function (callback) {
             g.pass.inst = true;
             break;
         case "room9":
-            nav.kill();
+            g.pass.inst = true;
+            room486.btnclick("redrawroom"); 
+            break;
+        case "room9redraw":
             var room9CockCounter = 0;
             for (let i = 0; i < 5; i++) {
-                if (g.internal.c[i] === null) {
-                    switch (g.rand(0, 4)) {
-                        case 0: g.internal.c[i] = 0; break;
-                        case 1: g.internal.c[i] = 1; break;
-                    }
+                switch (g.rand(0, 3)) {
+                    case 0: g.internal.c[i] = 0; break;
+                    case 1: g.internal.c[i] = 1; break;
+                    default: g.internal.c[i] = null; break;
                 }
             }
             for (let i = 0; i < 5; i++) {
@@ -703,10 +1006,8 @@ room486.chatcatch = function (callback) {
             }
 
             if (room9CockCounter === 5) {
-                room486.chatcatch("room9");
-                return;
+                g.internal.c[g.rand(0, 4)] = g.rand(0, 1);
             }
-
             for (let i = 0; i < 5; i++) {
                 if (g.internal.c[i] !== null) {
                     nav.button({
@@ -723,30 +1024,33 @@ room486.chatcatch = function (callback) {
             for (let i = 0; i < 5; i++) {
                 nav.button({
                     "type": "btn",
-                    "name": "room9c" + i,
-                    "left": 50 + (i * 210),
-                    "top": 300,
+                    "name": "room9c" + (4 - i),
+                    "left": 300 + (i * 210),
+                    "top": 400,
                     "width": 200,
                     "height": 75,
                     "image": "486_game/room9b_" + i.toString() + ".webp"
                 }, 486);
             }
+            nav.button({
+                "type": "btn",
+                "name": "room9bucket",
+                "left": 1516,
+                "top": 807,
+                "width": 112,
+                "height": 111,
+                "image": "486_game/room9_bucket.webp"
+            }, 486);
+            break;
+        case "room10_redraw":
+            cl.display();
+            nav.killbutton("room10_kill");
+            g.pass.greenbutton = true;
+            room486.btnclick("redrawroom");
             break;
         case "greenlightRedraw":
-            nav.kill();
-            nav.bg("486_game/r" + g.pass.r + ".webp");
-            nav.button({
-                "type": "img",
-                "name": "bg-door",
-                "left": 672,
-                "top": 158,
-                "width": 703,
-                "height": 604,
-                "image": "486_game/r_openholder.webp"
-            }, 486);
-            room486.btnclick("initroom");
             g.pass.greenbutton = true;
-            room486.btnclick("drawbtns");
+            room486.btnclick("redrawroom");
             break;
         case "greenbuttonON":
             g.pass.greenbutton = true;
@@ -812,9 +1116,9 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Now the game truly begins," +
-                "Choices will test your skin." +
-                "Some sting and shame on the spot," +
+            text: "Now the game truly begins, " +
+                "Choices will test your skin. " +
+                "Some sting and shame on the spot, " +
                 "Others fester and rot." +
                 "Energy guards your fate " +
                 "Pass the door, or seal your fate. ",
@@ -994,13 +1298,13 @@ room486.chat = function (chatID) {
         let c10091 = "";
         if (g.internal.bucket === 0)
             c10091 = "It's an empty bucket";
-        else if (g.internal.bucket < 4)
+        else if (g.internal.bucket < 2)
             c10091 = "There's a little cum in this bucket";
-        else if (g.internal.bucket < 6)
+        else if (g.internal.bucket < 4)
             c10091 = "This bucket is almost half full of cum. ";
-        else if (g.internal.bucket < 9)
+        else if (g.internal.bucket < 5)
             c10091 = "This bucket is almost 3/4 full of cum. ";
-        else if (g.internal.bucket < 12)
+        else if (g.internal.bucket < 7)
             c10091 = "This bucket is almost full of cum ";
         else
             c10091 = "It's bucket full of cum. So much cum!!";
@@ -1013,12 +1317,21 @@ room486.chat = function (chatID) {
             ]
         };
     }
-    else if (chatID === 1010) {
-       //zcl.double(-100, -100, 1.2, "open", true)
-        //zcl.bj(100, 500, .8, "open", false)
-        //zcl.bj(100, 600, .8, "", false)
+    else if (chatID === 10010) {
+        g.pass.inst = true;
+        return {
+            chatID: 0,
+            speaker: "!ann",
+            text: "Two butt plugs before your eyes, " +
+                "Pick one to wear; make your choice wise. " +
+                "One shocks from within with electric fire, " +
+                "The other inflates for all our desire.",
+            button: [
+                { chatID: 31, text: "...", callback: "room10" }
+            ]
+        };
     }
-    else if (chatID === 1011) {
+    else if (chatID === 10011) {
         carray = [
             "Suck the cum out this woman's vagina",
             "Lay over his lap for 10 spankings",
@@ -1310,7 +1623,33 @@ room486.chat = function (chatID) {
                     { chatID: -1, text: "...", callback: "greenbuttonON" },
                 ]
             },
-            
+            {
+                chatID: 31,
+                speaker: "thinking",
+                text: "I guess I just pull the butt plug out of one of these girls and slide it in my " +
+                    "butt. Hmmm, who to choose?",
+                button: [
+                    { chatID: -1, text: "...", callback: "" },
+                ]
+            },
+            {
+                chatID: 32,
+                speaker: "thinking",
+                text: "I'm not just going to grab that girl's ass, even though it's hanging out all naked " +
+                    "and stuff. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "" },
+                ]
+            },
+            {
+                chatID: 33,
+                speaker: "thinking",
+                text: "Allright. Now I'll just take this butt plug I pulled out of her ass and shove it " +
+                    "up my own ass. Easy Peasy!",
+                button: [
+                    { chatID: -1, text: "...", callback: "room10_redraw" },
+                ]
+            },
         ];
         if (cArray.length > chatID && chatID > -1)
             return cArray[chatID];

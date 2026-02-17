@@ -1685,7 +1685,7 @@ room329.chat = function (chatID) {
                 text: "I already took his cock once today! Ask again tomorrow. Or you take his cock and free " +
                     "me from these chains! ",
                 button: [
-                    { chatID: -1, text: "oh. ok. ", callback: "ppreset" },
+                    { chatID: 40, text: "oh. ok. ", callback: "ppreset" },
                 ]
             },
             {

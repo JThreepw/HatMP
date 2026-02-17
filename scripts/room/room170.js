@@ -824,7 +824,7 @@ room170.chat = function (chatID) {
         if (cl.c.dress !== "rose") {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Is that the Rose Dress? Shut up! No it's not! Put on the rose dress " +
                     "you stupid bimbo! ",
                 button: [
@@ -835,7 +835,7 @@ room170.chat = function (chatID) {
         if (cl.c.makeup === "clown") {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Are you wearing clown makeup? Go put on normal makeup you stupid bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on different makeup. ", callback: "gotoDressingRoom" }
@@ -845,7 +845,7 @@ room170.chat = function (chatID) {
         if (cl.c.lipstick === null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Put on lipstick, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on lipstick. ", callback: "gotoDressingRoom" }
@@ -855,7 +855,7 @@ room170.chat = function (chatID) {
         if (cl.c.pissface === null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Put on eyeshadow, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on eyeshadow. ", callback: "gotoDressingRoom" }
@@ -865,7 +865,7 @@ room170.chat = function (chatID) {
         if (cl.c.socks !== null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Why the fuck are you wearing socks? This isn't a gym. Go take those off " +
                     "you dumb bimbo!",
                 button: [
@@ -876,7 +876,7 @@ room170.chat = function (chatID) {
         if (cl.getEntry("shoes", cl.c.shoes).sex !== "f") {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Go put on some sexy shoes, you knuckle dragger! ",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on my sexiest shoes. ", callback: "gotoDressingRoom" }
@@ -885,7 +885,7 @@ room170.chat = function (chatID) {
         }
         return {
             chatID: 0,
-            speaker: "!bitch",
+            speaker: "bitch",
             text: "*ugh* I guess that's good enough. Go out there and don't make an ass " +
                 "of us, you brain dead bimbo! ",
             button: [
@@ -897,7 +897,7 @@ room170.chat = function (chatID) {
         if (cl.c.shirt !== "cor" || cl.c.pants !== "co") {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Is that the corset and micro skirt? Shut up! No it's not! Put on the " +
                     "corset and micro skirt you stupid bimbo! ",
                 button: [
@@ -908,7 +908,7 @@ room170.chat = function (chatID) {
         if (cl.c.makeup === "clown") {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Are you wearing clown makeup? Go put on normal makeup you stupid bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on different makeup. ", callback: "gotoDressingRoom" }
@@ -918,7 +918,7 @@ room170.chat = function (chatID) {
         if (cl.c.lipstick === null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Put on lipstick, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on lipstick. ", callback: "gotoDressingRoom" }
@@ -928,7 +928,7 @@ room170.chat = function (chatID) {
         if (cl.c.pissface === null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Put on eyeshadow, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on eyeshadow. ", callback: "gotoDressingRoom" }
@@ -938,7 +938,7 @@ room170.chat = function (chatID) {
         if (cl.c.socks !== null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Why the fuck are you wearing socks? This isn't a gym. Go take those off " +
                     "you dumb bimbo!",
                 button: [
@@ -949,7 +949,7 @@ room170.chat = function (chatID) {
         if (cl.getEntry("shoes", cl.c.shoes).sex !== "f") {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Go put on some sexy shoes, you knuckle dragger! ",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on my sexiest shoes. ", callback: "gotoDressingRoom" }
@@ -959,7 +959,7 @@ room170.chat = function (chatID) {
         if (cl.c.bra !== null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Why are you wearing a bra? Go take that off. It's a stupid bra! ",
                 button: [
                     { chatID: -1, text: "Oh. I'll remove my bra. ", callback: "gotoDressingRoom" }
@@ -969,7 +969,7 @@ room170.chat = function (chatID) {
         if (cl.c.panties === null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Oh gross. Go put on some panties. No one wants to see that " +
                     "nasty little dangling thing. Disgusting!",
                 button: [
@@ -993,7 +993,7 @@ room170.chat = function (chatID) {
         if (!cl.wearing().nude) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Why are you wearing clothes? Strip it all off! Should I get some " +
                     "Q-tips so you can clean your ears and listen?",
                 button: [
@@ -1004,7 +1004,7 @@ room170.chat = function (chatID) {
         if (cl.c.makeup === "clown") {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Are you wearing clown makeup? Go put on normal makeup you stupid bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on different makeup. ", callback: "gotoDressingRoom" }
@@ -1014,7 +1014,7 @@ room170.chat = function (chatID) {
         if (cl.c.lipstick === null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Put on lipstick, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on lipstick. ", callback: "gotoDressingRoom" }
@@ -1024,7 +1024,7 @@ room170.chat = function (chatID) {
         if (cl.c.pissface === null) {
             return {
                 chatID: 0,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Put on eyeshadow, you dumb bimbo!",
                 button: [
                     { chatID: -1, text: "Oh. I'll put on eyeshadow. ", callback: "gotoDressingRoom" }
@@ -1112,7 +1112,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 2,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "These must be the *ugh* sissies that are going to model for Mr. Jones. " +
                     "You can go " + sc.n("black") + ". I'll take them from here. ",
                 button: [
@@ -1121,7 +1121,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 3,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Take this dress, put on some makeup and nice shoes, then come " +
                     "back out here to walk the catwalk. Chop chop!",
                 button: [
@@ -1169,7 +1169,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 8,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "You did fine. Not a model, but good enough. Now we're doing " +
                     "evening wear. Go put this on. ",
                 button: [
@@ -1178,7 +1178,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 9,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "*Ugh* I don't have time for this. Just put it on and get ready " +
                     "to model it. I thought you bimbo sissies wanted to show off your bodies. ",
                 button: [
@@ -1187,7 +1187,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 10,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "What if people see her penis under the skirt? *ugh* I'll have to " +
                     "get another model to wear this. You. Bimbo. You're done here. ",
                 button: [
@@ -1214,7 +1214,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 13,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "You stupid bimbo bitch! If you ever, and I mean ever, make me " +
                     "look like a fool in front of Mr. Jones again I will ruin you! " +
                     "I will make sure you end up in a gutter on the streets where only " +
@@ -1225,7 +1225,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 14,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Now get out there and show that ass of yours and never come back. " +
                     "I'm so done with your ugly bimbo face! ",
                 button: [
@@ -1278,7 +1278,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 19,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "Oh fuck. You did come. I was so hoping you knew where you " +
                     "weren't wanted. You have two brain cells fighting over " +
                     "second place and they both lost. Go in the change room and strip " +
@@ -1398,7 +1398,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 30,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "*ugh* " + sc.n("jones") + " ordered me to tell you that he " +
                     "loves how you've modeled his creations. You are invited to his " +
                     "mansion in the North East corner of the residential section of the city " +
@@ -1410,7 +1410,7 @@ room170.chat = function (chatID) {
             },
             {
                 chatID: 31,
-                speaker: "!bitch",
+                speaker: "bitch",
                 text: "We always do what " + sc.n("jones") + " tells us to do. No questions asked, " +
                     "no matter what. He told me to tell you to come, but he didn't say I couldn't " +
                     "make your life miserable if you do show. Now, I've got to go, you just take " +
