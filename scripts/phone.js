@@ -72,6 +72,10 @@ phone.build = function (selection) {
             room9999.btnclick("phone_time");
             nav.killbutton("phonex_menu");
         }
+        else {
+            room9999.btnclick(selection);
+            nav.killbutton("phonex_menu");
+        }
     }
 };
 

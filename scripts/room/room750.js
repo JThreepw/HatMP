@@ -423,8 +423,7 @@ room750.chatcatch = function (callback) {
             cl.add("necklace", "eli");
             cl.c.necklace = "eli";
             cl.display();
-            zcl.displayMain(150, 100, .32, "clothes", false)
-
+            zcl.displayMain(150, 100, .32, "clothes", false);
             break;
         case "eli15":
             nav.bg("750_homeless/eli15.webp");
@@ -979,7 +978,7 @@ room750.chat = function (chatID) {
                     "with me for a long time, and I hope it's with you for an even longer time. A reminder of " +
                     "my love for you. ",
                 button: [
-                    { chatID: 55, text: "It's beautiful. I'll wear it always. ", callback: "" },
+                    { chatID: 55, text: "It's beautiful. I'll wear it always. ", callback: "eli14" },
                     { chatID: 54, text: "I can't take it. You need to be with a girl that loves you. ", callback: "eli12" },
                 ]
             },

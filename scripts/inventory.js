@@ -220,6 +220,11 @@ pic.master = [
     { name: "sissy1", display: "Sissy ID Photo", entry: false, image: "sissy1.jpg", thumb: "sissy1.png" },
     { name: "sissy2", display: "Sissy ID Photo", entry: false, image: "sissy2.jpg", thumb: "sissy2.png" },
     { name: "sissy3", display: "Sissy ID Photo", entry: false, image: "sissy3.jpg", thumb: "sissy3.png" },
+
+    { name: "12dd_0f", display: "12 Doors", entry: false, image: "12dd_0f.jpg", thumb: "12dd_0f.png" },
+    { name: "12dd_0m", display: "12 Doors", entry: false, image: "12dd_0m.jpg", thumb: "12dd_0m.png" },
+    { name: "12dd_1f", display: "12 Doors", entry: false, image: "12dd_1f.jpg", thumb: "12dd_1f.png" },
+    { name: "12dd_1m", display: "12 Doors", entry: false, image: "12dd_1m.jpg", thumb: "12dd_1m.png" },
 ];
 
 pic.getall = function () {

@@ -1,4 +1,4 @@
-﻿function getRapeChar(location, num = null) {
+﻿function getRapeChar(location = null, num = null) {
     let retVar = [
         {
             num: 0,
@@ -2633,8 +2633,13 @@
         },
     ];
     if (num === null) {
+        if (location !== null) {
+            retVar = retVar.filter(item => item.location.includes(location));
+        }
+
         num = g.rand(0, retVar.length);
     }
+    
     return retVar[num];
 }
 

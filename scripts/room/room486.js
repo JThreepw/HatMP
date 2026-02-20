@@ -334,16 +334,36 @@ room486.btnclick = function (name) {
                         "height": 102,
                         "image": "486_game/room10_btn.webp"
                     }, 486);
-                    if (g.pass.r10 === "sh") {
+                    if (g.pass.r10 === "i") {
                         nav.modbutton("room10_1a", "486_game/room10_1_out.webp", null, null)
                         nav.killbutton("room10_1");
                         nav.killbutton("room10_0");
                     }
-                    else if (g.pass.r10 === "i") {
+                    else if (g.pass.r10 === "sh") {
                         nav.modbutton("room10_0a", "486_game/room10_0_out.webp", null, null)
                         nav.killbutton("room10_1");
                         nav.killbutton("room10_0");
                     }
+                    break;
+                case 11:
+                    nav.button({
+                        "type": "tongue",
+                        "name": "room11_0",
+                        "left": 130,
+                        "top": 213,
+                        "width": 610,
+                        "height": 850,
+                        "image": "486_game/room11_0.webp"
+                    }, 486);
+                    nav.button({
+                        "type": "tongue",
+                        "name": "room11_1",
+                        "left": 1393,
+                        "top": 82,
+                        "width": 527,
+                        "height": 987,
+                        "image": "486_game/room11_1.webp"
+                    }, 486);
                     break;
             }
             break;
@@ -390,7 +410,7 @@ room486.btnclick = function (name) {
         case "room1":
             nav.killbutton("room1");
             g.pass.excitement += 20;
-            chat(10011, 486);
+            chat(1011, 486);
             break;
         case "room2":
             if (!g.pass.inst) {
@@ -833,6 +853,7 @@ room486.btnclick = function (name) {
                 nav.killbutton("room10_1");
                 nav.modbutton("room10_0a", "486_game/room10_0_out.webp", null, null);
                 cl.c.buttplug = "sh";
+                cl.add("buttplug", "sh");
                 g.pass.r10 = "sh";
                 nav.button({
                     "type": "img",
@@ -852,6 +873,7 @@ room486.btnclick = function (name) {
             }
             else {
                 cl.c.buttplug = "i";
+                cl.add("buttplug", "i");
                 nav.killbutton("room10_0");
                 nav.killbutton("room10_1");
                 nav.modbutton("room10_1a", "486_game/room10_1_out.webp", null, null);
@@ -867,6 +889,112 @@ room486.btnclick = function (name) {
                 }, 486);
                 chat(33, 486);
             }
+            break;
+        case "room11_0":
+            if (g.pass.inst && !g.pass.greenbutton) {
+                g.pass.r11 = 0;
+                g.internal = 0;
+                nav.kill();
+                nav.killbutton("room11_0");
+                nav.killbutton("room11_1");
+                nav.button({
+                    "type": "zimg",
+                    "name": "room11_kill",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "486_game/room11_0b.webp"
+                }, 486);
+                nav.button({
+                    "type": "ztongue",
+                    "name": "room11_lick",
+                    "left": 957,
+                    "top": 347,
+                    "width": 202,
+                    "height": 202,
+                    "image": "486_game/room11_box.webp"
+                }, 486);
+            }
+            else {
+                chat(35, 486);
+            }
+            break;
+        case "room11_1":
+            if (g.pass.inst && !g.pass.greenbutton ) {
+                g.pass.r11 = 1;
+                g.internal = 0;
+                nav.kill();
+                nav.killbutton("room11_0");
+                nav.killbutton("room11_1");
+                nav.button({
+                    "type": "zimg",
+                    "name": "room11_kill",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "486_game/room11_1b.webp"
+                }, 486);
+                nav.button({
+                    "type": "ztongue",
+                    "name": "room11_lick",
+                    "left": 957,
+                    "top": 347,
+                    "width": 202,
+                    "height": 202,
+                    "image": "486_game/room11_box.webp"
+                }, 486);
+            }
+            else {
+                chat(35, 486);
+            }
+            break;
+        case "room11_lick":
+            if (g.internal === 0) {
+                nav.button({
+                    "type": "img",
+                    "name": "room11_lickx",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "486_game/room11_c0.webp"
+                }, 486);
+            }
+            else if (g.internal < 3) {
+                nav.modbutton("room11_lickx", "486_game/room11_c" + g.internal + ".webp", null, null);
+            }
+            else {
+                nav.killbutton("room11_lickx");
+                nav.killbutton("room11_lick");
+                nav.button({
+                    "type": "zimg",
+                    "name": "room11_lickx",
+                    "left": 0,
+                    "top": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "image": "486_game/room11_c3.webp"
+                }, 486);
+                setTimeout(function () {
+                    nav.button({
+                        "type": "zimg",
+                        "name": "room11_lickx",
+                        "left": 0,
+                        "top": 0,
+                        "width": 1920,
+                        "height": 1080,
+                        "image": "14_motherRoom/white.jpg"
+                    }, 486);
+                    setTimeout(function () {
+                        nav.killbutton("room11_lickx");
+                        pic.add("12dd_" + g.pass.r11.toString() + gender.pronoun("f"));
+                        chat(34, 486);
+                    }, 400);
+                }, 1200);
+            }
+            g.internal++;
             break;
         default:
             break;
@@ -1048,6 +1176,14 @@ room486.chatcatch = function (callback) {
             g.pass.greenbutton = true;
             room486.btnclick("redrawroom");
             break;
+        case "room11":
+            g.pass.inst = true;
+            break;
+        case "room11_end":
+            g.pass.greenbutton = true;
+            room486.btnclick("redrawroom");
+            phone.build("phone_pic");
+            break;
         case "greenlightRedraw":
             g.pass.greenbutton = true;
             room486.btnclick("redrawroom");
@@ -1083,7 +1219,7 @@ room486.chat = function (chatID) {
             ]
         };
     }
-    else if (chatID === 10011) {
+    else if (chatID === 1011) {
         carray = [
             "I REALLY LOVE PENISES IN MY BUTT. THEY TICKLE MY FANCY, I'M A SLUT!",
             "I WOULD LICK ANYONE’S BUTT ON COMMAND. RIM JOB READY, I’M YOUR BIGGEST FAN!",
@@ -1103,9 +1239,9 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Now that you’ve boasted you’re a slut so bold,"+
-                "Prove it to all, let the truth unfold." +
-                "Peel off your threads, every last stitch bare," +
+            text: "Now that you’ve boasted you’re a slut so bold,<br/>"+
+                "Prove it to all, let the truth unfold.<br/>" +
+                "Peel off your threads, every last stitch bare,<br/>" +
                 "Drop all your clothes in the barrel there ",
             button: [
                 { chatID: -1, text: "...", callback: "" }
@@ -1116,11 +1252,11 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Now the game truly begins, " +
-                "Choices will test your skin. " +
-                "Some sting and shame on the spot, " +
-                "Others fester and rot." +
-                "Energy guards your fate " +
+            text: "Now the game truly begins, <br/>" +
+                "Choices will test your skin. <br/>" +
+                "Some sting and shame on the spot, <br/>" +
+                "Others fester and rot.<br/>" +
+                "Energy guards your fate <br/>" +
                 "Pass the door, or seal your fate. ",
             button: [
                 { chatID: 10, text: "...", callback: "" }
@@ -1131,8 +1267,8 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Pain is yours to pick and choose. Ten hard spanks in this room you’ll lose, " +
-                "Or clip those nipples, bite the sting, Carry the ache through ev’ry thing!",
+            text: "Pain is yours to pick and choose. <br/>Ten hard spanks in this room you’ll lose, <br/>" +
+                "Or clip those nipples, bite the sting, <br/>Carry the ache through ev’ry thing!",
             button: [
                 { chatID: -1, text: "...", callback: "room4" }
             ]
@@ -1195,11 +1331,11 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Two markers lie, pink and black," +
-                "Pick one, bend over, write beside your crack." +
-                "Pink for the 'Anal Whore' who craves ass destruction," +
-                "Black for the 'Pain Slut' who begs agony and abduction." +
-                "Ass up now choose and obey," +
+            text: "Two markers lie, pink and black,<br/>" +
+                "Pick one, bend over, write beside your crack.<br/>" +
+                "Pink for the 'Anal Whore' who craves ass destruction,<br/>" +
+                "Black for the 'Pain Slut' who begs agony and abduction.<br/>" +
+                "Ass up now choose and obey,<br/>" +
                 "Which color’s staining your cheeks today?",
             button: [
                 { chatID: -1, text: "...", callback: "room5" }
@@ -1226,10 +1362,10 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "You're halfway there, feeling that thrill," +
-                "Stand in the middle, let your voice spill, " +
-                "Pee or cum — your choice, make it quick, " +
-                "Drizzle or flood me, with your filthy pricks!",
+            text: "You're halfway there, feeling that thrill,<br/>" +
+                "Stand in the middle, let your voice spill, <br/>" +
+                "Pee or cum — your choice, make it quick, <br/>" +
+                "Drizzle or flood me, with your filthy pricks!<br/>",
             button: [
                 { chatID: -1, text: "...", callback: "room6" }
             ]
@@ -1254,9 +1390,9 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Two stone cocks, hard as sin. " +
-                "One splits your throat, one rams in. " +
-                "Mouth full, ass stretched, you're their whore. " +
+            text: "Two stone cocks, hard as sin. <br/>" +
+                "One splits your throat, one rams in. <br/>" +
+                "Mouth full, ass stretched, you're their whore. <br/>" +
                 "Double stuffed slut we all adore.",
             button: [
                 { chatID: -1, text: "...", callback: "room7" }
@@ -1267,9 +1403,9 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "The good doctor has left you alone with his gift. " +
-                "Blue cup steals your mind, to leave you adrift. " +
-                "Red cup breaks your body, then builds it anew. " +
+            text: "The good doctor has left you alone with his gift. <br/>" +
+                "Blue cup steals your mind, to leave you adrift. <br/>" +
+                "Red cup breaks your body, then builds it anew. <br/>" +
                 "One erases the past, one the vessel you knew.",
             button: [
                 { chatID: -1, text: "...", callback: "room8" }
@@ -1281,13 +1417,13 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Empty bucket waits, cold and bare, "+
-                "cocks swollen, loaded, beyond compare. " +
-                "Stroke hard, erupt, let the hot ropes fly " +
-                "Fill that bucket till it's brimming high. " +
-                "Pump those cocks till they're ready to shoot. " +
-                "Hot cum churning, begging for route." +
-                "Slide it deep in your mouth or your ass so tight. " +
+            text: "Empty bucket waits, cold and bare, <br/>"+
+                "cocks swollen, loaded, beyond compare. <br/>" +
+                "Stroke hard, erupt, let the hot ropes fly <br/>" +
+                "Fill that bucket till it's brimming high. <br/>" +
+                "Pump those cocks till they're ready to shoot. <br/>" +
+                "Hot cum churning, begging for route.<br/>" +
+                "Slide it deep in your mouth or your ass so tight. <br/>" +
                 "Drain every drop straight into the bucket tonight.",
             button: [
                 { chatID: -1, text: "...", callback: "room9" }
@@ -1322,9 +1458,9 @@ room486.chat = function (chatID) {
         return {
             chatID: 0,
             speaker: "!ann",
-            text: "Two butt plugs before your eyes, " +
-                "Pick one to wear; make your choice wise. " +
-                "One shocks from within with electric fire, " +
+            text: "Two butt plugs before your eyes, <br/>" +
+                "Pick one to wear; make your choice wise. <br/>" +
+                "One shocks from within with electric fire, <br/>" +
                 "The other inflates for all our desire.",
             button: [
                 { chatID: 31, text: "...", callback: "room10" }
@@ -1332,12 +1468,22 @@ room486.chat = function (chatID) {
         };
     }
     else if (chatID === 10011) {
-        carray = [
-            "Suck the cum out this woman's vagina",
-            "Lay over his lap for 10 spankings",
-            "Up on the rack", //rack with fucking machine and nipple clamps and face fucking
-            "Stick ass through hole in glass and let the spectators fuck you"
-        ];
+        g.pass.inst = true;
+        return {
+            chatID: 0,
+            speaker: "!ann",
+            text: "Now the game is almost done <br/>" +
+                "You’ve proved a slut, the nastiest one <br/>" +
+                "Mouth and ass both stretched and used <br/>" +
+                "Every room so far abused <br/>" +
+                "The next door waits, filthy and wide <br/>" +
+                "How low you’ll sink, no need to hide <br/>" +
+                "Pick the hairy, sweaty, fat old schmuck <br/>" +
+                "And tongue their asshole, you filthy fuck <br/> ",
+            button: [
+                { chatID: -1, text: "...", callback: "room11" }
+            ]
+        };
     }
     else if (chatID === 1012) {
         carray = [
@@ -1648,6 +1794,24 @@ room486.chat = function (chatID) {
                     "up my own ass. Easy Peasy!",
                 button: [
                     { chatID: -1, text: "...", callback: "room10_redraw" },
+                ]
+            },
+            {
+                chatID: 34,
+                speaker: "!barker",
+                text: "Haha! So gross! Don't worry we took a picture and sent it to your phone! You " +
+                    "can check it out in your phone to remind yourself how filthy you are! ",
+                button: [
+                    { chatID: -1, text: "ugh...", callback: "room11_end" }
+                ]
+            },
+            {
+                chatID: 35,
+                speaker: "thinking",
+                text: "ooof! I can't tell who smells worse! They should totally take a shower. It smells " +
+                    "like a mix of body odor and day old fish. I hope I don't have to do anything with them. ",
+                button: [
+                    { chatID: -1, text: "...", callback: "" }
                 ]
             },
         ];
